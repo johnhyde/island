@@ -1,4 +1,6 @@
-# Collaborative novel between John and a mysterious stranger
+# Flying Island
+, or, continents incontinent, or, a largely assiduous help-meet, or, whatever
+A collaborative novel between John and a mysterious stranger
 
 Each chapter is a separate .txt file?
 
