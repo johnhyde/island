@@ -4,7 +4,7 @@
 
 A collaborative novel between John and a mysterious stranger
 
-Each chapter is a separate .txt file?
+Each chapter is a separate markdown file?
 
 No AI nor LLM has been used on this project, at least so far.
 
