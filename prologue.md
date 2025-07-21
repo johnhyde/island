@@ -39,13 +39,22 @@ It may seem like a small thing, but Manuel Ordinator Computer Gonzalez was a met
 
 [^lars]: oft considered a founding father of modern continentalism
 
-[M; ???%% words]
+[M; 404 words]
 
-♩🎜𝄾♪𝅗𝅥𝅼𝆖 — these were the sounds that Reginald Digsxby heard waft[^waven] from the other room, from inside his island house out onto the veranda. His heart sunk. His wife was back. And while he enjoyed the company of his wife, this meant she could not be above suspicious in the Eeny Dossier case. He counted. What froth! Rapidly, his mind moved through imbrogliations: it would be unwise for his wife, per hypothesis, to signal her presence at this juncture. As this would put her within suspicion. But, she was a clever wench; and, knowing that he would think that, may have done so explicitly to put herself within suspicion as though naïve, so as to remove herself from suspicion thereby. O froth! Oh what a tangled web we weave! Reginald hid the plump & juicy folder behind his back with his hand and strolled into the antechamber of the veranda, whence the sound had woft[^waven]. Perchance.
+♩🎜𝄾♪𝅗𝅥𝅭𝆖 — these were the sounds that Reginald Digsxby heard waft[^waven] from the other room, from inside his island house out onto the veranda. His heart sunk. His wife was back. And while he enjoyed the company of his wife, this meant she could not be above suspicious in the Eeny Dossier case. He counted. What froth! Rapidly, his mind moved through imbrogliations: it would be unwise for his wife, per hypothesis, to signal her presence at this juncture. As this would put her within suspicion. But, she was a clever wench; and, knowing that he would think that, may have done so explicitly to put herself within suspicion as though naïve, so as to remove herself from suspicion thereby. O froth! Oh what a tangled web we weave! Reginald hid the plump & juicy folder behind his back with his hand and strolled into the antechamber of the veranda, whence the sound had woft[^waven]. Perchance.
 
-Once he had entered the antechamber, following the sound, Mrs. Digsxby popped out of the linen closet adjoining the entrance he had just strode[^strone][^stroden] thru, and ambushed him, as it were, from behind, snatching the thicc manifoldifest[^manifoldifest] from out his hand nonchalantly, and began to read it, leafing through, while simultaneously saying “well, what have here?” and ignoring Reginald's yelp “aAAA!” of surprise. Damn! Reginald had forgotten once again that his wife was a master ventriloquist, capable of throwing her voice and other sonic utterances arbitrary differences and directions. 
+Once he had entered the antechamber, following the sound, Mrs. Digsxby popped out of the linen closet adjoining the entrance he had just strode[^strone][^stroden] thru, and ambushed him, as it were, from behind, snatching the thicc manifoldifest[^manifoldifest] from out his hand nonchalantly, and began to read it, leafing through, while simultaneously saying “well, what have here?” and ignoring Reginald's yelping “aAA!” of surprise. Damn! Reginald had forgotten once again that his wife was a master ventriloquist[^mistressv], capable of throwing her voice and other sonic utterances arbitrary distances and directions.
+
+“Doing some light reading on one ‘Martin Eeny’?” asked his wife, semi-rhetorically.
+
+“Uh, erm, yes,” said Reginald Digsxby, cold-sweating. He was off his rhythm. His wife had him exactly where she — per hypothesis, mind you — wanted him. He smirked internally. _Perfect._ His plan of lulling her into a false sense of security was going off without a hitch.
+
+Mrs Digsxby, a skilled copy-editress, lit upon a page in the middle of the dossier and looked up, her face the very countenance of shock. Perhaps too perfect, overrehearsed[^over̈]? ← Reginald wondered to himself. “Pookie,” she said (she called him Pookie), “there is...” she paused for dramatic effect... “an error in this document!”
 
 [^waven]: waven
 [^strone]: strone
 [^stroden]: stroden?
 [^manifoldifest]: this term deserves some explanation: the dossier, or "manifest", of Martin Eeny had been produced — like all Manuelian documents — in triplicate, for error-correction purposes. It was also quite complicated.
+[^mistressv]: mistress ventriloquist?[^mistressv2]
+[^mistressv2]: mistress ventriloquistress?
+[^over̈]: some would say this word should be written overr̈ehearsed
