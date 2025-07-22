@@ -1,4 +1,4 @@
-[word by word, John started (but there were shenanigans involving hyphens and suffixen (also, footnotes are free actions); 223 words]
+﻿[word by word, John started (but there were shenanigans involving hyphens and suffixen (also, footnotes are free actions); 223 words]
 
 Islands, today, have bewitching ways about them. Hovering islands now, that's what Reginald Digsx[^1]by likes. Big is best, and huge, frothing, municipal islands wear the cloaks of grandiosity like a newly weft[^2] puppet wears a gossamer veil of impudence. He counts upon his left-hand hand because his right-hand one was lost in The Great War of Succession and Mirth, in Barcelona (his home away from home) — fifteen fingers on the first blast and the rest on the second. He needed to count high—very high—so much so that he had to acquire huge-ass finger-islands for his island-hands[^3]. Nevertheless, he felt a shrewd, creeping, fellow travell[^4]er would soon betray his trust; it was only appropriate, he supposed. That would be the way his story reached its lugubrious end—or would it?!  The deciding factor lay in the calculus of the froth. People respect a good man of one brutally honest calculus. Thus: his forthright[^5] manner of business in the tallying of the froth-people was essential. Mrs. Digsx[^1]by counts double. His wife was, in general, a largely assiduous help-meet, but sadly she was too frothy to be just a single unit. Islands of all sorts must reside within the bosom of such women, as did the basest continents incontinent.
 
@@ -61,8 +61,12 @@ Mrs Digsxby, a skilled copy-editress, lit upon a page in the middle of the dossi
 [^mistressv]: mistress ventriloquist?[^mistressv2]
 [^mistressv2]: mistress ventriloquistress?
 [^over̈]: some would say this word should be written overr̈ehearsed
-[^bonkers]: just absolutely unhinged
+[^bonkers]: just absolutely unhinged ~J
 
-[J; 0 words]
+[J; 419 words]
 
-
+“Hm? Oh, really dear?” Mr. Digsxby played it cool, knowing that his failure to match her shock would be taken as a slight, a lack of faith in her assessment. If she were ever so slightly irritated, perhaps her hypothetically cunning steps would be less sure. But she didn’t pay him any mind about that.
+“Look, right here!” She jabbed the page with a righteously indignant, newly—and elegantly—manicured fingernail of accusation. “‘took it’s own course,’ with an apostrophe!” She looked at her husband with wide, serious eyes and for a brief moment he forgot about her immanent betrayal and froth in general, until she said, “Did Manuel prepare this?” in chillingly grave tone.
+Reginald effortlessly masked his feigned relief with a false fluster which came very naturally to him. “Yes, I should say he did! He handed it to me not 34 minutes ago!” At this point he wasn’t sure whether he was playing into her trap or she into his, which meant he was in his element, and she presumably was also in his element. With a twinge of regret that the confrontation seemed to be forced before it’s[sic] time, and a spark of optimism that it might obscure the crux of the matter, he cried out, as though it were his natural response, “Computer!”
+Mrs. Digsxby, in the deep inner recesses of her soul, in the corner of her Inner Eye, felt the beginnings of a tear gathering themselves. When the tear was fully formed and finally fell, it would be over. She looked at her husband as he waited for Manuel. She could sense the furious tornado of nonsense ripping through his mind, convoluting without mercy. She knew that this was the only way forward, and that it would break her heart, and that it would be too soon, but also long overdue.
+Manuel appeared, and noticed that Mr. Digsxby was about to ask him something at the same instant as Mrs. Digsxby was giving him The Nod they’d discussed. He activated the procedure. As Mr. Digsxby was starting to say something, absurd amounts of confetti burst into the air all around them—from the ceiling, from the floor vents, from behind picture frames, even from a little compartment in Manuel’s chest. There was also heard a mega-multithreaded whistling, which erupted into a deafening popcorn of explosions. Somehow the sky darkened for a moment and before he passed out, Reginald saw written in the heavens, huge fireworked letters which said: CONGRATULATIONS! ITS HAPPENING!
