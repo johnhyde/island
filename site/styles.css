@@ -141,6 +141,118 @@ input:checked + .slider:before {
     white-space: nowrap;
 }
 
+/* Footnote popup modal */
+.footnote-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.footnote-popup.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.footnote-popup-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.footnote-popup-content {
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 90vw;
+    min-width: 50vw;
+    max-height: 80vh;
+    margin: 20px;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.footnote-popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+    background-color: #f8f9fa;
+}
+
+.footnote-popup-header h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: normal;
+}
+
+.footnote-popup-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.footnote-popup-close:hover {
+    background-color: #e9ecef;
+    color: #333;
+}
+
+.footnote-popup-body {
+    padding: 1.5rem;
+    overflow-y: auto;
+    max-height: 60vh;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.footnote-popup-body .footnote-label {
+    font-weight: bold;
+    color: #3498db;
+    margin-right: 0.5rem;
+}
+
+/* Nested footnote references in popup */
+.footnote-popup-body .footnote-ref {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: #3498db;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 2px;
+}
+
+.footnote-popup-body .footnote-ref:hover {
+    background-color: #e3f2fd;
+    border-radius: 2px;
+}
+
 .table-of-contents ul {
     list-style: none;
 }

@@ -193,9 +193,21 @@ class NovelSite {
             ref.addEventListener('click', (e) => {
                 e.preventDefault();
                 const footnoteLabel = ref.dataset.footnote;
-                this.highlightFootnote(footnoteLabel);
+                this.handleFootnoteClick(footnoteLabel);
             });
         });
+    }
+
+    isNarrowScreen() {
+        return window.innerWidth <= 900;
+    }
+
+    handleFootnoteClick(label) {
+        if (this.isNarrowScreen()) {
+            this.showFootnotePopup(label);
+        } else {
+            this.highlightFootnote(label);
+        }
     }
 
     highlightFootnote(label) {
@@ -237,6 +249,100 @@ class NovelSite {
         // Handle direct URL hash changes (e.g., typing in address bar)
         window.addEventListener('hashchange', () => {
             this.handleURLChange();
+        });
+
+        // Setup footnote popup event listeners
+        this.setupPopupEventListeners();
+    }
+
+    setupPopupEventListeners() {
+        const popup = document.getElementById('footnote-popup');
+        const closeBtn = document.querySelector('.footnote-popup-close');
+        const backdrop = document.querySelector('.footnote-popup-backdrop');
+
+        // Close button
+        if (closeBtn) {
+            closeBtn.addEventListener('click', () => {
+                this.hideFootnotePopup();
+            });
+        }
+
+        // Backdrop click
+        if (backdrop) {
+            backdrop.addEventListener('click', () => {
+                this.hideFootnotePopup();
+            });
+        }
+
+        // ESC key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && popup && popup.classList.contains('show')) {
+                this.hideFootnotePopup();
+            }
+        });
+    }
+
+    showFootnotePopup(label) {
+        // Find the footnote content from parser's footnoteOrder
+        const footnote = this.parser.footnoteOrder.find(fn => fn.label === label);
+        if (!footnote) {
+            console.warn('Footnote not found:', label);
+            return;
+        }
+
+        const popup = document.getElementById('footnote-popup');
+        const body = document.getElementById('footnote-popup-body');
+        
+        if (!popup || !body) {
+            console.error('Popup elements not found');
+            return;
+        }
+
+        // Create footnote content with proper formatting
+        const processedContent = this.parser.processInlineElements(footnote.content);
+        const styledContent = this.applyEmDashStyle(processedContent);
+        
+        const footnoteHtml = `
+            <div class="footnote-content">
+                <span class="footnote-label">${footnote.number}:</span>
+                ${styledContent}
+            </div>
+        `;
+
+        body.innerHTML = footnoteHtml;
+
+        // Setup nested footnote handlers within the popup
+        this.setupPopupFootnoteHandlers();
+
+        // Show popup with animation
+        popup.classList.add('show');
+        
+        // Focus management for accessibility
+        const closeBtn = popup.querySelector('.footnote-popup-close');
+        if (closeBtn) {
+            closeBtn.focus();
+        }
+    }
+
+    hideFootnotePopup() {
+        const popup = document.getElementById('footnote-popup');
+        if (popup) {
+            popup.classList.remove('show');
+        }
+    }
+
+    setupPopupFootnoteHandlers() {
+        // Handle footnote references within the popup
+        const popupBody = document.getElementById('footnote-popup-body');
+        if (!popupBody) return;
+
+        popupBody.querySelectorAll('.footnote-ref').forEach(ref => {
+            ref.addEventListener('click', (e) => {
+                e.preventDefault();
+                const footnoteLabel = ref.dataset.footnote;
+                // Replace the current popup content instead of stacking
+                this.showFootnotePopup(footnoteLabel);
+            });
         });
     }
 
@@ -301,6 +407,15 @@ class NovelSite {
             this.updateElementEmDashes(chapterText);
         } else {
             console.log('Chapter text element not found');
+        }
+
+        // Also update footnotes sidebar content
+        const footnotesContent = document.getElementById('footnotes-content');
+        if (footnotesContent) {
+            console.log('Found footnotes content element, updating...');
+            this.updateElementEmDashes(footnotesContent);
+        } else {
+            console.log('Footnotes content element not found');
         }
     }
 
