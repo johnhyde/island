@@ -8,6 +8,16 @@ Each chapter is a separate markdown file?
 
 No AI nor LLM has been used on this project, at least so far (except in a technical capacity, e.g. the creation of the .gitignore and the static site).
 
+## Setup
+
+After cloning this repository, you may want to install the git hook to automatically maintain the chapter index:
+
+```bash
+./install-hooks.sh
+```
+
+This sets up a pre-commit hook that automatically runs `./build.sh` and updates `site/chapters.json` whenever you commit chapter files.
+
 ## Reading the Novel
 
 To read the novel in a clean, web-based format:
@@ -24,7 +34,7 @@ To read the novel in a clean, web-based format:
 
 3. Open your browser to `http://localhost:8025`
 
-**Note**: Run `./build.sh` whenever you add a new chapter or change a chapter filename to update the table of contents.
+**Note**: With the git hooks installed, `site/chapters.json` is automatically updated when you commit chapter files. Manual `./build.sh` runs are only needed for local preview before committing.
 
 ## Rules
 

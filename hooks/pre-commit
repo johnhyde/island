@@ -1,0 +1,64 @@
+#!/bin/bash
+#
+# Pre-commit hook for Flying Island novel
+# Automatically rebuilds chapters.json and adds it to commit when chapter files change
+#
+
+# Function to check if there are chapter files being committed
+has_chapter_changes() {
+    # Check if any numbered markdown files are being added, modified, or renamed
+    git diff --cached --name-only --diff-filter=AMR | grep -q '^[0-9][0-9].*\.md$'
+}
+
+# Function to check if chapters.json needs to be rebuilt
+needs_rebuild() {
+    # Always rebuild if chapter files changed, or if chapters.json doesn't exist
+    has_chapter_changes || [ ! -f "site/chapters.json" ]
+}
+
+# Exit early if no chapter-related changes
+if ! needs_rebuild; then
+    exit 0
+fi
+
+echo "Chapter files detected in commit, rebuilding chapters.json..."
+
+# Store the current chapters.json content hash (if it exists)
+if [ -f "site/chapters.json" ]; then
+    old_hash=$(shasum -a 256 "site/chapters.json" 2>/dev/null | cut -d' ' -f1)
+else
+    old_hash=""
+fi
+
+# Run the build script
+if ! ./build.sh; then
+    echo "Error: Failed to run build.sh"
+    echo "Please fix the build script and try committing again."
+    exit 1
+fi
+
+# Check if chapters.json was actually changed
+if [ -f "site/chapters.json" ]; then
+    new_hash=$(shasum -a 256 "site/chapters.json" | cut -d' ' -f1)
+    
+    # If the file changed, add it to the commit
+    if [ "$old_hash" != "$new_hash" ]; then
+        echo "chapters.json updated, adding to commit..."
+        git add "site/chapters.json"
+        
+        if [ $? -eq 0 ]; then
+            echo "Successfully added updated chapters.json to commit"
+        else
+            echo "Warning: Failed to add chapters.json to commit"
+            echo "You may need to add it manually: git add site/chapters.json"
+        fi
+    else
+        echo "chapters.json unchanged, nothing to add"
+    fi
+else
+    echo "Error: build.sh completed but no chapters.json was created"
+    exit 1
+fi
+
+# Continue with the commit
+exit 0
