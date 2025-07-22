@@ -1,0 +1,238 @@
+/**
+ * Main application script for the Flying Island novel site
+ */
+class NovelSite {
+    constructor() {
+        this.parser = new MarkdownParser();
+        this.chapters = [];
+        this.currentChapter = null;
+        
+        this.init();
+    }
+
+    async init() {
+        await this.loadChapterList();
+        this.renderTableOfContents();
+        this.setupEventListeners();
+        
+        // Load chapter based on URL or default to first
+        this.handleURLChange();
+    }
+
+    async loadChapterList() {
+        try {
+            // Load chapters from generated JSON file
+            const response = await fetch('site/chapters.json');
+            if (!response.ok) {
+                throw new Error('Failed to load chapters.json');
+            }
+            
+            const data = await response.json();
+            
+            // Verify each file actually exists and has content
+            for (const chapter of data.chapters) {
+                try {
+                    const fileResponse = await fetch(chapter.filename);
+                    if (fileResponse.ok) {
+                        const content = await fileResponse.text();
+                        if (content.trim()) { // Only add if file has content
+                            this.chapters.push({
+                                filename: chapter.filename,
+                                title: this.capitalizeTitle(chapter.title)
+                            });
+                        }
+                    }
+                } catch (error) {
+                    console.warn(`Chapter file ${chapter.filename} not accessible:`, error);
+                }
+            }
+        } catch (error) {
+            console.error('Error loading chapter list:', error);
+            // Fallback to empty list
+            this.chapters = [];
+        }
+    }
+
+    capitalizeTitle(title) {
+        return title.replace(/\b\w/g, char => char.toUpperCase());
+    }
+
+    generateChapterSlug(filename) {
+        // Convert filename to URL-friendly slug
+        // "01 prologue.md" -> "prologue"
+        // "02 one fine day.md" -> "one-fine-day"
+        const basename = filename.replace(/\.md$/, '');
+        const titlePart = basename.replace(/^[0-9][0-9]\s*/, '');
+        return titlePart.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    }
+
+    updateURL(filename, title) {
+        const slug = this.generateChapterSlug(filename);
+        const url = `#${slug}`;
+        
+        // Only pushState if the URL is actually changing
+        if (window.location.hash !== url) {
+            history.pushState({ filename, title }, title, url);
+        }
+        document.title = `${title} - Flying Island`;
+    }
+
+    handleURLChange() {
+        const hash = window.location.hash.slice(1); // Remove the #
+        if (hash) {
+            // Find chapter by slug
+            const chapter = this.chapters.find(ch => 
+                this.generateChapterSlug(ch.filename) === hash
+            );
+            if (chapter) {
+                this.loadChapter(chapter.filename, false); // false = don't update URL
+            }
+        } else if (this.chapters.length > 0) {
+            // Default to first chapter if no hash
+            this.loadChapter(this.chapters[0].filename, true);
+        }
+    }
+
+    renderTableOfContents() {
+        const chapterList = document.getElementById('chapter-list');
+        chapterList.innerHTML = '';
+
+        for (const chapter of this.chapters) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            
+            // Set proper href with chapter slug
+            const slug = this.generateChapterSlug(chapter.filename);
+            a.href = `#${slug}`;
+            a.textContent = chapter.title;
+            a.dataset.filename = chapter.filename;
+            
+            a.addEventListener('click', async (e) => {
+                e.preventDefault();
+                await this.loadChapter(chapter.filename, true);
+            });
+            
+            li.appendChild(a);
+            chapterList.appendChild(li);
+        }
+    }
+
+    async loadChapter(filename, updateUrl = true) {
+        try {
+            const response = await fetch(filename);
+            if (!response.ok) {
+                throw new Error(`Failed to load ${filename}`);
+            }
+            
+            const markdown = await response.text();
+            this.currentChapter = filename;
+            
+            // Parse the markdown
+            const result = this.parser.parse(markdown);
+            
+            // Update the main content
+            const title = this.getChapterTitle(filename);
+            document.getElementById('chapter-title').textContent = title;
+            document.getElementById('chapter-text').innerHTML = result.html;
+            
+            // Update footnotes
+            document.getElementById('footnotes-content').innerHTML = this.parser.formatFootnotes();
+            
+            // Setup footnote click handlers
+            this.setupFootnoteHandlers();
+            
+            // Update URL and browser history
+            if (updateUrl) {
+                this.updateURL(filename, title);
+            }
+            
+            // Update active state in table of contents
+            this.updateActiveChapter(filename);
+            
+        } catch (error) {
+            console.error('Error loading chapter:', error);
+            document.getElementById('chapter-title').textContent = 'Error Loading Chapter';
+            document.getElementById('chapter-text').innerHTML = `
+                <p>Sorry, there was an error loading the chapter "${filename}". Please try again.</p>
+            `;
+            document.getElementById('footnotes-content').innerHTML = 
+                '<p class="footnotes-placeholder">No footnotes available.</p>';
+        }
+    }
+
+    getChapterTitle(filename) {
+        const chapter = this.chapters.find(c => c.filename === filename);
+        return chapter ? chapter.title : filename.replace('.md', '').replace(/^\d+\s*/, '');
+    }
+
+    updateActiveChapter(filename) {
+        // Remove active class from all links
+        document.querySelectorAll('.table-of-contents a').forEach(link => {
+            link.classList.remove('active');
+        });
+        
+        // Add active class to the current chapter link
+        const activeLink = document.querySelector(`.table-of-contents a[data-filename="${filename}"]`);
+        if (activeLink) {
+            activeLink.classList.add('active');
+        }
+    }
+
+    setupFootnoteHandlers() {
+        // Add click handlers to footnote references
+        document.querySelectorAll('.footnote-ref').forEach(ref => {
+            ref.addEventListener('click', (e) => {
+                e.preventDefault();
+                const footnoteLabel = ref.dataset.footnote;
+                this.highlightFootnote(footnoteLabel);
+            });
+        });
+    }
+
+    highlightFootnote(label) {
+        // Remove previous highlights
+        document.querySelectorAll('.footnote.highlighted').forEach(fn => {
+            fn.classList.remove('highlighted');
+        });
+        
+        // Find and highlight the target footnote
+        const targetFootnote = document.querySelector(`.footnote[data-footnote="${label}"]`);
+        if (targetFootnote) {
+            targetFootnote.classList.add('highlighted');
+            
+            // Scroll footnote into view
+            targetFootnote.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start' 
+            });
+            
+            // Remove highlight after a few seconds
+            setTimeout(() => {
+                targetFootnote.classList.remove('highlighted');
+            }, 3000);
+        }
+    }
+
+    setupEventListeners() {
+        // Handle browser back/forward buttons
+        window.addEventListener('popstate', (event) => {
+            if (event.state && event.state.filename) {
+                // Load chapter from browser history state
+                this.loadChapter(event.state.filename, false);
+            } else {
+                // Handle URL hash change
+                this.handleURLChange();
+            }
+        });
+        
+        // Handle direct URL hash changes (e.g., typing in address bar)
+        window.addEventListener('hashchange', () => {
+            this.handleURLChange();
+        });
+    }
+}
+
+// Initialize the site when the DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    new NovelSite();
+});

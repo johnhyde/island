@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flying Island</title>
+    <link rel="stylesheet" href="site/styles.css">
+</head>
+<body>
+    <!-- Left background extension -->
+    <div class="sidebar-left-bg"></div>
+    
+    <!-- Sidebar Table of Contents -->
+    <aside class="sidebar">
+        <h1>Flying Island</h1>
+        <p class="subtitle">
+            or, continents incontinent,
+            <br>
+            or, a largely assiduous help-meet,
+            <br>
+            or, whatever
+        </p>
+        <p class="subtitle">A collaborative novel between John and a mysterious stranger</p>
+        <nav class="table-of-contents">
+            <ul id="chapter-list">
+                <!-- Chapters will be populated by JavaScript -->
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <article id="chapter-content">
+            <h2 id="chapter-title">Select a chapter to begin reading</h2>
+            <div id="chapter-text">
+                <p>Choose a chapter from the table of contents to start reading the collaborative novel between John and a mysterious stranger.</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footnotes Panel -->
+    <aside class="footnotes-panel">
+        <h3>Footnotes</h3>
+        <div id="footnotes-content">
+            <p class="footnotes-placeholder">Footnotes will appear here when you select a chapter.</p>
+        </div>
+    </aside>
+    
+    <!-- Right background extension -->
+    <div class="sidebar-right-bg"></div>
+
+    <script src="site/markdown-parser.js"></script>
+    <script src="site/script.js"></script>
+</body>
+</html>

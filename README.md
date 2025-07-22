@@ -6,7 +6,25 @@ A collaborative novel between John and a mysterious stranger
 
 Each chapter is a separate markdown file?
 
-No AI nor LLM has been used on this project, at least so far (except in the creation of the .gitignore).
+No AI nor LLM has been used on this project, at least so far (except in a technical capacity, e.g. the creation of the .gitignore and the static site).
+
+## Reading the Novel
+
+To read the novel in a clean, web-based format:
+
+1. Rebuild the chapter index if necessary:
+   ```bash
+   ./build.sh
+   ```
+
+2. Serve the static site:
+   ```bash
+   ./serve.sh
+   ```
+
+3. Open your browser to `http://localhost:8025`
+
+**Note**: Run `./build.sh` whenever you add a new chapter or change a chapter filename to update the table of contents.
 
 ## Rules
 
