@@ -1,0 +1,40 @@
+# .github/workflows/build.yml
+
+# Name of the workflow. This will be displayed in the GitHub Actions tab.
+name: Build Table of Contents
+
+# Controls when the workflow will run.
+on:
+  # Triggers the workflow on push events for the "main" branch.
+  # You can change "main" to your default branch name (e.g., "master").
+  push:
+    branches: [ "main" ]
+  
+  # Also allows you to run this workflow manually from the Actions tab.
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+jobs:
+  # Defines a job with the ID "build". You can name this whatever you like.
+  build:
+    # The type of runner that the job will run on.
+    # "ubuntu-latest" is a good general-purpose choice.
+    runs-on: ubuntu-latest
+
+    # A sequence of tasks that will be executed as part of the job.
+    steps:
+      # Step 1: Check out your repository code.
+      # This action checks-out your repository under $GITHUB_WORKSPACE,
+      # so your job can access it.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Make the build script executable.
+      # This is a good practice to ensure the script has the necessary permissions to run.
+      - name: Make build script executable
+        run: chmod +x ./build.sh
+
+      # Step 3: Run the build script.
+      # This command executes the script located in the root of your repository.
+      - name: Run build script
+        run: ./build.sh
