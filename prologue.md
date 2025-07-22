@@ -14,18 +14,19 @@ Reginald Digsxby kick't his sniveling heels up on the railing. He was looking ou
 
 Manuel sang a beautiful and sad song about bisexual mascot[^lawyer] romance whilst Reginald quaffed the procured libation. He wasn't really listening. He was busy staring over the railing at the island below. That damn island. Bewitching in its sexy, sexy city layout, its metropolitan planning. Robert Moses would be proud. Or was he thinking of Albert Speer? Ah, well, whatever. Reginald's gaze cast around furiously, and he continued to count on his one left hand. Somewherever, down there, in the city, in the flying island city, was the man — or woman! — who would betray him. Provided it wasn't his wife; which was frankly pretty likely. On the other hand, his wife was currently shopping down in the city so the caveat was unnecessary. Unlike the betrayal, which was necessary, in the sense of being inevitable (although it would be quite inconvenient and superfluous) — unless he perceived it with sufficient alacrity, and gained the foresight to preëmpt it.
 
-With the final sip of his martini, Reginald Digsxby cast the glass off the edge of the island for to where it plummeted down onto the head of a denizen below named Martin Eeny, who instantly died. A hero's death. Reginald smirked. _Well, that guy wasn't it,_ he thought to himself, sadly.
+With the final sip of his martini, Reginald Digsxby cast the glass off the edge of the island ==for to where==[^ftw] it plummeted down onto the head of a denizen below named Martin Eeny, who instantly died. A hero's death. Reginald smirked. _Well, that guy wasn't it,_ he thought to himself, sadly.
 
 [^bosa]: bosa?
 [^lawyer]: my (fictional) lawyers have advised me to mention that Mario is name of a human man who is the mascot of the Flying Island Plumbing Company, and Sonic is the name of a human woman who is renowned for her justice[^lesb] — she is also the mascot of the Flying Island Bitcoin Storage company. I'm pretty sure a spokesman is technically a mascot.
 [^lesb]: and lesbianism[^scandal]
 [^scandal]: hence the scandalous bisexuality of the sung sonnet, you see?
+[^ftw]: unfamiliar with this construction, but I'll accept it if you intended it ~J
 
 [J; 678 words]
 
-Then another thought struck him, like a martini glass at terminating velocity: _Maybe that guy was, in fact, it_. What could be more fitting and delectable than that he strike down his betrayer-to-be through pure chance? Or, more properly, through pure skill. It was in his nature to do things that would eventually indirectly solve his problems in ways no one could predict. "Oh, Computer!" he called slyly. "Kindly identify the man who has just died down there, and assemble a dossier on his frothiness. Spare no details!"
+Then another thought struck him, like a martini glass at terminating velocity: _Maybe that guy was, in fact, it_. What could be more fitting and delectable than that he strike down his betrayer-to-be through pure chance? Or, more properly, through pure skill. It was in his nature to do things that would eventually indirectly solve his problems in ways no one could predict. “Oh, Computer!” he called slyly. “Kindly identify the man who has just died down there, and assemble a dossier on his frothiness. Spare no details!”
 
-"Very good, sir," came the reply, so customary that Reginald barely registered it. He was observing the commotion below. He could just make out the distant wail of a woman who seemed to consider herself bereaved. A crowd was gathering around the corpse, and soon there would be sirens. Later today, or perhaps tomorrow, a detective would come calling—just as a formality of course—but it was still irksome. He was already preparing himself to be irked.
+“Very good, sir,” came the reply, so customary that Reginald barely registered it. He was observing the commotion below. He could just make out the distant wail of a woman who seemed to consider herself bereaved. A crowd was gathering around the corpse, and soon there would be sirens. Later today, or perhaps tomorrow, a detective would come calling—just as a formality of course—but it was still irksome. He was already preparing himself to be irked.
 
 An internal timer of sorts went off in his mind and he held out his hand to receive the dossier from Manuel. It was a nice, plump dossier, the sort he'd normally ask Manuel to summarize for him, but Reginald prided himself on taking every precaution in crucial matters. _Martin Eeny, eh?_, he thought, _let us see..._
 
@@ -41,20 +42,27 @@ It may seem like a small thing, but Manuel Ordinator Computer Gonzalez was a met
 
 [M; 404 words]
 
-♩🎜𝄾♪𝅗𝅥𝅭𝆖 — these were the sounds that Reginald Digsxby heard waft[^waven] from the other room, from inside his island house out onto the veranda. His heart sunk. His wife was back. And while he enjoyed the company of his wife, this meant she could not be above suspicious in the Eeny Dossier case. He counted. What froth! Rapidly, his mind moved through imbrogliations: it would be unwise for his wife, per hypothesis, to signal her presence at this juncture. As this would put her within suspicion. But, she was a clever wench; and, knowing that he would think that, may have done so explicitly to put herself within suspicion as though naïve, so as to remove herself from suspicion thereby. O froth! Oh what a tangled web we weave! Reginald hid the plump & juicy folder behind his back with his hand and strolled into the antechamber of the veranda, whence the sound had woft[^waven]. Perchance.
+♩🎜𝄾♪𝅗𝅥𝅭𝆖 — these were the sounds that Reginald Digsxby heard waft[^waven] from the other room, from inside his island house out onto the veranda. His heart ==sunk==[^sunk]. His wife was back. And while he enjoyed the company of his wife, this meant she could not be above suspicion in the Eeny Dossier case. He counted. What froth! Rapidly, his mind moved through imbrogliations: it would be unwise for his wife, per hypothesis, to signal her presence at this juncture. As this would put her within suspicion. But, she was a clever wench; and, knowing that he would think that, may have done so explicitly to put herself within suspicion as though naïve, so as to remove herself from suspicion thereby. O froth! Oh what a tangled web we weave! Reginald hid the plump & juicy folder behind his back with his hand and strolled into the antechamber of the veranda, whence the sound had woft[^waven]. Perchance.
 
-Once he had entered the antechamber, following the sound, Mrs. Digsxby popped out of the linen closet adjoining the entrance he had just strode[^strone][^stroden] thru, and ambushed him, as it were, from behind, snatching the thicc manifoldifest[^manifoldifest] from out his hand nonchalantly, and began to read it, leafing through, while simultaneously saying “well, what have here?” and ignoring Reginald's yelping “aAA!” of surprise. Damn! Reginald had forgotten once again that his wife was a master ventriloquist[^mistressv], capable of throwing her voice and other sonic utterances arbitrary distances and directions.
+Once he had entered the antechamber, following the sound, Mrs. Digsxby popped out of the linen closet adjoining the entrance he had just strode[^strone][^stroden] thru, and ambushed him, as it were, from behind, snatching the ==thicc==[^thicc] manifoldifest[^manifoldifest] from out his hand nonchalantly, and began to read it, leafing through, while simultaneously saying “well, what have here?” and ignoring Reginald's yelping “aAA!” of surprise. Damn! Reginald had forgotten once again that his wife was a master ventriloquist[^mistressv], capable of throwing her voice and other sonic utterances arbitrary distances and directions.
 
 “Doing some light reading on one ‘Martin Eeny’?” asked his wife, semi-rhetorically.
 
 “Uh, erm, yes,” said Reginald Digsxby, cold-sweating. He was off his rhythm. His wife had him exactly where she — per hypothesis, mind you — wanted him. He smirked internally. _Perfect._ His plan of lulling her into a false sense of security was going off without a hitch.
 
-Mrs Digsxby, a skilled copy-editress, lit upon a page in the middle of the dossier and looked up, her face the very countenance of shock. Perhaps too perfect, overrehearsed[^over̈]? ← Reginald wondered to himself. “Pookie,” she said (she called him Pookie), “there is...” she paused for dramatic effect... “an error in this document!”
+Mrs Digsxby, a skilled copy-editress, lit upon a page in the middle of the dossier and looked up, her face the very countenance of shock. Perhaps too perfect, overrehearsed[^over̈]? ==←==[^bonkers] Reginald wondered to himself. “Pookie,” she said (she called him Pookie), “there is...” she paused for dramatic effect... “an error in this document!”
 
 [^waven]: waven
+[^sunk]: sank? some would say sunk is also fine but old. some mysterious strangers would say that ~J
 [^strone]: strone
 [^stroden]: stroden?
+[^thicc]: stylistically I don't really want to go quite this far, personally ~J
 [^manifoldifest]: this term deserves some explanation: the dossier, or "manifest", of Martin Eeny had been produced — like all Manuelian documents — in triplicate, for error-correction purposes. It was also quite complicated.
 [^mistressv]: mistress ventriloquist?[^mistressv2]
 [^mistressv2]: mistress ventriloquistress?
 [^over̈]: some would say this word should be written overr̈ehearsed
+[^bonkers]: just absolutely unhinged
+
+[J; 0 words]
+
+
