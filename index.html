@@ -21,6 +21,23 @@
             or, whatever
         </p>
         <p class="subtitle">A collaborative novel between John and a mysterious stranger</p>
+        
+        <!-- Em-dash style toggle -->
+        <div class="style-controls">
+            <h3>Reading Preferences</h3>
+            <div class="toggle-control">
+                <label for="emdash-toggle">Em-dashes:</label>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="emdash-toggle">
+                    <span class="slider"></span>
+                </label>
+                <div class="toggle-labels">
+                    <span class="toggle-off">—no spaces</span>
+                    <span class="toggle-on"> — spaced </span>
+                </div>
+            </div>
+        </div>
+        
         <nav class="table-of-contents">
             <ul id="chapter-list">
                 <!-- Chapters will be populated by JavaScript -->
@@ -48,6 +65,20 @@
     
     <!-- Right background extension -->
     <div class="sidebar-right-bg"></div>
+
+    <!-- Footnote popup modal -->
+    <div id="footnote-popup" class="footnote-popup">
+        <div class="footnote-popup-backdrop"></div>
+        <div class="footnote-popup-content">
+            <div class="footnote-popup-header">
+                <h4>Footnote</h4>
+                <button class="footnote-popup-close" aria-label="Close footnote">×</button>
+            </div>
+            <div class="footnote-popup-body" id="footnote-popup-body">
+                <!-- Footnote content will be inserted here -->
+            </div>
+        </div>
+    </div>
 
     <script src="site/markdown-parser.js"></script>
     <script src="site/script.js"></script>

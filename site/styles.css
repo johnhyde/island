@@ -51,6 +51,96 @@ body {
     font-size: 0.9rem;
 }
 
+/* Style controls */
+.style-controls {
+    margin: 2rem 0;
+    padding: 1rem;
+    max-width: 250px;
+    background-color: #eeeeee;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.style-controls h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    color: #2c3e50;
+    font-weight: normal;
+}
+
+.toggle-control {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.toggle-control label {
+    color: #555;
+    white-space: nowrap;
+}
+
+/* Toggle switch styling - vertical */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 31px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 24px;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: -3px;
+    top: 0;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #3498db;
+}
+
+input:checked + .slider:before {
+    transform: translateY(14px);
+}
+
+.toggle-labels {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.2;
+    margin-left: 0.5rem;
+}
+
+.toggle-off, .toggle-on {
+    white-space: nowrap;
+}
+
 .table-of-contents ul {
     list-style: none;
 }
@@ -235,6 +325,16 @@ body {
     
     .sidebar h1 {
         font-size: 1.5rem;
+    }
+
+    .style-controls {
+        margin: 1rem 0;
+        padding: 0.75rem;
+    }
+
+    .toggle-control {
+        flex-wrap: wrap;
+        gap: 0.25rem;
     }
     
     .table-of-contents {

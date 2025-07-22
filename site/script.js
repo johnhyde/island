@@ -6,6 +6,7 @@ class NovelSite {
         this.parser = new MarkdownParser();
         this.chapters = [];
         this.currentChapter = null;
+        this.spacedEmDashes = this.loadEmDashPreference();
         
         this.init();
     }
@@ -14,6 +15,7 @@ class NovelSite {
         await this.loadChapterList();
         this.renderTableOfContents();
         this.setupEventListeners();
+        this.setupEmDashToggle();
         
         // Load chapter based on URL or default to first
         this.handleURLChange();
@@ -135,8 +137,15 @@ class NovelSite {
             document.getElementById('chapter-title').textContent = title;
             document.getElementById('chapter-text').innerHTML = result.html;
             
-            // Update footnotes
+            // Apply em-dash styling to the content
+            this.updateEmDashStyle();
+            
+            // Update footnotes and apply em-dash styling
             document.getElementById('footnotes-content').innerHTML = this.parser.formatFootnotes();
+            const footnotesContent = document.getElementById('footnotes-content');
+            if (footnotesContent) {
+                this.updateElementEmDashes(footnotesContent);
+            }
             
             // Setup footnote click handlers
             this.setupFootnoteHandlers();
@@ -229,6 +238,81 @@ class NovelSite {
         window.addEventListener('hashchange', () => {
             this.handleURLChange();
         });
+    }
+
+    loadEmDashPreference() {
+        // Load preference from localStorage, default to unspaced (J's style)
+        const saved = localStorage.getItem('emDashStyle');
+        return saved === null ? false : saved === 'spaced';
+    }
+
+    saveEmDashPreference(spaced) {
+        localStorage.setItem('emDashStyle', spaced ? 'spaced' : 'unspaced');
+    }
+
+    setupEmDashToggle() {
+        const toggle = document.getElementById('emdash-toggle');
+        if (!toggle) {
+            console.warn('Em-dash toggle element not found');
+            return;
+        }
+
+        console.log('Setting up em-dash toggle, initial state:', this.spacedEmDashes);
+
+        // Set initial state
+        toggle.checked = this.spacedEmDashes;
+
+        // Handle toggle changes
+        toggle.addEventListener('change', (e) => {
+            console.log('Toggle changed to:', e.target.checked);
+            this.spacedEmDashes = e.target.checked;
+            this.saveEmDashPreference(this.spacedEmDashes);
+            this.updateEmDashStyle();
+        });
+    }
+
+    normalizeEmDashes(text) {
+        // First normalize all em-dashes to a consistent format
+        // Handle both spaced and unspaced variants
+        return text.replace(/(\s*)—(\s*)/g, '—');
+    }
+
+    applyEmDashStyle(text) {
+        // Normalize first, then apply the user's preferred style
+        const normalized = this.normalizeEmDashes(text);
+        
+        if (this.spacedEmDashes) {
+            // Convert to spaced em-dashes (M's style)
+            return normalized.replace(/—/g, ' — ');
+        } else {
+            // Keep unspaced em-dashes (J's style) 
+            return normalized;
+        }
+    }
+
+    updateEmDashStyle() {
+        console.log('Updating em-dash style to:', this.spacedEmDashes ? 'spaced' : 'unspaced');
+        
+        // Update the current chapter's content with the new em-dash style
+        const chapterText = document.getElementById('chapter-text');
+        if (chapterText) {
+            console.log('Found chapter text element, updating...');
+            // Get all text content and update em-dashes
+            this.updateElementEmDashes(chapterText);
+        } else {
+            console.log('Chapter text element not found');
+        }
+    }
+
+    updateElementEmDashes(element) {
+        // Recursively update em-dashes in text nodes
+        if (element.nodeType === Node.TEXT_NODE) {
+            element.textContent = this.applyEmDashStyle(element.textContent);
+        } else {
+            for (let child of element.childNodes) {
+                this.updateElementEmDashes(child);
+            }
+        }
     }
 }
 
