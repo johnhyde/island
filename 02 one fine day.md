@@ -64,17 +64,17 @@ The older cop raised his eyebrows. "Something of a detective, too, huh? Well. I'
 
 Officer Waters was still too confused by Thomas' parlor trick to comment. He began to look down at his badge, to double-check that it only had his last name on it like he thought.
 
-"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was ==Mai Friend==[$lmaoooooooo]."
+"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was ==Mai Friend==[$lmaoooooooo ~~J[$ending a footnote with two tildes and a J or M means the footnote should probably be deleted after it is consumed ~~J]]."
 
 "What the—?" said Waters. "How the—?..."
 
 Thomas received another tingle from the vagus nerve, this one a slight tickling sensation. "Curious," he muttered.
 
-All three of them looked down at the body again, for their own individual — but similar — reasons. The body looked like it had been in the center of an explosion, but a very precises one, that tore through the body like a vivisection, although one apparently at random.
+All three of them looked down at the body again, for their own individual — but similar — reasons. The body looked like it had been in the center of an explosion, but a very ==precises==[$precise? ~~J] one, that tore through the body like a vivisection, although one apparently at random.
 
 "The gumshoes will be through here later, but there doesn't seem to be any sign of a struggle," said Blarte. "It's like she was taken by surprise and the perp did it in an instant."
 
-"Or maybe she new the perp and this is a kind of assisted suicide situation," offered Waters.
+"Or maybe she ==new==[$knew?? ~~J] the perp and this is a kind of assisted suicide situation," offered Waters.
 
 "Or maybe her body just did that," mused Thomas.
 
@@ -94,25 +94,28 @@ Subhead:
 
 The word "Metcalf" was bolded and italicized. It was very strange.
 
-Thomas left his lunch to get cold — not very considerate of the Track, he thought idly — and popped over to the newsstand to purchase a copy of the Flying Island Tribune. Which paper he had just seen. "Sorry, sir," apologized the whelp tending the stand, "beggin' your pardon but we've just run out of that. Even our display copy. Seeing as how this Digskby thing is the crime of the century. If you wait another 15 minutes we might get another restock come by."
+Thomas left his lunch to get cold — not very considerate of the Track, he thought idly — and popped over to the newsstand to purchase a copy of the _Flying Island Tribune_. Which paper he had just seen. "Sorry, sir," apologized the whelp tending the stand, "beggin' your pardon but we've just run out of that. Even our display copy. Seeing as how this Digs==k==[$x? ~~J]by thing is the crime of the century. If you wait another 15 minutes we might get another restock come by."
 
 "There's no time for that," said Thomas, feeling there was no time for that. "I'll take whatever other paper you have," he continued, scrimbing his hands.[^scrimb]
 
-"Alright," said the shopchild. "But I warn you: the Flying Island Times went to press too early and they don't have any coverage of the Digsxby Occurrence.
+"Alright," said the shopchild. “But I warn you: the _Flying Island Times_ went to press too early and they don't have any coverage of the Digsxby Occurrence.”
 
 "Whatever," said Thomas, sort of confused by his own inspecificity at pursuing the ostensible object of his desire.
 
-The shopcritter handed him a copy of today's Times for a tuppence. Thomas left the stand and looked at the front page. Yep. No coverage of Digsxby at all, nor anyone else with the name "Metcalf" anywhere in their name, either. Instead, the headline news of the Times today was
+The shopcritter handed him a copy of today's _Times_ for a tuppence. Thomas left the stand and looked at the front page. Yep. No coverage of Digsxby at all, nor anyone else with the name "Metcalf" anywhere in their name, either. Instead, the headline news of the Times today was:
 
 > Some schmuck hit by martini glass, dies
 
 They didn't even have a picture of the man. Just a drawing of a martini glass. It wasn't even a picture of the martini glass. Wait a minute.
 
-Thomas stopped dead in his tracks. The martini glass. That pattern. That was the shape that was cut out of the body!
+Thomas stopped dead in his tracks.[^trax] The martini glass. That pattern. That was the shape that was cut out of the body!
 
 [^mund]: mund?
 [^downtown]: as in "we're taking you downtown" ie to the police station for questioning
 [^love]: It was love at first shake.
-[^guesssaid]: perhaps: “guessed said” or “guess-said the”
+[^guesssaid]: perhaps: “guessed said” or “guess-said the” ~~J
 [^malle]: Malle Cop is the old-fashioned title for the senior type of cop, in this town
 [^scrimb]: to scrimb your hands is to open and close them with a somewhat anxious subanticipation, like a man searching for his keys or a carnivorous animal chittering its teeth. Somewhat similar to the "bribe me" gesture.
+[^trax]: but not in his Track
+
+[J; 0 words]

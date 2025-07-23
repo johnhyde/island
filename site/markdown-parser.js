@@ -39,24 +39,64 @@ class MarkdownParser {
 
     preprocessInlineFootnotes(markdown) {
         let inlineCounter = 0;
-        let processedMarkdown = markdown;
         const generatedFootnotes = [];
 
-        // Find all inline footnotes [$content] and convert them
-        processedMarkdown = processedMarkdown.replace(/\[\$([^\]]+)\]/g, (match, content) => {
-            inlineCounter++;
-            const autoId = `^CAPITALLETTERS${inlineCounter}`;
+        // Recursive function to process inline footnotes from outer to inner
+        const processInlineFootnotesRecursively = (text) => {
+            // Find the first [$...] construct with proper bracket matching
+            let i = 0;
+            while (i < text.length) {
+                // Look for [$
+                if (text.substr(i, 2) === '[$') {
+                    let bracketDepth = 0;
+                    let start = i;
+                    let j = i;
+                    
+                    // Find the matching closing bracket
+                    while (j < text.length) {
+                        if (text[j] === '[') {
+                            bracketDepth++;
+                        } else if (text[j] === ']') {
+                            bracketDepth--;
+                            if (bracketDepth === 0) {
+                                // Found the matching closing bracket
+                                const fullMatch = text.substring(start, j + 1);
+                                const content = text.substring(start + 2, j); // Remove [$ and ]
+                                
+                                // Generate auto-ID for this footnote
+                                inlineCounter++;
+                                const autoId = `^CAPITALLETTERS${inlineCounter}`;
+                                
+                                // Recursively process the content for nested inline footnotes
+                                const processedContent = processInlineFootnotesRecursively(content);
+                                
+                                // Store the footnote definition
+                                generatedFootnotes.push(`[${autoId}]: ${processedContent}`);
+                                
+                                // Replace the inline footnote with reference and continue processing
+                                const newText = text.substring(0, start) + `[${autoId}]` + text.substring(j + 1);
+                                return processInlineFootnotesRecursively(newText);
+                            }
+                        }
+                        j++;
+                    }
+                    
+                    // If we get here, there's an unmatched [$ - treat it as regular text
+                    i++;
+                } else {
+                    i++;
+                }
+            }
             
-            // Store the footnote definition to append later
-            generatedFootnotes.push(`[${autoId}]: ${content}`);
-            
-            // Replace inline footnote with regular footnote reference
-            return `[${autoId}]`;
-        });
+            // No more inline footnotes found, return the text as-is
+            return text;
+        };
+
+        const processedMarkdown = processInlineFootnotesRecursively(markdown);
 
         // Append generated footnote definitions to the end
         if (generatedFootnotes.length > 0) {
-            processedMarkdown += '\n\n' + generatedFootnotes.join('\n');
+            return processedMarkdown + '\n\n' + generatedFootnotes.join('\n');
         }
 
         return processedMarkdown;
@@ -114,6 +154,21 @@ class MarkdownParser {
             // Skip other bracketed metadata
             if (paragraph.match(/^\[.*\]$/)) {
                 html += `<div class="author-note">${this.escapeHtml(paragraph)}</div>\n`;
+                continue;
+            }
+
+            // Handle blockquotes: lines starting with >
+            if (paragraph.match(/^>/)) {
+                // Process blockquote content (remove > and optional space)
+                const blockquoteContent = paragraph.replace(/^>\s?/gm, '');
+                let processedBlockquote = this.processInlineElements(blockquoteContent);
+                html += `<blockquote>${processedBlockquote}</blockquote>\n`;
+                continue;
+            }
+
+            // Handle horizontal rules: lines with ---
+            if (paragraph.match(/^-{3,}$/)) {
+                html += `<div class="section-separator">❦ ❦ ❦</div>\n`;
                 continue;
             }
 
@@ -176,6 +231,12 @@ class MarkdownParser {
 
         // Process highlighted text: ==text==
         text = text.replace(/==([^=]+?)==/g, '<mark>$1</mark>');
+
+        // Process strikethrough: ~~text~~
+        text = text.replace(/~~([^~]+?)~~/g, '<del>$1</del>');
+
+        // Process superscript: ^text^
+        text = text.replace(/\^([^^]+?)\^/g, '<sup>$1</sup>');
 
         return text;
     }

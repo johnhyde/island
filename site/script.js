@@ -7,6 +7,7 @@ class NovelSite {
         this.chapters = [];
         this.currentChapter = null;
         this.spacedEmDashes = this.loadEmDashPreference();
+        this.darkMode = this.loadDarkModePreference();
         
         this.init();
     }
@@ -16,6 +17,10 @@ class NovelSite {
         this.renderTableOfContents();
         this.setupEventListeners();
         this.setupEmDashToggle();
+        this.setupDarkModeToggle();
+        
+        // Apply initial dark mode state
+        this.updateDarkModeStyle();
         
         // Load chapter based on URL or default to first
         this.handleURLChange();
@@ -427,6 +432,47 @@ class NovelSite {
             for (let child of element.childNodes) {
                 this.updateElementEmDashes(child);
             }
+        }
+    }
+
+    loadDarkModePreference() {
+        // Load preference from localStorage, default to light mode
+        const saved = localStorage.getItem('darkModeStyle');
+        return saved === null ? false : saved === 'dark';
+    }
+
+    saveDarkModePreference(dark) {
+        localStorage.setItem('darkModeStyle', dark ? 'dark' : 'light');
+    }
+
+    setupDarkModeToggle() {
+        const toggle = document.getElementById('darkmode-toggle');
+        if (!toggle) {
+            console.warn('Dark mode toggle element not found');
+            return;
+        }
+
+        console.log('Setting up dark mode toggle, initial state:', this.darkMode);
+
+        // Set initial state
+        toggle.checked = this.darkMode;
+
+        // Handle toggle changes
+        toggle.addEventListener('change', (e) => {
+            console.log('Dark mode toggle changed to:', e.target.checked);
+            this.darkMode = e.target.checked;
+            this.saveDarkModePreference(this.darkMode);
+            this.updateDarkModeStyle();
+        });
+    }
+
+    updateDarkModeStyle() {
+        console.log('Updating dark mode to:', this.darkMode ? 'dark' : 'light');
+        
+        if (this.darkMode) {
+            document.body.classList.add('dark-mode');
+        } else {
+            document.body.classList.remove('dark-mode');
         }
     }
 }
