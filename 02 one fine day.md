@@ -54,7 +54,7 @@ Thomas was about to say something, and seemed like it, but for some reason he wa
 
 "Hello, son," said the officer, greeting Thomas with a figure of speech, as he was significantly older than Thomas. "I'm sorry you had to see all this."
 
-"Yeah, well..." said Thomas. "I was just talking to... Officer... Baba, here—" he saw from the reaction of officer Waters, out of the corner of his eyes, the slight widening of the eyes in surprise, that he had guess said officer's first name correct. On Track!— "about this... horrible incident."
+"Yeah, well..." said Thomas. "I was just talking to... Officer... Baba, here—" he saw from the reaction of officer Waters, out of the corner of his eyes, the slight widening of the eyes in surprise, that he had ==guess said==[^guesssaid] officer's first name correct. On Track!— "about this... horrible incident."
 
 The older cop nodded. "Such a shame, such a shame."
 
@@ -64,7 +64,7 @@ The older cop raised his eyebrows. "Something of a detective, too, huh? Well. I'
 
 Officer Waters was still too confused by Thomas' parlor trick to comment. He began to look down at his badge, to double-check that it only had his last name on it like he thought.
 
-"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was Mai Friend."
+"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was ==Mai Friend==[$lmaoooooooo]."
 
 "What the—?" said Waters. "How the—?..."
 
@@ -113,5 +113,6 @@ Thomas stopped dead in his tracks. The martini glass. That pattern. That was the
 [^mund]: mund?
 [^downtown]: as in "we're taking you downtown" ie to the police station for questioning
 [^love]: It was love at first shake.
+[^guesssaid]: perhaps: “guessed said” or “guess-said the”
 [^malle]: Malle Cop is the old-fashioned title for the senior type of cop, in this town
 [^scrimb]: to scrimb your hands is to open and close them with a somewhat anxious subanticipation, like a man searching for his keys or a carnivorous animal chittering its teeth. Somewhat similar to the "bribe me" gesture.

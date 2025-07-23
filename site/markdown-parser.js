@@ -17,14 +17,17 @@ class MarkdownParser {
         this.footnoteOrder = [];
         this.footnoteCounter = 0;
 
-        // First pass: extract footnote definitions
-        const { content, footnoteMap } = this.extractFootnotes(markdown);
+        // First pass: preprocess inline footnotes [$content] -> [^CAPITALLETTERS#]
+        const preprocessedMarkdown = this.preprocessInlineFootnotes(markdown);
+
+        // Second pass: extract footnote definitions
+        const { content, footnoteMap } = this.extractFootnotes(preprocessedMarkdown);
         this.footnotes = footnoteMap;
 
-        // Second pass: scan for footnote references to determine order
+        // Third pass: scan for footnote references to determine order
         this.assignFootnoteNumbers(content);
 
-        // Third pass: convert markdown to HTML
+        // Fourth pass: convert markdown to HTML
         const html = this.convertToHtml(content);
 
         return {
@@ -32,6 +35,31 @@ class MarkdownParser {
             footnotes: this.footnotes,
             footnoteOrder: this.footnoteOrder
         };
+    }
+
+    preprocessInlineFootnotes(markdown) {
+        let inlineCounter = 0;
+        let processedMarkdown = markdown;
+        const generatedFootnotes = [];
+
+        // Find all inline footnotes [$content] and convert them
+        processedMarkdown = processedMarkdown.replace(/\[\$([^\]]+)\]/g, (match, content) => {
+            inlineCounter++;
+            const autoId = `^CAPITALLETTERS${inlineCounter}`;
+            
+            // Store the footnote definition to append later
+            generatedFootnotes.push(`[${autoId}]: ${content}`);
+            
+            // Replace inline footnote with regular footnote reference
+            return `[${autoId}]`;
+        });
+
+        // Append generated footnote definitions to the end
+        if (generatedFootnotes.length > 0) {
+            processedMarkdown += '\n\n' + generatedFootnotes.join('\n');
+        }
+
+        return processedMarkdown;
     }
 
     extractFootnotes(markdown) {
