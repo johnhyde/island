@@ -2,10 +2,7 @@
 
 [J; 980 words]
 
-Thomas Metcalf woke up on January 1ˢᵗ with an image of death before him.[^wif] I say,[^I] “image,” but it was an abstract premonition, not a visual hallucination, although he had those as well from time to time. He immediately knew that it would be a year of death, but what did that mean? He knew better than to worry, but it caused him to wonder greatly nonetheless. He didn’t really want to die, nor did he wish to see any of his friends, family, or even enemies die. He pondered the matter over breakfast in the motel cafeteria. He wasn’t quite his usual self, but it didn’t slow him down at all. As usual, he had no plans and a slight sense of urgency, so after he finished his meal he stopped by the kitchen to thank the cooks and headed right out the door.
-
-[^wif]: and I'm not talking about my ex-wife ahaha!
-[^I]: What? Who is this? Who's talking?!
+Thomas Metcalf woke up on January 1ˢᵗ with an image of death before him. The image was an abstract premonition, not a visual hallucination — although he had those as well from time to time. He immediately knew that it would be a year of death, but what did that mean? He knew better than to worry, but it caused him to wonder greatly nonetheless. He didn’t really want to die, nor did he wish to see any of his friends, family, or even enemies die. He pondered the matter over breakfast in the motel cafeteria. He wasn’t quite his usual self, but it didn’t slow him down at all. As usual, he had no plans and a slight sense of urgency, so after he finished his meal he stopped by the kitchen to thank the cooks and headed right out the door.
 
 It was a fine spring morning, just warm enough that he was comfortable in his short-sleeved shirt (as long as he maintained a brisk pace, which he did). He caught a whiff of the Pacific from his left, and turned right at the next intersection. He continued on, past quaint, lifeless shops, and then past pleasant old homes. He saw a large tree at a corner, and the crack it had put in the sidewalk, and turned left. He wasn’t at all familiar with this town; he was navigating purely by instinct, going “whither the whim,” as he would say. It never let him down.
 
