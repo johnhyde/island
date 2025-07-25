@@ -433,7 +433,7 @@ input:checked + .slider:before {
 }
 
 /* Annotation marker styles */
-.annotation {
+.annotation-ref {
     font-size: 0.8em;
     vertical-align: super;
     color: #dc3545;
@@ -444,11 +444,11 @@ input:checked + .slider:before {
     transition: all 0.2s ease;
 }
 
-.annotation.visible {
+.annotation-ref.visible {
     display: inline; /* Show when annotations are enabled */
 }
 
-.annotation:hover {
+.annotation-ref:hover {
     background-color: rgba(220, 53, 69, 0.1);
     border-radius: 2px;
 }

@@ -64,7 +64,7 @@ The older cop raised his eyebrows. "Something of a detective, too, huh? Well. I'
 
 Officer Waters was still too confused by Thomas' parlor trick to comment. He began to look down at his badge, to double-check that it only had his last name on it like he thought.
 
-"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was ==Mai Friend==[$ lmaoooooooo ~~J[@ ending a footnote with two tildes and a J or M means the footnote should probably[$ probably!] be deleted after it is consumed ~~J]]."
+"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was ==Mai Friend==[$ lmaoooooooo ~~J[@ ending a footnote with *two* tildes and a J or M means the footnote should probably[@ prob==ab==ly!] be deleted after it is consumed ~~J]].
 
 "What the—?" said Waters. "How the—?..."
 
