@@ -3,9 +3,10 @@
  */
 class NovelSite {
   constructor() {
-    this.parser = new MarkdownParser();
+    this.currentParser = null; // Current parser instance for active chapter
     this.chapters = [];
     this.currentChapter = null;
+    this.chapterCache = new Map(); // Cache for chapter content and parser instances
     this.spacedEmDashes = this.loadEmDashPreference();
     this.darkMode = this.loadDarkModePreference();
     this.showAnnotations = this.loadAnnotationPreference();
@@ -38,25 +39,12 @@ class NovelSite {
 
       const data = await response.json();
 
-      // Verify each file actually exists and has content
+      // Trust the chapters.json file and add all chapters
       for (const chapter of data.chapters) {
-        try {
-          const fileResponse = await fetch(chapter.filename);
-          if (fileResponse.ok) {
-            const content = await fileResponse.text();
-            if (content.trim()) { // Only add if file has content
-              this.chapters.push({
-                filename: chapter.filename,
-                title: this.capitalizeTitle(chapter.title),
-              });
-            }
-          }
-        } catch (error) {
-          console.warn(
-            `Chapter file ${chapter.filename} not accessible:`,
-            error,
-          );
-        }
+        this.chapters.push({
+          filename: chapter.filename,
+          title: this.capitalizeTitle(chapter.title),
+        });
       }
     } catch (error) {
       console.error("Error loading chapter list:", error);
@@ -134,27 +122,51 @@ class NovelSite {
 
   async loadChapter(filename, updateUrl = true) {
     try {
-      const response = await fetch(filename);
-      if (!response.ok) {
-        throw new Error(`Failed to load ${filename}`);
+      // Check cache first
+      const cached = this.getCachedChapter(filename);
+      let title, parser, html;
+
+      if (cached) {
+        // Use cached parser instance and HTML
+        parser = cached.parser;
+        html = cached.html;
+        title = cached.title;
+      } else {
+        // Fetch and parse new content
+        const response = await fetch(filename);
+        if (!response.ok) {
+          throw new Error(`Failed to load ${filename}`);
+        }
+
+        const markdown = await response.text();
+        parser = new MarkdownParser();
+        const result = parser.parse(markdown);
+        html = result.html;
+        title = this.getChapterTitle(filename);
+
+        // Cache the parser instance and data
+        this.cacheChapter(filename, {
+          markdown: markdown,
+          parser: parser,
+          html: html,
+          title: title,
+        });
       }
 
-      const markdown = await response.text();
+      // Set current parser
+      this.currentParser = parser;
       this.currentChapter = filename;
 
-      // Parse the markdown
-      const result = this.parser.parse(markdown);
-
       // Update the main content
-      const title = this.getChapterTitle(filename);
       document.getElementById("chapter-title").textContent = title;
-      document.getElementById("chapter-text").innerHTML = result.html;
+      document.getElementById("chapter-text").innerHTML = html;
 
       // Apply em-dash styling to the content
       this.updateEmDashStyle();
 
       // Update footnotes and apply em-dash styling
-      document.getElementById("footnotes-content").innerHTML = this.parser
+      document.getElementById("footnotes-content").innerHTML = this
+        .currentParser
         .formatFootnotes();
       const footnotesContent = document.getElementById("footnotes-content");
       if (footnotesContent) {
@@ -191,6 +203,20 @@ class NovelSite {
     return chapter
       ? chapter.title
       : filename.replace(".md", "").replace(/^\d+\s*/, "");
+  }
+
+  getCachedChapter(filename) {
+    return this.chapterCache.get(filename);
+  }
+
+  cacheChapter(filename, data) {
+    this.chapterCache.set(filename, {
+      markdown: data.markdown,
+      parser: data.parser,
+      html: data.html,
+      title: data.title,
+      timestamp: Date.now(),
+    });
   }
 
   updateActiveChapter(filename) {
@@ -245,7 +271,7 @@ class NovelSite {
 
     // Find and highlight the target footnote
     const targetFootnote = document.querySelector(
-      `.footnote[data-footnote="${label}"]`,
+      `.footnote[data-id="${label}"]`,
     );
     if (targetFootnote) {
       targetFootnote.classList.add("highlighted");
@@ -313,8 +339,10 @@ class NovelSite {
 
   showPopup(label) {
     // Find the footnote content from parser's footnoteOrder
-    const footnote = this.parser.footnoteOrder.find((fn) => fn.label === label);
-    const isAnno = this.parser.annotations.has(label);
+    const footnote = this.currentParser.footnoteOrder.find((fn) =>
+      fn.label === label
+    );
+    const isAnno = this.currentParser.annotations.has(label);
     const title = isAnno ? "Annotation" : "Footnote";
     if (!footnote) {
       console.warn(title + " not found:", label);
@@ -332,7 +360,7 @@ class NovelSite {
     titleEl.innerHTML = title;
 
     // Create footnote content with proper formatting
-    const processedContent = this.parser.processInlineElements(
+    const processedContent = this.currentParser.processInlineElements(
       footnote.content,
     );
     const styledContent = this.applyEmDashStyle(processedContent);
@@ -569,47 +597,6 @@ class NovelSite {
       this.showPopup(annotationId);
     });
   }
-
-  // showAnnotationPopup(label) {
-  //   const annotation = this.parser.footnoteOrder.find((fn) =>
-  //     fn.label === label
-  //   );
-  //   if (!annotation) {
-  //     console.warn("Footnote not found:", label);
-  //     return;
-  //   }
-  //   const content = annotation.content;
-  //   const popup = document.getElementById("footnote-popup");
-  //   const body = document.getElementById("footnote-popup-body");
-  //   const title = document.getElementById("modal-title");
-  //   title.innerHTML = "Annotation";
-
-  //   if (!popup || !body) {
-  //     console.error("Popup elements not found");
-  //     return;
-  //   }
-
-  //   // The annotation content should already be processed and contain footnote references
-  //   // Just need to convert references to HTML and apply styling
-  //   const processedContent = this.parser.processInlineElements(content);
-
-  //   // Set the popup content for annotation
-  //   body.innerHTML =
-  //     `<div class="annotation-content">${processedContent}</div>`;
-
-  //   // Set up any footnote handlers within the annotation popup
-  //   this.setupPopupFootnoteHandlers();
-  //   this.updateAnnotationVisibility();
-
-  //   // Show popup with animation
-  //   popup.classList.add("show");
-
-  //   // Focus management for accessibility
-  //   const closeBtn = popup.querySelector(".footnote-popup-close");
-  //   if (closeBtn) {
-  //     closeBtn.focus();
-  //   }
-  // }
 }
 
 // Initialize the site when the DOM is ready

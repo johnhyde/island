@@ -241,8 +241,6 @@ class MarkdownParser {
       const number = this.footnoteLabels.get(label) || "?";
       return `<sup class="footnote-ref" data-id="${label}">${number}</sup>`;
     });
-    text = text.replace(/\[(@[^\]]+)\]/g, (match, label) => {
-    });
 
     // Process other inline styling
     text = this.processInlineStyling(text);
@@ -267,7 +265,7 @@ class MarkdownParser {
     text = text.replace(/~~([^~]+?)~~/g, "<del>$1</del>");
 
     // Process superscript: ^text^
-    text = text.replace(/\^([^^]+?)\^/g, "<sup>$1</sup>");
+    text = text.replace(/(?<!data-id=")\^([^^]+?)\^/g, "<sup>$1</sup>");
 
     return text;
   }
@@ -286,7 +284,7 @@ class MarkdownParser {
       if (this.annotations.has(footnote.label)) continue;
       const processedContent = this.processInlineElements(footnote.content);
       footnotesHtml += `
-                <div class="footnote" data-footnote="${footnote.label}">
+                <div class="footnote" data-id="${footnote.label}">
                     <span class="footnote-label">${footnote.number}:</span>
                     ${processedContent}
                 </div>
