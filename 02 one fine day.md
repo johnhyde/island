@@ -64,17 +64,17 @@ The older cop raised his eyebrows. "Something of a detective, too, huh? Well. I'
 
 Officer Waters was still too confused by Thomas' parlor trick to comment. He began to look down at his badge, to double-check that it only had his last name on it like he thought.
 
-"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was ==Mai Friend==[$lmaoooooooo ~~J[$ending a footnote with two tildes and a J or M means the footnote should probably be deleted after it is consumed ~~J]]."
+"Baba, I found the vic's purse in the other room," said Blarte. "There was an identity card in there. Face matches. This woman seems to have lived here; the address matches up. Her name was ==Mai Friend==[$ lmaoooooooo ~~J[@ ending a footnote with two tildes and a J or M means the footnote should probably[$ probably!] be deleted after it is consumed ~~J]]."
 
 "What the—?" said Waters. "How the—?..."
 
 Thomas received another tingle from the vagus nerve, this one a slight tickling sensation. "Curious," he muttered.
 
-All three of them looked down at the body again, for their own individual — but similar — reasons. The body looked like it had been in the center of an explosion, but a very ==precises==[$precise? ~~J] one, that tore through the body like a vivisection, although one apparently at random.
+All three of them looked down at the body again, for their own individual — but similar — reasons. The body looked like it had been in the center of an explosion, but a very ==precises==[@ precise?] one, that tore through the body like a vivisection, although one apparently at random.
 
 "The gumshoes will be through here later, but there doesn't seem to be any sign of a struggle," said Blarte. "It's like she was taken by surprise and the perp did it in an instant."
 
-"Or maybe she ==new==[$knew?? ~~J] the perp and this is a kind of assisted suicide situation," offered Waters.
+"Or maybe she ==new==[@ knew??] the perp and this is a kind of assisted suicide situation," offered Waters.
 
 "Or maybe her body just did that," mused Thomas.
 
@@ -94,7 +94,7 @@ Subhead:
 
 The word "Metcalf" was bolded and italicized. It was very strange.
 
-Thomas left his lunch to get cold — not very considerate of the Track, he thought idly — and popped over to the newsstand to purchase a copy of the _Flying Island Tribune_. Which paper he had just seen. "Sorry, sir," apologized the whelp tending the stand, "beggin' your pardon but we've just run out of that. Even our display copy. Seeing as how this Digs==k==[$x? ~~J]by thing is the crime of the century. If you wait another 15 minutes we might get another restock come by."
+Thomas left his lunch to get cold — not very considerate of the Track, he thought idly — and popped over to the newsstand to purchase a copy of the _Flying Island Tribune_. Which paper he had just seen. "Sorry, sir," apologized the whelp tending the stand, "beggin' your pardon but we've just run out of that. Even our display copy. Seeing as how this Digs==k==[@ x?]by thing is the crime of the century. If you wait another 15 minutes we might get another restock come by."
 
 "There's no time for that," said Thomas, feeling there was no time for that. "I'll take whatever other paper you have," he continued, scrimbing his hands.[^scrimb]
 

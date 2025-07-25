@@ -8,6 +8,7 @@ class NovelSite {
         this.currentChapter = null;
         this.spacedEmDashes = this.loadEmDashPreference();
         this.darkMode = this.loadDarkModePreference();
+        this.showAnnotations = this.loadAnnotationPreference();
         
         this.init();
     }
@@ -18,6 +19,7 @@ class NovelSite {
         this.setupEventListeners();
         this.setupEmDashToggle();
         this.setupDarkModeToggle();
+        this.setupAnnotationsToggle();
         
         // Apply initial dark mode state
         this.updateDarkModeStyle();
@@ -154,6 +156,10 @@ class NovelSite {
             
             // Setup footnote click handlers
             this.setupFootnoteHandlers();
+            
+            // Setup annotation visibility and click handlers
+            this.updateAnnotationVisibility();
+            this.setupAnnotationHandlers();
             
             // Update URL and browser history
             if (updateUrl) {
@@ -473,6 +479,83 @@ class NovelSite {
             document.body.classList.add('dark-mode');
         } else {
             document.body.classList.remove('dark-mode');
+        }
+    }
+
+    loadAnnotationPreference() {
+        // Load preference from localStorage, default to hidden
+        const saved = localStorage.getItem('annotationStyle');
+        return saved === null ? false : saved === 'show';
+    }
+
+    saveAnnotationPreference(show) {
+        localStorage.setItem('annotationStyle', show ? 'show' : 'hide');
+    }
+
+    setupAnnotationsToggle() {
+        const toggle = document.getElementById('annotations-toggle');
+        if (!toggle) {
+            console.warn('Annotations toggle element not found');
+            return;
+        }
+
+        console.log('Setting up annotations toggle, initial state:', this.showAnnotations);
+
+        // Set initial state
+        toggle.checked = this.showAnnotations;
+
+        // Handle toggle changes
+        toggle.addEventListener('change', (e) => {
+            console.log('Annotations toggle changed to:', e.target.checked);
+            this.showAnnotations = e.target.checked;
+            this.saveAnnotationPreference(this.showAnnotations);
+            this.updateAnnotationVisibility();
+        });
+    }
+
+    updateAnnotationVisibility() {
+        console.log('Updating annotation visibility to:', this.showAnnotations ? 'show' : 'hide');
+        
+        document.querySelectorAll('.annotation').forEach(annotation => {
+            if (this.showAnnotations) {
+                annotation.classList.add('visible');
+            } else {
+                annotation.classList.remove('visible');
+            }
+        });
+    }
+
+    setupAnnotationHandlers() {
+        // Add click handlers to annotation markers
+        document.querySelectorAll('.annotation').forEach(annotation => {
+            annotation.addEventListener('click', (e) => {
+                e.preventDefault();
+                const content = annotation.dataset.content;
+                const annotationId = annotation.dataset.id;
+                this.showAnnotationPopup(content, annotationId);
+            });
+        });
+    }
+
+    showAnnotationPopup(content, annotationId) {
+        const popup = document.getElementById('footnote-popup');
+        const body = document.getElementById('footnote-popup-body');
+        
+        if (!popup || !body) {
+            console.error('Popup elements not found');
+            return;
+        }
+
+        // Set the popup content for annotation
+        body.innerHTML = `<div class="annotation-content">${content}</div>`;
+
+        // Show popup with animation
+        popup.classList.add('show');
+        
+        // Focus management for accessibility
+        const closeBtn = popup.querySelector('.footnote-popup-close');
+        if (closeBtn) {
+            closeBtn.focus();
         }
     }
 }

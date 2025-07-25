@@ -41,16 +41,17 @@ class MarkdownParser {
         let inlineCounter = 0;
         const generatedFootnotes = [];
 
-        // Recursive function to process inline footnotes from outer to inner
+        // Recursive function to process both inline footnotes and annotations from outer to inner
         const processInlineFootnotesRecursively = (text) => {
-            // Find the first [$...] construct with proper bracket matching
+            // Find the first [$...] or [@...] construct with proper bracket matching
             let i = 0;
             while (i < text.length) {
-                // Look for [$
-                if (text.substr(i, 2) === '[$') {
+                // Look for [$ or [@
+                if ((text.substr(i, 2) === '[$') || (text.substr(i, 2) === '[@')) {
                     let bracketDepth = 0;
                     let start = i;
                     let j = i;
+                    const isAnnotation = text.substr(i, 2) === '[@';
                     
                     // Find the matching closing bracket
                     while (j < text.length) {
@@ -61,34 +62,45 @@ class MarkdownParser {
                             if (bracketDepth === 0) {
                                 // Found the matching closing bracket
                                 const fullMatch = text.substring(start, j + 1);
-                                const content = text.substring(start + 2, j); // Remove [$ and ]
+                                let content = text.substring(start + 2, j); // Remove [$ or [@ and ]
                                 
-                                // Generate auto-ID for this footnote
-                                inlineCounter++;
-                                const autoId = `^CAPITALLETTERS${inlineCounter}`;
+                                // Strip optional space after $ or @
+                                content = content.replace(/^\s+/, '');
                                 
-                                // Recursively process the content for nested inline footnotes
-                                const processedContent = processInlineFootnotesRecursively(content);
+                                let replacement;
+                                if (isAnnotation) {
+                                    // Handle annotation - create annotation span
+                                    const annotationId = `annotation-${++inlineCounter}`;
+                                    replacement = `<span class="annotation" data-content="${this.escapeHtml(content.trim())}" data-id="${annotationId}">@</span>`;
+                                } else {
+                                    // Handle inline footnote - generate auto-ID and footnote definition
+                                    const autoId = `^CAPITALLETTERS${++inlineCounter}`;
+                                    
+                                    // Recursively process the content for nested inline footnotes/annotations
+                                    const processedContent = processInlineFootnotesRecursively(content);
+                                    
+                                    // Store the footnote definition
+                                    generatedFootnotes.push(`[${autoId}]: ${processedContent}`);
+                                    
+                                    replacement = `[${autoId}]`;
+                                }
                                 
-                                // Store the footnote definition
-                                generatedFootnotes.push(`[${autoId}]: ${processedContent}`);
-                                
-                                // Replace the inline footnote with reference and continue processing
-                                const newText = text.substring(0, start) + `[${autoId}]` + text.substring(j + 1);
+                                // Replace and continue processing
+                                const newText = text.substring(0, start) + replacement + text.substring(j + 1);
                                 return processInlineFootnotesRecursively(newText);
                             }
                         }
                         j++;
                     }
                     
-                    // If we get here, there's an unmatched [$ - treat it as regular text
+                    // If we get here, there's an unmatched [$ or [@ - treat it as regular text
                     i++;
                 } else {
                     i++;
                 }
             }
             
-            // No more inline footnotes found, return the text as-is
+            // No more inline footnotes or annotations found, return the text as-is
             return text;
         };
 
