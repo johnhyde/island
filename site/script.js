@@ -7,20 +7,22 @@ class NovelSite {
     this.chapters = [];
     this.currentChapter = null;
     this.chapterCache = new Map(); // Cache for chapter content and parser instances
-    this.spacedEmDashes = this.loadEmDashPreference();
-    this.darkMode = this.loadDarkModePreference();
-    this.showAnnotations = this.loadAnnotationPreference();
+    this.prefs = new PreferenceManager();
+    this.spacedEmDashes = this.prefs.get("spacedEmDashes", false);
+    this.darkMode = this.prefs.get("darkMode", false);
+    this.showAnnotations = this.prefs.get("showAnnotations", false);
 
     this.init();
   }
+
 
   async init() {
     await this.loadChapterList();
     this.renderTableOfContents();
     this.setupEventListeners();
-    this.setupEmDashToggle();
-    this.setupDarkModeToggle();
-    this.setupAnnotationsToggle();
+    this.setupToggle("emdash-toggle", "spacedEmDashes", "spacedEmDashes", "updateEmDashStyle");
+    this.setupToggle("darkmode-toggle", "darkMode", "darkMode", "updateDarkModeStyle");
+    this.setupToggle("annotations-toggle", "showAnnotations", "showAnnotations", "updateAnnotationVisibility");
 
     // Apply initial dark mode state
     this.updateDarkModeStyle();
@@ -146,56 +148,58 @@ class NovelSite {
 
         // Cache the parser instance and data
         this.cacheChapter(filename, {
-          markdown: markdown,
           parser: parser,
           html: html,
           title: title,
         });
       }
 
-      // Set current parser
+      // Set current parser and chapter
       this.currentParser = parser;
       this.currentChapter = filename;
 
-      // Update the main content
-      document.getElementById("chapter-title").textContent = title;
-      document.getElementById("chapter-text").innerHTML = html;
-
-      // Apply em-dash styling to the content
-      this.updateEmDashStyle();
-
-      // Update footnotes and apply em-dash styling
-      document.getElementById("footnotes-content").innerHTML = this
-        .currentParser
-        .formatFootnotes();
-      const footnotesContent = document.getElementById("footnotes-content");
-      if (footnotesContent) {
-        this.updateElementEmDashes(footnotesContent);
-      }
-
-      // Setup footnote click handlers
-      this.setupFootnoteHandlers();
-
-      // Setup annotation visibility and click handlers
-      this.updateAnnotationVisibility();
-
-      // Update URL and browser history
-      if (updateUrl) {
-        this.updateURL(filename, title);
-      }
-
-      // Update active state in table of contents
-      this.updateActiveChapter(filename);
+      // Update page content and UI
+      this.updatePageContent(title, html, updateUrl, filename);
     } catch (error) {
       console.error("Error loading chapter:", error);
-      document.getElementById("chapter-title").textContent =
-        "Error Loading Chapter";
-      document.getElementById("chapter-text").innerHTML = `
-                <p>Sorry, there was an error loading the chapter "${filename}". Please try again.</p>
-            `;
-      document.getElementById("footnotes-content").innerHTML =
-        '<p class="footnotes-placeholder">No footnotes available.</p>';
+      this.showError(`Sorry, there was an error loading the chapter "${filename}". Please try again.`);
     }
+  }
+
+  updatePageContent(title, html, updateUrl, filename) {
+    // Update the main content
+    document.getElementById("chapter-title").textContent = title;
+    document.getElementById("chapter-text").innerHTML = html;
+
+    // Apply em-dash styling to the content
+    this.updateEmDashStyle();
+
+    // Update footnotes and apply em-dash styling
+    const footnotesContent = document.getElementById("footnotes-content");
+    if (footnotesContent) {
+      footnotesContent.innerHTML = this.currentParser.formatFootnotes();
+      this.updateElementEmDashes(footnotesContent);
+    }
+
+    // Setup footnote click handlers
+    this.setupFootnoteHandlers();
+
+    // Setup annotation visibility and click handlers
+    this.updateAnnotationVisibility();
+
+    // Update URL and browser history
+    if (updateUrl) {
+      this.updateURL(filename, title);
+    }
+
+    // Update active state in table of contents
+    this.updateActiveChapter(filename);
+  }
+
+  showError(message) {
+    document.getElementById("chapter-title").textContent = "Error Loading Chapter";
+    document.getElementById("chapter-text").innerHTML = `<p>${message}</p>`;
+    document.getElementById("footnotes-content").innerHTML = '<p class="footnotes-placeholder">No footnotes available.</p>';
   }
 
   getChapterTitle(filename) {
@@ -211,7 +215,6 @@ class NovelSite {
 
   cacheChapter(filename, data) {
     this.chapterCache.set(filename, {
-      markdown: data.markdown,
       parser: data.parser,
       html: data.html,
       title: data.title,
@@ -410,40 +413,6 @@ class NovelSite {
     );
   }
 
-  loadEmDashPreference() {
-    // Load preference from localStorage, default to unspaced (J's style)
-    const saved = localStorage.getItem("emDashStyle");
-    return saved === null ? false : saved === "spaced";
-  }
-
-  saveEmDashPreference(spaced) {
-    localStorage.setItem("emDashStyle", spaced ? "spaced" : "unspaced");
-  }
-
-  setupEmDashToggle() {
-    const toggle = document.getElementById("emdash-toggle");
-    if (!toggle) {
-      console.warn("Em-dash toggle element not found");
-      return;
-    }
-
-    console.log(
-      "Setting up em-dash toggle, initial state:",
-      this.spacedEmDashes,
-    );
-
-    // Set initial state
-    toggle.checked = this.spacedEmDashes;
-
-    // Handle toggle changes
-    toggle.addEventListener("change", (e) => {
-      console.log("Toggle changed to:", e.target.checked);
-      this.spacedEmDashes = e.target.checked;
-      this.saveEmDashPreference(this.spacedEmDashes);
-      this.updateEmDashStyle();
-    });
-  }
-
   normalizeEmDashes(text) {
     // First normalize all em-dashes to a consistent format
     // Handle both spaced and unspaced variants
@@ -464,28 +433,20 @@ class NovelSite {
   }
 
   updateEmDashStyle() {
-    console.log(
-      "Updating em-dash style to:",
-      this.spacedEmDashes ? "spaced" : "unspaced",
-    );
 
     // Update the current chapter's content with the new em-dash style
     const chapterText = document.getElementById("chapter-text");
     if (chapterText) {
-      console.log("Found chapter text element, updating...");
       // Get all text content and update em-dashes
       this.updateElementEmDashes(chapterText);
     } else {
-      console.log("Chapter text element not found");
     }
 
     // Also update footnotes sidebar content
     const footnotesContent = document.getElementById("footnotes-content");
     if (footnotesContent) {
-      console.log("Found footnotes content element, updating...");
       this.updateElementEmDashes(footnotesContent);
     } else {
-      console.log("Footnotes content element not found");
     }
   }
 
@@ -500,40 +461,7 @@ class NovelSite {
     }
   }
 
-  loadDarkModePreference() {
-    // Load preference from localStorage, default to light mode
-    const saved = localStorage.getItem("darkModeStyle");
-    return saved === null ? false : saved === "dark";
-  }
-
-  saveDarkModePreference(dark) {
-    localStorage.setItem("darkModeStyle", dark ? "dark" : "light");
-  }
-
-  setupDarkModeToggle() {
-    const toggle = document.getElementById("darkmode-toggle");
-    if (!toggle) {
-      console.warn("Dark mode toggle element not found");
-      return;
-    }
-
-    console.log("Setting up dark mode toggle, initial state:", this.darkMode);
-
-    // Set initial state
-    toggle.checked = this.darkMode;
-
-    // Handle toggle changes
-    toggle.addEventListener("change", (e) => {
-      console.log("Dark mode toggle changed to:", e.target.checked);
-      this.darkMode = e.target.checked;
-      this.saveDarkModePreference(this.darkMode);
-      this.updateDarkModeStyle();
-    });
-  }
-
   updateDarkModeStyle() {
-    console.log("Updating dark mode to:", this.darkMode ? "dark" : "light");
-
     if (this.darkMode) {
       document.body.classList.add("dark-mode");
     } else {
@@ -541,46 +469,7 @@ class NovelSite {
     }
   }
 
-  loadAnnotationPreference() {
-    // Load preference from localStorage, default to hidden
-    const saved = localStorage.getItem("annotationStyle");
-    return saved === null ? false : saved === "show";
-  }
-
-  saveAnnotationPreference(show) {
-    localStorage.setItem("annotationStyle", show ? "show" : "hide");
-  }
-
-  setupAnnotationsToggle() {
-    const toggle = document.getElementById("annotations-toggle");
-    if (!toggle) {
-      console.warn("Annotations toggle element not found");
-      return;
-    }
-
-    console.log(
-      "Setting up annotations toggle, initial state:",
-      this.showAnnotations,
-    );
-
-    // Set initial state
-    toggle.checked = this.showAnnotations;
-
-    // Handle toggle changes
-    toggle.addEventListener("change", (e) => {
-      console.log("Annotations toggle changed to:", e.target.checked);
-      this.showAnnotations = e.target.checked;
-      this.saveAnnotationPreference(this.showAnnotations);
-      this.updateAnnotationVisibility();
-    });
-  }
-
   updateAnnotationVisibility() {
-    console.log(
-      "Updating annotation visibility to:",
-      this.showAnnotations ? "show" : "hide",
-    );
-
     document.querySelectorAll(".annotation-ref").forEach((annotation) => {
       if (this.showAnnotations) {
         annotation.classList.add("visible");
@@ -595,6 +484,25 @@ class NovelSite {
       e.preventDefault();
       const annotationId = annotation.dataset.id;
       this.showPopup(annotationId);
+    });
+  }
+
+  // Generic toggle setup method
+  setupToggle(toggleId, property, prefsKey, updateMethod) {
+    const toggle = document.getElementById(toggleId);
+    if (!toggle) {
+      console.warn(`${toggleId} element not found`);
+      return;
+    }
+
+    // Set initial state
+    toggle.checked = this[property];
+
+    // Handle toggle changes
+    toggle.addEventListener("change", (e) => {
+      this[property] = e.target.checked;
+      this.prefs.set(prefsKey, this[property]);
+      this[updateMethod]();
     });
   }
 }
