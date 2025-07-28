@@ -130,7 +130,7 @@ Thomas was so used to following his intuition in strange, unpredictable directio
 
 “Excuse me, miss,” Thomas exclaimed amiably, “I’d like to finish that after all. I just had to step away for a moment.” The girl looked at him in shock. Thomas wondered at that.
 
-“I’m sorry, mister, but I’ve already cleared your plate from the table. I’m not carrying it to the back where the food will be thrown in the trash and Jerry will put it in the dishwasher.” She spoke with such conviction that Thomas didn’t know how to argue with her.
+“I’m sorry, mister, but I’ve already cleared your plate from the table. I’m now[@ previously typoed “not” which totally messed up the meaning, reeeeeee] carrying it to the back where the food will be thrown in the trash and Jerry will put it in the dishwasher.” She spoke with such conviction that Thomas didn’t know how to argue with her.
 
 Thomas moved his hands slowly, maintaining eye contact with her, trying to match her intensity well enough to distract her as he grabbed his plate with both hands and began to pull it towards himself. Her grip was tight, and she took a forced step toward him to avoid relinquishing her grip or extending her arm. Thomas brought the plate to his sternum, as caught up in her gaze as he’d hoped she’d be in his.
 
