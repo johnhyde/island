@@ -364,6 +364,7 @@ input:checked + .slider:before {
     font-size: 1.15rem;
     line-height: 1.7;
     max-width: 65ch;
+    text-align: justify;
 }
 
 #chapter-text p {
