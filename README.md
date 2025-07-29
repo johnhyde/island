@@ -4,9 +4,9 @@
 
 A collaborative novel between John and a mysterious stranger
 
-Each chapter is a separate markdown file?
+Each chapter is a separate ~~markdown~~ johndown file?
 
-No AI nor LLM has been used on this project, at least so far (except in a technical capacity, e.g. the creation of the .gitignore and the static site).
+No AI nor LLM has been used on this project, at least so far, except in a technical capacity, e.g. the creation of the .gitignore and the static site.
 
 ## Rules
 
@@ -14,7 +14,9 @@ John and the mysterious stranger will take turns writing between 300 and 1500 wo
 
 Sometimes we have a little get-together and write alternating words, as a treat. This counts as the handoff (although it could be handed off to the either author upon mutual agreement, since a get-together is sort of both and neither in terms of writing, and thus a wildcard). The first of these was 2025-07-20.
 
-## Setup
+## Site generation malarkey
+
+### Setup
 
 After cloning this repository, you may want to install the git hook to automatically maintain the chapter index:
 
@@ -24,7 +26,7 @@ After cloning this repository, you may want to install the git hook to automatic
 
 This sets up a pre-commit hook that automatically runs `./build.sh` and updates `site/chapters.json` whenever you commit chapter files.
 
-## Reading the Novel
+### Reading the Novel
 
 To read the novel in a clean, web-based format:
 
