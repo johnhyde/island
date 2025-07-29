@@ -14,6 +14,8 @@ John and the mysterious stranger will take turns writing between 300 and 1500 wo
 
 Sometimes we have a little get-together and write alternating words, as a treat. This counts as the handoff (although it could be handed off to the either author upon mutual agreement, since a get-together is sort of both and neither in terms of writing, and thus a wildcard). The first of these was 2025-07-20.
 
+You might notice that occasionally there's something wacky like a marker of 0 words or an author going twice in a row. These occur for specific reasons that seemed cool at the time, but don't worry about it.
+
 ## Site generation malarkey
 
 ### Setup
