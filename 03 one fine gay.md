@@ -7,17 +7,17 @@ In his 1907 bartenders' guide _The World's Drinks And How To Mix Them_, San Fran
 
 [J; 842 words]
 
-His mind raced. His mind started figuratively playing Mario Kart,[^kart] attempting to sift through an avalanche of theories that fell toward his mind as he groped about in different directions. Maybe this was the work of The Martini Killer, a hot new serial killer making a striking double-debut. Mayhaps the very concept of a Martini was becoming more fatal, lashing out. Peradventure one of these deaths was inspired by the other... Mai’s body had seemed fresh, so it was possible her killer had heard of the schmuck getting struck and figured that was as good a murder theme as any. But perchance [@ You can't just say perchance[$ this is an in-joke reference to Phil Jamesson's Mario "paper"] ~M] there was a closer connection, or none at all! Could be that some group was carrying out coordinated attacks with Martini glasses as their calling card, their identifying item, their typical tip-off, their—
+His mind raced. His mind started figuratively playing Mario Kart,[^kart] attempting to sift through an avalanche of theories that fell toward his mind as he groped about in different directions. Maybe this was the work of The Martini Killer, a hot new serial killer making a striking double-debut. Mayhaps the very concept of a Martini was becoming more fatal, lashing out. Peradventure one of these deaths was inspired by the other... Mai’s body had seemed fresh, so it was possible her killer had heard of the schmuck getting struck and figured that was as good a murder theme as any. But perchance [@ I can just say perchance if you can! ~J] there was a closer connection, or none at all! Could be that some group was carrying out coordinated attacks with martini glasses as their calling card, their identifying item, their typical tip-off, their—
 
 His mind’s Mario and his kart stopped in their tracks. He’d been wasting time thinking about the case when he should have been rambling about with no apparent purpose, doing whatever felt right! He anxiously turned his attention back to the Track, trying to focus in that fuzzy way on the general vibe rather than anything specific. It took a very particular frame of mind to stay On Track, but Thomas was experienced. After a moment, he smiled. A Delta.
 
-Every now and then, the Track would split off in a million different directions, each path about equally valid, before reconstricting to a singular course. He thought of it like a river delta, branching off and diffusing. He thought of floating lazily down the Mississippi, or enjoying a moment of weightlessness during a ski jump. He could, it would ==seem==[@ needs a comma here?] ponder the case at his leisure for a time, or go finish his lunch, or go for a hike, or take a nap, or any number of things. At some point, of course—and he’d have to be paying attention—he’d feel the draw and acceleration back towards the main current. But for now, he could make his own way.
+Every now and then, the Track would split off in a million different directions, each path about equally valid, before reconstricting to a singular course. He thought of it like a river delta, branching off and diffusing. He thought of floating lazily down the Mississippi, or enjoying a moment of weightlessness during a ski jump. He could, it would seem, ponder the case at his leisure for a time, or go finish his lunch, or go for a hike, or take a nap, or any number of things. At some point, of course—and he’d have to be paying attention—he’d feel the draw and acceleration back towards the main current. But for now, he could make his own way.
 
-Thomas was so used to following his intuition in strange, unpredictable directions, that when he came to a Delta while On the Job, he liked to play around at doing real detective work. So he decided to finish his lunch, which he could see a waitress was about to clear away, find another establishment where they served alcohol, and order a ==Martini.==[@martini is not a proper noun(?) so it shouldn't be capitalized(?)]
+Thomas was so used to following his intuition in strange, unpredictable directions, that when he came to a Delta while On the Job, he liked to play around at doing real detective work. So he decided to finish his lunch, which he could see a waitress was about to clear away, find another establishment where they served alcohol, and order a martini.
 
 “Excuse me, miss,” Thomas exclaimed amiably, “I’d like to finish that after all. I just had to step away for a moment.” The girl looked at him in shock. Thomas wondered at that.
 
-“I’m sorry, mister, but I’ve already cleared your plate from the table. I’m now[@ previously typoed “not” which totally messed up the meaning, reeeeeee] carrying it to the back where the food will be thrown in the trash and Jerry will put it in the dishwasher.” She spoke with such conviction that Thomas didn’t know how to argue with her.
+“I’m sorry, mister, but I’ve already cleared your plate from the table. I’m now carrying it to the back where the food will be thrown in the trash and Jerry will put it in the dishwasher.” She spoke with such conviction that Thomas didn’t know how to argue with her.
 
 Thomas moved his hands slowly, maintaining eye contact with her, trying to match her intensity well enough to distract her as he grabbed his plate with both hands and began to pull it towards himself. Her grip was tight, and she took a forced step toward him to avoid relinquishing her grip or extending her arm. Thomas brought the plate to his sternum, as caught up in her gaze as he’d hoped she’d be in his.
 
@@ -90,3 +90,33 @@ Paul Eeny stood up, suddenly, the ball in his court now. "Where were you the nig
 Thomas was flabbergasted. "*How do you know about the Track?!*"
 
 "Ha!"
+
+[J; 560 words]
+
+Thomas braced himself for the next volley of interrogation, but instead he just saw Paul E. looking at him tenderly. Tears seemed to be welling in his eyes, but it was hard to tell because tears were also welling in Thomas’ eyes. Thomas thought to himself that he’d better stop getting so darn intimate with everyone he met or else he’d lose his edge.
+
+Paul Metcalf Eeny eventually regained control of his voice and said, “Do you remember the Christmas of 0x8ed[^hex], when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug, and most people left that way but some decided to stay until they could excavate their cars, and their children had a grand time digging superfluous tunnels and imagining life as a mole or a refugee from nuclear devastation, and though it was only a few days, those days felt like a whole winter, a most magical post-Christmas which ran just up to the New Year, the eve of which was marked by Northern Lights and fireworks and an unaccountable, almost mystical experience of revelation and orientation, after which your life was never the same again?!”
+
+[^hex]: Paul, like most, pronounces it, “oh ex eight ee dee,” although some cheeky youth have taken to saying things like, “ox eight ed”
+
+“Yes.” said Thomas.
+
+“So do I.” said Paul.
+
+“I didn’t recognize you,” said Thomas through the nausea, “It’s been a while.”
+
+“Neither did I, and yes it has.”
+
+“So... you too? I thought I was the only one.”
+
+“I thought _I_ was the only one. But today the Track has led me to you, and vice versa. But actually I call it the Groove when I’m not trying to shock and awe my long-lost cousins.” Paul took a sip of his martini and smirked internally. He was so In the Groove right now, he could almost forget his grief.
+
+Thomas’ gears were turning. He was still in the Delta, that was good. Yes, he remembered Paul now. He’d been of the continental side of the family, which Thomas had only really met on that one occasion because his parents didn’t like to leave the islands. He didn’t have any particularly strong impression of Paul from that time, just that he’d been a few years younger and they’d played together with Rachel and Arbo and Gleeson, and... had Franny been there? Yes, Franny had left before New Year’s though. She’d had a racquetball tournament to get to or something...
+
+But then Thomas thought, and said, “But what does it matter where I was on the night of the fifth?”
+
+“What does any of it matter?” said Paul, having finished his martini, but not having forgotten his grief (and ordering another martini).
+
+Thomas held up two fingers to the barman to indicate he’d like one as well. He sat down next to his cousin and put a hand on his shoulder. He said, as gently as he could, “I’m going to be real with you: I don’t know what you’re on about and while I’ll probably figure it out eventually, maybe you’d like to just tell me?”
+
+Paul sighed dramatically and watched the barman shaking and stirring the drinks.[$ this is what they do on the islands; it’s their culture] Martin wouldn’t have indulged in this sort of day-drinking, but what good had his prudence done him??

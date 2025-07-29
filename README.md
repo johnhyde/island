@@ -16,6 +16,10 @@ Sometimes we have a little get-together and write alternating words, as a treat.
 
 You might notice that occasionally there's something wacky like a marker of 0 words or an author going twice in a row. These occur for specific reasons that seemed cool at the time, but don't worry about it.
 
+## Story Notes
+
+I’m thinking the current year is probably about 0x8fd (or 2301 (since what??)).
+
 ## Site generation malarkey
 
 ### Setup
