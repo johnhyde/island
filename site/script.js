@@ -15,14 +15,28 @@ class NovelSite {
     this.init();
   }
 
-
   async init() {
     await this.loadChapterList();
     this.renderTableOfContents();
     this.setupEventListeners();
-    this.setupToggle("emdash-toggle", "spacedEmDashes", "spacedEmDashes", "updateEmDashStyle");
-    this.setupToggle("darkmode-toggle", "darkMode", "darkMode", "updateDarkModeStyle");
-    this.setupToggle("annotations-toggle", "showAnnotations", "showAnnotations", "updateAnnotationVisibility");
+    this.setupToggle(
+      "emdash-toggle",
+      "spacedEmDashes",
+      "spacedEmDashes",
+      "updateEmDashStyle",
+    );
+    this.setupToggle(
+      "darkmode-toggle",
+      "darkMode",
+      "darkMode",
+      "updateDarkModeStyle",
+    );
+    this.setupToggle(
+      "annotations-toggle",
+      "showAnnotations",
+      "showAnnotations",
+      "updateAnnotationVisibility",
+    );
 
     // Apply initial dark mode state
     this.updateDarkModeStyle();
@@ -60,6 +74,7 @@ class NovelSite {
   }
 
   generateChapterSlug(filename) {
+    if (!filename) return "";
     // Convert filename to URL-friendly slug
     // "01 prologue.md" -> "prologue"
     // "02 one fine day.md" -> "one-fine-day"
@@ -93,8 +108,8 @@ class NovelSite {
         this.loadChapter(chapter.filename, false); // false = don't update URL
       }
     } else if (this.chapters.length > 0) {
-      // Default to first chapter if no hash
-      this.loadChapter(this.chapters[0].filename, true);
+      this.unloadChapter();
+      // this.loadChapter(this.chapters[0].filename, true);
     }
   }
 
@@ -162,8 +177,24 @@ class NovelSite {
       this.updatePageContent(title, html, updateUrl, filename);
     } catch (error) {
       console.error("Error loading chapter:", error);
-      this.showError(`Sorry, there was an error loading the chapter "${filename}". Please try again.`);
+      this.showError(
+        `Sorry, there was an error loading the chapter "${filename}". Please try again.`,
+      );
     }
+  }
+
+  unloadChapter(updateUrl = true) {
+    this.currentParser = null;
+    this.currentChapter = null;
+    this.updatePageContent(
+      "Select a chapter to begin reading",
+      `<p>Choose a chapter from the table of contents to start reading the collaborative novel between John and a mysterious stranger.</p>`,
+      updateUrl,
+      null,
+    );
+    this.updateFootnotesContent(
+      "Footnotes will appear here when you select a chapter.",
+    );
   }
 
   updatePageContent(title, html, updateUrl, filename) {
@@ -175,10 +206,8 @@ class NovelSite {
     this.updateEmDashStyle();
 
     // Update footnotes and apply em-dash styling
-    const footnotesContent = document.getElementById("footnotes-content");
-    if (footnotesContent) {
-      footnotesContent.innerHTML = this.currentParser.formatFootnotes();
-      this.updateElementEmDashes(footnotesContent);
+    if (this.currentParser) {
+      this.updateFootnotesContent(this.currentParser.formatFootnotes());
     }
 
     // Setup footnote click handlers
@@ -196,10 +225,21 @@ class NovelSite {
     this.updateActiveChapter(filename);
   }
 
+  updateFootnotesContent(text) {
+    // Update footnotes and apply em-dash styling
+    const footnotesContent = document.getElementById("footnotes-content");
+    if (footnotesContent) {
+      footnotesContent.innerHTML = text;
+      this.updateElementEmDashes(footnotesContent);
+    }
+  }
+
   showError(message) {
-    document.getElementById("chapter-title").textContent = "Error Loading Chapter";
+    document.getElementById("chapter-title").textContent =
+      "Error Loading Chapter";
     document.getElementById("chapter-text").innerHTML = `<p>${message}</p>`;
-    document.getElementById("footnotes-content").innerHTML = '<p class="footnotes-placeholder">No footnotes available.</p>';
+    document.getElementById("footnotes-content").innerHTML =
+      '<p class="footnotes-placeholder">No footnotes available.</p>';
   }
 
   getChapterTitle(filename) {
@@ -416,7 +456,8 @@ class NovelSite {
   normalizeEmDashes(text) {
     // First normalize all em-dashes to a consistent format
     // Handle both spaced and unspaced variants
-    return text.replace(/(\s*)—(\s*)/g, "—");
+    // return text;
+    return text.replace(/( *)—( *)/g, "—");
   }
 
   applyEmDashStyle(text) {
@@ -425,6 +466,7 @@ class NovelSite {
 
     if (this.spacedEmDashes) {
       // Convert to spaced em-dashes (M's style)
+      // return normalized;
       return normalized.replace(/—/g, " — ");
     } else {
       // Keep unspaced em-dashes (J's style)
@@ -433,7 +475,6 @@ class NovelSite {
   }
 
   updateEmDashStyle() {
-
     // Update the current chapter's content with the new em-dash style
     const chapterText = document.getElementById("chapter-text");
     if (chapterText) {

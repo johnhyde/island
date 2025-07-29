@@ -62,6 +62,12 @@ body {
     height: 100vh;
 }
 
+#title-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .sidebar-left-bg {
     grid-column: 1;
     background-color: var(--bg-sidebar-left);
@@ -349,6 +355,10 @@ input:checked + .slider:before {
     overflow-y: auto;
     border-right: 1px solid var(--border-primary);
     transition: border-color 0.3s ease;
+}
+
+.main-content a {
+    color: var(--accent-blue);
 }
 
 #chapter-title {

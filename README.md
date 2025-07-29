@@ -26,12 +26,7 @@ Other timeline events (I just grepped for 0x lol):
 
 ## Technical debt, todo items
 
-Clicking "Flying Island" up top should return people to homepage, such as it is.
-
 Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
-
-Straight quotes should render curly. There is some subtlety here about curling single quotes, because those can also be apostrophes. Good luck ha ha.
-
 
 ## Site generation malarkey
 
