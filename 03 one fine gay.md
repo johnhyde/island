@@ -31,8 +31,60 @@ It was around this time that Thomas became aware of at least one additional pair
 
 [^kart]: Flying Island Plumbing Company released, as a marketing scheme, a free mobile game in which you play as Mario, the human man, running around a hardware store trying to acquire the necessary plumbing equipment and tools for a home repair job. The items sort of fall of the shelves when you swipe at them, so it’s as much about dodging expensive, unnecessary items as it is about getting what you came for.
 
-[M; words]
+[M; 473 words]
 
-"Excuse me," Thomas excused himself.
+"Excuse me," Thomas excused himself. He quickly walked over to the stranger who had been sitting at a counter and watching the little escapade. Said stranger was — and this was what most grabbed Thomas's attention — drinking a martini. Thomas hadn't even realized you could get a martini at this joint.
 
-paul eeny, gay lover [$chaste]
+"Who the hell are you?" Thomas decided to start.
+
+"Paul Eeny, gumshoe," said Paul Eeny.[$ gumshoe is in the vocative; it's not part of Paul Eeny's name] "And I have a couple of questions for you."
+
+Thomas remembered, too late, that he liked to have the upper hand by guessing people's names. "Ah, um," he fished around in his intuitions for anything he could one-up this man, who had just said his own name, with. "Martin Eeny's gay lover?"
+
+Paul nodded. "The very same."[^chaste]
+
+[^chaste]: Digressively, it must be said that "gay lover" on the islands means something akin to "euphoric aficionado". Paul Eeny (who was, orthogonally, a homosexual), had devoted his life to Martin Eeny in a chaste and loyal fashion, just because he thought he was an excellent man. He also had taken his last name. Their friendship was rich and beautiful. To see it would bring a tear of joy to your eye. Paul Eeny had never had sex, and never would; as was the style at the time.
+
+Thomas hadn't a clue who Martin Eeny was, but this seemed like a good start. In fact, now that he was thinking about it, that name sounded kind of fake. Well, whatever. He'd probably figure all that out later. "Shoot," he growled, indicating that Paul should ask those aforementioned questions. Fair was fair. A question for a question.
+
+Paul Eeny stood up, suddenly, the ball in his court now. "Where were you the night of the fifth?!"
+
+"Uh," began Thomas.
+
+"What do you know about Reginald Metcalf Digsxby?!"
+
+"Hold on—" said Thomas.
+
+"Who's buried in Grant's Tomb?!"
+
+"Hold on!" said Thomas.
+
+"How did you know I knew Martin when I've never seen you before in my life?!"
+
+"Hold on!" bellowed Thomas. "**I'll** be asking the questions here!"
+
+"What color was Washington's white horse?!"
+
+"White!" declared Thomas. "Ha! My turn. How did you know I was a detective?!"
+
+"Well, hold—"
+
+"Why have you been watching me in this cafe?!"
+
+"Hold on—"
+
+"Where the hell did you get that martini?!"
+
+"Hold on just a minute—"
+
+"Do you think that waitress likes me or was she just hungry?!"
+
+"That's not really—"
+
+"What does Mai Friend have to do with the Martini Killer — if that *is* is real name?!" Thomas pounded the table.
+
+"Your next question will be: how do you know about the Track?"
+
+Thomas was flabbergasted. "*How do you know about the Track?!*"
+
+"Ha!"
