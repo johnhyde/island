@@ -81,7 +81,7 @@ Paul Eeny stood up, suddenly, the ball in his court now. "Where were you the nig
 
 "That's not really—"
 
-"What does Mai Friend have to do with the Martini Killer — if that *is* is real name?!" Thomas pounded the table.
+"What does Mai Friend have to do with the Martini Killer — if that *is* his real name?!" Thomas pounded the table.
 
 "Your next question will be: how do you know about the Track?"
 
