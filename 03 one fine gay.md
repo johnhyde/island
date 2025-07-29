@@ -33,6 +33,8 @@ It was around this time that Thomas became aware of at least one additional pair
 
 [M; 473 words]
 
+---
+
 "Excuse me," Thomas excused himself. He quickly walked over to the stranger who had been sitting at a counter and watching the little escapade. Said stranger was — and this was what most grabbed Thomas's attention — drinking a martini. Thomas hadn't even realized you could get a martini at this joint.
 
 "Who the hell are you?" Thomas decided to start.
