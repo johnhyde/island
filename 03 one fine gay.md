@@ -1,9 +1,9 @@
 [M; 77 words (including those by Wikipedia, including those by William Boothby)]
 
-In his 1907 bartenders' guide _The World's Drinks And How To Mix Them_, San Francisco mixologist William Boothby provided possibly the earliest recipe for a "Dry Martini Cocktail" not only resembling a modern-day martini in the ingredients, but also under that name.[^[14]]
+In his 1907 bartenders' guide _The World's Drinks And How To Mix Them_, San Francisco mixologist William Boothby provided possibly the earliest recipe for a "Dry Martini Cocktail" not only resembling a modern-day martini in the ingredients, but also under that name.[^14]
 — “[Martini (cocktail)](https://en.wikipedia.org/wiki/Martini_(cocktail))” - From Wikipedia, the free encyclopedia 
 
-^[14]:  Boothby, Wm (1907). _The World's Drinks And How To Mix Them_. p. 24.
+[^14]:  Boothby, Wm (1907). _The World's Drinks And How To Mix Them_. p. 24. [@ of course, I used a 14 here because that's the actual footnote number on the wikipedia page. The reader of a rendered version of this document won't be able to see that, however ~M]
 
 [J; 842 words]
 
@@ -95,7 +95,7 @@ Thomas was flabbergasted. "*How do you know about the Track?!*"
 
 Thomas braced himself for the next volley of interrogation, but instead he just saw Paul E. looking at him tenderly. Tears seemed to be welling in his eyes, but it was hard to tell because tears were also welling in Thomas’ eyes. Thomas thought to himself that he’d better stop getting so darn intimate with everyone he met or else he’d lose his edge.
 
-Paul Metcalf Eeny eventually regained control of his voice and said, “Do you remember the Christmas of 0x8ed[^hex], when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug, and most people left that way but some decided to stay until they could excavate their cars, and their children had a grand time digging superfluous tunnels and imagining life as a mole or a refugee from nuclear devastation, and though it was only a few days, those days felt like a whole winter, a most magical post-Christmas which ran just up to the New Year, the eve of which was marked by Northern Lights and fireworks and an unaccountable, almost mystical experience of revelation and orientation, after which your life was never the same again?!”
+Paul Metcalf Eeny eventually regained control of his voice and said, “Do you remember the Christmas of 0x8ed[^hex], when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug, and most people left that way but some decided to stay until they could excavate their cars, and their children had a grand time digging superfluous tunnels and imagining life as a mole or a refugee from nuclear devastation, and though it was only a few days, those days felt like a whole winter, a most magical post-Christmas which ran just up to the New Year, the eve of which was marked by Northern Lights and fireworks and an unaccountable, ==almost mystical==[@ I would put a comma after this, but Jason has implied this tendency of mine is unnecessary. ] experience of revelation and orientation, after which your life was never the same again?!”
 
 [^hex]: Paul, like most, pronounces it, “oh ex eight ee dee,” although some cheeky youth have taken to saying things like, “ox eight ed”
 

@@ -18,7 +18,20 @@ You might notice that occasionally there's something wacky like a marker of 0 wo
 
 ## Story Notes
 
-I’m thinking the current year is probably about 0x8fd (or 2301 (since what??)).
+I’m thinking the current year is probably about 0x8fd (or 2301 (since what?? (The only undisputed date in history, the birth of the Christchild))).
+
+Other timeline events (I just grepped for 0x lol):
+* Squiggle had mysteriously disappeared in the year 0x8eb, two years after the Eenies got rich, moved to The Islands, and got Martin a proper private tutor.
+* the Christmas of 0x8ed, when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug
+
+## Technical debt, todo items
+
+Clicking "Flying Island" up top should return people to homepage, such as it is.
+
+Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
+
+Straight quotes should render curly. There is some subtlety here about curling single quotes, because those can also be apostrophes. Good luck ha ha.
+
 
 ## Site generation malarkey
 
