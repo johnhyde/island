@@ -233,6 +233,7 @@ class MarkdownParser {
   }
 
   processInlineElements(text) {
+    text = this.processQuotes(text);
     // Process footnote references: [^label] -> numbered superscripts
     text = text.replace(/\[(\^[^\]]+)\]/g, (match, label) => {
       if (this.annotations.has(label)) {
@@ -242,8 +243,22 @@ class MarkdownParser {
       return `<sup class="footnote-ref" data-id="${label}">${number}</sup>`;
     });
 
+    text = text.replace(
+      /\[(.*)\]\((.*)\)/g,
+      `<a href="$2" target="_blank">$1</a>`,
+    );
+
     // Process other inline styling
     text = this.processInlineStyling(text);
+
+    return text;
+  }
+
+  processQuotes(text) {
+    text = text.replace(/(?!^)(?<![\s\n])"/g, "”");
+    text = text.replace(/"/g, "“");
+    text = text.replace(/(?!^)(?<![\s\n“])'/g, "’");
+    text = text.replace(/'/g, "‘");
 
     return text;
   }

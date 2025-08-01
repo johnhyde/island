@@ -28,15 +28,13 @@ Other timeline events (I just grepped for 0x lol):
 
 ## Technical debt, todo items
 
-Clicking "Flying Island" up top should return people to homepage, such as it is.
-
 Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
-
-Straight quotes should render curly. There is some subtlety here about curling single quotes, because those can also be apostrophes. Good luck ha ha.
 
 ## Johndown features
 
 It's mostly just markdown (maybe we should list the actual markdown features we use, but don't sweat it). But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for)
+
+There's alse ^superscript^ which is not a fully standard feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
 
 ## Site generation malarkey
 
