@@ -2,6 +2,8 @@
 
 , or, continents incontinent, or, a largely assiduous help-meet, or, whatever
 
+> “The clues were all there from the beginning... if you read the book backwards”
+
 A collaborative novel between John and a mysterious stranger
 
 Each chapter is a separate ~~markdown~~ johndown file?
@@ -32,6 +34,9 @@ Now that we have annotations maybe I will resurrect some deleted footnotes as an
 
 Straight quotes should render curly. There is some subtlety here about curling single quotes, because those can also be apostrophes. Good luck ha ha.
 
+## Johndown features
+
+It's mostly just markdown (maybe we should list the actual markdown features we use, but don't sweat it). But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for)
 
 ## Site generation malarkey
 

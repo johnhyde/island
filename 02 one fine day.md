@@ -1,5 +1,7 @@
 [M; 0 words]
 
+[@ The reason this is here, to be brief, is that when we were planning this project, I got to read John's early draft of On Track, about the intuitive detective Thomas Metcalf, and I came up with this idea / said this, after which the rest was history: weighing on my mind is the fact that this whole time we've been writing in a document called prologue.md. traditionally, there's something that distinguishes a prologue from the rest of the chapters, such as a difference in time or main character. What you've just written seems like a great way to end the prologue, with Reginald blacking out. So I've done that. And now the next chapter can begin. But what should be in it? And here's what I'm thinking: perfect opportunity to use the intuitive detective. Assuming you were serious that you're just going to complete rewrite your current draft for the beginning of On Track anyway, what if we take that current draft and put it in this project as the subsequent chapter? 👀]
+
 [J; 980 words]
 
 Thomas Metcalf woke up on January 1ˢᵗ with an image of death before him. The image was an abstract premonition, not a visual hallucination — although he had those as well from time to time. He immediately knew that it would be a year of death, but what did that mean? He knew better than to worry, but it caused him to wonder greatly nonetheless. He didn’t really want to die, nor did he wish to see any of his friends, family, or even enemies die. He pondered the matter over breakfast in the motel cafeteria. He wasn’t quite his usual self, but it didn’t slow him down at all. As usual, he had no plans and a slight sense of urgency, so after he finished his meal he stopped by the kitchen to thank the cooks and headed right out the door.
@@ -76,7 +78,7 @@ All three of them looked down at the body again, for their own individual — bu
 
 "Or maybe she knew the perp and this is a kind of assisted suicide situation," offered Waters.
 
-"Or maybe her body just did that," mused Thomas.
+"Or maybe her body just did that," mused Thomas. [@ I have to admit that I purloined this joke from, uh, ok, I guess it was just going around the internet a couple years ago: people saying "what if nobody shot jfk and his head just did that". Also, my favorite version: "what if nobody shot andy warhol and his spleen just did that"] [@ kind of ridiculous for me to give credit for this joke if I can't find the author, the first guy to think of these amazing turns of phrase. Like, on some level, all of my jokes are going to be stolen, if we start lowering the bar like this, until we eventually get down to "every time I heard other people being funny and internalized part of that partner.]
 
 The other two looked at him incredulously. But he was still looking down at the body. The pattern of cuts reminded him of something, deep in his blood memory.
 

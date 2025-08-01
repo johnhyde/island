@@ -97,7 +97,7 @@ Thomas braced himself for the next volley of interrogation, but instead he just 
 
 Paul Metcalf Eeny eventually regained control of his voice and said, “Do you remember the Christmas of 0x8ed[^hex], when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug, and most people left that way but some decided to stay until they could excavate their cars, and their children had a grand time digging superfluous tunnels and imagining life as a mole or a refugee from nuclear devastation, and though it was only a few days, those days felt like a whole winter, a most magical post-Christmas which ran just up to the New Year, the eve of which was marked by Northern Lights and fireworks and an unaccountable, ==almost mystical==[@ I would put a comma after this, but Jason has implied this tendency of mine is unnecessary. ] experience of revelation and orientation, after which your life was never the same again?!”
 
-[^hex]: Paul, like most, pronounces it, “oh ex eight ee dee,” although some cheeky youth have taken to saying things like, “ox eight ed”
+[^hex]: Paul, like most, pronounces it, “oh ex eight ee dee,” although some cheeky youth have taken to saying things like, “ox eight ed”[$ some have even adopted such infelicities as pronouncing it "ox bed", *even though b is also a valid year digit*. Madness! ~M]
 
 “Yes.” said Thomas.
 
@@ -120,3 +120,58 @@ But then Thomas thought, and said, “But what does it matter where I was on the
 Thomas held up two fingers to the barman to indicate he’d like one as well. He sat down next to his cousin and put a hand on his shoulder. He said, as gently as he could, “I’m going to be real with you: I don’t know what you’re on about and while I’ll probably figure it out eventually, maybe you’d like to just tell me?”
 
 Paul sighed dramatically and watched the barman shaking and stirring the drinks.[$ this is what they do on the islands; it’s their culture] Martin wouldn’t have indulged in this sort of day-drinking, but what good had his prudence done him??
+
+[M; 574 words]
+
+[@ You know, sometimes when you play chess some of your moves are just moving pieces back and forth. Anyway, here's my section.]
+
+[@ thought I had finished at 574 words, then remembered a tangent and clock back in at 666 words (not counting these annotations that aren't in the middle of the block of text, which I never count if I can conveniently avoid doing so), ohoho, delightfully devilish Squirnon...] [@ I'm like the Freischütz, man... this one is in the devil's hands...] [@I have to admit that I stole that comment; come to think of it I stole it specifically from this tumblr post: https://www.tumblr.com/apricops/179123641690/im-like-a-freeshooter-i-get-six-good-posts-and ("I’m like a Freeshooter, I get six good posts and then the seventh one is in the Devil’s hands.", apricops, uh, mystery date unrecorded by the website I guess)]
+
+Prudence, which was the name of that waitress, there it was, massaged the back of Thomas while the two intuitive investigators talked.
+
+"They have yet to invent a problem that can't be solved by day drinking, it's crazy," mused Paul Eeny. He didn't really sound like he believed it.
+
+Thomas took his hand off Paul's shoulder and tapped the tips of his fingers together. This approach was getting him nowhere — fast! On the other hand, maybe it would get him somewhere slow, which was also fine. This was detective work at its peak. He was pumping a source for information. Meanwhile, Prudence was massaging a source, the source of his stress, the tension he carried in his shoulders — or so they say. His eyes drifted to the sign by the bar and he realized, to his delight, that not only was the bar in the cafe open, (BAR: 1PM–2AM) but it was also Happy Hour (HAPPY HOUR: 1PM–6PM). That's the happiest hour of all. And it also takes up 5 consecutive hours, so you know it's good. As Thomas considered grabbing Paul by the lapels and shaking him and yelling "WHAT HAPPENED ON THE FIFTH?!", Prudence grabbed him by the lapels, in an altogether nonthreatening and entirely different way, and started working on whatever muscle group it is that is below the lapels, getting the muscle knots out of that, whatever those are.
+
+Thomas' eyes lit upon the portion of the sign that said "Happy Beginning: $5". "I... I'd like a Happy Beginning," he announced loudly to the bar as a whole, as Prudence's hands now addressed the problems of his lower trapezius.
+
+"Oh, certainly sir!" said the barman, surprised. He got a small, ordinary glass from the shelve[$shelf], put it next to the second martini glass, and then poured coffee liqueur [$it's traditional to say "Kahlúa" here, but we are not slaves to the Kahlúa corporation] and lactose-free milk into it. He handed it to Thomas, who promptly drank it.
+
+Smacking his lips, Thomas asked, "why do they call it a Happy Beginning?".
+
+Prudence was massaging his biceps.
+
+"Well, it has coffee, and also milk that won't make you sick or bloated, and also alcohol, and a sort of tropical feeling. So, it's a good way to start your morning."
+
+"Well, I thought they named drinks like racehorses."
+
+"How do you mean, sir?"
+
+"Ah, like, this drink is like a White Russian but without the vodka. So maybe they could call it a White... Russianless. A White Russophile. White <span lang="es-MX">sin</span> Rus. Something of this nature."
+
+"I see." The bartender was clearly impressed.
+
+"I thought a Happy Beginning was a recursive coffee liqueur," said Paul.
+
+"Oh, like a coffee with a coffee liqueur in it?" asked the bartender. "We have one of those here but we call it a coffee liqueur coffee."
+
+"I think it's more fractal than that," said Paul.
+
+"Well, whatever it is," said Thomas, "this may be the happy beginning of a beautiful friendship!" Prudence was massaging his spleen now.
+
+"I find cream makes a sort of fractal shape when you pour it into coffee, or vice versa," commented the barman.
+
+"Say," said Thomas, the first licks of alcohol starting to kick, "what kind of place is this, that is a cafe, and also a bar, and also a massage parlor?"
+
+"Well, sir, it's the Metropolitan Cafe."
+
+"The... *what?*" Paul and Thomas both said at once, although neither could say exactly why.
+
+"The Metropolitan Cafe," the bartender repeated, pointing his arm straight out to his left. Both men followed his gesture with their eyes and saw, in big block letters, on the wall, the sign of the establishment, which read:
+
+METropolitan
+CAFe
+
+Paul and Thomas gaped at the sign, and then looked at each other, and then back to the sign, and then back to each other. "BRooooo," they both said.
+
+[@ Metropolian Cafe, or met-cafe....]
