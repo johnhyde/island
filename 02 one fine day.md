@@ -78,7 +78,7 @@ All three of them looked down at the body again, for their own individual — bu
 
 "Or maybe she knew the perp and this is a kind of assisted suicide situation," offered Waters.
 
-"Or maybe her body just did that," mused Thomas. [@ I have to admit that I purloined this joke from, uh, ok, I guess it was just going around the internet a couple years ago: people saying "what if nobody shot jfk and his head just did that". Also, my favorite version: "what if nobody shot andy warhol and his spleen just did that"] [@ kind of ridiculous for me to give credit for this joke if I can't find the author, the first guy to think of these amazing turns of phrase. Like, on some level, all of my jokes are going to be stolen, if we start lowering the bar like this, until we eventually get down to "every time I heard other people being funny and internalized part of that partner.]
+"Or maybe her body just did that," mused Thomas. [@ I have to admit that I purloined this joke from, uh, ok, I guess it was just going around the internet a couple years ago: people saying "what if nobody shot jfk and his head just did that". Also, my favorite version: "what if nobody shot andy warhol and his spleen just did that"] [@ kind of ridiculous for me to give credit for this joke if I can't find the author, the first guy to think of these amazing turns of phrase. Like, on some level, all of my jokes are going to be stolen, if we start lowering the bar like this, until we eventually get down to "every time I heard other people being funny and internalized part of that pattern.]
 
 The other two looked at him incredulously. But he was still looking down at the body. The pattern of cuts reminded him of something, deep in his blood memory.
 
