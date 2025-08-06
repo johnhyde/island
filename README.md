@@ -32,7 +32,7 @@ Now that we have annotations maybe I will resurrect some deleted footnotes as an
 
 ## Johndown features
 
-It's mostly just markdown (maybe we should list the actual markdown features we use, but don't sweat it). But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for)
+It's mostly just markdown (maybe we should list the actual markdown features we use, but don't sweat it (actually since the johndown parser is apparently custom, maybe we **should** do this)). But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for)
 
 There's alse ^superscript^ which is not a fully standard feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
 

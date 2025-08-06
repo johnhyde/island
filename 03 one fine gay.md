@@ -136,7 +136,7 @@ Thomas took his hand off Paul's shoulder and tapped the tips of his fingers toge
 
 Thomas' eyes lit upon the portion of the sign that said "Happy Beginning: $5". "I... I'd like a Happy Beginning," he announced loudly to the bar as a whole, as Prudence's hands now addressed the problems of his lower trapezius.
 
-"Oh, certainly sir!" said the barman, surprised. He got a small, ordinary glass from the shelve[$shelf], put it next to the second martini glass, and then poured coffee liqueur [$it's traditional to say "Kahlúa" here, but we are not slaves to the Kahlúa corporation] and lactose-free milk into it. He handed it to Thomas, who promptly drank it.
+"Oh, certainly sir!" said the barman, surprised. He got a small, ordinary glass from the shelve[$shelf], put it next to the second martini glass, and then poured coffee liqueur [$it's traditional to say "Kahlúa" here, but we are not slaves to the Kahlúa corporation [$no slaves to the Free and Sovereign State of Veracruz de Ignacio de la Llave, we!]] and lactose-free milk into it. He handed it to Thomas, who promptly drank it.
 
 Smacking his lips, Thomas asked, "why do they call it a Happy Beginning?".
 
