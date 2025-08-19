@@ -126,17 +126,17 @@ Paul sighed dramatically and watched the barman shaking and stirring the drinks.
 
 [@ You know, sometimes when you play chess some of your moves are just moving pieces back and forth. Anyway, here's my section.]
 
-[@ thought I had finished at 574 words, then remembered a tangent and clock back in at 666 words (not counting these annotations that aren't in the middle of the block of text, which I never count if I can conveniently avoid doing so), ohoho, delightfully devilish Squirnon...] [@ I'm like the Freischütz, man... this one is in the devil's hands...] [@I have to admit that I stole that comment; come to think of it I stole it specifically from this tumblr post: https://www.tumblr.com/apricops/179123641690/im-like-a-freeshooter-i-get-six-good-posts-and ("I’m like a Freeshooter, I get six good posts and then the seventh one is in the Devil’s hands.", apricops, uh, mystery date unrecorded by the website I guess)]
+[@ thought I had finished at 574 words, then remembered a tangent and clock back in at 666 words (not counting these annotations that aren't in the middle of the block of text, which I never count if I can conveniently avoid doing so), ohoho, delightfully devilish Squirnon...] [@ I'm like the Freischütz, man... this one is in the devil's hands...] [@I have to admit that I stole that comment; come to think of it I stole it specifically from [this tumblr post](https://www.tumblr.com/apricops/179123641690/im-like-a-freeshooter-i-get-six-good-posts-and) ("I’m like a Freeshooter, I get six good posts and then the seventh one is in the Devil’s hands.", apricops, uh, mystery date unrecorded by the website I guess)]
 
-Prudence, which was the name of that waitress, there it was, massaged the back of Thomas while the two intuitive investigators talked.
+Prudence, which was the name of that waitress, there it was,[@?] massaged the back of Thomas while the two intuitive investigators talked.
 
 "They have yet to invent a problem that can't be solved by day drinking, it's crazy," mused Paul Eeny. He didn't really sound like he believed it.
 
-Thomas took his hand off Paul's shoulder and tapped the tips of his fingers together. This approach was getting him nowhere — fast! On the other hand, maybe it would get him somewhere slow, which was also fine. This was detective work at its peak. He was pumping a source for information. Meanwhile, Prudence was massaging a source, the source of his stress, the tension he carried in his shoulders — or so they say. His eyes drifted to the sign by the bar and he realized, to his delight, that not only was the bar in the cafe open, (BAR: 1PM–2AM) but it was also Happy Hour (HAPPY HOUR: 1PM–6PM). That's the happiest hour of all. And it also takes up 5 consecutive hours, so you know it's good. As Thomas considered grabbing Paul by the lapels and shaking him and yelling "WHAT HAPPENED ON THE FIFTH?!", Prudence grabbed him by the lapels, in an altogether nonthreatening and entirely different way, and started working on whatever muscle group it is that is below the lapels, getting the muscle knots out of that, whatever those are.
+Thomas took his hand off Paul's shoulder and tapped the tips of his fingers together. This approach was getting him nowhere — fast! On the other hand, maybe it would get him somewhere slow, which was also fine. This was detective work at its peak. He was pumping a source for information. Meanwhile, Prudence was massaging a source, the source of his stress, the tension he carried in his shoulders — or so they say. His eyes drifted to the sign by the bar and he realized, to his delight, that not only was the bar in the cafe open, (BAR: 1PM–2AM) but it was also Happy Hour (HAPPY HOUR: 1PM–6PM). That's the happiest hour of all. And it also takes up 5 consecutive hours, so you know it's good. As Thomas considered grabbing Paul by the lapels and shaking him and yelling "WHAT HAPPENED ON THE FIFTH?!", Prudence grabbed him by the lapels, in an altogether nonthreatening and entirely different way, and started working on whatever muscle group it is that is below the lapels, getting the muscle knots out of that, whatever those are.[@ lmaooooo]
 
-Thomas' eyes lit upon the portion of the sign that said "Happy Beginning: $5". "I... I'd like a Happy Beginning," he announced loudly to the bar as a whole, as Prudence's hands now addressed the problems of his lower trapezius.
+Thomas' eyes lit upon the portion of the sign that said "Happy Beginning: $5". "I... I'd like a Happy Beginning,"[@ one wonders what exactly he expected this to get him] he announced loudly to the bar as a whole, as Prudence's hands now addressed the problems of his lower trapezius.
 
-"Oh, certainly sir!" said the barman, surprised. He got a small, ordinary glass from the shelve[$shelf], put it next to the second martini glass, and then poured coffee liqueur [$it's traditional to say "Kahlúa" here, but we are not slaves to the Kahlúa corporation [$no slaves to the Free and Sovereign State of Veracruz de Ignacio de la Llave, we!]] and lactose-free milk into it. He handed it to Thomas, who promptly drank it.
+"Oh, certainly sir!" said the barman, surprised. He got a small, ordinary glass from the shelve[$shelf], put it next to the second martini glass,[@ but what about the third?] and then poured coffee liqueur [$it's traditional to say "Kahlúa" here, but we are not slaves to the Kahlúa corporation [$no slaves to the Free and Sovereign State of Veracruz de Ignacio de la Llave, we!]] and lactose-free milk into it. He handed it to Thomas, who promptly drank it.
 
 Smacking his lips, Thomas asked, "why do they call it a Happy Beginning?".
 
@@ -148,7 +148,7 @@ Prudence was massaging his biceps.
 
 "How do you mean, sir?"
 
-"Ah, like, this drink is like a White Russian but without the vodka. So maybe they could call it a White... Russianless. A White Russophile. White <span lang="es-MX">sin</span> Rus. Something of this nature."
+"Ah, like, this drink is like a White Russian but without the vodka. So maybe they could call it a White... Russianless. A White Russophile.[@ or Russophobe?] White <span lang="es-MX">sin</span> Rus. Something of this nature."
 
 "I see." The bartender was clearly impressed.
 

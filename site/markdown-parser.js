@@ -165,7 +165,7 @@ class MarkdownParser {
       }
 
       // Skip other bracketed metadata
-      if (paragraph.match(/^\[.*\]$/)) {
+      if (paragraph.match(/^\[[^^]*\]$/)) {
         html += `<div class="author-note">${
           this.escapeHtml(paragraph)
         }</div>\n`;
@@ -233,6 +233,15 @@ class MarkdownParser {
   }
 
   processInlineElements(text) {
+    let parts = text.split(/(?:(?<=<.*?>)|(?=<.*?>))/);
+    if (parts.length > 1) {
+      return parts.map(this.processInlineElements.bind(this)).join('');
+    } else {
+      text = parts[0];
+    }
+    if (text.match(/^<.*>$/)) {
+      return text;
+    }
     text = this.processQuotes(text);
     // Process footnote references: [^label] -> numbered superscripts
     text = text.replace(/\[(\^[^\]]+)\]/g, (match, label) => {
@@ -244,7 +253,7 @@ class MarkdownParser {
     });
 
     text = text.replace(
-      /\[(.*)\]\((.*)\)/g,
+      /\[(.*?)\]\((.*?)\)/g,
       `<a href="$2" target="_blank">$1</a>`,
     );
 
