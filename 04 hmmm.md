@@ -11,3 +11,17 @@ Well, I won’t bore you with the details, but basically things got out of hand 
 [^things]: those pesky attorneys, I tell ya
 
 So she was relieved when she finally found herself with a moment to let her hair down and not do anything specific for an hour.
+
+[M; 318 words]
+
+After 15 minutes listlessly humming to herself, throwing that around the room and rooms as always, she decided to take an inventory of the house, the flying island. She started by listing to herself all of the boats that were in the house, which were named after the boats in the Iliad. Once she was done with this, she decided to take an inventory of every room of the house. There was the galley, of course. And then the galley of a different sense. And then the gallery. And so on. She passed into the morning room. Pray it would never become a mourning room — or perhaps it would... And then, of course, was the secret dungeon, in which Mr Digsxby was being kept. What was left of him,[$How much of him is left? Maybe it's all of him. Wouldn't you like to know!] so to speak. But it was not good to think of it now. It would simply lead her to distraction in this, her moment of solace and solitude, and she'd thought about it enough in the past, oh, indeterminate hours.
+
+The hulking inanimate carapace of Manuel the big robot hulked over her. Hulk, hulk.
+
+"Will you be needing anything, Madam?" asked Manuel, in his distinctive yet non-unpleasant robotic-toned roboty voice.
+
+Francesca, who was sometimes called Fran to her friends or Franny to her family or 'Cesca to her lover or sometimes for apparently no reason at all Eleanor, didn't open her eyes. "There's no need to do that voice. We're alone."
+
+"Of course, madam," said Manuel, in a distinctively non-distinctive voice.
+
+"Oh, come off it!" said Fran, weakly throwing a small pillow at the overgrown tin can. With a *bzt, bzhrt, zhuu* noise that seemed to be produced by a human mouth, the front of the robot-suit's face-visor opened, revealing the handsomely mustached human visage of the ultimately enfleshèd Manuel Ordinator Computer Gonzalez.
