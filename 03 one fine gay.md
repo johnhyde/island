@@ -2,7 +2,7 @@
 
 In his 1907 bartenders' guide _The World's Drinks And How To Mix Them_, San Francisco mixologist William Boothby provided possibly the earliest recipe for a "Dry Martini Cocktail" not only resembling a modern-day martini in the ingredients, but also under that name.[^14]
 
-— “[Martini (cocktail)](https://en.wikipedia.org/wiki/Martini_(cocktail))” - From Wikipedia, the free encyclopedia 
+— “[Martini (cocktail)](https://en.wikipedia.org/wiki/Martini_%28cocktail%29)” - From Wikipedia, the free encyclopedia 
 
 [^14]:  Boothby, Wm (1907). _The World's Drinks And How To Mix Them_. p. 24. [@ of course, I used a 14 here because that's the actual footnote number on the wikipedia page. The reader of a rendered version of this document won't be able to see that, however ~M]
 
@@ -120,7 +120,7 @@ But then Thomas thought, and said, “But what does it matter where I was on the
 
 Thomas held up two fingers to the barman to indicate he’d like one as well. He sat down next to his cousin and put a hand on his shoulder. He said, as gently as he could, “I’m going to be real with you: I don’t know what you’re on about and while I’ll probably figure it out eventually, maybe you’d like to just tell me?”
 
-Paul sighed dramatically and watched the barman shaking and stirring the drinks.[$ this is what they do on the islands; it’s their culture] Martin wouldn’t have indulged in this sort of day-drinking, but what good had his prudence done him??
+Paul sighed dramatically and watched the barman shaking and stirring the drinks.[$ this is what they do on the islands; it’s their culture[@ this is why they’re so frothy]] Martin wouldn’t have indulged in this sort of day-drinking, but what good had his prudence done him??
 
 [M; 574 words]
 

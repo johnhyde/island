@@ -16,7 +16,9 @@ After about 22 seconds of walking at 150% his normal speed, he relaxed. Back On 
 
 ---
 
-“Sorry, sir, you can’t come in here, this is a crime scene,” said the police officer who was putting up the crime scene tape. What he lacked in height and facial symmetry he made up for with his full, kempt beard and genuinely sympathetic tone. “Please, what’s going on? My friend lives here, and I’m worried about her.” Thomas was shocked. He practically never lied, and in this case it seemed both rash and unnecessary. But it didn’t feel off—no, he could tell he was still On Track, as the policeman’s eyes widened and he cleared his throat.
+“Sorry, sir, you can’t come in here, this is a crime scene,” said the police officer who was putting up the crime scene tape. What he lacked in height and facial symmetry he made up for with his full, kempt beard and genuinely sympathetic tone.
+
+“Please, what’s going on? My friend lives here, and I’m worried about her.” Thomas was shocked. He practically never lied, and in this case it seemed both rash and unnecessary. But it didn’t feel off—no, he could tell he was still On Track, as the policeman’s eyes widened and he cleared his throat.
 
 “Sir, I’m very sorry to say that your friend is dead,” the policeman said, “Or at least we think she is—I mean we know she’s dead but we don’t know if she lived here. We just got here and we haven’t had time to get the full picture.”
 
@@ -56,7 +58,7 @@ Thomas was about to say something, and seemed like it, but for some reason he wa
 
 "Hello, son," said the officer, greeting Thomas with a figure of speech, as he was significantly older than Thomas. "I'm sorry you had to see all this."
 
-"Yeah, well..." said Thomas. "I was just talking to... Officer... Baba, here—" he saw from the reaction of officer Waters, out of the corner of his eyes, the slight widening of the eyes in surprise, that he had just said [$ one might even say, "guess-said"] the officer's first name correctly. On Track!— "about this... horrible incident."
+"Yeah, well..." said Thomas. "I was just talking to... Officer... Baba, here—" he saw from the reaction of officer Waters, out of the corner of his eyes, the slight widening of the eyes in surprise, that he had just said[$ one might even say, "guess-said"] the officer's first name correctly. On Track!— "about this... horrible incident."
 
 The older cop nodded. "Such a shame, such a shame."
 
@@ -80,7 +82,7 @@ All three of them looked down at the body again, for their own individual — bu
 
 "Or maybe her body just did that," mused Thomas. [@ I have to admit that I purloined this joke from, uh, ok, I guess it was just going around the internet a couple years ago: people saying "what if nobody shot jfk and his head just did that". Also, my favorite version: "what if nobody shot andy warhol and his spleen just did that"] [@ kind of ridiculous for me to give credit for this joke if I can't find the author, the first guy to think of these amazing turns of phrase. Like, on some level, all of my jokes are going to be stolen, if we start lowering the bar like this, until we eventually get down to "every time I heard other people being funny and internalized part of that pattern.]
 
-The other two looked at him incredulously. But he was still looking down at the body. The pattern of cuts reminded him of something, deep in his blood memory.
+The other two looked at him incredulously. But he was still looking down at the body. The pattern of cuts reminded him of something, deep in his blood memory[@ his ancestors used to hunt martinis with spears].
 
 Thomas straightened up his neck to look at his two new friends again. He suddenly felt the Track had resolved, and its direction was outward. "Well, gentlemen," he commented. "I shall see you later. I've given you my name, and my current residence is the Dukesberg Motel & Inn. I have no doubt — although I could not tell you why — that our paths will cross on this investigation again. Adieu." And so he left.
 
@@ -104,7 +106,7 @@ Thomas left his lunch to get cold — not very considerate of the Track, he thou
 
 "Whatever," said Thomas, sort of confused by his own inspecificity at pursuing the ostensible object of his desire.
 
-The shopcritter handed him a copy of today's _Times_ for a tuppence. Thomas left the stand and looked at the front page. Yep. No coverage of Digsxby at all, nor anyone else with the name "Metcalf" anywhere in their name, either. Instead, the headline news of the Times today was:
+The shopcritter handed him a copy of today's _Times_ for a tuppence. Thomas left the stand and looked at the front page. Yep. No coverage of Digsxby at all, nor anyone else with the name "Metcalf" anywhere in their name, either. Instead, the headline news of the _Times_ today was:
 
 > Some schmuck hit by martini glass, dies
 
