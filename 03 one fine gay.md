@@ -8,7 +8,7 @@ In his 1907 bartenders' guide _The World's Drinks And How To Mix Them_, San Fran
 
 [J; 842 words]
 
-His mind raced. His mind started figuratively playing Mario Kart,[^kart] attempting to sift through an avalanche of theories that fell toward his mind as he groped about in different directions. Maybe this was the work of The Martini Killer, a hot new serial killer making a striking double-debut. Mayhaps the very concept of a Martini was becoming more fatal, lashing out. Peradventure one of these deaths was inspired by the other... Mai’s body had seemed fresh, so it was possible her killer had heard of the schmuck getting struck and figured that was as good a murder theme as any. But perchance[@ I can just say perchance if you can! ~J] there was a closer connection, or none at all! Could be that some group was carrying out coordinated attacks with martini glasses as their calling card, their identifying item, their typical tip-off, their—
+His mind raced. His mind started figuratively playing Mario Kart,[^kart] attempting to sift through an avalanche of theories that fell toward his mind as he groped about in different directions. Maybe this was the work of The Martini Killer, a hot new serial killer making a striking double-debut. Mayhaps the very concept of a Martini was becoming more fatal, lashing out. Peradventure one of these deaths was inspired by the other... Mai’s body had seemed fresh, so it was possible her killer had heard of the schmuck getting struck and figured that was as good a murder theme as any. But perchance[@ You can't just say perchance[$ this is an in-joke reference to Phil Jamesson's Mario "paper"] ~M][@ I can just say perchance if you can! ~J] there was a closer connection, or none at all! Could be that some group was carrying out coordinated attacks with martini glasses as their calling card, their identifying item, their typical tip-off, their—
 
 His mind’s Mario and his kart stopped in their tracks. He’d been wasting time thinking about the case when he should have been rambling about with no apparent purpose, doing whatever felt right! He anxiously turned his attention back to the Track, trying to focus in that fuzzy way on the general vibe rather than anything specific. It took a very particular frame of mind to stay On Track, but Thomas was experienced. After a moment, he smiled. A Delta.
 
@@ -58,7 +58,7 @@ Paul Eeny stood up, suddenly, the ball in his court now. "Where were you the nig
 
 "Hold on—" said Thomas.
 
-"Who's buried in Grant's Tomb?!"
+"Who's buried in Grant's Tomb?!"[@ This is a classic trick question ~M]
 
 "Hold on!" said Thomas.
 
@@ -66,7 +66,7 @@ Paul Eeny stood up, suddenly, the ball in his court now. "Where were you the nig
 
 "Hold on!" bellowed Thomas. "**I'll** be asking the questions here!"
 
-"What color was Washington's white horse?!"
+"What color was Washington's white horse?!"[@ This is also a classic trick question ~M]
 
 "White!" declared Thomas. "Ha! My turn. How did you know I was a detective?!"
 
@@ -86,7 +86,7 @@ Paul Eeny stood up, suddenly, the ball in his court now. "Where were you the nig
 
 "What does Mai Friend have to do with the Martini Killer — if that *is* his real name?!" Thomas pounded the table.
 
-"Your next question will be: how do you know about the Track?"
+"Your next question will be: how do you know about the Track?"[@ Sadly, I have to admit that I stole this joke from _JoJo's Bizarre Adventure_ / this is a reference to jjba, which for complicated reasons I don't recommend you watch even though it's pretty good most of the time. ~M]
 
 Thomas was flabbergasted. "*How do you know about the Track?!*"
 
@@ -96,7 +96,7 @@ Thomas was flabbergasted. "*How do you know about the Track?!*"
 
 Thomas braced himself for the next volley of interrogation, but instead he just saw Paul E. looking at him tenderly. Tears seemed to be welling in his eyes, but it was hard to tell because tears were also welling in Thomas’ eyes. Thomas thought to himself that he’d better stop getting so darn intimate with everyone he met or else he’d lose his edge.
 
-Paul Metcalf Eeny eventually regained control of his voice and said, “Do you remember the Christmas of 0x8ed[^hex], when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug, and most people left that way but some decided to stay until they could excavate their cars, and their children had a grand time digging superfluous tunnels and imagining life as a mole or a refugee from nuclear devastation, and though it was only a few days, those days felt like a whole winter, a most magical post-Christmas which ran just up to the New Year, the eve of which was marked by Northern Lights and fireworks and an unaccountable, almost mystical, experience of revelation and orientation, after which your life was never the same again?!”
+Paul Metcalf Eeny eventually regained control of his voice and said, “Do you remember the Christmas of 0x8ed[^hex], when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug, and most people left that way but some decided to stay until they could excavate their cars, and their children had a grand time digging superfluous tunnels and imagining life as a mole or a refugee from nuclear devastation, and though it was only a few days, those days felt like a whole winter, a most magical post-Christmas which ran just up to the New Year, the eve of which was marked by Northern Lights and fireworks and an unaccountable, almost mystical,[@ I would put this comma here, but another erudite English-user has implied this tendency of mine is unnecessary. Scholars are divided. ~M] experience of revelation and orientation, after which your life was never the same again?!”
 
 [^hex]: Paul, like most, pronounces it, “oh ex eight ee dee,” although some cheeky youth have taken to saying things like, “ox eight ed”[$ some have even adopted such infelicities as pronouncing it "ox bed", *even though b is also a valid year digit*. Madness! ~M]
 
@@ -120,23 +120,23 @@ But then Thomas thought, and said, “But what does it matter where I was on the
 
 Thomas held up two fingers to the barman to indicate he’d like one as well. He sat down next to his cousin and put a hand on his shoulder. He said, as gently as he could, “I’m going to be real with you: I don’t know what you’re on about and while I’ll probably figure it out eventually, maybe you’d like to just tell me?”
 
-Paul sighed dramatically and watched the barman shaking and stirring the drinks.[$ this is what they do on the islands; it’s their culture[@ this is why they’re so frothy]] Martin wouldn’t have indulged in this sort of day-drinking, but what good had his prudence done him??
+Paul sighed dramatically and watched the barman shaking and stirring the drinks.[$ this is what they do on the islands; it’s their culture[@ this is why they’re so frothy ~J]] Martin wouldn’t have indulged in this sort of day-drinking, but what good had his prudence done him??
 
 [M; 574 words]
 
-[@ You know, sometimes when you play chess some of your moves are just moving pieces back and forth. Anyway, here's my section.]
+[@ You know, sometimes when you play chess some of your moves are just moving pieces back and forth. Anyway, here's my section. ~M]
 
-[@ thought I had finished at 574 words, then remembered a tangent and clock back in at 666 words (not counting these annotations that aren't in the middle of the block of text, which I never count if I can conveniently avoid doing so), ohoho, delightfully devilish Squirnon...] [@ I'm like the Freischütz, man... this one is in the devil's hands...] [@I have to admit that I stole that comment; come to think of it I stole it specifically from [this tumblr post](https://www.tumblr.com/apricops/179123641690/im-like-a-freeshooter-i-get-six-good-posts-and) ("I’m like a Freeshooter, I get six good posts and then the seventh one is in the Devil’s hands.", apricops, uh, mystery date unrecorded by the website I guess)]
+[@ thought I had finished at 574 words, then remembered a tangent and clocked back in at 666 words (not counting these annotations that aren't in the middle of the block of text, which I never count if I can conveniently avoid doing so), ohoho, delightfully devilish Squirnon...] [@ I'm like the Freischütz, man... this one is in the devil's hands...] [@I have to admit that I stole that comment; come to think of it I stole it specifically from [this tumblr post](https://www.tumblr.com/apricops/179123641690/im-like-a-freeshooter-i-get-six-good-posts-and) ("I’m like a Freeshooter, I get six good posts and then the seventh one is in the Devil’s hands.", apricops, uh, mystery date unrecorded by the website I guess)]
 
-Prudence, which was the name of that waitress, there it was,[@?] massaged the back of Thomas while the two intuitive investigators talked.
+Prudence, which was the name of that waitress, there it was,[@? ~J] massaged the back of Thomas while the two intuitive investigators talked.
 
 "They have yet to invent a problem that can't be solved by day drinking, it's crazy," mused Paul Eeny. He didn't really sound like he believed it.
 
-Thomas took his hand off Paul's shoulder and tapped the tips of his fingers together. This approach was getting him nowhere — fast! On the other hand, maybe it would get him somewhere slow, which was also fine. This was detective work at its peak. He was pumping a source for information. Meanwhile, Prudence was massaging a source, the source of his stress, the tension he carried in his shoulders — or so they say. His eyes drifted to the sign by the bar and he realized, to his delight, that not only was the bar in the cafe open, (BAR: 1PM–2AM) but it was also Happy Hour (HAPPY HOUR: 1PM–6PM). That's the happiest hour of all. And it also takes up 5 consecutive hours, so you know it's good. As Thomas considered grabbing Paul by the lapels and shaking him and yelling "WHAT HAPPENED ON THE FIFTH?!", Prudence grabbed him by the lapels, in an altogether nonthreatening and entirely different way, and started working on whatever muscle group it is that is below the lapels, getting the muscle knots out of that, whatever those are.[@ lmaooooo]
+Thomas took his hand off Paul's shoulder and tapped the tips of his fingers together. This approach was getting him nowhere — fast! On the other hand, maybe it would get him somewhere slow, which was also fine. This was detective work at its peak. He was pumping a source for information. Meanwhile, Prudence was massaging a source, the source of his stress, the tension he carried in his shoulders — or so they say. His eyes drifted to the sign by the bar and he realized, to his delight, that not only was the bar in the cafe open, (BAR: 1PM–2AM) but it was also Happy Hour (HAPPY HOUR: 1PM–6PM). That's the happiest hour of all. And it also takes up 5 consecutive hours, so you know it's good. As Thomas considered grabbing Paul by the lapels and shaking him and yelling "WHAT HAPPENED ON THE FIFTH?!", Prudence grabbed him by the lapels, in an altogether nonthreatening and entirely different way, and started working on whatever muscle group it is that is below the lapels, getting the muscle knots out of that, whatever those are.[@ lmaooooo ~J]
 
-Thomas' eyes lit upon the portion of the sign that said "Happy Beginning: $5". "I... I'd like a Happy Beginning,"[@ one wonders what exactly he expected this to get him] he announced loudly to the bar as a whole, as Prudence's hands now addressed the problems of his lower trapezius.
+Thomas' eyes lit upon the portion of the sign that said "Happy Beginning: $5". "I... I'd like a Happy Beginning,"[@ one wonders what exactly he expected this to get him ~J] he announced loudly to the bar as a whole, as Prudence's hands now addressed the problems of his lower trapezius.
 
-"Oh, certainly sir!" said the barman, surprised. He got a small, ordinary glass from the shelve[$shelf], put it next to the second martini glass,[@ but what about the third?] and then poured coffee liqueur [$it's traditional to say "Kahlúa" here, but we are not slaves to the Kahlúa corporation [$no slaves to the Free and Sovereign State of Veracruz de Ignacio de la Llave, we!]] and lactose-free milk into it. He handed it to Thomas, who promptly drank it.
+"Oh, certainly sir!" said the barman, surprised. He got a small, ordinary glass from the shelve[$shelf], put it next to the second martini glass,[@ but what about the third? ~J] and then poured coffee liqueur[$it's traditional to say "Kahlúa" here, but we are not slaves to the Kahlúa corporation[$no slaves to the Free and Sovereign State of Veracruz de Ignacio de la Llave, we!]] and lactose-free milk into it. He handed it to Thomas, who promptly drank it.
 
 Smacking his lips, Thomas asked, "why do they call it a Happy Beginning?".
 
@@ -148,7 +148,7 @@ Prudence was massaging his biceps.
 
 "How do you mean, sir?"
 
-"Ah, like, this drink is like a White Russian but without the vodka. So maybe they could call it a White... Russianless. A White Russophile.[@ or Russophobe?] White <span lang="es-MX">sin</span> Rus. Something of this nature."
+"Ah, like, this drink is like a White Russian but without the vodka. So maybe they could call it a White... Russianless. A White Russophile.[$ or Russophobe? ~J] White <span lang="es-MX">sin</span> Rus. Something of this nature."
 
 "I see." The bartender was clearly impressed.
 
@@ -175,4 +175,4 @@ CAFe
 
 Paul and Thomas gaped at the sign, and then looked at each other, and then back to the sign, and then back to each other. "BRooooo," they both said.
 
-[@ Metropolian Cafe, or met-cafe....]
+[@ Metropolian Cafe, or met-cafe.... ~M]
