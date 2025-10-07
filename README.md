@@ -35,13 +35,15 @@ Now that we have annotations maybe I will resurrect some deleted footnotes as an
 
 Since the johndown parser is apparently custom, we should list its features to specify it completely. If this gets long, it can be specified in johndown.md or whatever. Or just in the next section.
 
+Perhaps the generated html should display the word counts somewhere.
+
 ## Johndown features
 
 It's mostly just markdown. That means: it's mostly text (encoding unspecified by johndown itself, but the only implementation is utf8 (no BOM)), but some particular text is special and makes the other text render specially instead. Um, we use this mostly for italics I guess. There are also links. And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. Annotations are conventionally signed with ~[the initial of their author], although this does not trigger any special rendering; if the annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenence of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it. Signing with two tildes before the initial means the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting). --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for). A non-special bracketed phrase on its own line seems to make a hr above it, in addition to rendering in a sort of grey, italicized way.
 
-Unlike regular markdown, we respect single linebreaks. We also render paragraphs as beginning with indents, as God intended. On that note, we also render to a serif font, of course.
-
 ### These features don't work 100% correctly
+
+Unlike regular markdown, we respect single linebreaks. We also render paragraphs as beginning with indents, as God intended. On that note, we also render to a serif font, of course.
 
 We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
 
@@ -78,6 +80,10 @@ To read the novel in a clean, web-based format:
 3. Open your browser to `http://localhost:8025`
 
 **Note**: With the git hooks installed, `site/chapters.json` is automatically updated when you commit chapter files. Manual `./build.sh` runs are only needed for local preview before committing.
+
+## Word counting
+
+If you want to count how many words are in the novel, you can use the classic Posix command `wc -w *\ *.md`. This *will* include the annotations, however, even though these "don't count" in some spiritual sense.
 
 ## License
 
