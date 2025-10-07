@@ -5,11 +5,13 @@
 > “The clues were all there from the beginning... if you read the book backwards”
 > ~M
 
-A collaborative novel between John and a mysterious stranger
+A collaborative novel between John and a mysterious stranger.
 
-Each chapter is a separate ~~markdown~~ johndown file?
+Each chapter is a separate ~~markdown~~ johndown file.
 
-No AI nor LLM has been used on this project, at least so far, except in a technical capacity, e.g. the creation of the .gitignore and the static site.
+This repository is also a bespoke software system ("the static site") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel.
+
+No AI nor LLM has been used on this project except in a technical capacity, e.g. the creation of the .gitignore and the static site.
 
 ## Rules
 
@@ -31,11 +33,21 @@ Other timeline events (I just grepped for 0x lol):
 
 Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
 
+Since the johndown parser is apparently custom, we should list its features to specify it completely. If this gets long, it can be specified in johndown.md or whatever. Or just in the next section.
+
 ## Johndown features
 
-It's mostly just markdown (maybe we should list the actual markdown features we use, but don't sweat it (actually since the johndown parser is apparently custom, maybe we **should** do this)). But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for)
+It's mostly just markdown. That means: it's mostly text (encoding unspecified by johndown itself, but the only implementation is utf8 (no BOM)), but some particular text is special and makes the other text render specially instead. Um, we use this mostly for italics I guess. And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for). A non-special bracketed phrase on its own line seems to make a hr above it, in addition to rendering in a sort of grey, italicized way.
 
-There's alse ^superscript^ which is not a fully standard feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
+Unlike regular markdown, we respect single linebreaks. We also render paragraphs as beginning with indents, as God intended.
+
+### These features don't work 100% correctly
+
+We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
+
+There's also ^superscript^ which is not a fully standard feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
+
+We currently use the md extension for johndown files, for convenience and ecosystem compatibility, but ideally we would use a jd extension for johndown files, because they unaccredited Jurum Doctores.
 
 ## Site generation malarkey
 
@@ -66,3 +78,7 @@ To read the novel in a clean, web-based format:
 3. Open your browser to `http://localhost:8025`
 
 **Note**: With the git hooks installed, `site/chapters.json` is automatically updated when you commit chapter files. Manual `./build.sh` runs are only needed for local preview before committing.
+
+## License
+
+Currently, this repo is the completely proprietary intellectual property of its authors.
