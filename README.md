@@ -3,6 +3,7 @@
 , or, continents incontinent, or, a largely assiduous help-meet, or, whatever
 
 > “The clues were all there from the beginning... if you read the book backwards”
+> ~M
 
 A collaborative novel between John and a mysterious stranger
 
