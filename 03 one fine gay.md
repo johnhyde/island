@@ -98,7 +98,7 @@ Thomas braced himself for the next volley of interrogation, but instead he just 
 
 Paul Metcalf Eeny eventually regained control of his voice and said, “Do you remember the Christmas of 0x8ed[^hex], when the whole clan gathered at Uncle Fresno’s ranch and it snowed so much that tunnels had to be dug, and most people left that way but some decided to stay until they could excavate their cars, and their children had a grand time digging superfluous tunnels and imagining life as a mole or a refugee from nuclear devastation, and though it was only a few days, those days felt like a whole winter, a most magical post-Christmas which ran just up to the New Year, the eve of which was marked by Northern Lights and fireworks and an unaccountable, almost mystical,[@ I would put this comma here, but another erudite English-user has implied this tendency of mine is unnecessary. Scholars are divided. ~M] experience of revelation and orientation, after which your life was never the same again?!”
 
-[^hex]: Paul, like most, pronounces it, “oh ex eight ee dee,” although some cheeky youth have taken to saying things like, “ox eight ed”[$ some have even adopted such infelicities as pronouncing it "ox bed", *even though b is also a valid year digit*. Madness! ~M]
+[^hex]: Paul, like most, pronounces it, “oh ex eight ee dee,” although some cheeky youth have taken to saying things like, “ox eight ed.”[$ some have even adopted such infelicities as pronouncing it "ox bed", *even though b is also a valid year digit*. Madness! ~M] It’s also common to abbreviate the year to the last two characters, e.g. ’ed in writing and, “ee dee,” in speech.
 
 “Yes.” said Thomas.
 
@@ -175,4 +175,4 @@ CAFe
 
 Paul and Thomas gaped at the sign, and then looked at each other, and then back to the sign, and then back to each other. "BRooooo," they both said.
 
-[@ Metropolian Cafe, or met-cafe.... ~M]
+[@ Metropolian[@ typo?? ~J] Cafe, or met-cafe.... ~M]
