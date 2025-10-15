@@ -9,7 +9,7 @@ A collaborative novel between John and a mysterious stranger.
 
 Each chapter is a separate ~~markdown~~ johndown file.
 
-This repository is also a bespoke software system ("the static site") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel.
+This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel.
 
 No AI nor LLM has been used on this project except in a technical capacity, e.g. the creation of the .gitignore and the static site.
 
@@ -35,7 +35,11 @@ Now that we have annotations maybe I will resurrect some deleted footnotes as an
 
 Since the johndown parser is apparently custom, we should list its features to specify it completely. If this gets long, it can be specified in johndown.md or whatever. Or just in the next section.
 
+"ins̈om̈uch" displays as though the diaereses are standalone characters even though they are U+0308 COMBINING DIAERESIS and thus should properly float above the previous letters. Probably a font problem? Presumably because font designers don't understand that the diaeresis is productive with non-vowels as well, possibly.
+
 Perhaps the generated html should display the word counts somewhere.
+
+Perhaps the index, or somewhere on the website, should display this readme?
 
 ## Johndown features
 
@@ -48,6 +52,8 @@ Unlike regular markdown, we respect single linebreaks. We also render paragraphs
 We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
 
 There's also ^superscript^ which is not a fully standard feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
+
+If you leave an annotation with square brackets but put a linebreak in it, the second line seems to relocate down to the bottom of the chapter and display as normal text?
 
 We currently use the md extension for johndown files, for convenience and ecosystem compatibility, but ideally we would use a jd extension for johndown files, because they unaccredited Jurum Doctores.
 
