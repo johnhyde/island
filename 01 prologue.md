@@ -17,7 +17,7 @@ Manuel sang a beautiful and sad song about bisexual mascot[^lawyer] romance whil
 With the final sip of his martini, Reginald Digsxby cast the glass off the edge of the island for to where[^ftw] it plummeted down onto the head of a denizen below named Martin Eeny, who instantly died. A hero's death. Reginald smirked. _Well, that guy wasn't it,_ he thought to himself, sadly.
 
 [^bosa]: bosa?
-[^lawyer]: my (fictional) lawyers have advised me to mention that Mario is name of a human man who is the mascot of the Flying Island Plumbing Company, and Sonic is the name of a human woman who is renowned for her justice[^lesb] — she is also the mascot of the Flying Island Bitcoin Storage company. I'm pretty sure a spokesman is technically a mascot.
+[^lawyer]: my (fictional) lawyers have advised me to mention that Mario is name of a human man who is the mascot of the Flying Island Plumbing Company, and Sonic is the name of a human woman who is renowned for her justice[^lesb] — she is also the mascot of the Flying Island Bitcoin Storage company. I'm pretty sure a spokesman is technically a mascot.[@ I should vaguely or precisely explain this in-joke and the bitcoin thing and her virtue of justice%% ~M]
 [^lesb]: and lesbianism[^scandal]
 [^scandal]: hence the scandalous bisexuality of the sung sonnet, you see?
 [^ftw]: an unfamiliar construction...
