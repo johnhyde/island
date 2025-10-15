@@ -39,11 +39,17 @@ Since the johndown parser is apparently custom, we should list its features to s
 
 Perhaps the generated html should display the word counts somewhere.
 
-Perhaps the index, or somewhere on the website, should display this readme?
+Perhaps the index, or somewhere on the website, should display this readme? (This readme is written in markdown, not johndown, but that doesn't matter much. Just render it "wrong", who cares?)
+
+A footnote in an annotation currently displays in the sidebar even if the annotations are hidden. Probably they should actually be in their own special annotations-footnotes section (which will prevent them from messing up the numbering of the normal footnotes), which probably should have a red background.
+
+Possibly render author signature tildes as long tildes instead, like ～,〜, ⁓, or 〰 (instead of a plain ~)?
+
+%% is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text.
 
 ## Johndown features
 
-It's mostly just markdown. That means: it's mostly text (encoding unspecified by johndown itself, but the only implementation is utf8 (no BOM)), but some particular text is special and makes the other text render specially instead. Um, we use this mostly for italics I guess. There are also links. And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. Annotations are conventionally signed with ~[the initial of their author], although this does not trigger any special rendering; if the annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenence of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it. Signing with two tildes before the initial means the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting). --- makes a triple-fleuron dinkus (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for). A non-special bracketed phrase on its own line seems to make a hr above it, in addition to rendering in a sort of grey, italicized way.
+It's mostly just markdown. That means: it's mostly text (encoding unspecified by johndown itself, but the only implementation is utf8 (no BOM)), but some particular text is special and makes the other text render specially instead. Um, we use this mostly for italics I guess. There are also links. And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. Annotations are conventionally signed with ~[the initial of their author], although this does not trigger any special rendering; if the annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenence of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it. Signing with two tildes before the initial means the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting). --- makes a triple-fleuron dinkus (❦ ❦ ❦) (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for). A non-special bracketed phrase on its own line seems to make a hr above it, in addition to rendering in a sort of grey, italicized way.
 
 ### These features don't work 100% correctly
 
