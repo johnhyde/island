@@ -1,6 +1,6 @@
 [J; 315 words]
 
-Francesca ***Metcalf*** Digsxby was so tired. The botched botched betrayal and it’s[sic][@ This "it’s[sic]" joke used to live in the prologue, as "before it’s[sic] time", where it was pretty clearly a reference to the previous dialogue “‘took it’s own course,’ with an apostrophe!”, until John moved it here. I just think that's interesting. ~M] consequences[@ This is a subtle reference to _Industrial Society And Its Future_~M] had been a disaster for her personally. She felt an overwhelming burden of guilt over her husband’s mysterious disappearance.[^attorney] She couldn’t really blame herself, if she was being fair. She’d done what she thought was right, and she’d arranged everything with excellence and even panache, but one spot of bad luck (or was it poor judgment?) had spoiled everything in an instant.
+Francesca ***Metcalf***[@ She took his middle name? ~M][I’m imagining they both took her maiden name as middle name ~J] Digsxby was so tired. The botched botched betrayal and it’s[sic][@ This "it’s[sic]" joke used to live in the prologue, as "before it’s[sic] time", where it was pretty clearly a reference to the previous dialogue “‘took it’s own course,’ with an apostrophe!”, until John moved it here. I just think that's interesting. ~M] consequences[@ This is a subtle reference to _Industrial Society And Its Future_~M] had been a disaster for her personally. She felt an overwhelming burden of guilt over her husband’s mysterious disappearance.[^attorney] She couldn’t really blame herself, if she was being fair. She’d done what she thought was right, and she’d arranged everything with excellence and even panache, but one spot of bad luck (or was it poor judgment?) had spoiled everything in an instant.
 
 [^attorney]: her attorneys have advised me to maintain a certain ambiguity about why exactly this is.
 
@@ -24,7 +24,8 @@ Francesca, who was sometimes called Fran to her friends or Franny to her family 
 
 "Of course, madam," said Manuel, in a distinctively non-distinctive voice.
 
-"Oh, come off it!" said Fran, weakly throwing a small pillow at the overgrown tin can. With a *bzt, bzhrt, zhuu* noise that seemed to be produced by a human mouth, the front of the robot-suit's face-visor opened, revealing the handsomely mustached human visage of the ultimately enfleshèd Manuel Ordinator Computer Gonzalez.
+"Oh, come off it!" said Fran, weakly throwing a small pillow at the overgrown tin can. With a *bzt, bzhrt, zhuu* noise that seemed to be produced by a human mouth, the front of the robot-suit's face-visor opened, revealing the handsomely mustached human visage of the ultimately enfleshèd Manuel Ordinator Computer Gonzalez.[@ Oh no way Manuel is enfleshèd??? ~J][@ What a twist! ~M][@ It's probably just my _homo_ bias showing. But I read the part about him singing a beautiful song about Sonic or whatever and I thought, hold on, I'm a human supremacist, that's a human type activity! ~M][@ just wait till I make Manuel Ordinator Computer Gonzalez actually just a really fancy robot that looks like a human hiding in a clunky robot suit ~J][@ Driven by a homunculus ~M]
+
 
 [J; 348 words]
 
