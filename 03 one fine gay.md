@@ -175,4 +175,4 @@ CAFe
 
 Paul and Thomas gaped at the sign, and then looked at each other, and then back to the sign, and then back to each other. "BRooooo," they both said.
 
-[@ Metropolian[@ typo?? ~J] Cafe, or met-cafe.... ~M]
+[@ Metropolitan Cafe, or "met-cafe".... ~M]
