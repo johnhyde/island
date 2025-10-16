@@ -45,7 +45,7 @@ A footnote in an annotation currently displays in the sidebar even if the annota
 
 Possibly render author signature tildes as long tildes instead, like ～,〜, ⁓, or 〰 (instead of a plain ~)?
 
-%% is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text.
+Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text. This has no special rendering associated with it, and they all should be gone by the completion of the novel.
 
 ## Johndown features
 
