@@ -100,3 +100,5 @@ If you want to count how many words are in the novel, you can use the classic Po
 ## License
 
 Currently, this repo is the completely proprietary intellectual property of its authors.
+
+The favicon is a crop of https://commons.wikimedia.org/wiki/File:The_Works_of_the_Rev._Jonathan_Swift,_Volume_6-217.png, an edit by Jasonanaggie of an image that appears in a book written by Johnathan Swift (did Swift himself draw it? unclear). Therefore the favicon is also licensed under CC BY-SA 4.0.
