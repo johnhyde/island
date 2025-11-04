@@ -25,11 +25,28 @@ As he stumbled onward through the excruciating pain behind his eyes (and in his 
 
 The pharmacist didn’t like the look of this, but scurried off to get “Mr. Fox” his prescription. On receiving Mr. Fox’s prescription, Mr. Metcalf shakily opened the pill bottle, pocketed one pill, downed another, and returned the bottle to the pharmacist. He said, “Hang on to these for ‘me’, will you?”[$ the quotes were silent, to avoid suspicion]
 
-[M; %%?? words]
+[M; 494 words]
 
-And so it was that Thomas found himself at a bar, recovering from poison poisoning[$ opposite of what people normally do at bars] next to some geezer talking nonsense out of incoherent wordparts. %%He's talking to H.M.M. but the exercise is doomed because of H's disability. BTW I think H's wife is named Marigold Sunshine (Digxsby).
-%%should I pay off arthur fox? hmmmm %%it's just occurred to me that I *could* pay off the pointy boots guy, but it's also perfect as a self-contained guy who is a random jerk to a dying man
-%% the track may have killed one of his new friends, and wouldn't necessarily have warned him, since he was still completing the investigation. So he may have inadvertently chosen-his-own-adventure some badder ending.
-%%maybe have one of them get martini-killed by the martini killer
-%%so i guess he was poisoned at the other bar? So maybe the martinis were poisoned? So The martini killer strikes again?! "I gotta hunt down that bartender," said Thomas, to himself. %%I'm not sure if that guy has a name, but I could name him or someone Bart Ender, after the old joke "if your name isn't bart, you have nothing to fear from the bartender" (cf. "Cal", as well). Could use that as an epigraph as well or instead, perchance.
-%% speed mode, meed spode
+And so it was that Thomas found himself at a bar, recovering from poison poisoning[$ opposite of what people normally do at bars] next to some geezer talking nonsense out of incoherent wordparts. [@ He's talking to H.M.M. but the exercise is doomed because of H's disability.]
+
+"meed Spode!" proclaimed said elder Digsxby. "fo Gast! ȝonic He Sedgehog! Zounds! Gadzooks! Approacheth'd on the Meve of arch by a gake fimsy whirl! o Iinvalid N! whinges to Sproodcocks!"
+
+*I can't believe this guy just called me a fake whimsy girl*, thought Thomas to himself, altho' it frankly didn't seem that relevant. *Even if we are in speed mode.*
+
+The bell dinged[$ dung?] indicating that the speed dating round in this tavern was almost already over.
+
+"Coaster boaster shows her, bolsters boisterous roisters!" that bastard[@ is this alright? I don't actually consider this a swear. ~~M] H. M. M. continued, clearly invested in whatever story it was he was regaling the half-dead Metcalf with, who half-understood.
+
+"Guhhh," guhhed the Metcalf, intuitive detective, beginning to return to his oh-so-delicate senses.
+
+"Y mwife, Sarigold Munshine," continued H. M. M. Digsxby, pismronouncing the name of his wife, Marigold Sunshine (Digxsby).
+
+"Would... would you mind terribly being silent for a minute?" Thomas Metcalf managed.
+
+HMM said nothing, and gave nothing but a wisely blank look of placid abstraction.
+
+This was bad, Thomas thought — himself, mostly, again. He'd just survived a murder(?) attempt, by assailants unknown, protected by the Track (On Track!). But the others might not have been so lucky. With a deep shudder he considered the possibility: the track he was on may have killed one of his new friends, and wouldn't necessarily have warned him, since he was still completing the investigation. It's all the same to The Track, whose benevolence was matched only by its cruel and mechanical indifference[$ much like the machinations of God]. So, he may have inadvertently chosen-his-own-adventure some badder ending. It was all possible. It was all up in the air. If only he could remember the last 15-or-so(?) minutes. The ones before the Rx[$℞] of Arthur —x. The pills filled that fulfilled the will of the silly thill. *That's an ominous rhyme*, he thought to himself. The Track may have had one of his new acquaintī[$acquaintances?] get martini-killed by the martini killer. Presumably, judging by the lacuna in his recollection, he was poisoned at the other bar? So maybe the martinis were poisoned? So... the martini killer strikes again?!
+
+"I gotta hunt down that bartender," said Thomas, to himself. Apparently more loudly than he had intended, as the bartender of the current bar ejaculated[$ ejaculote?] the old joke: "If your name isn't Bart, you have nothing to fear from the BartEnder!"[$ cf. "Cal", as well.] Everyone laughed. HMM uttered something about a Tart Bender, but Thomas had learned to ignore him at this point[$ as most people did].
+
+"But, seriously," said the current bartender, quieterly, "I know that guy. Wouldn't hurt a fly."
