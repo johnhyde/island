@@ -32,3 +32,4 @@ And so it was that Thomas found himself at a bar, recovering from poison poisoni
 %% the track may have killed one of his new friends, and wouldn't necessarily have warned him, since he was still completing the investigation. So he may have inadvertently chosen-his-own-adventure some badder ending.
 %%maybe have one of them get martini-killed by the martini killer
 %%so i guess he was poisoned at the other bar? So maybe the martinis were poisoned? So The martini killer strikes again?! "I gotta hunt down that bartender," said Thomas, to himself. %%I'm not sure if that guy has a name, but I could name him or someone Bart Ender, after the old joke "if your name isn't bart, you have nothing to fear from the bartender" (cf. "Cal", as well). Could use that as an epigraph as well or instead, perchance.
+%% speed mode, meed spode
