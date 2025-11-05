@@ -7,7 +7,7 @@
 
 A collaborative novel between John and a mysterious stranger.
 
-Each chapter is a separate ~~markdown~~ johndown file. These are numbered with two digits. Some of them are lettered with two capital letters, which means they exist ambiguously in the future of the novel and haven't been entered into a concrete order yet.
+Each chapter is a separate ~~markdown~~ johndown file. These are numbered with two digits. (Some of them are lettered with two capital letters, which means they exist ambiguously in the future of the novel and haven't been entered into a concrete order yet. You don't have to read those; they essentially function as rough drafts for whoever wrote them, and in some cases might get removed entirely and lifted to another project. Let M know if this is annoying and should be stopped.)
 
 This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel.
 
