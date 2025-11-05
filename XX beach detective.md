@@ -17,3 +17,10 @@ Literally just make it the shores of Da Nang...
 Lean into French influence, the colonial administrative buildings
 
 }
+
+%% {
+
+Possibly the old man with robot legs in flying island saying that one of things about being old is that you don't fear or enjoy the same things any more.
+Maybe make him call someone a demon as well, possibly himself
+
+}
