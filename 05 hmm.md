@@ -39,7 +39,7 @@ The bell dinged[$ dung?] indicating that the speed dating round in this tavern w
 
 "Guhhh," guhhed the Metcalf, intuitive detective, beginning to return to his oh-so-delicate senses.
 
-"Y mwife, Sarigold Munshine," continued H. M. M. Digsxby, pismronouncing the name of his wife, Marigold Sunshine (Digxsby).
+"y Mwife, Sarigold Munshine," continued H. M. M. Digsxby, pismronouncing the name of his wife, Marigold Sunshine (Digxsby).
 
 "Would... would you mind terribly being silent for a minute?" Thomas Metcalf managed.
 
