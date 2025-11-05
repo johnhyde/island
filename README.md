@@ -7,7 +7,7 @@
 
 A collaborative novel between John and a mysterious stranger.
 
-Each chapter is a separate ~~markdown~~ johndown file.
+Each chapter is a separate ~~markdown~~ johndown file. These are numbered with two digits. Some of them are lettered with two capital letters, which means they exist ambiguously in the future of the novel and haven't been entered into a concrete order yet.
 
 This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel.
 
@@ -44,6 +44,10 @@ Perhaps the index, or somewhere on the website, should display this readme? (Thi
 A footnote in an annotation currently displays in the sidebar even if the annotations are hidden. Probably they should actually be in their own special annotations-footnotes section (which will prevent them from messing up the numbering of the normal footnotes), which probably should have a red background.
 
 Possibly render author signature tildes as long tildes instead, like ～,〜, ⁓, or 〰 (instead of a plain ~)?
+
+<span lang="es-MX">sin</span> should probably be turned into [lang:es-MX sin]
+
+νους (nous) should probably be lang:grc on both of those individually
 
 Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text. This has no special rendering associated with it, and they all should be gone by the completion of the novel.
 
