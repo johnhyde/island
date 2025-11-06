@@ -53,13 +53,13 @@ This was bad, Thomas thought — himself, mostly, again. He'd just survived a mu
 
 [@ The braintrust brainstromed that maybe this guy misheard "bartender" as "bart ender" and that's the name of that particular bartender and that's how he knows who Thomas is talking about. ~M]
 
-[word by word, C->J->M; words]
+[word by word, C->J->M; 260 words]
 
 Unlike Thomas, the bartender had some reservations at Chez Foie[^safeway], which was why he had-n't tried to explain in detail his conviction for, disarmed as he was, he was disable to tarry long. Chez Foie, despite its immensity, had few ifs-ands-or-buts about tardy patrons. Hurriedly, this humble servant publican[$ a drinkserf, if you will] donned-doffed outergarbs, genuflected [$ genufluct?] towards-away⹀from the bar-patrons & dartboards and maître d'arts[$ maitre d'eez nuts], and left-arrived.
 
 Tapping out sonnets in Mandarin[^sonnets]  (Chinese), Thomas pondered ponderously his lack of a reservation to Chez Foie. *Bing bing!*[^bingbing][@ We later realized this could have been the speed dating bell, but no one realized this at the time ~M] went Thomas. Rising from the tacky[$ in the sense of "sticky"] stool[$ Q: what's brown and sticky? A: A stick!][$ Q: what's brown and tacky? A: Skimask Slumpgod[@That's right, Ski Mask the Slump God aka Stokeley Clevon Goulbourne, I'm coming for you! ~M]], Thomas tipped $5 and, staggering, dinged his purloined speed-dating bell. "Good luck!" said a nervous wimpid[@ This doesn't mean anything, btw, it's just a humorous elaboration on the word "wimp" and an in-joke about the word "limpid". Well I guess now it does mean something ("wimp"); that's how humorous alterations work. Like "rapscallion" (an elaboration of "rascal"). ~M], eyeing him nervously from wimpled eyelids.[@ Is this guy Chinese? ~M] Girls! Girls! Perhaps... but… maybe… more? Women! Gadzooks! Awooga! Anyway, there were girls at the Safeway— the bartender was eloping nonstop,[@ wait, what? ~J][^reservations] so[@ You just have to be more irish in your heart ~M]— to reiterate: Girls.
 
-[^safeway]: in their culture, this is what they call Safeway[^restaurant][@ to continue the Mario/Sonic thing of seeming pop-culture references that are actually not]
+[^safeway]: in their culture, this is what they call Safeway[^restaurant][@ to continue the Mario/Sonic thing of seeming pop-culture references that are actually not ~J]
 [^restaurant]: Safeway is a restaurant chain in their culture
 [^sonnets]: in the style of Gary Mandarin, noted sonnetier.[$ SOME would say, sonneteer. Maybe even sonnetteer.] 
 [^bingbing]: 病冰, which translates roughly to "sick ice"
