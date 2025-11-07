@@ -51,7 +51,7 @@ This was bad, Thomas thought — himself, mostly, again. He'd just survived a mu
 
 "But, seriously," said the current bartender, quieterly, "I know that guy. Wouldn't hurt a fly."
 
-[@ The braintrust brainstromed that maybe this guy misheard "bartender" as "bart ender" and that's the name of that particular bartender and that's how he knows who Thomas is talking about. ~M]
+[@ The braintrust brainstromed that maybe this guy misheard "bartender" as "bart ender" and that's the name of that particular bartender (Bartimieus Ender) and that's how he knows who Thomas is talking about. ~M][@ later, we decided it was a nametag I guess ~M]
 
 [word by word, C->J->M; 260 words]
 
@@ -73,7 +73,7 @@ He stood in the center of the room, a stone amidst the swirling surf of rearrang
 
 He strode [@strud] through the swinging door, absentmindedly synchronizing his movement with the door’s oscillation so as to prevent any alterations to his smooth, newly reconfident gait. “Erstwhile drinkserf!”
 
-The bartender, already enboothed, paused in his most recent elopement and slewed his head around. He, lamentably, did not know the word ‘erstwhile’, nor, with more forgivability, ‘drinkserf’. But Ernest Lyle Dransdorf slewed his head around regardless. “What?” he asked, adding with a trace of irritability, “Can’t a bartender leave abruptly and serialize elopements in peace? Around here?”
+The bartender, already enboothed, paused in his most recent elopement and slewed his head around. He, lamentably, did not know the word ‘erstwhile’, nor, with more forgivability, ‘drinkserf’. But Ernest Lyle Dransdorf[@ Lmao ~M] slewed his head around regardless. “What?” he asked, adding with a trace of irritability, “Can’t a bartender leave abruptly and serialize elopements in peace? Around here?”[@ Lol ~M][@ In fact, actually, just assume I'm chuckling to myself here on out, when appropriate. ~M]
 
 “How did you know what bartender I was referring to? What bartender do you think I was referring to?”
 

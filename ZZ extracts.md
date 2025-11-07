@@ -50,6 +50,11 @@ The Cool Lawyer, who swears in court. Clients are impressed with the bold rebell
 
 —https://x.com/RadishHarmers/status/1246705803354083333
 
+The pride I feel for finally fingering my father's killer is dampened only by the fact that I promised to kill my father's killer. I fingered myself. To death.
+
+— _Xavier: Renegade Angel_, S1E10, "Shakashuri Blowdown"
+
+(corresponds to: Hmm, specifically "finger their pulse".)
 
 
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
