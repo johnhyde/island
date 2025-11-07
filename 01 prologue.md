@@ -53,7 +53,7 @@ Once he had entered the antechamber, following the sound, Mrs. Digsxby popped ou
 
 “Uh, erm, yes,” said Reginald Digsxby, cold-sweating. He was off his rhythm. His wife had him exactly where she — per hypothesis, mind you — wanted him. He smirked internally. _Perfect._ His plan of lulling her into a false sense of security was going off without a hitch.
 
-Mrs Digsxby, a skilled copy-editress, lit upon a page in the middle of the dossier and looked up, her face the very countenance of shock. Perhaps too perfect, overrehearsed[^over̈]? ←[^bonkers] Reginald wondered to himself. “Pookie,” she said (she called him Pookie), “there is...” she paused for dramatic effect... “an error in this document!”
+Mrs Digsxby, a skilled copy-editress[$ perhaps she would have corrected this to "editrix"], lit upon a page in the middle of the dossier and looked up, her face the very countenance of shock. Perhaps too perfect, overrehearsed[^over̈]? ←[^bonkers] Reginald wondered to himself. “Pookie,” she said (she called him Pookie), “there is...” she paused for dramatic effect... “an error in this document!”
 
 [^waven]: waven
 [^sunk]: sank? some would say sunk is also fine but old. some mysterious strangers would say that ~J
