@@ -68,23 +68,41 @@ Tapping out sonnets in Mandarin[^sonnets]  (Chinese), Thomas pondered ponderousl
 [C; 1023 words]
 
 ‘Well, that was weird,’ thought Thomas. What had that drug been? And why was he so amorous today? Some of the drivel he’d just thought might be blamed on the welter of chemicals still fizzing toward equilibrium in his brain and blood, but still. He had fallen for Prudence with an abandon that certainly fell short of her name, and that was not like Thomas.[$ Or rather, to be more accurate, it was like Thomas, but it had not happened before. [$[ That he remembered.]]
+
 He stood in the center of the room, a stone amidst the swirling surf of rearranging couples, [^couples] watching the lateral expansions and contractions of the vertical bar of dim light formed by oscillations of the swinging door the bartender had just set a-swing by his departure-entrance.[@ Thomas was entranced by the entrance.][^Chez Foie] An involuntary shudder overtook his frame, and he leaned into it, shaking his head with exaggerated vigor.
+
 He strode [@strud] through the swinging door, absentmindedly synchronizing his movement with the door’s oscillation so as to prevent any alterations to his smooth, newly reconfident gait. “Erstwhile drinkserf!”
+
 The bartender, already enboothed, paused in his most recent elopement and slewed his head around. He, lamentably, did not know the word ‘erstwhile’, nor, with more forgivability, ‘drinkserf’. But Ernest Lyle Dransdorf slewed his head around regardless. “What?” he asked, adding with a trace of irritability, “Can’t a bartender leave abruptly and serialize elopements in peace? Around here?”
+
 “How did you know what bartender I was referring to? What bartender do you think I was referring to?”
+
 Dransdorf raised a sardonic eyebrow.[$ a warning in this against undue slewing, incidentally—his current coeloper was very into eyebrows, and she completely missed it.] “Your nametag gave me a clue.” He then holstered the eyebrow and unslewed, exiting the narrative forever.
+
 Thomas looked down at his breast in mild surprise. Indeed, there was a nametag affixed to his shirtfront. The METropolitan CAFe is tickled pink to serve TUATARA DÉTENTE he read upside down with ease.
+
 “Pardon, sir,” said the vaguely objectionable greeter, some joy returning to his grey life, “but will you please leave these premises, as, unlike Mr. Dransdorf, you have no reservation with us this evening?”
+
 “Yes, it seems pretty likely,” replied Thomas vaguely. He spun on his heel and exited Chez Foie.
+
 The striped awnings of the downtown’s shops flickered in the corners of Thomas’ eyes. He increased his speed to 200%, a speedwalk which just stopped short of that awkward kind of half-run you do when someone is holding a door open for you 15 feet away. Tingling sensations were still holding a sensation-relay=race up and down his limbs, but speed was essential—perhaps.
+
 Unless he was prepared to veer Off Track intentionally—and he was not—the only way he’d be able to take active steps toward ascertaining whether his new friends yet lived and perhaps maintain them in that state was to find a Delta as quickly as possible. It might be that the next one waited behind an Invitation with an inflexible temporal character [$ a newspaper’s afternoon edition, a court’s verdict, a motorail accident destined to occur at 2:55pm…], but it also might be that nothing lay between him and the delta but Next Steps which could be hurried through.
+
 The casing of a spent firework, relic of last night’s New Year celebrations, crunched under the ball of his foot, filling his nose with the nostril=hair-wilting smell of fried electronics [@ It’s the future, baby]. He turned left, holding to the Track by his very fingertips.
+
 Paul might be okay. The Track was the right thing to do—the series of right things to do to…to solve the case. And surely it was in the best interests of the solution of the case to have as many people as possible On Track? Was the Track singular, or were Paul and he On their own individual Tracks? Thomas did not know. Thomas had learned, through trial and error, certain practical details operating On Track. He’d had to. It had always been a totally unique category of experience, and had always made it difficult to walk in others’ shoes, even as it let him get under their skin, on their nerves, and finger their pulse. What was it? What did it mean that he had it? He’d never had anyone to—and the need for Paul’s safety burned brighter within, rose to pound at the inside of his skull, a tide of blood and certainty and terrible fear.
+
 And Prudence had no Track to stay On. She might already be--
+
 With a snarl, Thomas took the next turn which felt correct, down a narrow, foetid alley, following the dumb dictates of that thing which had always isolated him, had miraculously brought him to one who shared his isolation and another who might bridge it, and then snatched him away from both. He would break away, he would turn back—
+
 A new fear filled him, with the clarity and instantaneous arrest of a silver bell struck once. And with the fear, casting the fear before it like a shadow, came an awful spasm of nausea, spiraling out from his vagus, threatening to turn his bones to water. His rebellious mind, unwitting and unwilling, had seized the thread and drawn it close, at the very moment he had thought of turn back. Of turning around.
+
 Slowly, he turned to face the figure silhouetted at the end of the alley. [$ really the beginning of the alley].
+
 “The calcon foops upon the stalf,” Hilbert H. M. Digxby slurred into his drink, and slipped off his stool.
+
 [^couples]: The speed dateurs were under the mistaken impression that Thomas’ improvisational ding had been the official signal for cycling parters.
 [^Chez Foie]: Chez Foie, despite its immensity, was the restaurant immediately adjoining this smoky dive-bar; the doorway was an interior one, between the two establishments, not leading to the street. The bartender made it with seven seconds to spare.[$ Greatly disappointing the greeter, a pallid mosquito of a man whose only joy lay in the away turning of benighted latecomers.]
 
