@@ -67,7 +67,7 @@ Tapping out sonnets in Mandarin[^sonnets]  (Chinese), Thomas pondered ponderousl
 
 [C; 1023 words]
 
-‘Well, that was weird,’ thought Thomas. What had that drug been? And why was he so amorous today? Some of the drivel[@ Weak! ~M] he’d just thought[$ thoughten? ~M] might be blamed on the welter of chemicals still fizzing toward equilibrium in his brain and blood, but still. He had fallen for Prudence with an abandon that certainly fell short of her name, and that was not like Thomas.[$ Or rather, to be more accurate, it was like Thomas, but it had not happened before. [$[ That he remembered.]]
+‘Well, that was weird,’ thought Thomas. What had that drug been? And why was he so amorous today? Some of the drivel[@ Weak! ~M] he’d just thought[$ thoughten? ~M] might be blamed on the welter of chemicals still fizzing toward equilibrium in his brain and blood, but still. He had fallen for Prudence with an abandon that certainly fell short of her name, and that was not like Thomas.[$ Or rather, to be more accurate, it was like Thomas, but it had not happened before. [$ That he remembered.]]
 
 He stood in the center of the room, a stone amidst the swirling surf of rearranging couples, [^couples] watching the lateral expansions and contractions of the vertical bar of dim light formed by oscillations of the swinging door the bartender had just set a-swing by his departure-entrance.[@ Thomas was entranced by the entrance.][@ Real. ~M][^Chez Foie] An involuntary shudder overtook his frame, and he leaned into it, shaking his head with exaggerated vigor.
 
