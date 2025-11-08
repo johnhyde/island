@@ -8,7 +8,7 @@ The man was of about average height. He wore a black lounge suit. Under his blac
 
 Thomas was only able to gape at him. Awed. Deer-in-headlits.
 
-"Shaken? Don't stir," the man said.
+"Shaken? Don't stir," the man said. [@ This line was regarded as quite good by the other authors. It is a reference to — a pun upon, even — the famous way that James Bond orders his martini. ~M]
 
 He drew closer.
 
