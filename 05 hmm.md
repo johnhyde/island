@@ -97,7 +97,7 @@ And Prudence had no Track to stay On. She might already be--
 
 With a snarl, Thomas took the next turn which felt correct, down a narrow, foetid alley, following the dumb dictates of that thing which had always isolated him, had miraculously brought him to one who shared his isolation and another who might bridge it, and then snatched him away from both. He would break away, he would turn back—
 
-A new fear filled him, with the clarity and instantaneous arrest of a silver bell struck once. And with the fear, casting the fear before it like a shadow, came an awful spasm of nausea, spiraling out from his vagus, threatening to turn his bones to water. His rebellious mind, unwitting and unwilling, had seized the thread and drawn it close, at the very moment he had thought of turn back. Of turning around.
+A new fear filled him, with the clarity and instantaneous arrest of a silver bell struck once. And with the fear, casting the fear before it like a shadow, came an awful spasm of nausea, spiraling out from his vagus, threatening to turn his bones to water. His rebellious mind, unwitting and unwilling, had seized the thread and drawn it close, at the very moment he had thought of turning back. Of turning around.
 
 Slowly, he turned to face the figure silhouetted at the end of the alley. [$ really the beginning of the alley].
 
