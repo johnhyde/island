@@ -34,13 +34,13 @@ The old man drummed his fingers on the table, thinking about the last time he ha
 
 • He tucked in to his Daily Nutrient Soup (a flying island specialty).
 
-"One of things about being old is that you don't fear or enjoy the same things any more," he mused to himself, although aloud, wryly. "It's a blessing and a curse, in multiple ways."
+"One of things about being old is that you don't fear or enjoy the same things anymore," he mused to himself, although aloud, wryly. "It's a blessing and a curse, in multiple ways."
 
 He threw the teacup over his shoulder with a feigned but understated devil-may-care attitude. "To business, then," he said.
 
 "To business," the beach detective said.
 
-"Skulduggery and scullery, as usual," said the old man — whose name was of course Lars Squiggle, as all knew — holding out a large red envelope to the beach detective. "Demonry for demons, as we find ourselves to be. The usual scope-and-scalp, old boy. Leave no stone unturned; but turn them all back if you don't find anything under 'em."
+"Skulduggery and scullery, as usual," said the old man — whose name was of course Lars Squiggle, as all knew — holding out a large red envelope to the beach detective. "Demonry for demons, as we find ourselves to be. The usual scope-and-scalp, old boy. Leave no stone unturned; but turn them all back if you don't find anything under ’em."
 
 The beach detective accepted the envelope with a deep and ceremonial bow.
 
