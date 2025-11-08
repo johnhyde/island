@@ -10,7 +10,7 @@
 
 [@ This takes one out of the Digression budget 😉 ~M]
 
-The white wine wine-dark sea was warm as wine[^mulled] and sweet as wine[^mulled] tho’ full of brine ’neath suns that shine on skulls of you and me. The Beach Detective trekked along the shore, parallel to the most beautiful water he had ever seen in his life. The shore of Da Nang. It may be a sort of impractical outfit, but there's quite the vibe in being the only guy on the beach wearing a suit. Even more so if you happen to be carrying a gun.
+The white wine wine-dark sea[$ white⹀wine-wine⹀dark sea, if you will] was warm as wine[^mulled] and sweet as wine[^mulled] tho’ full of brine ’neath suns that shine on skulls of you and me. The Beach Detective trekked along the shore, parallel to the most beautiful water he had ever seen in his life. The shore of Da Nang. It may be a sort of impractical outfit, but there's quite the vibe in being the only guy on the beach wearing a suit. Even more so if you happen to be carrying a gun.
 
 [^mulled]: mulled
 
