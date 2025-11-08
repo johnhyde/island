@@ -6,7 +6,7 @@ Sensation and menace rolled off the man like waves, in Thomas's[@ The rule I use
 
 The man was of about average height. He wore a black lounge suit. Under his black fedora, he had semi-long hair that went back instead of forwards, and framed his smallish ears beautifully. He wore tiny, thick spectacles. He had a small pin in the shape of a martini on his lapel. He was holding things made of metal and glass in his hands. His black shoes clicked gently as he slowly walked towards Thomas. His face wore an unnerving grin.
 
-Thomas was only able to gape at him. Awed. Deer-in-headlits.
+Thomas was only able to gape at him. Awed. Deer-in-headlits[$ deer-in-heads-lits, some might say].
 
 "Shaken? Don't stir," the man said. [@ This line was regarded as quite good by the other authors. It is a reference to — a pun upon, even — the famous way that James Bond orders his martini. ~M]
 
