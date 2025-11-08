@@ -10,9 +10,9 @@
 
 [@ This takes one out of the Digression budget 😉 ~M]
 
-The white wine wine-dark sea was warm as wine* and sweet as wine* tho’ full of brine ’neath suns that shine on skulls of you and me. The Beach Detective trekked along the shore, parallel to the most beautiful water he had ever seen in his life. The shore of Da Nang. It may be a sort of impractical outfit, but there's quite the vibe in being the only guy on the beach wearing a suit. Even more so if you happen to be carrying a gun.
+The white wine wine-dark sea was warm as wine[^mulled] and sweet as wine[^mulled] tho’ full of brine ’neath suns that shine on skulls of you and me. The Beach Detective trekked along the shore, parallel to the most beautiful water he had ever seen in his life. The shore of Da Nang. It may be a sort of impractical outfit, but there's quite the vibe in being the only guy on the beach wearing a suit. Even more so if you happen to be carrying a gun.
 
-*mulled
+[^mulled]: mulled
 
 The Beach Detective paused and gazed with great interest at a school of jumping minnows that darted in the water just by shore. They sometimes launched onto the shore with great speed and flopped around as though dying until the waves came back up and caressed them again, allowing them to zip back into the surf. The Beach Detective stood still for several minutes watching one such fish who obstinately tried to zip towards the dry land instead every time, and eventually suffocated and then died. The clear water occasionally rolled over the little fish's corpse afterwards, to no difference. The Beach Detective walked along.
 
