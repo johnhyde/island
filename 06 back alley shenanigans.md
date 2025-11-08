@@ -6,7 +6,7 @@ Sensation and menace rolled off the man like waves, in Thomas's[@ The rule I use
 
 The man was of about average height. He wore a black lounge suit. Under his black fedora, he had semi-long hair that went back instead of forwards, and framed his smallish ears beautifully. He wore tiny, thick spectacles. He had a small pin in the shape of a martini on his lapel. He was holding things made of metal and glass in his hands. His black shoes clicked gently as he slowly walked towards Thomas. His face wore an unnerving grin.
 
-Thomas was only able to gape at him. Awed. Deer-in-headlits[$ deer-in-heads-lits, some might say].
+Thomas was only able to gape at him. Awed. Deer-in-headlits[$ deer-in-heads-lit, some might say].
 
 "Shaken? Don't stir," the man said. [@ This line was regarded as quite good by the other authors. It is a reference to — a pun upon, even — the famous way that James Bond orders his martini. ~M]
 
@@ -16,7 +16,7 @@ He drew closer.
 
 "How, indeed?" the man mused, rhetorically.
 
-Thomas got a hold of himself and stared intently into the eyes of the man, willing the Track to tell him something — anything.
+Thomas got a hold of[@ It's funny: I thought this was a typo I had made, but apparently this is the preferred spelling (space between a and hold) according to most linguistic authorities ~M] himself and stared intently into the eyes of the man, willing the Track to tell him something — anything.
 
 The Martini Killer.
 
@@ -54,7 +54,7 @@ Thomas's heart sank.
 
 "Who?" said Thomas.
 
-"That bartender at the MetCafe you were palling around with," said the martini killer, undeterred. "You know, it's ironic. He would end other Barts, but in the end... he was ended by me (a non-Bart)."
+"That bartender at the MetCafe you were palling around with," said the martini killer, undeterred. "You know, it's ironic. He could end other Barts, but in the end... he was ended by me (a non-Bart)."
 
 "Oh..." said Thomas. Obviously, every death of a righteous man was a tragedy, but he hadn't really come to know—— Thomas ducked. Another glass flew over his head, right through where his head had been. "Jesus," he muttered.
 

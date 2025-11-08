@@ -4,6 +4,8 @@ Appendix: The Snook-cocker
 
 Cock-snooker.
 
+(& Snock-cooker.)
+
 by various. [@ I should probably credit everyone properly and also figure out how to format this thing. ~M]
 
 
