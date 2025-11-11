@@ -44,7 +44,7 @@ He threw the teacup over his shoulder with a feigned but understated devil-may-c
 
 The beach detective accepted the envelope with a deep and ceremonial bow.
 
-"Oh... and one more thing..." said the old man. "This case... it involves... the **Digsxbys**[$ Digsxbies?]... will that be a problem?"
+"Oh... and one more thing..." said the old man. "This case... it involves... the *Digsxbys*[$ Digsxbies?]... will that be a problem?"
 
 "No," the beach detective said after a pause, with a small, evil grin. "No; I think I'll enjoy that."
 
