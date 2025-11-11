@@ -56,6 +56,17 @@ The pride I feel for finally fingering my father's killer is dampened only by th
 
 (corresponds to: Hmm, specifically "finger their pulse".)
 
+Don't worry: I've written a riveting chapter draft where he's taking the bus 😎
+
+—M
+
+(corresponds to: Beach Detective 2)
+
+Ah, the bus detective… so easily forgotten…
+
+—J
+
+(corresponds to: Beach Detective 2)
 
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
