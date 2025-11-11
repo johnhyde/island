@@ -32,7 +32,7 @@ The old man drummed his fingers on the table, thinking about the last time he ha
 
 • He much preferred the Continents for this reason. Although they were poor,[$ and incontinent [$ it was said]] no long-standing grudges haunted their alleys. There was either no great evil there or it was mercifully ununderstood.
 
-• He tucked in to his Daily Nutrient Soup (a flying island specialty).
+• He tucked in to his Daily Nutrient Soup (a flying island specialty).[@ is this supposed to be a bullet point?? ~~J]
 
 "One of things about being old is that you don't fear or enjoy the same things anymore," he mused to himself, although aloud, wryly. "It's a blessing and a curse, in multiple ways."
 
