@@ -28,13 +28,13 @@ Thomas cast[$ cust?] about for a weapon, but found nothing. He stared at the man
 
 "Go ahead," said the Martini Killer. "Read me. It won't make a difference."
 
-Martinius Kijller.[@ I came up with this guy's name after Bartimieus Ender's name was already made up (even though it occurs before "Bartimieus Ender" in the text) which is probably why his name sounds like this. ~M] 123 Malibu Lane. Childhood bedwetter. Ophthalmologist extraordinaire. Thomas had never met this guy before. He'd never even hear of him. He'd never even heard of anyone who'd heard of him.
+Martinius Kijller.[@ I came up with this guy's name after Bartimieus Ender's name was already made up (even though it occurs before "Bartimieus Ender" in the text) which is probably why his name sounds like this. ~M] 123 Malibu Lane. Childhood bedwetter. Ophthalmologist extraordinaire. Thomas had never met this guy before. He'd never even heard of him. He'd never even heard of anyone who'd heard of him.
 
-Martinius Kijller, the martini killer, spun the glass object furiously around his fingers with the grace of a butterfly knife artist while remaining completely placid.
+Martinius Kijller, the martini killer, spun the glass object furiously around his fingers, with the grace of a butterfly knife artist, while remaining completely placid.
 
 He was almost upon Thomas now.
 
-Thomas' stomach lurched. *Hruck!* He threw up on Martinius's shoes.
+Thomas's stomach lurched. *Hruck!* He threw up on Martinius's shoes.
 
 "Well, now you've made me angry," said Martinius, calmly. "Do you know how much those shoes cost? The normal amount."
 

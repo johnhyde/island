@@ -10,13 +10,13 @@
 
 [@ This takes one out of the Digression budget 😉 ~M]
 
-The white wine wine-dark sea[$ white⹀wine-wine⹀dark sea, if you will] was warm as wine[^mulled] and sweet as wine[^mulled] tho’ full of brine ’neath suns that shine on skulls of you and me. The Beach Detective trekked along the shore, parallel to the most beautiful water he had ever seen in his life. The shore of Da Nang. It may be a sort of impractical outfit, but there's quite the vibe in being the only guy on the beach wearing a suit. Even more so if you happen to be carrying a gun.
+The white wine wine-dark sea[$ white⹀wine-wine⹀dark sea, if you will] was warm as wine[^mulled] and sweet as wine[^mulled], tho’ full of brine, ’neath suns that shine on skulls of you and me. The Beach Detective trekked along the shore, parallel to the most beautiful water he had ever seen in his life. The shore of Da Nang. It may be a sort of impractical outfit, but there's quite the vibe in being the only guy on the beach wearing a suit. Even more so if you happen to be carrying a gun.
 
 [^mulled]: mulled
 
 The Beach Detective paused and gazed with great interest at a school of jumping minnows that darted in the water just by shore. They sometimes launched onto the shore with great speed and flopped around as though dying until the waves came back up and caressed them again, allowing them to zip back into the surf. The Beach Detective stood still for several minutes watching one such fish who obstinately tried to zip towards the dry land instead every time, and eventually suffocated and then died. The clear water occasionally rolled over the little fish's corpse afterwards, to no difference. The Beach Detective walked along.
 
-He arrived at his destination, a small table with a white table cloth, about ten yards away from the current line of the tide, at which sat an old man — who may or may not have had functioning legs — drinking tea. They conversed as the waves crashed behind him, the beach detective continuing to stand closer to the water than to the man.
+He arrived at his destination, a small table with a white table cloth[@ imo, it's fine to spell this compound word "table cloth" as well as "tablecloth" ~M], about ten yards away from the current line of the tide, at which sat an old man — who may or may not have had functioning legs — drinking tea. They conversed as the waves crashed behind him, the beach detective continuing to stand closer to the water than to the man.
 
 "Have you seen the tombs? & the French colonial administrative buildings?" the older man asked him unceremoniously, but graciously.
 
@@ -32,7 +32,7 @@ The old man drummed his fingers on the table, thinking about the last time he ha
 
 • He much preferred the Continents for this reason. Although they were poor,[$ and incontinent [$ it was said]] no long-standing grudges haunted their alleys. There was either no great evil there or it was mercifully ununderstood.
 
-• He tucked in to his Daily Nutrient Soup (a flying island specialty).[@ is this supposed to be a bullet point?? ~~J]
+• He tucked in to his Daily Nutrient Soup (a flying island specialty).[@ This is a thing he was doing while on the island the last time, which he's remembering now. ~M]
 
 "One of things about being old is that you don't fear or enjoy the same things anymore," he mused to himself, although aloud, wryly. "It's a blessing and a curse, in multiple ways."
 
