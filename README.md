@@ -21,6 +21,8 @@ No AI nor LLM has been used on this project except in a technical capacity, e.g.
 
 John and the mysterious stranger will take turns writing between 300 and 1500 words and handing off to the other. Ideal cadence is one handoff daily, but it's not a big deal if someone delays a few days. 4 days means one of us should consider saying something passive aggressive. This began 2025-07-20, although it was a get-together, as mentioned below. When a third author joined, it became necessary to determine whether this was a strict rota or if the opportunity goes to whoever first claims it — the latter system was chosen, although this may be changed to the alternative if it proves infelicitous.
 
+The wordcount is based on the text including footnotes but not annotations. However, it's usually inconvenient to exclude the annotations from the word count, so including them a little is fine. You can do the wordcount in whatever program you like, even though many programs have different reckonings of wordcounts. It's only a rough number, really. Plus, we tend to edit little things later, like slipping in a footnote, and then not change the listed wordcount.
+
 Sometimes we have a little get-together and write alternating words, as a treat. This counts as the handoff (although it could be handed off to the either author upon mutual agreement, since a get-together is sort of both and neither in terms of writing, and thus a wildcard). The first of these was 2025-07-20.
 
 You might notice that occasionally there's something wacky like a marker of 0 words or an author going twice in a row. These occur for specific reasons that seemed cool at the time, but don't worry about it.
