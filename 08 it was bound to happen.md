@@ -27,3 +27,67 @@ Officer Heare immediately set about finding the bathroom, not taking time to ask
 Francesca tried to show her guest to the morning room, but found herself following her to the kitchen/dining room. She said, “Can I get you anything? A glass of water perhaps, or a scone?”
 
 Georgia took off her hat and trench coat and set them on the floor, carefully so that Francesca would have felt rude picking them up and hanging them where they belonged. Georgia sat down at the little dining table and let her hair down. She loosened her tie. She looked warmly at Francesca and said, “I’ll be asking the questions here.”
+
+“Well, I’m not stopping you.” Heare’s voice was punctuated and then muffled by the hurried slam of a distant ablutive door.
+
+Officer Mann gave the smile again. 10000 feet[@ are we using the metric system? ~C] below her, a fish coincidentally the exact shade of her hair leapt out of the rolling waters and was noticed by nobody.
+
+“Mrs. Digsxby. I believe you knew a Dr Michaelmas Term (presumed deceased)?”
+
+Francesca had already been taken aback, was already there perforce and could not be taken there again; at these words: a region within aback that was to aback as aback was to the rest of the psyche, and she was taken thither. What possible connection…? However, not for nothing had she been for many years married to a mind like Reginald, and she answered with unperturbed assumed bien-être,[$ to say nothing of sangfroid] “Yes, that’s correct.”
+
+“I believe you two were close. In a manner distinct from Dr. Michaelmas’s many sexual partners.”
+
+A distant flush aurally eclipsed Francesca’s sharp intake of breath; though her gaze remained placidly aligned with her interlocutor’s, her mind’s eye darted about as she hauled her preconceptions of this examination (like great lumbering siege weapons) into new formations.[^siege weapons] “Well, I should—how—”
+
+Officer Mann’s voice continued, soft and gentle and inexorable as the snowfall that crushes the hills and freezes the newborn lamb. “I believe you were with him at the time of his death. A passenger.”
+
+Enough long-winded explanations of meta-taken=abackness. Francesca was shocked. “Are you implying that I—that I had something to do with that accident?”
+
+Officer Mann nodded. Not in assent, it seemed, but as an acknowledgement that the conversation was proceeding as expected. “Mrs. Digsxby, perhaps you are not aware that our forensics department has long been puzzled by the presence, at the scene of the accident, of residue not associated with any processes[$ procees?] involved in zeppelincery. Residue unlike anything the Whisk Boys[$ in their culture, this is how the members of the forensics department are colloquially referred to. No one knows why.] had seen before—until last night, when the analysis of the stuff those fireworks of yours spattered over the island was concluded. I think I will take that scone now.”
+
+The tonal whiplash of this last remark got Francesca out of her chair and over to the cupboard. Could that be possibly be true? She hadn’t arranged the fusillade herself, of course, but why in heaven would it have required some esoteric, used-twice-only chemical? And why would a firework be used—to crash a dirigible? Deeper inside, a thought that had lain curled for three years unwound itself through her mind: could an ordinary, coincidental accident have arrested the meteoric path of Dr Michaelmas Term? Her fingers fumbled at the cupboard’s knob. She would have to ask Manuel about this…
+
+“If you would permit me, Madam?”
+
+Fran jumped about two feet! “Manuel!”
+
+The aptly named “automaton” extended a respectful limb and opened the correct cupboard with dexterous pincers. He had not heard any of the preceding conversation except the last sentence, having been in the back room cleaning to keep up appearances. But upon entering the kitchen/dining room, he had at once perceived the user’s unusual air of abstraction, and wanted to lend what aid his pincers could (within the bounds of decorous robot-human relations, of course). “Your guest requires scones?” He extracted same and smoothly swiveled, extending them to Officer Mann.
+
+Mann took one. She ate it.
+
+Francesca took in her warm smile, undisturbed by post-lingual chewing, her sunny demeanor, her lounging hair and relaxed tie, and felt legitimately annoyed. With an effort she regained control, and decided that her natural spleen was the right one to vent. “My husband is missing, and instead of trying to find him, you’re sitting here accusing me of murdering someone three years ago? A murder attempt which could very easily have offed myself as well?”
+
+Officer Mann got to her feet, brushing crumbs from her shirtfront. “I hope,” she said blandly, “that I am above such banal, straightforward suspicions. I am not accusing you of the murder of Dr Michaelmas. Nor of Mr Digsxby. I am investigating your involvement in the deaths of Archbishop Winterpipe, pushed off a bridge last winter, and Georg Smelv, a tobacconist from East Dulwich, found asphyxiated with a ballon animal.”
+
+Mrs. Digsxby’s shapely and lissome eyes bugged out of her shapely and lissome head. “What the froth are you talking about?”
+
+“And I believe I have enough for now,” concluded Officer Man, cocking an eye at her watch and then at the doorway behind Francesca and Manuel. “Let’s go, Wright, now.”
+
+Manuel showed them out.
+
+---
+
+They walked down the gravel path to the dock where their police issue airskiis were tied up, Georgia retying her ginger hair and her grey tie. She murmured to her partner: “Were you able to investigate the house while you were incommoded? I hope I gave you enough time.”
+
+“Sure did. You should see what I found,” Wright replied with satisfaction, slapping his breast and eliciting a papery thwap. “And you won’t believe what I saw…”
+
+---
+
+In the kitchen, Francesca’s thoughts were in turmoil. What the hell had that been? When she sparred with her beloved husband, while the strokes could be opaque and confusing, they were usually so through the density of their interconnection to each other and the prior history of their mutually-assumed though processes. But what had just transpired…had it had any relevance at all, to anything?
+
+She gazed at the hat and the trenchcoat, still neatly folded on the floor. Deliberately out of place. She wished she could believe that they had been left out of forgetfulness. She wished she could believe that the conversation she’d just undergone had been the unconnected ravings of a lunatic.
+
+She lifted her chin. She would get them out of this mess. Her husband, Manuel, herself. The mess she had caused, and whatever this mess was that had been caused around her. That was her first priority.
+
+But while that was her first priority, there was something she might do first… While she had a little time.
+
+She went to the place on their island which only she knew. Standing in the dappled light and shade, she pulled the box from its secret spot and blew the dust off the lid. She opened it and stared at the contents.
+
+And the contents stared right back at her.
+
+It was true that the body of Dr Michaelmas Term had never been found. Not one scrap of flesh, blood, or bone.
+
+Half a league below, the herring leapt from the sea again.
+
+[^siege weapons]: Ordinarily her psychic batteries[$in the sense of a grouping of artillery pieces, of course. Metaphorically of course.] were so well attuned to her environment[$Reginald and Manuel] that only the minutest adjustments to positioning or bearing were ever necessary, and indeed were accomplished well prior to any actual conversation.
