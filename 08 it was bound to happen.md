@@ -26,7 +26,7 @@ Officer Heare immediately set about finding the bathroom, not taking time to ask
 
 Francesca tried to show her guest to the morning room, but found herself following her to the kitchen/dining room. She said, “Can I get you anything? A glass of water perhaps, or a scone?”
 
-Georgia took off her hat and trench coat and set them on the floor, carefully so that Francesca would have felt rude picking them up and hanging them where they belonged. Georgia sat down at the little dining table and let her hair down. She loosened her tie. She looked warmly at Francesca and said, “I’ll be asking the questions here.”[@ I really like how I then had her ask no questions until the end, when she's alone with her partner.]
+Georgia took off her hat and trench coat and set them on the floor, carefully so that Francesca would have felt rude picking them up and hanging them where they belonged. Georgia sat down at the little dining table and let her hair down. She loosened her tie. She looked warmly at Francesca and said, “I’ll be asking the questions here.”[@ I really like how I then had her ask no questions until the end, when she's alone with her partner.][@ based ~M]
 
 [C; 1165 words]
 
@@ -34,7 +34,7 @@ Georgia took off her hat and trench coat and set them on the floor, carefully so
 
 Officer Mann gave the smile again. 10000 feet[@ are we using the metric system? ~C] below her, a fish coincidentally the exact shade of her hair leapt out of the rolling waters and was noticed by nobody.
 
-“Mrs. Digsxby. I believe you knew a Dr Michaelmas Term (presumed deceased)?”
+“Mrs. Digsxby. I believe you knew a Dr Michaelmas Term (presumed deceased)?” [@ This is a question, though. A previous annotation's assertion: disproved! ~M]
 
 Francesca had already been taken aback, was already there perforce and could not be taken there again; at these words: a region within aback that was to aback as aback was to the rest of the psyche, and she was taken thither. What possible connection…? However, not for nothing had she been for many years married to a mind like Reginald, and she answered with unperturbed assumed bien-être,[$ to say nothing of sangfroid] “Yes, that’s correct.”
 
