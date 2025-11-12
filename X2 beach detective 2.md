@@ -24,8 +24,10 @@ And after that time, the beach detective had left the old man on the beautiful b
 
 His notes in Gregg shorthand%%
 
+The Beach Detective often thought of investigations in the terms of the Tide. The tide goes in and the tide goes out. Despite foolish proclamations to the contrary, no man can turn the tide. You'd have to be God.
+
 He met the gaze of a man %%
 
-The beach detective arrived on the flying island%%
+The sun, the eyes of Term J. Michaelmas & God. [@ this is a Great Gatsby reference ~M] %%
 
-The Beach Detective often thought of investigations in the terms of the Tide. The tide goes in and the tide goes out. Despite foolish proclamations to the contrary, no man can turn the tide. You'd have to be God.
+The beach detective arrived on the flying island%%
