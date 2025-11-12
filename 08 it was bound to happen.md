@@ -28,6 +28,8 @@ Francesca tried to show her guest to the morning room, but found herself followi
 
 Georgia took off her hat and trench coat and set them on the floor, carefully so that Francesca would have felt rude picking them up and hanging them where they belonged. Georgia sat down at the little dining table and let her hair down. She loosened her tie. She looked warmly at Francesca and said, “I’ll be asking the questions here.”
 
+[C; 1165 words]
+
 “Well, I’m not stopping you.” Heare’s voice was punctuated and then muffled by the hurried slam of a distant ablutive door.
 
 Officer Mann gave the smile again. 10000 feet[@ are we using the metric system? ~C] below her, a fish coincidentally the exact shade of her hair leapt out of the rolling waters and was noticed by nobody.
