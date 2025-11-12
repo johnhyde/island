@@ -1,5 +1,7 @@
 [J; 681 words]
 
+[@ Oh, I'd like to happen to have bound her!!! OK but for real I have no particular idea why this chapter is called "it was bound to happen", besides of course the general themes of the novel ~M]
+
 Francesca opened the front door. It was about 9:30am and the sun would ordinarily be only minimally obstructed by a few trees from hitting her squarely in the face as she stood facing East. Term[$ Michaelmas] had suggested they orient their private island in this way, so that they could always step outside into direct sunshine first thing in the morning. Reginald had approved of this for some hidden reason that wasn't the normal reason, and Francesca had approved of it for the normal reason as well as a hidden, also normal, reason.[@ Heck yeah! I love these guys. ~M] “This is well known to support a healthy circadian rhythm,” she’d said. They'd been accustomed to following Skoios around like a cartoon storm cloud for some time, and Skoios had been democratically puttering about the mid-Pacific for some time,[$ perhaps to minimize proximity to any continents? or perhaps as a failed compromise due to a naïve averaging of preferred coordinates? The operational shell of the democratic process was shockingly opaque for a city so young] so when there were no clouds, the sun rose nakedly from the sea like a giant peeping eye, bare of land-lids or tree- or building-lashes. Staring contests with the sun were like staring contests with Dr Michaelmas: dazzling, illuminating, painful, brief, and hopeless.
 
 But anyway, in this case the sun was blocked by the hat and head of an unfamiliar man or woman in a trench coat. The silhouette reached up to tip its hat and mumbled, androgynously, “Good morning, madam. I’m” and then something that sounded like, “Georgia Mann, Unintuitive Detective,” or possibly, “George, a man; I’m doin’ a ‘detective’”[^culture] Following this was heard, “I’d like to ask you a few questions, if you don’t mind.”
@@ -40,7 +42,7 @@ Francesca had already been taken aback, was already there perforce and could not
 
 “I believe you two were close. In a manner distinct from Dr. Michaelmas’s many sexual partners.”
 
-A distant flush aurally eclipsed Francesca’s sharp intake of breath; though her gaze remained placidly aligned with her interlocutor’s, her mind’s eye darted about as she hauled her preconceptions of this examination (like great lumbering siege weapons) into new formations.[^siege weapons] “Well, I should—how—”
+A distant flush aurally eclipsed[@ Oh, I'd like to, uh, flushed... her oral... lips... um, nevermind. ~M] Francesca’s sharp intake of breath; though her gaze remained placidly aligned with her interlocutor’s, her mind’s eye darted about as she hauled her preconceptions of this examination (like great lumbering siege weapons) into new formations.[^siege weapons] “Well, I should—how—”
 
 Officer Mann’s voice continued, soft and gentle and inexorable as the snowfall that crushes the hills and freezes the newborn lamb. “I believe you were with him at the time of his death. A passenger.”
 

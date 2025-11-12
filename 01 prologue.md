@@ -8,6 +8,8 @@ Islands, today, have bewitching ways about them. Hovering islands now, that's wh
 [^4]: optional
 [^5]: or: frothright
 
+[@ We sometimes like to describe this paragraph (and the subsequent word-by-word paragraphs) as "one of the paragraphs of all time", to use the common turn of phrase. ~M]
+
 [M; 397 words]
 
 Reginald Digsxby kick't his sniveling heels up on the railing. He was looking out over his railing on his private flying island down upon another flying island below him. Full of the rabble. The frothy polis. Full, as well, of women with admirable bosoms[^bosa] for which perhaps to survey the islands that dwell perhaps within, perhaps pendulously. He was retired, but, like, in a cool way. “Computer!” he ordered his manservant, Manuel Ordinator Computer Gonzalez, “bring me another martini, and sing me a song of that heroic plumber, Mario!” “Certainly, sir,” said Manuel, who was a robot. “Shall I make him kiss Sonic again?” “Of course.” “Very good sir.”

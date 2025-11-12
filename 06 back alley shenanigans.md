@@ -1,5 +1,7 @@
 [M; 734 words]
 
+[@ The title of this chapter, "back alley shenanigans", is literally true and apt, but also is (in my heart) a reference to Mr Burns trying to bribe Homer in "Last Exit To Springfield", and the phrase "backdoor shenanigans" uttered therein. ~M]
+
 "Hey," said the man standing in the mouth of the alley. "Looking for me?"
 
 Sensation and menace rolled off the man like waves, in Thomas's[@ The rule I use regarding a name ending with s rendered into the possessive is that if I would *say*, eg, "Jesuses shoes" I write "Jesus's shoes" and if I would *say* "Jesus shoes" I write "Jesus' shoes". It just makes sense. (incidentally: I think of both as grammatically correct, and so both can be used, and you can even go back and forth between them based on whim) ~M] sympathetic sea of a nervous system[@ this is a mention of the sympathetic nervous system, which controls fight-or-flight ~M]. According to the portents of the Track, this was the most significant man he could possibly have met at the moment. In a bad way.
