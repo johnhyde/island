@@ -26,7 +26,7 @@ Officer Heare immediately set about finding the bathroom, not taking time to ask
 
 Francesca tried to show her guest to the morning room, but found herself following her to the kitchen/dining room. She said, “Can I get you anything? A glass of water perhaps, or a scone?”
 
-Georgia took off her hat and trench coat and set them on the floor, carefully so that Francesca would have felt rude picking them up and hanging them where they belonged. Georgia sat down at the little dining table and let her hair down. She loosened her tie. She looked warmly at Francesca and said, “I’ll be asking the questions here.”
+Georgia took off her hat and trench coat and set them on the floor, carefully so that Francesca would have felt rude picking them up and hanging them where they belonged. Georgia sat down at the little dining table and let her hair down. She loosened her tie. She looked warmly at Francesca and said, “I’ll be asking the questions here.”[@ I really like how I then had her ask no questions until the end, when she's alone with her partner.]
 
 [C; 1165 words]
 
