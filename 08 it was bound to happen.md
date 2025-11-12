@@ -42,7 +42,7 @@ Francesca had already been taken aback, was already there perforce and could not
 
 “I believe you two were close. In a manner distinct from Dr. Michaelmas’s many sexual partners.”
 
-A distant flush aurally eclipsed[@ Oh, I'd like to, uh, flushed... her oral... lips... um, nevermind. ~M] Francesca’s sharp intake of breath; though her gaze remained placidly aligned with her interlocutor’s, her mind’s eye darted about as she hauled her preconceptions of this examination (like great lumbering siege weapons) into new formations.[^siege weapons] “Well, I should—how—”
+A distant[@ I guess you could say this sound *came from* the *ablative* door 😉 ~M [perhaps this should just be a (signed) footnote? ~~M] flush aurally eclipsed[@ Oh, I'd like to, uh, flushed... her oral... lips... um, nevermind. ~M] Francesca’s sharp intake of breath; though her gaze remained placidly aligned with her interlocutor’s, her mind’s eye darted about as she hauled her preconceptions of this examination (like great lumbering siege weapons) into new formations.[^siege weapons] “Well, I should—how—”
 
 Officer Mann’s voice continued, soft and gentle and inexorable as the snowfall that crushes the hills and freezes the newborn lamb. “I believe you were with him at the time of his death. A passenger.”
 
