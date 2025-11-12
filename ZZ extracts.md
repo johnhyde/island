@@ -68,6 +68,13 @@ Ah, the bus detective… so easily forgotten…
 
 (corresponds to: Beach Detective 2)
 
+The world moves on, another day, another drama, drama
+But not for me, not for me, all I think about is karma
+
+—"Look What You Made Me Do", by Taylor Swift
+
+(corresponds to: Beach Detective 2)
+
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
 > Here ye strike but splintered hearts together—there, ye shall strike unsplinterable glasses!
