@@ -75,6 +75,13 @@ But not for me, not for me, all I think about is karma
 
 (corresponds to: Beach Detective 2)
 
+My bright smile haunts no one.
+
+—https://www.newyorker.com/books/page-turner/why-i-am-a-thief
+
+(corresponds to: Beach Detective 2)
+
+
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
 > Here ye strike but splintered hearts together—there, ye shall strike unsplinterable glasses!
