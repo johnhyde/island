@@ -1,4 +1,4 @@
-[M; 2,000 words]
+[M; 1,571 words]
 
 The beach detective stood aloof in the middle of the floor of the morning commuter transport ship[^ship] headed to the flying island. He held no seat nor structure to steady himself against the shudders and turbulence of the ride; he just stood firm. He was surrounded by the peasants, of various stripes and qualities, of the flying island, which — despite freemen and free agents — were some reason called villeins. The Flying Villeins. 97% of the population. And here he was among them, vagabone, vagābundus. But he paid them no mind. Instead, he looked out at the beautiful bright gently-churning ocean, under the indefatigable and undefiable[$undefyable?] Sun that precluded him from looking at half of his possible field of vision. He thought about what the old man had told him the previous time he had been on an assignment to the flying island Skoios[^pronunciation]:
 
@@ -60,7 +60,7 @@ The stranger gave his train of though a little nod of acknowledgment. "I see." H
 
 "So they say," said the beach detective, thinking back to all those women he'd interviewed.
 
-"His middle name was Juliet, you know that? ‘Arise, fair sun, and kill the envious moon’![$ _The Tragedie of Romeo and Juliet_, by VVilliam Shakespeare (act 2, scene 2)[@ Shakespeare plays probably didn't initially have act divisions, but they're useful for reference, much like Bible "versification".][@ The more obvious, and preceding, line from the play is "It is the East, and Juliet is the sun", but that's kind of bland and not as fun — although including it here would definitely help people who don't get this reference get it. ~M] Ha!"
+"His middle name was Juliet, you know that? ‘Arise, fair sun, and kill the envious moon’![$ _The Tragedie of Romeo and Juliet_, by VVilliam Shakespeare (act 2, scene 2)[@ Shakespeare plays probably didn't initially have act divisions, but they're useful for reference, much like Bible "versification".][@ The more obvious, and preceding, line from the play is "It is the East, and Juliet is the sun", but that's kind of bland and not as fun — although including it here would definitely help people who don't get this reference get it. ~M]] Ha!"
 
 "Huh!" said the beach detective. "I'd never heard that."
 
