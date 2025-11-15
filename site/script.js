@@ -73,14 +73,18 @@ class NovelSite {
     return title.replace(/\b\w/g, (char) => char.toUpperCase());
   }
 
+  getChapterNumber(filename) {
+    if (!filename) return null;
+    const match = filename.match(/(\d+)/);
+    return match ? parseInt(match[1], 10) : null;
+  }
+
   generateChapterSlug(filename) {
     if (!filename) return "";
-    // Convert filename to URL-friendly slug
-    // "01 prologue.md" -> "prologue"
-    // "02 one fine day.md" -> "one-fine-day"
+    // filename example
+    // "./02 one fine day.md"
     const basename = filename.replace(/\.md$/, "");
-    const titlePart = basename.replace(/^[0-9][0-9]\s*/, "");
-    return titlePart.toLowerCase().replace(/\s+/g, "-").replace(
+    return basename.toLowerCase().replace(/\s+/g, "-").replace(
       /[^a-z0-9-]/g,
       "",
     );
@@ -124,7 +128,12 @@ class NovelSite {
       // Set proper href with chapter slug
       const slug = this.generateChapterSlug(chapter.filename);
       a.href = `#${slug}`;
-      a.textContent = chapter.title;
+
+      // Extract chapter number from filename (e.g., "01" from "./01 prologue.md")
+      const chapterNumber = this.getChapterNumber(chapter.filename);
+      a.textContent = chapterNumber
+        ? `${chapterNumber}. ${chapter.title}`
+        : chapter.title;
       a.dataset.filename = chapter.filename;
 
       a.addEventListener("click", async (e) => {
