@@ -109,7 +109,7 @@ To read the novel in a clean, web-based format:
 
 ## Word counting
 
-If you want to count how many words are in the novel, you can use the classic Posix command `wc -w *\ *.md`. This *will* include the annotations, however, even though these "don't count" in some spiritual sense.
+If you want to count how many words are in the novel, you can use ./wordcount.sh
 
 ## License
 
