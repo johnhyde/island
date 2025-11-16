@@ -1,5 +1,9 @@
 
-"I think I can explain," said the beach detective. "On the night of the 31st of December, Reginald was worried about betrayal, as usual. His wife and man(?)servant decided to play on this, as they often do, and pretend to betray him just to surprise him with a new year's fireworks display. However, in the confusion and following confusion, Reginald injured his hand and also his head. He was put into the secret dungeon to rest and recuperate. Meanwhile, his wife reported him missing, as otherwise his enemies would surely take advantage of his handless state to assassinate him during his many public appearances he would otherwise have to make." [@ I can change this if it doesn't match the plot later]
+"I think I can explain," said the beach detective.
+
+"Yes, please do!" everyone cried out in unison.
+
+"On the night of the 31st of December, Reginald was worried about betrayal, as usual. His wife and man(?)servant decided to play on this, and pretend to betray him just to surprise him with a new year's fireworks display. Franny was betraying him just so he could get being betrayed out of his system and move on. A very weak betrayal. However, in the confusion and following confusion, Reginald injured his hand and also his head. He was put into the secret dungeon to rest and recuperate. Meanwhile, his wife reported him missing, as otherwise his enemies would surely take advantage of his handless state to assassinate him during his many public appearances he would otherwise have to make." [@ I can change this if it doesn't match the plot later]
 
 [@ The beach detective has been dispatched by one such enemy, or perhaps another heir apparent, to see if he's really missing. The mysterious stranger on the bus will also come visit Reginald in the dungeon, for no reason.%%]
 
