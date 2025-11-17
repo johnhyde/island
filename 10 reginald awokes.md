@@ -35,3 +35,37 @@ Reginald smirked. The grander dungeon choice may not have stood the test of time
 [^parachute]: There have been enough unfortunate accidents that island-golf courses without all the most modern conveniences will often provide complementary parachutes to their patrons (which the patrons will usually sign dire waivers to forgo, but this helps them remember not to leap blithely into the abyss).
 
 [^fleet]: One nice thing about having a fleet of golf islands is that you can rearrange them in all sorts of different ways so you can have a totally fresh course wherever you want.
+
+[C; 660 words]
+Reginald blizzled drizzlé. Before him was…what? Not nothing, certainly, for how could nothing produce such a rich and lively something? How could nothing birth a being whose suspicions and counter-suspicions were so proliferous, viviparous? How could nothing give rise to such a pounding headache. And yet, could “something” “exist” if it “existed” outside the bounds of his experience? His brain waxed solipsistic from side to side inside his beleaguered cranium.
+
+If matters before him were unassailable, then at least with assurity there were those things which lurked behind. Plotting, scheming… Setting nets for his head and snares for his feet, trailing silken strands between his outstretched, inviting fingers, weaving a web centered on Reginald ***Metcalf*** Digsxby—
+
+Something warm and soft and faintly squelchy flopped onto his forehead and dragged along his brow. His eyes opened, swiveled sideways. An angle of attack he hadn’t anticipated, blast it!
+
+‘Cesca wiped his brow with the warmed washcloth again. Her gaze was a well-pleasing blend of tender and—could it be—guilt? Or was that just what he wished to seem to fear… What a lovely, incomparable woman. Then her eyes met his, registered the gleam of their openhood in the semi-darkness, and widened.
+
+She murmured something, something precious and sweet. Lost, lost in the surge of the salt sea, his blood, pouring in cataracts through the caverns of his bursting brain. Oh, to be a spirit in the old style, a daemon, intelligence given wings. What folly, what vanity, to look through these absurd windows, to flap this foolish flag, to be tied to the world through a homunculus whose relentless living cut off the world! What wastage to find oneself, one’s *self*, bound in the binding of this…this mere scarecrow. A fettered, fetid calf, he was.
+
+“Dye mere. Chon merry. Wolud ewe de a barling and lozenge these, mine shekels? I flind myself kite hampered.”
+
+That look in her eyes—guilt? Perhaps, perhaps not, but certainly it was pain of some sort—grew stronger. Brighter. She spoke again, and again all was lost. He thought, in the gloom, he could perhaps make out a word in the curving and rebounding of her lips.
+Perhaps ‘dossier.’
+
+The exit was so near. But who could say where the escape might be?
+
+‘Blammit,’ thought Reginald as darkness crept over him once more.
+
+While the cloth rested on his brow, the warmth was comforting. When it withdrew, the chill bit at the moisture like a wolf.
+
+---
+
+Go for a walk, some misty morning, among the glorious and delicate hills of Hibernia or Caledonia or, more germanely, Germania. Breathe in the petrichor and the mould, the spiders dancing in the dew of their webs, the nuthatches…hatching nuts, or whatever it is they do. With them breathe in the sense that some turning point, some revelation, awaits at the top of the next crest. The mystery that lives in the heart, in the yolk of an egg, in the cute girl who works in the coffee shop down the lane, in the center of the night sky, will open an eye and wink at you, if you permit.
+
+Crest the hill. Stand at the peak. Salute the sun and honor it with your stately back. Stand sentinel. It’s coming. Don’t blink. Watch the mist, and the figure rising, like a chthonic Venus, from the foam. See the glory of Ulloa shining like a mantle over its shoulders and like the crown of martyrs over its head. And never doubt that the mystery is here, not in you, nor in the shade across the valley, but _here_, in the gaze that connects you, in this instant, in this beat of the nuthatch’s wings. When the shadow leaves, don’t forget it. When they tell you it was a mere illusion, don’t believe them.
+
+It is an illusion, of course. But a _mere_ illusion? Hardly. There is no shadow without light, no illusion without an eye.
+
+---
+
+Thomas blinked dizzily.
