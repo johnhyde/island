@@ -1,0 +1,3 @@
+[C; 2 words]
+
+He lived.
