@@ -36,6 +36,8 @@ Reginald smirked. The grander dungeon choice may not have stood the test of time
 
 [^fleet]: One nice thing about having a fleet of golf islands is that you can rearrange them in all sorts of different ways so you can have a totally fresh course wherever you want.
 
+---
+
 [C; 660 words]
 
 Reginald blizzled drizzlé. Before him was…what? Not nothing, certainly, for how could nothing produce such a rich and lively something? How could nothing birth a being whose suspicions and counter-suspicions were so proliferous, viviparous? How could nothing give rise to such a pounding headache. And yet, could “something” “exist” if it “existed” outside the bounds of his experience? His brain waxed solipsistic from side to side inside his beleaguered cranium.
