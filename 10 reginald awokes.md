@@ -48,7 +48,7 @@ Something warm and soft and faintly squelchy flopped onto his forehead and dragg
 
 ‘Cesca wiped his brow with the warmed washcloth again. Her gaze was a well-pleasing blend of tender and—could it be—guilt? Or was that just what he wished to seem to fear… What a lovely, incomparable woman. Then her eyes met his, registered the gleam of their openhood in the semi-darkness, and widened.
 
-She murmured something, something precious and sweet. Lost, lost in the surge of the salt sea, his blood, pouring in cataracts through the caverns of his bursting brain. Oh, to be a spirit in the old style, a daemon, intelligence given wings. What folly, what vanity, to look through these absurd windows, to flap this foolish flag, to be tied to the world through a homunculus whose relentless living cut off the world! What wastage to find oneself, one’s *self*, bound in the binding of this…this mere scarecrow. A fettered, fetid calf, he was.
+She murmured something, something precious and sweet. Lost, lost in the surge of the salt sea, his blood, pouring in cataracts through the caverns of his bursting brain. Oh, to be a spirit in the old style, a daemon, intelligence given wings. What folly, what vanity, to look through these absurd windows[@ eyes], to flap this foolish flag[@ the tongue, or perhaps the hand; not sure], to be tied to the world through a homunculus whose relentless living cut off the world! What wastage to find oneself, one’s *self*, bound in the binding of this…this mere scarecrow. A fettered, fetid calf, he was.
 
 “Dye mere. Chon merry. Wolud ewe de a barling and lozenge these, mine shekels? I flind myself kite hampered.”
 
