@@ -33,7 +33,7 @@ Everybody's heads snapped to look at him. "The Martini Killer!!"
 
 "I thought you'd never ask!" said the martini killer, excitedly. He began:
 
-"You see, Reginald Digsxby never killed Martin Eeny. I did! Or perhaps we both did. I happened to be standing right next to Martin Eeny as the glass hurtled down at him. I then effortlessly caught the glass and, taking this as a sign from heaven that [@ %% I need to figure out if he was also trying to kill Reginald] I began my rampage of death through the flying island."
+"You see, Reginald Digsxby never killed Martin Eeny. I did! Or perhaps we both did. I happened to be standing right next to Martin Eeny as the glass hurtled down at him. I then effortlessly caught the glass and, taking this as a sign from heaven that [@ %% I need to figure out if he was also trying to kill Reginald. Possibly he should say "yeah I have always been planning to betray reginald" and reginald can go "I knew it!". Maybe he can be their piano tuner or something.] I began my rampage of death through the flying island."
 
 "It sure seems like a coincidence that you were standing right next to Martin Eeny at that very moment."
 
