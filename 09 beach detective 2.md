@@ -42,7 +42,7 @@ Their gazes rested on each other. The beach detective had been expecting this ma
 
 The beach detective's heart leapt. "Good morning," he said back.
 
-The man walked the short distance away from the wall to stand next to the beach detective, joining him in freestanding. The man had a vivacious energy, thick black glasses, and oddly protrudinous nose, and a big black mustache that differed significantly in color from his beard.
+The man walked the short distance away from the wall to stand next to the beach detective, joining him in freestanding. The man had a vivacious energy, thick black glasses, and oddly protrudinous nose, and a big black mustache that differed significantly in color from his beard.[@ 🥸 ~J]
 
 "Enjoying the sunshine?" the man asked.
 

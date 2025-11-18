@@ -48,7 +48,7 @@ Something warm and soft and faintly squelchy flopped onto his forehead and dragg
 
 ‘Cesca wiped his brow with the warmed washcloth again. Her gaze was a well-pleasing blend of tender and—could it be—guilt? Or was that just what he wished to seem to fear… What a lovely, incomparable woman. Then her eyes met his, registered the gleam of their openhood in the semi-darkness, and widened.
 
-She murmured something, something precious and sweet. Lost, lost in the surge of the salt sea, his blood, pouring in cataracts through the caverns of his bursting brain. Oh, to be a spirit in the old style, a daemon, intelligence given wings. What folly, what vanity, to look through these absurd windows[@ eyes], to flap this foolish flag[@ the tongue, or perhaps the hand; not sure], to be tied to the world through a homunculus whose relentless living cut off the world! What wastage to find oneself, one’s *self*, bound in the binding of this…this mere scarecrow. A fettered, fetid calf, he was.
+She murmured something, something precious and sweet. Lost, lost in the surge of the salt sea, his blood, pouring in cataracts through the caverns of his bursting brain. Oh, to be a spirit in the old style, a daemon, intelligence given wings. What folly, what vanity, to look through these absurd windows[@ eyes], to flap this foolish flag[@ the tongue, or perhaps the hand; not sure], to be tied to the world through a homunculus whose relentless living cut off the world! What wastage to find oneself, one’s *self*, bound in the binding of this…this mere scarecrow. A fettered, fetid calf, he was.[@ fetcalf, more like ~J[@ possibly just make this a footnote? %% ~M]
 
 “Dye mere. Chon merry. Wolud ewe de a barling and lozenge these, mine shekels? I flind myself kite hampered.”
 
@@ -65,9 +65,10 @@ While the cloth rested on his brow, the warmth was comforting. When it withdrew,
 
 Go for a walk, some misty morning, among the glorious and delicate hills of Hibernia or Caledonia or, more germanely, Germania. Breathe in the petrichor and the mould, the spiders dancing in the dew of their webs, the nuthatches[$ or an Hibernian analog, since nuthatches are not native to Hibernia]…hatching nuts, or whatever it is they do. With them breathe in the sense that some turning point, some revelation, awaits at the top of the next crest. The mystery that lives in the heart, in the yolk of an egg, in the cute girl who works in the coffee shop down the lane, in the center of the night sky, will open an eye and wink at you, if you permit.
 
-Crest the hill. Stand at the peak. Salute the sun and honor it with your stately back. Stand sentinel. It’s coming. Don’t blink. Watch the mist, and the figure rising, like a chthonic Venus, from the foam. See the glory of Ulloa shining like a mantle over its shoulders and like the crown of martyrs over its head. And never doubt that the mystery is here, not in you, nor in the shade across the valley, but _here_, in the gaze that connects you, in this instant, in this beat of the nuthatch’s wings. When the shadow leaves, don’t forget it. When they tell you it was a mere illusion, don’t believe them.
+[@ It's about the Brocken Spectre phenomenon ~C]
+Crest the hill. Stand at the peak. Salute the sun and honor it with your stately back. Stand sentinel. It’s coming. Don’t blink. Watch the mist, and the figure rising, like a chthonic Venus, from the foam. See the glory of Ulloa [@ I don't know what is, except for a region in Galicia. ~M][@Ah, of course, it's Ulloa's halo, another name for this phenomenon (as is "glory"). ~M] shining like a mantle over its shoulders and like the crown of martyrs over its head. And never doubt that the mystery is here, not in you, nor in the shade across the valley, but _here_, in the gaze that connects you, in this instant, in this beat of the nuthatch’s wings. When the shadow leaves, don’t forget it. When they tell you it was a mere illusion, don’t believe them.
 
-It is an illusion, of course. But a _mere_ illusion? Hardly. There is no shadow without light, no illusion without an eye.
+It is an illusion, of course. But a _mere_ illusion? Hardly. There is no shadow without light, no illusion without an eye.[@ No illusion without lusion... no lus without Galicia... [@Or, perhaps, Lusitania... ~M] ~M]
 
 ---
 
