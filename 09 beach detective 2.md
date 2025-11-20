@@ -4,7 +4,9 @@ The beach detective stood aloof in the middle of the floor of the morning commut
 
 [^ship]: This amphibious sea- and then air- ship[@ it goes on the sea a while and then takes off into the air to get to the island] was called an aeroömnibus; or "’bus", for short.[$ Or "aerō omnia vincit" for long.[@A play on "labor omnia vincit"/"amor omnia vincit" ("work conquers all"/"love conquers all"), this other version actually means "a wicker basket binds up all" (a vinciō/vincō pun). Evidently, they don't think much of this ship!][$"Omnia mea mecum porto"[@ this is a famous latin expression, meaning "All that is mine I carry with me", which is kind of a pun in this context since the ship actually carries a lot.], the ship would have said if it could talk, which it cannot.[@Something something _Porco Rosso_, porto meacum...]]]
 
-[^pronunciation]: The beach detective tended to pronounce this name /sko.i.os/ [skow.ij.ows]; the old man pronounced it /skoj.os/ [skɔj.əws]; the natives of said island tend to pronounce it /sko.i.os/ [sko.i.os] these days[$although, oddly, they didn't tend to pronounce any other vowels in such a non-english style.] although some old-timers still held to the pronunciation /ski.os/ [ski.os]. Thomas Metcalf pronounced it /sko.i.os/ [skɐw.ij.ɐws].
+[^pronunciation]: The beach detective tended to pronounce this name /sko.i.os/ [skow.ij.ows]; the old man pronounced it /skoj.os/ [skɔj.əws]; the natives of said island tend to pronounce it /sko.i.os/ [sko.i.os] these days[$although, oddly, they didn't tend to pronounce any other vowels in such a non-english style.] although some old-timers still held to the pronunciation /ski.os/ [ski.os]. Thomas Metcalf pronounced it /sko.i.os/ [skɐw.ij.ɐws][^audio].
+
+[^audio]: ![Thomas pronouncing Skoios skɐw.ij.ɐws](assets/skoios_pronounced_by_thomas.opus).
 
 ---
 

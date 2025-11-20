@@ -39,6 +39,8 @@ Other timeline events (I just grepped for 0x lol):
 
 Display appendices.
 
+![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, and johndown does tend to stay compatible with markdown where it can.
+
 Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
 
 I'm thinking that instead of just [@ blah] with ~ signatures we should all have our own special sigils. So I could leave annotations like, um, [~M blah]. And then I guess that would render like as though [@ blah ~M] I guess.
