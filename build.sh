@@ -6,7 +6,7 @@
 mkdir -p site
 
 # Find all markdown files, format them as JSON, and build the final JSON file
-find . -maxdepth 1 -name '[0-9][0-9]*.md' | sort -V | \
+find . -maxdepth 1 -name '[0-A][0-9]*.md' | sort -V | \
   jq -R '{"filename": ., "title": sub("^./[0-9]+ "; "") | sub("\\.md$"; "")}' | \
   jq -s '{"chapters": .}' > site/chapters.json
 
