@@ -2,9 +2,9 @@ The first word-by-word wasn't tracked very particularly.
 
 The second word-by-word was 2025-11-05. Here are some colored pictures about it:
 
-![](assets/word-by-word 2025-11-05.png)
+![colored-background text of the paragraph](assets/word-by-word 2025-11-05.png)
 
-![](assets/word-by-word various scraps 2025-11-05.png)
+![colored-background text of some other text](assets/word-by-word various scraps 2025-11-05.png)
 
 The second picture is notes jotted down to maybe become part of the story.
 
