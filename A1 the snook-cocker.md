@@ -16,7 +16,7 @@ Cocking a snook at the Parmenidean deity who bids him to turn from negation as u
 
 > Cocking a snook
 
-Wth
+Wth [@ "What the hell"/"What the heck" ~M]
 
 
 Ugh, gay
