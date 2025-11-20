@@ -1,0 +1,23 @@
+The first word-by-word wasn't tracked very particularly.
+
+The second word-by-word was 2025-11-05. Here are some colored pictures about it:
+
+![](assets/word-by-word 2025-11-05.png)
+
+![](assets/word-by-word various scraps 2025-11-05.png)
+
+The second picture is notes jotted down to maybe become part of the story.
+
+The colored text indicates who typed something, which is usually but not always who came up with it.
+
+remark by M:
+
+(context: during the composition, C wanted to turn the "had" M had chosen (on the first line of prose) into "hadn't". There were no firm rules for this at that point[^¹], so M said "yes, if you separate them with a hyphen".)
+
+[^¹]: later they stopped writing spaces after their words to purposefully allow for more of this tomfoolery
+
+Honestly I should have written that hyphen so that I would show up in my color, since I was just giving orders. Oh well!
+
+(context: "I was just giving orders", a reference to the Nuremberg defense, is a joke that M is fond of, which joke perhaps has been invented multiple independent times, in this case perhaps by a friend.)
+
+Later, there may be more...! unless we've already finished by the time you read this.
