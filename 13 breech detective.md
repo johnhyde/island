@@ -4,7 +4,7 @@
 
 “Thank you, ‘pointy shoes’ Dugan,” [@ I ended up writing this guy completely different from the guy who has pointy shoes earlier in the story. So maybe he shouldn't be pointy shoes Dugan anymore?%%] said the Beach Detective, entirely unfazed. “What do you have for me?”
 
-“Only the finest pair of breeches, Monsieur!” crooned the shopkeep. “As you know, every high-ranking member of flying island society wears breeches and has been doing so this whole time, canonically. And so if you want to rise out of the gutter-trash ranks of a stinking hard-boiled dick — no offense — and rub shoulders or maybe thighs with the upper crust, you’d better wear the pants[$ on the flying island, “pants” is understood to encompass both trousers and breeches, but not underwear. It's quite like America in that way.] to play the part. So slip out of those trousers and give these puppies a whirl!”
+“Only the finest pair of breeches, Monsieur!” crooned the shopkeep. “As you know, every high-ranking member of flying island society wears breeches and has been doing so this whole time, canonically. And so if you want to rise out of the gutter-trash ranks of a stinking hard-boiled dick — no offense — and rub shoulders or maybe thighs with the upper crust, you’d better wear the pants[$ on the flying island, “pants” is understood to encompass both trousers and breeches, but not underwear. It's quite like America in that way.[$It's also quite like America in that "America" is there understood to mean "the United States".]] to play the part. So slip out of those trousers and give these puppies a whirl!”
 
 The beach detective doffed and donned appropriately. The breeches were nice.
 
