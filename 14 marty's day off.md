@@ -1,6 +1,6 @@
 [J; 412 words]
 
-Martinius Kijller sat on his balcony, overlooking the sparse night-bustle of Malibu Lane, listening to the neighborhood clock strike twelve. It was midnight, January 3ʳᵈ, a Thursday. Marty took a sip of his whiskey. It was his day off.
+Martinius Kijller sat on his balcony, overlooking the sparse night-bustle of Malibu Lane, listening to the neighborhood clock strike twelve. It was midnight, freshly January 3ʳᵈ, a Thursday. Marty took a sip of his whiskey. It was his day off.
 
 He’d had a busy couple days, and while a part of him was eager to keep the momentum going, he knew it would be best (or worst, in an evil-is-bad sort of way) to take his customary day to rest and rejuvenate. On Thursdays he didn’t drink martinis or wear his martini underwear or carry his martini gear, although of course he was always armed in some fashion. Knifes, and so on. No, this had been his custom through all his years of training, and he wasn’t going to abandon it now, simply because he was wanted for recent serial murder. If the detectives of this city chose this day, Thursday, to plop their brains into their skulls for a second and actually track him down, good for them. He’d left them enough calling cards.
 

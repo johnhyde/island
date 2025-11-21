@@ -70,7 +70,8 @@ class NovelSite {
   }
 
   capitalizeTitle(title) {
-    return title.replace(/\b\w/g, (char) => char.toUpperCase());
+    title = title.replace(/(^|[-\s])\w/g, (char) => char.toUpperCase());
+    return title.replace(/(?<!^)(To|In|The|A)\b/g, (str) => str.toLowerCase());
   }
 
   getChapterNumber(filename) {
