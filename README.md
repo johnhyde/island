@@ -29,7 +29,7 @@ You might notice that occasionally there's something wacky like a marker of 0 wo
 
 ## Story Notes
 
-I’m thinking the current year is probably about 0x8fd (or 2301 (since what?? (The only undisputed date in history, the birth of the Christchild [disputed]))).
+The current year is 0x8fd (or 2301 (since what?? (The only undisputed date in history, the birth of the Christchild [disputed]))).
 
 Other timeline events (I just grepped for 0x lol):
 * Squiggle had mysteriously disappeared in the year 0x8eb, two years after the Eenies got rich, moved to The Islands, and got Martin a proper private tutor.

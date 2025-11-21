@@ -1,0 +1,11 @@
+[J; 412 words]
+
+Martinius Kijller sat on his balcony, overlooking the sparse night-bustle of Malibu Lane, listening to the neighborhood clock strike twelve. It was midnight, January 3ʳᵈ, a Thursday. Marty took a sip of his whiskey. It was his day off.
+
+He’d had a busy couple days, and while a part of him was eager to keep the momentum going, he knew it would be best (or worst, in an evil-is-bad sort of way) to take his customary day to rest and rejuvenate. On Thursdays he didn’t drink martinis or wear his martini underwear or carry his martini gear, although of course he was always armed in some fashion. Knifes, and so on. No, this had been his custom through all his years of training, and he wasn’t going to abandon it now, simply because he was wanted for recent serial murder. If the detectives of this city chose this day, Thursday, to plop their brains into their skulls for a second and actually track him down, good for them. He’d left them enough calling cards.
+
+The air was cold[^cold] and Marty was very cozy in his fur coat, sipping his whiskey. He thought about lighting up a cigar, and then thought about how it would be to accidentally drop ash on the fur coat, which led him into a quiet contemplation of his nature and who he was trying to be and who he was willing to be. On the one hand, not to care if he had some cigar ash in his fur coat would communicate impressive confidence and independence of thought, but, on the other hand, he took pride in his aesthetic taste, attention to detail, and general cleanliness, which he wasn’t willing to betray in service of his so-called “freedom” (the freedom to smoke a cigar in a fur coat on his day off).
+
+However, as he was pondering this and other related things, he absent-mindedly pulled a cigarette out of his cigarette case, lit it, and started smoking it. He laughed when he realized, and then laughed harder, and then he laughed so hard that he dislodged some ash from the cigarette, which fell into the fur of his coat, at which point he cackled abandonously. His upstairs neighbor cursed him silently. Marty went inside to get a cigar.
+
+[^cold]: Skoios was, by popular demand, flown high enough in the air to give the impression of winter during the winter months, although the equatorial waters below knew no such season.
