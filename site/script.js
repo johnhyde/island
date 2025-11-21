@@ -75,8 +75,8 @@ class NovelSite {
 
   getChapterNumber(filename) {
     if (!filename) return null;
-    const match = filename.match(/(\d+)/);
-    return match ? parseInt(match[1], 10) : null;
+    const match = filename.match(/([A-Z]*)(\d+)/);
+    return match ? match[1] + parseInt(match[2], 10) : null;
   }
 
   generateChapterSlug(filename) {
@@ -232,6 +232,13 @@ class NovelSite {
 
     // Update active state in table of contents
     this.updateActiveChapter(filename);
+
+    // Load Utterances comments for the chapter
+    if (filename) {
+      this.loadUtterances(title);
+    } else {
+      this.cleanupUtterances();
+    }
   }
 
   updateFootnotesContent(text) {
@@ -284,6 +291,34 @@ class NovelSite {
     if (activeLink) {
       activeLink.classList.add("active");
     }
+  }
+
+  cleanupUtterances() {
+    const container = document.getElementById("utterances-comments");
+    if (container) {
+      container.innerHTML = ""; // Remove existing iframe
+    }
+  }
+
+  loadUtterances(title) {
+    this.cleanupUtterances();
+
+    const container = document.getElementById("utterances-comments");
+    if (!container) return;
+
+    const script = document.createElement("script");
+    script.src = "https://utteranc.es/client.js";
+    script.setAttribute("repo", "johnhyde/island");
+    script.setAttribute("issue-term", title);
+    script.setAttribute("label", "comments section");
+    script.setAttribute(
+      "theme",
+      this.darkMode ? "github-dark" : "github-light",
+    );
+    script.setAttribute("crossorigin", "anonymous");
+    script.async = true;
+
+    container.appendChild(script);
   }
 
   setupFootnoteHandlers() {
@@ -516,6 +551,12 @@ class NovelSite {
       document.body.classList.add("dark-mode");
     } else {
       document.body.classList.remove("dark-mode");
+    }
+
+    // Reload Utterances with the new theme if a chapter is loaded
+    if (this.currentChapter) {
+      const title = this.getChapterTitle(this.currentChapter);
+      this.loadUtterances(title);
     }
   }
 

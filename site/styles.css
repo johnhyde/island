@@ -325,12 +325,12 @@ input:checked + .slider:before {
 }
 
 .table-of-contents li {
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
 }
 
 .table-of-contents a {
     display: block;
-    padding: 0.5rem 0.75rem;
+    padding: 0.25rem 0.75rem;
     text-decoration: none;
     color: var(--text-secondary);
     border-radius: 4px;
@@ -357,7 +357,7 @@ input:checked + .slider:before {
     transition: border-color 0.3s ease;
 }
 
-.main-content a {
+a {
     color: var(--accent-blue);
 }
 
@@ -510,6 +510,14 @@ input:checked + .slider:before {
     color: var(--accent-blue);
     margin-right: 0.5rem;
     transition: color 0.3s ease;
+}
+
+/* Utterances comments section */
+#utterances-comments {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border-primary);
+    transition: border-color 0.3s ease;
 }
 
 /* Responsive design */

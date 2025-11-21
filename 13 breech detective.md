@@ -21,3 +21,11 @@ The beach detective doffed and donned appropriately. The breeches were nice.
 “Why, yes, I suppose there was. Pajama breeches, they were, and patterned with black martini glasses on a fine white silk[$fun fact: in the flyingislandverse, silk is made from spinning whey and copper into thread.]. And after Labor Day! Oh, also, his body was cut in half in the shape of a martini glass.”
 
 “I'll keep that in mind,” said the Beach Detective. “Thanks.”
+
+[J; 156 words]
+
+“Would you like to see? Barley’s shop is just through this door actually,” said Dugan, gesturing at the dim depths behind him. “It opens onto Gaffnaught St. which is actually kind of a pain to get to from here the normal way.
+
+The beach detective didn’t really care about that, but he had other business on or about that street, so he allowed himself to be ushered through some back shop stuff to a nearly identical shop with another, less friendly-looking shopkeep with equally pointy shoes, and out to the street. He looked up at the lamppost. Its warm light shone inconsiderately on most of a fresh, hanging corpse. The dead man’s features were distorted, but bore a striking resemblance to those of Wright Heare, whose folded folder still rested in the Beach Detective’s care. Curious.
+
+The beach detective set off down the street, followed discreetly by a short figure in a trench coat and fedora.

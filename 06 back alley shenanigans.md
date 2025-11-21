@@ -58,7 +58,7 @@ Thomas's heart sank.
 
 "That bartender at the MetCafe you were palling around with," said the martini killer, undeterred. "You know, it's ironic. He could end other Barts, but in the end... he was ended by me (a non-Bart)."
 
-"Oh..." said Thomas. Obviously, every death of a righteous man was a tragedy, but he hadn't really come to know—— Thomas ducked. Another glass flew over his head, right through where his head had been. "Jesus," he muttered.
+"Oh..." said Thomas. Obviously, every death of a righteous man was a tragedy, but he hadn't really come to know—— Thomas ducked. Another glass flew over his head, right through where his head had been. "Jesus,"[@ hadn’t really come to know Jesus? well, who among us...] he muttered.
 
 "You've cocked your last snook—" [@ a full exegesis of why I thought this phrase would be funny to put here will not be provided, but I will provide some additional injokes about it in an appendix. ~M]
 
