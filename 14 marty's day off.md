@@ -13,3 +13,25 @@ However, as he was pondering this and other related things, he absent-mindedly p
 [^time]: From time to time. In fact, the denizens of the flying island enjoyed a luxurious[^luxury] schedule of alternating beautiful spring[$vernal]-like days and beautiful winter days, with no disappointing in-betweeny days (except once in a blue moon). At the present time, due to the opaquely capricious whims of the electorate, every Thursday was wintery. But there were rumors that soon Winter Wednesdays would be back. ~M
 
 [^luxury]: 15-cars-inous-ly luxuriously, some might say ~M [@ This is a reference to "Rockstar" by Nickelback, and the coinage was inspired by J's delightful "abandonously" (a new form of "with abandon"), even though that appears later in the text (sort of). ~M]
+
+[C; 512 words]
+
+The tobacco in the cigars was of a luxuriance impossible in the premodern world. The island it was grown on perambulated[$ or whatever the equivalent is when the locomotion is accomplished through hovering rather than (perhaps nobler) efforts of the leg. Pervolitated[@ hmm], possibly.] throughout the year, like a cat tracking a sunbeam, always drifting coyly to those coordinates where the gentle action of sun and wind and wet combine for the maximum enrichment of the tobacco,[@ I don’t really know what’s good in tobacco, this is an area where I would welcome footnotes from the cognoscenti ~C] while preserving that authenticity so palpably [$ pulpably?] absent from the offerings of the glass houses.
+
+The tobacco in the cigarettes was hard to detect amid the carboard and fiberglass.
+
+Martinius was rather partial to both.
+
+Perambulating to the chair over which was slung the day’s suitcoat, he gave the shoulder of the chair’s trussed occupant a gentle pat. “Do you mind?”
+
+The emotions already crowded onto the occupant’s face budged up a bit to let confusion climb aboard, but he said nothing.
+
+Martinius forbore to explain, instead tightening his grip and leaning the occupant forward manually. With his other hand he reached into the coat’s inner pocket and extracted the cigar packet. He took a last long drag on the cigarette, stubbed it out in the ashtray on the side table next to the chair, and extracted a cigar. He clenched it between his teeth, put the packet down, extracted his lighter and did that thing where you tilt your head down and cup your hands around the lighter to shield it from the wind, cool-guy style. “You needn’t worry. I’m on my day off,” he said around the kindling cigar. He slid the lighter back into his pocket and raised his eyes to meet those of the occupant. His erst/nighwhile victim’s renewed struggles for freedom gradually petered out.
+
+“Oh, where are my manners?” Martinius picked the packet back up and extracted another cigar, extending it toward the occupant. “Mm?”
+
+His guest stared at him. Shook himself slightly, returned his captor’s gaze steadily[$well, rather steadily] and raised an eyebrow [$ it barely quivered].
+
+Martinius chuckled to himself, still staring into the eyes of the bound (and gagged) man.[$Martinius is a bit of a bounder, you know.[$ Despite his reassurance, the bound man _did_ worry. It is difficult to, while trussed, trust. “He’ll do something nasty to me ‘ere long,” the guest guessed.]] The usual disbelieving, mind-filling, thought-excluding panic was absent from those eyes. He was certainly apprehensive, even fearful, but far from terrified. That was just _delightful_. Martinius walked into the kitchen, out of the bound man’s fixed view; the snaphiss of a soda can snaphissed[$ snaphist] through the suite.
+
+The bound man remained where he was. His hands worked and tensed somewhat absently, worrying at his bonds, although the man had to admit he wasn’t getting any indication that it was what he should be doing. Mostly, he was grappling with one question: “How is it possible that I’m _still_ On Track?”
