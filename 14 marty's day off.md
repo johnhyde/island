@@ -14,9 +14,9 @@ However, as he was pondering this and other related things, he absent-mindedly p
 
 [^luxury]: 15-cars-inous-ly luxuriously, some might say ~M [@ This is a reference to "Rockstar" by Nickelback, and the coinage was inspired by J's delightful "abandonously" (a new form of "with abandon"), even though that appears later in the text (sort of). ~M]
 
-[C; 512 words]
+[C; 513 words]
 
-The tobacco in the cigars was of a luxuriance impossible in the premodern world. The island it was grown on perambulated[$ or whatever the equivalent is when the locomotion is accomplished through hovering rather than (perhaps nobler) efforts of the leg. Pervolitated[@ hmm], possibly.] throughout the year, like a cat tracking a sunbeam, always drifting coyly to those coordinates where the gentle action of sun and wind and wet combine for the maximum enrichment of the tobacco,[@ I don’t really know what’s good in tobacco, this is an area where I would welcome footnotes from the cognoscenti ~C] while preserving that authenticity so palpably [$ pulpably?] absent from the offerings of the glass houses.
+The tobacco in the cigars was of a luxuriance impossible in the premodern world. The island it was grown on perambulated[$ or whatever the equivalent is when the locomotion is accomplished through hovering rather than the (perhaps nobler) efforts of the leg. Pervolitated[@ hmm], possibly.] throughout the year, like a cat tracking a sunbeam, always drifting coyly to those coordinates where the gentle action of sun and wind and wet combine for the maximum enrichment of the tobacco,[@ I don’t really know what’s good in tobacco, this is an area where I would welcome footnotes from the cognoscenti ~C] while preserving that authenticity so palpably [$ pulpably?] absent from the offerings of the glass houses.
 
 The tobacco in the cigarettes was hard to detect amid the carboard and fiberglass.
 
