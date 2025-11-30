@@ -37,6 +37,39 @@ Mr. Mann wasn’t really thinking about how his knife might seem, and while he t
 Johann Deller[@ “Yo” Deller, for short], one of the yodelers, heard the thud of Prudence’s misstep, saw the Mann with the knife, advancing, and interrupted his yodeling to shriek in terror. His fellow yodelers, easily startled, also began to shriek. The goats took this as their cue to break ranks, such as they were, and their frolicking became more chaotic and aggressive. A few of the human frolickers found in this their own reasons to shriek. The goats may have been shrieking as well. In short, Prudence found herself in a very alarming situation.
 
 [@ if anyone feels like adding something else here before the section break, feel free. ~J]
+[@ A... beguiling annotation... OK; I will ~M]
+
+[M; an intrusive 300 words]
+
+---
+
+[$ BUT AREN'T YOU WONDERING *WHERE* THAT LASSO CAME FROM? NO? TOO BAD ~M]
+
+**About 5 minutes earlier.**
+
+"Any you're sure you're a real cowboy? ... Mr Maoi?" asked Florida.[$Florida Mann was, as luck would have it, a distant direct descendant of Tramar Lacel Dillard. Not this was in any way relevant to the situation at hand.]
+
+"Yep, absolutely," said "Marvinlust Maoi", who was wearing a cowboy hat in addition to his usual get-up. "Root them toot them. Get a dog little longies. Et-cetera, and so on."
+
+"You wouldn't just happen to have stumbled into this zoödeo and put on this hat as a foolproof disguise as you, say, aim to slip through Skoiosian society undetected, like a mist in the fog in the night, or anything like that?" asked Florida Mann.
+
+"... 'No'." said cowboy marvinlust.
+
+"Oh, good," said Florida. "In that case, my boys and I have a question for you."
+
+"Shoot." said the 'cowboy'. "By which I mean: go ahead and ask. In cowboy parlance. Iddy-gup!"
+
+"Right... so... how many things would you say you've lassoed at the same time."
+
+"Shoot." said the 'cowboy'. "By which I mean: an exclamation or interjection, probably a bowdlerized version of the standard interjection refering to excrement.[@ This is sort of written like I'm quoting a dictionary, but I just spat it from the dome. Y'all.] In cowboy parlance. Yee to the haw! Probably, like, I don't know, um, 16?"
+
+"Really? 16 at once?" asked Florida, incredulity in his voice.
+
+"Perhaps I do not understand the nature of the question," said 'Marvinlust', still doing his cowboy voice. "But, here: you and your little varmits (in cowboy terms this means critters, and I'm refering to your fine young sons here[$perhaps even... Wright Here?[$no]]) go right ahead and try." he handed them a lasso, and promptly walked off.
+
+"Whoa!" and "Cooool!" said the boys.
+
+[& back to J]
 
 ---
 
