@@ -43,9 +43,7 @@ Johann Deller[@ “Yo” Deller, for short], one of the yodelers, heard the thud
 
 ---
 
-[$ BUT AREN'T YOU WONDERING *WHERE* THAT LASSO CAME FROM? NO? TOO BAD ~M]
-
-**About 5 minutes earlier.**
+**About 5 minutes earlier.**[$ BUT AREN'T YOU WONDERING *WHERE* THAT LASSO CAME FROM? NO? TOO BAD ~M]
 
 "Any you're sure you're a real cowboy? ... Mr Maoi?" asked Florida.[$Florida Mann was, as luck would have it, a distant direct descendant of Tramar Lacel Dillard. Not this was in any way relevant to the situation at hand.]
 
