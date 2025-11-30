@@ -61,11 +61,11 @@ Johann Deller[@ “Yo” Deller, for short], one of the yodelers, heard the thud
 
 "Right... so... how many things would you say you've lassoed at the same time."
 
-"Shoot." said the 'cowboy'. "By which I mean: an exclamation or interjection, probably a bowdlerized version of the standard interjection refering to excrement.[@ This is sort of written like I'm quoting a dictionary, but I just spat it from the dome. Y'all.] In cowboy parlance. Yee to the haw! Probably, like, I don't know, um, 16?"
+"Shoot." said the 'cowboy'. "By which I mean: an exclamation or interjection, probably a bowdlerized version of the standard interjection referring to excrement.[@ This is sort of written like I'm quoting a dictionary, but I just spat it from the dome. Y'all.] In cowboy parlance. Yee to the haw! Probably, like, I don't know, um, 16?"
 
 "Really? 16 at once?" asked Florida, incredulity in his voice.
 
-"Perhaps I do not understand the nature of the question," said 'Marvinlust', still doing his cowboy voice. "But, here: you and your little varmits (in cowboy terms this means critters, and I'm refering to your fine young sons here[$perhaps even... Wright Here?[$no]]) go right ahead and try." he handed them a lasso, and promptly walked off.
+"Perhaps I do not understand the nature of the question," said 'Marvinlust', still doing his cowboy voice. "But, here: you and your little varmits (in cowboy terms this means critters, and I'm referring to your fine young sons here[$perhaps even... Wright Here?[$no]]) go right ahead and try." he handed them a lasso, and promptly walked off.
 
 "Whoa!" and "Cooool!" said the boys.
 
