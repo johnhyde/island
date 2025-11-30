@@ -11,7 +11,7 @@ Marty put on another song. "I love this music. Isn't it too dreamy?" [@that's a 
 
 ---
 
-"New murder yesterday," said the newsie, "the detective Wmiddle Yone. They found him stuff full of olives. And bizarrely bifurcated. Front-pager. They're calling the guy who did this... the cop killer!"
+"New murder yesterday," said the newsie, "the detective Wmiddle Yone. They found him stuff full[@ another ascended typo.][$On Skoios, this is a turn of phrase meaning "chock full".] of olives. And bizarrely bifurcated. Front-pager. They're calling the guy who did this... the cop killer!"
 
 "Whoa that's crazy," said the beach detective. "Any news about Reginald Digsxby? Or the affair of the Digsxby fortune?"
 
@@ -29,7 +29,7 @@ Marty stood up, brushed himself off, and said, as a final formality: "May I inte
 
 Thomas once again did not avail himself of this hospitality.
 
-"Alright," said Marty, as though rueful. "*I* have a hot date. Try to get too rowdy while I'm gone, ya hear?" He winked, and then made his way out of the domicile.
+"Alright," said Marty, as though rueful. "*I* have a hot date. Try to get too rowdy[@ This was an accidentally-omitted word error at first, but I'm keeping it as a whimsical thing he said, instead. ~M] while I'm gone, ya hear?" He winked, and then made his way out of the domicile.
 
 Thomas was alone.[@ This is a pointless reference to the game Thomas Was Alone, which I do not actually recommend unless you are, say, a small child (in which case, oh my goodness, what are you doing reading this book? (Based?)) or otherwise easily amused; sateable[$satiable?] with merely a competent presentation of common ideas and easy platforming puzzles.]
 

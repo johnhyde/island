@@ -10,7 +10,7 @@ Ten minutes and six hours prior, twenty minutes after the killing, the beach det
 
 "I'm sorry to hear that, dearest," said Florida. After a pause: "At least he presumably died doing what he loved: hearing things and then writing them down."[@ J came up with this underlying joke ~M]
 
-"Yes... my behated[$ this was one of her nicknames for him]. I know he's up there writing what he hears in heaven, now.[$ heaven canonically exists in the flyingislandverse, btw[$ oddly enough, it's also a giant flying island. It just flies very high][$"interesting, interesting!" Wright Heare said in heaven, writing something down, having just interviewed a victim.][$ Every so often, someone would come down from heaven for some reason, and that's how they know it definitely exists for real for real.]]
+"Yes... my behated[$ this was one of her nicknames for him]. I know he's up there writing what he hears in heaven, now.[$ heaven canonically exists in the flyingislandverse, btw[$ oddly enough, it's also a giant flying island. It just flies very high][$"interesting, interesting!" Wright Heare said in heaven, writing something down, having just interviewed a victim.][$ Every so often, someone would come down from heaven for some reason, and that's how they know it definitely exists for real for real.][@ The heaven in the flyingislandverse is also canonically universalist, and simply rectifies your moral nature when you get there, after which there is a great repenting etc on your part. Although we have never mentioned this. Also canonically, you can sneak up there sans rectification if you just have a big enough ladder.]]
 
 "Naturally, the station immediately assigned me a new partner, for protection. Say hello to Wleft Theare."
 
