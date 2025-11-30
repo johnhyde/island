@@ -87,6 +87,18 @@ Truck woman Girls, Wet. locked Handed its night memory: best ‘picture’ power
 
 (corresponds to: nothing in particular)
 
+Some people suffer from arbor ardor, but I'm much more of a city kiddie, ya feel?
+
+— possibly the greatest wordplay in all of anime translation
+
+(corresponds to: Lars Squiggle, probably)
+
+I'll take this potato chip h-h-h-h and eat it!
+
+— possible the greatest line in all of anime translation
+
+(corresponds to: idk)
+
 
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
