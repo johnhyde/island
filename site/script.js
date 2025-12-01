@@ -198,7 +198,7 @@ class NovelSite {
     this.currentChapter = null;
     this.updatePageContent(
       "Select a chapter to begin reading",
-      `<p>Choose a chapter from the table of contents to start reading the collaborative novel between John and a mysterious stranger.</p>`,
+      `<p>Choose a chapter from the table of contents to read.</p>`,
       updateUrl,
       null,
     );
