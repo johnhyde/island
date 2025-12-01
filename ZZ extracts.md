@@ -99,6 +99,11 @@ I'll take this potato chip h-h-h-h and eat it!
 
 (corresponds to: idk)
 
+SUMUS MODO VIRI MEDIOCRES
+
+— HACARIUS I. CANIS, https://www.youtube.com/watch?v=SF7_tlg6hHk [@ I. is short for Ille, a word which in late latin took up the function of "the", which Hacker's middle name is. cf https://en.wikipedia.org/wiki/Winnie_ille_Pu. Hacarius is a latinization of Hacker's given name, which I do not believe to be necessary when translating — but I find it amusing to do this, in the long historical vein of europeans in random countries also doing this when writing in Latin. Hacarius is sort of a half-effort. It's no "Hans"→"Ioannes" via unimpeachable etymology, instead just a latinization based on sound. I attempted to chase Hacker (which is, indeed, apparently, he who hacks, a woodcutter) up the Proto-Indo-European tree and back down but hit a dead end not knowing whither the root went in Latin, if anywhere. (I'm not sure if that's how they did it back in the day, anyway.) Anyway, the translation of the utterance is from the video, but no translation of Hacker's name is given there. The utterance means "we're just ordinary men".~M]
+
+(corresponds to: Unkind Play, probably)
 
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
