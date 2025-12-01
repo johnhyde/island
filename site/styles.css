@@ -330,7 +330,7 @@ input:checked + .slider:before {
 
 .table-of-contents a {
     display: block;
-    padding: 0.25rem 0.75rem;
+    padding: 0.1rem;
     text-decoration: none;
     color: var(--text-secondary);
     border-radius: 4px;
