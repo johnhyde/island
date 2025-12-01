@@ -63,7 +63,7 @@ Johann Deller[@ “Yo” Deller, for short], one of the yodelers, heard the thud
 
 "Really? 16 at once?" asked Florida, incredulity in his voice.
 
-"Perhaps I do not understand the nature of the question," said 'Marvinlust', still doing his cowboy voice. "But, here: you and your little varmits (in cowboy terms this means critters, and I'm referring to your fine young sons here[$perhaps even... Wright Here?[$no]]) go right ahead and try." he handed them a lasso, and promptly walked off.
+"Perhaps I do not understand the nature of the question," said 'Marvinlust', still doing his cowboy voice. "But, here: you and your little varmits (in cowboy terms this means critters, and I'm referring to your fine young sons here[$perhaps even... Wright Here?[$no]]) go right[$ here he said "here) go right", not to be confused with Hugo Wright, Wright Heare's identical twin half-cousin] ahead and try." he handed them a lasso, and promptly walked off.
 
 "Whoa!" and "Cooool!" said the boys.
 
