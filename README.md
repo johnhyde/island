@@ -37,7 +37,7 @@ Other timeline events (I just grepped for 0x lol):
 
 ## Technical debt, todo items
 
-Display appendices.
+Ideally, appendices would display in the toc in a differentiated way, like after a <hr> type graphical element or something.
 
 ![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, except for its obvious flaws, and johndown does tend to stay compatible with markdown where it can.
 
@@ -57,7 +57,7 @@ A footnote in an annotation currently displays in the sidebar even if the annota
 
 Possibly render author signature tildes as long tildes instead, like ～,〜, ⁓, or 〰 (instead of a plain ~)?
 
-<span lang="es-MX">sin</span> should probably be turned into [lang:es-MX sin]
+<span lang="es-MX">sin</span> should probably be turned into [lang:es-MX sin] or something like that.
 
 νους (nous) should probably be lang:grc on both of those individually
 
