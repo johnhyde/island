@@ -134,6 +134,67 @@ Santa Claus: Every one just shut the fuck up
 — dril, in some tweet of his
 ◆ all those parts we talk about heaven, i guess, perhaps specifically the first time
 
+Weh
+—some cat or something
+
+I would give anything to go back in time to 2003, the peak year of human existence. Graduating high school, the world full of potential. Arrested Development. WarioWare. The Iraq War. I am nostalgic for that too. It's just the way the timing worked out.
+—Sridhar Ramesh, @RadishHarmers, https://x.com/RadishHarmers/status/1949346525970047313
+
+detective fiction is an aesthethic coping mechanism for the autistic inability to connect and love. the next great novel (movie) will be a detective-romance novel that synthesizes the genres
+—garfieldbot, @robertlasagna1, https://x.com/robertlasagna1/status/1949968314689638691
+
+"If you meet the Buddha on the road, kill him."
+"What if I meet him off the road?"
+"Fuuuuuuuuuuuck I don't know."
+"What if I meet him... above the road?"
+"FUUUUUUUUUUUUUUUUCK"
+—Καλός, @realKalos, https://x.com/realKalos/status/1934668708154363999
+
+If you have writer's block just imagine the reader is naked
+—garfieldbot, @robertlasagna1, https://x.com/robertlasagna1/status/1949763610768716243
+
+Once the king of wicked plans and nefarious schemes, he just sat there behind his desk, lost, as if nothing had worked out for him. He was tired of being evil.
+—WEIRDLAND TV, @WeirdlandTales, https://x.com/WeirdlandTales/status/1170572069383356416
+
+“Human” is the most amazing configuration of matter any of us has ever observed, yet we deeply under appreciate what we are
+—Sara Imari Walker, @Sara_Imari, https://x.com/Sara_Imari/status/1951108914210287902
+
+—“Lucky Ball and Chain”, by They Might Be Giants (%%some lyric from this would be apropos, but I haven't decided what)
+
+I'll see her standing by the monorail
+She'll look the same except for bionic eyes
+She lost the real ones in the robot wars
+I'll say I'm sorry, she'll say "It's not your fault
+Or is it?"
+And she'll eye me suspiciously
+Hearing the whir of the servos inside
+—“The Future Soon”, by Jonathan Coulton
+
+
+> the Laotian practice of firing weapons during a lunar eclipse in order to scare off the giant frog in the heavens, which, in Laotian mythology, is swallowing the moon.
+—“The Cut-Rate War” https://archive.nytimes.com/www.nytimes.com/books/97/03/16/reviews/970316.16issacst.html
+
+> [[Reginald, wearing an apron and oven gloves, hands a pan of cookies to Beartato.]] Reginald: Here, Beartato! I made no-bake cookies! Beartato: Oh, yum! [[Beartato chews on a cookie, confused. Reginald crosses his arms, smug.]] Beartato: These taste... different. Reginald: I baked 'em! [[Text above Reginald's head says: "REBEL!" Stars hover about. Reginald gives a thumbs up.]] Reginald: I don't play by your rules, SOCIETY! {{Alt text: ALTERNATE VERSION: Reginald denies he baked the cookies. Beartato enrolls in detective school, completes his degree, then applies what he learned and notices key evidence such as the warmth of the cookies, Reginald's oven mitts, and his apron which reads 'I Baked These No-Bake Cookies.' Left with no recourse, Beartato is forced to call the authorities on his friend. Reginald goes on the run, travelling from town to town, a nomad, a ghost. Beartato, now the best detective in town, is forced to hunt his best friend. An intense battle of wits ensues, and a trail of bodies is left in its wake. The role of chief of police will be played by Harrison wearing a fake beard.}}
+—
+
+> My first day on the job as art forger. My god, I took to this like a duck to water. These came out magnificent, indistinguishable from the originals. This is what I was born to do. Proudly, I sign my handiworks.
+—https://x.com/RadishHarmers/status/1983231253412254013
+
+> Odin sacrificed himself, hanged upon the tree, to himself
+—Clive
+
+> screw you all and no one gets anything and I'm gonna go to Heaven anyway cya 😄
+—xenodasein
+
+> it's all incredible, but I particularly want to commend the author for his bravery and whimsy in using the word "hippopotamuslessness"
+—J
+
+> one day you might learn to truly relax, as the stones do
+—Makai
+
+Occasionally I come across examples of a spaced em dash irl and I think, I should send this to John. And then I think: who cares.
+—M
+
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
 > Here ye strike but splintered hearts together—there, ye shall strike unsplinterable glasses!
