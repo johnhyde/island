@@ -195,6 +195,19 @@ Hearing the whir of the servos inside
 Occasionally I come across examples of a spaced em dash irl and I think, I should send this to John. And then I think: who cares.
 —M
 
+The hare:—"Run along, Lord! The end has come for such lumberjacks as you!"
+—https://commons.wikimedia.org/wiki/File:Bezbozhnik_u_stanka_-_Run_along,_Lord,_1931,_n._22.jpg
+
+Your words are as empty as your soul!
+Mankind ill needs a savior such as you!
+—Richter, _Castlevania: Symphony of the Night_
+
+Let none object this is men's corruption, and nothing to the course itself. I answer, seeing all men have this corruption in them, God in His wisdom saw another course fitter for them.
+— (find better name for https://x.com/cebkcebkcebk/status/1994105520073134353)
+
+and retard much
+— (find better name for https://x.com/cebkcebkcebk/status/1994105520073134353)
+
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
 > Here ye strike but splintered hearts together—there, ye shall strike unsplinterable glasses!
