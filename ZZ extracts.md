@@ -105,6 +105,18 @@ SUMUS MODO VIRI MEDIOCRES
 
 (corresponds to: Unkind Play, probably)
 
+They'll get you anything with that evil smile
+
+—“Rockstar”, by Nickelback
+
+(corresponds to: the breech merchant? I guess?)
+
+Raconteur, electronic games enthusiast, poet, viral marketer, freelance journalist, under 16's amateur badminton silver medalist, I have it all.
+
+— https://www.youtube.com/user/Fitzthistlewits/about
+
+(corresponds to: Untwined Fray I guess?)
+
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
 > Here ye strike but splintered hearts together—there, ye shall strike unsplinterable glasses!

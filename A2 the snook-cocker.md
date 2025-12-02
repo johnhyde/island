@@ -115,3 +115,11 @@ It's a shame that when that guy killed Snook in those Star Wars films he didn't 
 Snook Cockerel, Space Alien
 
 Cock Snooko
+
+
+[...]Solidus Snake[...]
+
+Cocked Snake
+
+"give us a quid" snake
+
