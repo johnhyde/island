@@ -1,8 +1,10 @@
 Appendix: EXTRACTS
 
-[@ This is mostly just a weird project of M; no one else needs worry about it. (But nor is it forbidden to also contribute either in substance or in structure ideas.) ~M]
+Instead of using epigraphs (more than we already feel the call to do), here is a "chapter" of Extracts, like in moby dick ... in our extracts, sometimes we posit a connexion (◆ or spelled out as "corresponds") to specific points in the book for each one, like epigraphs, yes, but which don't disrupt the pace of the actual novel. ~M
 
-[@ Instead of actually using epigraphs (more than we already do), perhaps make a "chapter" of Extracts, like in moby dick ... perhaps in our extracts, posit a connexion to specific points in the story for each one, like epigraphs, yes, but which don't disrupt the pace of the actual novel. ~M]
+This is mostly just a weird project of M; no one else needs worry about it. (But nor is it forbidden to also contribute either in substance or in structure ideas.) ~M
+
+There are many things here which are, at least for the moment, half-hearted formatted or sourced. "Idk" means I don't know. (I could theoretically find out; if I try and give up I'll just go with "Unknown" for the source. Also if I find no correspondence I'll take the quote out and use it as an epitaph in a different project, probably.)
 
 It will be seen that this mere painstaking burrower and grub-worm of a poor devil of a Sub-Sub appears to have gone through the long Vaticans and street-stalls of the earth, picking up whatever random allusions to whales he could anyways find in any book whatsoever, sacred or profane. Therefore you must not, in every case at least, take the higgledy-piggledy whale statements, however authentic, in these extracts, for veritable gospel cetology. Far from it. As touching the ancient authors generally, as well as the poets here appearing, these extracts are solely valuable or entertaining, as affording a glancing bird’s eye view of what has been promiscuously said, thought, fancied, and sung of Leviathan, by many nations and generations, including our own.
 
@@ -27,8 +29,7 @@ Wow, that’s crazy
 
 —J
 
-(corresponds to: Beach Detective[@perhaps~M])
-
+(corresponds to: Beach Detective, perhaps)
 
 My stupid external hard drive keeps getting corrupted so I have to clone again somewhere else
 
@@ -116,6 +117,22 @@ Raconteur, electronic games enthusiast, poet, viral marketer, freelance journali
 — https://www.youtube.com/user/Fitzthistlewits/about
 
 (corresponds to: Untwined Fray I guess?)
+
+"and dreamed as young men do"
+— “Mid-Air Concession”, by Penny Arcade, https://www.penny-arcade.com/comic/2025/05/12/mid-air-concession, the fruit and cheese platter on airplane comic
+◆ idk
+
+when animals go to heaven and become human, i wonder what they’ll think. i bet they’ll be embarrassed how silly they were down here
+— something online, idk
+◆ all those parts we talk about heaven, i guess, perhaps specifically "simply rectifies your moral nature"
+
+Stephen Hawking: Im here now, in heaven. I hope you saved a big glass of beer for me
+1,000,000 other guys who died: What the hell. Who said that
+David Bowie: Shut the fuc k up
+Muhammad Ali: What?
+Santa Claus: Every one just shut the fuck up
+— dril, in some tweet of his
+◆ all those parts we talk about heaven, i guess, perhaps specifically the first time
 
 [@ Insert further ones here, leaving the one below as the end of the file ~M]
 
