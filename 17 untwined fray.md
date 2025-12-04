@@ -31,3 +31,20 @@ He waited for a beat, giving the humorously[@Humerously discovered if you bump s
 ‘Dammit.’ He’d really hoped that would work.
 
 Behind him, on the opposite wall, a secret hatch opened and Thomas’ hitherto-unmentioned partner, Bus ‘the Gherkin’ Gurton walked into the apartment.
+
+
+[J; 346 words]
+
+“Hiya, Thommy! What’re you doing here?” asked Bus Gurton.
+
+Thomas spun around so fast he might have dislocated his skin, had he been in a cartoon. “Bus? What’re _you_ doing here?”
+
+The Gherkin laughed loudly, which Thomas felt was inappropriate in The Lair of The Villain, although who cares? Gurton, Bus, termed ‘the Gherkin’ for his fresh, mild flavor, said, “How should I know? I was just wandering about and I found my way into a secret tunnel and then I came out this hatch.” He gestured at the secret hatch behind him which had just finished closing, leaving no visible trace of its existence.
+
+Bus Gurton, or Gurton Buster as some called him, didn’t have a mystical connection to the Will of the Cosmos or whatever, like Thomas or Paul, but he was so unaccountably lucky that he might as well have. The main difference was that GurBus didn’t have to be attentive or make an effort or anything. This fact was well known to Thomas, which is why he wasn’t more surprised than he was to see his old sidekick kicking on up to his side once more.
+
+As they performed their customary secret handshake, Thomas said, “I was taken hostage and only recently escaped my bonds. My captor, who is also the primary suspect in my investigation, has left this, his presumed abode, for a time, and I’ve been snooping about in the absence of sense[$ absense?] of what else to do. Screee-ah... ow! ow! ka-ching!” These sound effects marked the end of the secret handshake as Thomas and Gherk Buston[$ people basically just call him whatever] each did separate little perfunctory dances.
+
+“Ok, sounds good, boss. What’s the case? I’ve been neck-deep in Holiday Hooplah; can’t even remember if we were on a case before Christmas... Did that thing with the piano tuner go anywhere?”
+
+“No, that was a dead end, I think. There have been at least three martini-related deaths in the last few days, and I was almost another one.[@ I think at this point Thomas would only know about Martin Eeny, Mai Friend, and Bartimieus Ender, not any of the twin detectives, unless Marty mentioned it to him. And he can speculate about Paul and Prudence ~J] We are currently in the home of the Martini Killer.”
