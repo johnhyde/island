@@ -7,13 +7,13 @@
 
 A collaborative novel between John and a mysterious stranger.
 
-Each chapter is a separate ~~markdown~~ johndown file. These are numbered with two digits.
+Each chapter is a separate ~~markdown~~ johndown file (see below for a description of this format). These are numbered with two digits, followed by a space.
 
 Some of them are lettered with two capital letters, which means they exist ambiguously in the future of the novel and haven't been entered into a concrete order yet. You don't have to read those; they essentially function as rough drafts for whoever wrote them, and in some cases might get removed entirely and lifted to another project. Let M know if this is annoying and should be stopped.
 
 However, files lettered with a capital A and then a digit are appendices and are now canon, in some way or another, although they are in a special order reserved for appendices.
 
-This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel.
+This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel. It's not an elegant or entirely correct system, but she gets the job done and that's all that matters.
 
 No AI nor LLM has been used on this project except in a technical capacity, e.g. the creation of the .gitignore and the static site.
 
@@ -37,13 +37,13 @@ Other timeline events (I just grepped for 0x lol):
 
 ## Technical debt, todo items
 
-![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, except for its obvious flaws, and johndown does tend to stay compatible with markdown where it can.
+![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, except for its obvious flaws, and johndown does tend to stay compatible with markdown where it can. We do *use* this syntax already. We just don't implement it. Luckily at the moment it creates a normal link, which is useable if not ideal.
 
 Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
 
 I'm thinking that instead of just [@ blah] with ~ signatures we should all have our own special sigils. So I could leave annotations like, um, [~M blah]. And then I guess that would render like as though [@ blah ~M] I guess.
 
-Since the johndown parser is apparently custom, we should list its features to specify it completely. If this gets long, it can be specified in johndown.md or whatever. Or just in the next section.
+Since the johndown parser is apparently custom, we should list its features to specify it completely. I'm not sure if this is already accomplished.
 
 "ins̈om̈uch" displays as though the diaereses are standalone characters even though they are U+0308 COMBINING DIAERESIS and thus should properly float above the previous letters. Probably a font problem? Presumably because font designers don't understand that the diaeresis is productive with non-vowels as well, possibly.
 
@@ -63,11 +63,25 @@ Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed
 
 ## Johndown features
 
-It's mostly just markdown. That means: it's mostly text (encoding unspecified by johndown itself, but the only implementation is utf8 (no BOM)), but some particular text is special and makes the other text render specially instead. Um, we use this mostly for italics I guess. *italic*. **bold**. ***bold italic***. _Also italic_. **_presumably also bold italic although I haven't checked_**. ~~strikethrough~~. There are also [links](example.com). And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. Annotations are conventionally signed with ~[the initial of their author], although this does not trigger any special rendering; if the annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenance of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it — however, it's also less important, in a sense, since the footnotes are part of the story, which is a unified whole we are communally writing (the annotations are often banal commentary we're making on it). Signing with two tildes before the initial means the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting). --- makes a triple-fleuron dinkus (❦ ❦ ❦) (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for).
+The file extension for johndown files is jd, because they are unaccredited Jurum Doctores.
+
+Johndown mostly just a regular text file, but some particular text is special and makes the other text render specially instead.
+
+The textual encoding is unspecified by johndown itself, but the only implementation is utf8 (no BOM required) — which is a good one.
+
+Johndown's basic features are quite similar to markdown. Thence its name.
+
+Unlike regular markdown, we respect single linebreaks. (Multiple line breaks are also interpreted the same as single line breaks.) We also render paragraphs as beginning with indents, as God intended. On that note, we also render to a pleasant serif font, of course.
+
+Um, we use this mostly for italics and stuff I guess. *italic*. **bold**. ***bold italic***. _Also italic_. **_presumably also bold italic although I haven't checked_**. ~~strikethrough~~. There's also ^superscript^ which is not a fully standard markdown feature.
+
+There are also [links](example.com).
+
+And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. Annotations are conventionally signed with the initial of their author after a tilde, although this does not trigger any special rendering. If an annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenance of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it — however, it's also less important, in a sense, since the footnotes are part of the story, which is a unified whole we are communally writing (the annotations are often banal commentary we're making on it). Signing with two tildes before the initial is a convention meaning the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting).
+
+--- makes a specially-rendered triple-fleuron dinkus (❦ ❦ ❦) (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for).
 
 A non-special bracketed phrase on its own line makes an hr above it, in addition to rendering in a sort of grey, italicized way.
-
-Unlike regular markdown, we respect single linebreaks. (Multiple line breaks are also interpreted the same as single line breaks.) We also render paragraphs as beginning with indents, as God intended. On that note, we also render to a serif font, of course.
 
 ### These features don't work 100% correctly
 
@@ -77,11 +91,9 @@ The chapter titles also are not smartened.
 
 [@ I have a sort of irrational dislike of using anything but ' for an apostrophe, because that's the character which is U+0027 APOSTROPHE, dammit! However, I have done it before, and will do it again; and, in conventional typesetting, there is no typographical difference between an apostrophe and and curly close single (much to my chagrin). Anyway, even though we could fix the autocurling algorithm a little, it seems unlikely to me that we will make it smart enough to do some types of apostrophes (such as a leading apostrophe before a word) correctly (it's legitimately ambiguous whether it's an apostrophe or a quote and you have to figure out if there's a quotation there by understanding the rules of English and/or parsing along the line for a hypothesized closing quote (which may also be ambiguous). Or, I suppose, we could ban autocurling of single quotes, and then it wouldn't be ambiguous. But what about the chapter where our heros enter a parody of a british novel, what then?! ~M] [@ Also, we still want to display the apostrophe as non-straight, which without character replacement is a font problem that fonts typically aren't up to the task of. ~M] [@ These are written like annotations to indicate they're an aside; however, this document explains johndown syntax so it won't make sense if you render this document as johndown. ~M]
 
-There's also ^superscript^ which is not a fully standard feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
+There's also ^superscript^ which is not a fully standard markdown feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
 
-If you leave an annotation with square brackets but put a linebreak in it, the second line seems to relocate down to the bottom of the chapter and display as normal text?
-
-We currently use the md extension for johndown files, for convenience and ecosystem compatibility, but ideally we would use a jd extension for johndown files, because they unaccredited Jurum Doctores.
+Johndown is currently implemented as a line-based parser, which is at odds with its syntax. If you leave an annotation with square brackets but put a linebreak in it, the second line seems to relocate down to the bottom of the chapter and display as normal text?
 
 ## Site generation malarkey
 
