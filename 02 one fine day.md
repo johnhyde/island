@@ -16,7 +16,7 @@ After about 22 seconds of walking at 150% his normal speed, he relaxed. Back On 
 
 [^spring]: How is it spring on January 1ˢᵗ, I think I hear you asking? You’ll find out in the footnotes of _Chapter 14: Marty’s Day Off_.
 
-[^town]: They call certain legally distinct sections of the city _towns_.
+[^town]: They call certain legally distinct sections of the city _towns_. [@These guys sure do have a crazy culture ~M]
 
 ---
 
