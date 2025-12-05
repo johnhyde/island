@@ -149,7 +149,7 @@ class MarkdownParser {
 
   convertToHtml(markdown) {
     // Split into paragraphs
-    const paragraphs = markdown.split(/\n\s*\n/);
+    const paragraphs = markdown.split(/\s*\n\s*/);
     let html = "";
 
     for (let paragraph of paragraphs) {
