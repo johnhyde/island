@@ -83,8 +83,8 @@ class NovelSite {
   generateChapterSlug(filename) {
     if (!filename) return "";
     // filename example
-    // "./02 one fine day.md"
-    const basename = filename.replace(/\.md$/, "");
+    // "./02 one fine day.jd"
+    const basename = filename.replace(/\.jd$/, "");
     return basename.toLowerCase().replace(/\s+/g, "-").replace(
       /[^a-z0-9-]/g,
       "",
@@ -133,7 +133,7 @@ class NovelSite {
       const slug = this.generateChapterSlug(chapter.filename);
       a.href = `#${slug}`;
 
-      // Extract chapter number from filename (e.g., "01" from "./01 prologue.md")
+      // Extract chapter number from filename (e.g., "01" from "./01 prologue.jd")
       const chapterNumber = this.getChapterNumber(chapter.filename);
       a.textContent = chapterNumber
         ? `${chapterNumber}. ${chapter.title}`
@@ -173,9 +173,9 @@ class NovelSite {
           throw new Error(`Failed to load ${filename}`);
         }
 
-        const markdown = await response.text();
-        parser = new MarkdownParser();
-        const result = parser.parse(markdown);
+        const johndown = await response.text();
+        parser = new JohndownParser();
+        const result = parser.parse(johndown);
         html = result.html;
         title = this.getChapterTitle(filename);
 
@@ -271,7 +271,7 @@ class NovelSite {
     const chapter = this.chapters.find((c) => c.filename === filename);
     return chapter
       ? chapter.title
-      : filename.replace(".md", "").replace(/^\d+\s*/, "");
+      : filename.replace(".jd", "").replace(/^\d+\s*/, "");
   }
 
   getCachedChapter(filename) {

@@ -1,8 +1,8 @@
 /**
- * Simple markdown parser focused on the novel's needs
+ * Simple johndown parser focused on the novel's needs
  * Handles: paragraphs, emphasis, strong text, footnote references, and footnote definitions
  */
-class MarkdownParser {
+class JohndownParser {
   constructor() {
     this.footnotes = new Map();
     this.footnoteLabels = new Map(); // Maps author labels to sequential numbers
@@ -11,7 +11,7 @@ class MarkdownParser {
     this.annotations = new Set();
   }
 
-  parse(markdown) {
+  parse(johndown) {
     // Reset footnotes for each parse
     this.footnotes.clear();
     this.footnoteLabels.clear();
@@ -19,18 +19,18 @@ class MarkdownParser {
     this.footnoteCounter = 0;
 
     // First pass: preprocess inline footnotes [$content] -> [^CAPITALLETTERS#]
-    const preprocessedMarkdown = this.preprocessInlineFootnotes(markdown);
+    const preprocessedJohndown = this.preprocessInlineFootnotes(johndown);
 
     // Second pass: extract footnote definitions
     const { content, footnoteMap } = this.extractFootnotes(
-      preprocessedMarkdown,
+      preprocessedJohndown,
     );
     this.footnotes = footnoteMap;
 
     // Third pass: scan for footnote references to determine order
     this.assignFootnoteNumbers(content);
 
-    // Fourth pass: convert markdown to HTML
+    // Fourth pass: convert johndown to HTML
     const html = this.convertToHtml(content);
 
     return {
@@ -41,7 +41,7 @@ class MarkdownParser {
     };
   }
 
-  preprocessInlineFootnotes(markdown) {
+  preprocessInlineFootnotes(johndown) {
     let inlineCounter = 0;
     const generatedFootnotes = [];
 
@@ -100,19 +100,19 @@ class MarkdownParser {
       return text;
     };
 
-    const processedMarkdown = processInlineFootnotesRecursively(markdown);
+    const processedJohndown = processInlineFootnotesRecursively(johndown);
 
     // Append generated footnote definitions to the end
     if (generatedFootnotes.length > 0) {
-      return processedMarkdown + "\n\n" + generatedFootnotes.join("\n");
+      return processedJohndown + "\n\n" + generatedFootnotes.join("\n");
     }
 
-    return processedMarkdown;
+    return processedJohndown;
   }
 
-  extractFootnotes(markdown) {
+  extractFootnotes(johndown) {
     const footnoteMap = new Map();
-    const lines = markdown.split("\n");
+    const lines = johndown.split("\n");
     const contentLines = [];
 
     for (let i = 0; i < lines.length; i++) {
@@ -147,9 +147,9 @@ class MarkdownParser {
     };
   }
 
-  convertToHtml(markdown) {
+  convertToHtml(johndown) {
     // Split into paragraphs
-    const paragraphs = markdown.split(/\s*\n\s*/);
+    const paragraphs = johndown.split(/\s*\n\s*/);
     let html = "";
 
     for (let paragraph of paragraphs) {

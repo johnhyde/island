@@ -1,83 +1,83 @@
 {
   "chapters": [
     {
-      "filename": "./01 prologue.md",
+      "filename": "./01 prologue.jd",
       "title": "prologue"
     },
     {
-      "filename": "./02 one fine day.md",
+      "filename": "./02 one fine day.jd",
       "title": "one fine day"
     },
     {
-      "filename": "./03 one fine gay.md",
+      "filename": "./03 one fine gay.jd",
       "title": "one fine gay"
     },
     {
-      "filename": "./04 unwind, pray.md",
+      "filename": "./04 unwind, pray.jd",
       "title": "unwind, pray"
     },
     {
-      "filename": "./05 hmm.md",
+      "filename": "./05 hmm.jd",
       "title": "hmm"
     },
     {
-      "filename": "./06 back alley shenanigans.md",
+      "filename": "./06 back alley shenanigans.jd",
       "title": "back alley shenanigans"
     },
     {
-      "filename": "./07 beach detective.md",
+      "filename": "./07 beach detective.jd",
       "title": "beach detective"
     },
     {
-      "filename": "./08 it was bound to happen.md",
+      "filename": "./08 it was bound to happen.jd",
       "title": "it was bound to happen"
     },
     {
-      "filename": "./09 beach detective 2.md",
+      "filename": "./09 beach detective 2.jd",
       "title": "beach detective 2"
     },
     {
-      "filename": "./10 reginald awokes.md",
+      "filename": "./10 reginald awokes.jd",
       "title": "reginald awokes"
     },
     {
-      "filename": "./11 he lived.md",
+      "filename": "./11 he lived.jd",
       "title": "he lived"
     },
     {
-      "filename": "./12 breach detective.md",
+      "filename": "./12 breach detective.jd",
       "title": "breach detective"
     },
     {
-      "filename": "./13 breech detective.md",
+      "filename": "./13 breech detective.jd",
       "title": "breech detective"
     },
     {
-      "filename": "./14 marty's day off.md",
+      "filename": "./14 marty's day off.jd",
       "title": "marty's day off"
     },
     {
-      "filename": "./15 bequeath detective.md",
+      "filename": "./15 bequeath detective.jd",
       "title": "bequeath detective"
     },
     {
-      "filename": "./16 unkind play.md",
+      "filename": "./16 unkind play.jd",
       "title": "unkind play"
     },
     {
-      "filename": "./17 untwined fray.md",
+      "filename": "./17 untwined fray.jd",
       "title": "untwined fray"
     },
     {
-      "filename": "./A1 the contributions in the word-by-words.md",
+      "filename": "./A1 the contributions in the word-by-words.jd",
       "title": "the contributions in the word-by-words"
     },
     {
-      "filename": "./A2 the snook-cocker.md",
+      "filename": "./A2 the snook-cocker.jd",
       "title": "the snook-cocker"
     },
     {
-      "filename": "./A9 extracts.md",
+      "filename": "./A9 extracts.jd",
       "title": "extracts"
     }
   ]
