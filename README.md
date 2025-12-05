@@ -37,8 +37,6 @@ Other timeline events (I just grepped for 0x lol):
 
 ## Technical debt, todo items
 
-Ideally, appendices would display in the toc in a differentiated way, like after a <hr> type graphical element or something.
-
 ![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, except for its obvious flaws, and johndown does tend to stay compatible with markdown where it can.
 
 Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.

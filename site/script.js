@@ -121,6 +121,9 @@ class NovelSite {
   renderTableOfContents() {
     const chapterList = document.getElementById("chapter-list");
     chapterList.innerHTML = "";
+    const appendixList = document.getElementById("appendix-list");
+    appendixList.innerHTML = "";
+
 
     for (const chapter of this.chapters) {
       const li = document.createElement("li");
@@ -143,7 +146,12 @@ class NovelSite {
       });
 
       li.appendChild(a);
-      chapterList.appendChild(li);
+      if (chapterNumber.startsWith("A")){
+        appendixList.appendChild(li);
+      } else {
+        chapterList.appendChild(li);
+      }
+
     }
   }
 
