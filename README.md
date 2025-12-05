@@ -39,6 +39,8 @@ Other timeline events (I just grepped for 0x lol):
 
 ![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, except for its obvious flaws, and johndown does tend to stay compatible with markdown where it can. We do *use* this syntax already. We just don't implement it. Luckily at the moment it creates a normal link, which is useable if not ideal.
 
+The rule where a normal bracketed phrase on its own line is always treated like a section changeover marker occasionally creates false-positives and maybe this should be given some kind of sigil instead.
+
 Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
 
 I'm thinking that instead of just [@ blah] with ~ signatures we should all have our own special sigils. So I could leave annotations like, um, [~M blah]. And then I guess that would render like as though [@ blah ~M] I guess.
@@ -61,6 +63,18 @@ Possibly render author signature tildes as long tildes instead, like ～,〜, �
 
 Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text. This has no special rendering associated with it, and they all should be gone by the completion of the novel.
 
+### These johndown features don't work 100% correctly
+
+We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
+
+The chapter titles also are not smartened.
+
+[@ I have a sort of irrational dislike of using anything but ' for an apostrophe, because that's the character which is U+0027 APOSTROPHE, dammit! However, I have done it before, and will do it again; and, in conventional typesetting, there is no typographical difference between an apostrophe and and curly close single (much to my chagrin). Anyway, even though we could fix the autocurling algorithm a little, it seems unlikely to me that we will make it smart enough to do some types of apostrophes (such as a leading apostrophe before a word) correctly (it's legitimately ambiguous whether it's an apostrophe or a quote and you have to figure out if there's a quotation there by understanding the rules of English and/or parsing along the line for a hypothesized closing quote (which may also be ambiguous). Or, I suppose, we could ban autocurling of single quotes, and then it wouldn't be ambiguous. But what about the chapter where our heros enter a parody of a british novel, what then?! ~M] [@ Also, we still want to display the apostrophe as non-straight, which without character replacement is a font problem that fonts typically aren't up to the task of. ~M] [@ These are written like annotations to indicate they're an aside; however, this document explains johndown syntax so it won't make sense if you render this document as johndown. ~M]
+
+There's also ^superscript^ which is not a fully standard markdown feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
+
+Johndown is currently implemented as a line-based parser, which is at odds with its syntax. If you leave an annotation with square brackets but put a linebreak in it, the second line seems to relocate down to the bottom of the chapter and display as normal text?
+
 ## Johndown features
 
 The file extension for johndown files is jd, because they are unaccredited Jurum Doctores.
@@ -82,18 +96,6 @@ And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline
 --- makes a specially-rendered triple-fleuron dinkus (❦ ❦ ❦) (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for).
 
 A non-special bracketed phrase on its own line makes an hr above it, in addition to rendering in a sort of grey, italicized way.
-
-### These features don't work 100% correctly
-
-We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
-
-The chapter titles also are not smartened.
-
-[@ I have a sort of irrational dislike of using anything but ' for an apostrophe, because that's the character which is U+0027 APOSTROPHE, dammit! However, I have done it before, and will do it again; and, in conventional typesetting, there is no typographical difference between an apostrophe and and curly close single (much to my chagrin). Anyway, even though we could fix the autocurling algorithm a little, it seems unlikely to me that we will make it smart enough to do some types of apostrophes (such as a leading apostrophe before a word) correctly (it's legitimately ambiguous whether it's an apostrophe or a quote and you have to figure out if there's a quotation there by understanding the rules of English and/or parsing along the line for a hypothesized closing quote (which may also be ambiguous). Or, I suppose, we could ban autocurling of single quotes, and then it wouldn't be ambiguous. But what about the chapter where our heros enter a parody of a british novel, what then?! ~M] [@ Also, we still want to display the apostrophe as non-straight, which without character replacement is a font problem that fonts typically aren't up to the task of. ~M] [@ These are written like annotations to indicate they're an aside; however, this document explains johndown syntax so it won't make sense if you render this document as johndown. ~M]
-
-There's also ^superscript^ which is not a fully standard markdown feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
-
-Johndown is currently implemented as a line-based parser, which is at odds with its syntax. If you leave an annotation with square brackets but put a linebreak in it, the second line seems to relocate down to the bottom of the chapter and display as normal text?
 
 ## Site generation malarkey
 
