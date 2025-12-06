@@ -48,3 +48,26 @@ As they performed their customary secret handshake, Thomas said, “I was taken 
 “Ok, sounds good, boss. What’s the case? I’ve been neck-deep in Holiday Hooplah; can’t even remember if we were on a case before Christmas... Did that thing with the piano tuner go anywhere?”
 
 “No, that was a dead end, I think. There have been at least three martini-related deaths in the last few days, and I was almost another one.[@ I think at this point Thomas would only know about Martin Eeny, Mai Friend, and Bartimieus Ender, not any of the twin detectives, unless Marty mentioned it to him. And he can speculate about Paul and Prudence ~J] We are currently in the home of the Martini Killer.”
+
+[M; 360 words]
+
+  "'The Martini Killer'? What a ridiculous nickname." said Bus.
+  "Quite," said Thomas. "Well, you got any good ideas?"
+  "Hmm," Bus said to himself. "Have you checked his personal computer there on his desk?"
+  Thomas looked over. There was a medium-sized rectangular prism on a dark mahogany desk in the same room. It had pleasantly rounded corners and was a friendly shade of grey.[$ or maybe vice-versa] "Huh. A computer..." he said. "I didn't know anyone even used those anymore."
+  "I know, right?" said Gus. "He must be old school. Go on, 'boot' it up!"
+  With trepidation, which is the correct way to approach a computer, Thomas approached the little box and explored it with his digits. After fiddling with it for a while — its intuitive product design guiding his attempts towards success — he got it flipped open and powered up.
+  A cheering scene of abstract geometric shapes greeted him; on top of them a greebled rectangle; on this rectangles other features, such as text, constituting a login prompt.
+  "Hmm," Thomas hmmed. The USERNAME field was already filled in with a default: *𝙼𝙰𝚁𝚃𝙸𝙽𝙸𝚄𝚂 𝙹. 𝙺Ĳ𝙻𝙻𝙴𝚁*. [@ This joke might be too orthographically advanced for our readers, but the U+0132 Ĳ "breaks" the unicode monospace text on purpose. That's what computers be like.[@ Honestly, I was just going buckwild in here. What the heck.]] But the PASSWORD field was empty.[@ I've always found the symmetry between "username" and "password" delicious. Both eight-letter 4+4 neologistic closed compounds — yum! So that's why I chose to have this say "username" and not "user", even though "user" is a bit more natural. You may notice that Martinius's username allegedly has spaces in it. You have to remember that this is the future, and they have that technology.] The blinking cursor invited his textual input, warmly, expectantly. But he had naught to give.
+  "Bus," he asked, "can you find any hint around this place of what his 'password' might be? Like a post-it note or something?"
+  "Just try my password, 'monkey123'." [@ I once read a news article claiming that this was, for some reason, the most common password in the world (or in the US?) in some analysis. Or something like that. Looking it up now I think this 'fact' is dubious. Come to think of it, this might have to do with the Chinese Zodiac, given that "Dragon" is also up there in popularity? Well, people also like those animals for non-zodiac reasons.]
+  "Bus, why would *your* password possibly work on *Mart*— oh, nope, I'm in. Thanks, bud."
+  "No problem."
+  Thomas peered at the screen.
+  On the teal, dithered "desktop" that greeted him from box'[@ this is a possessive apostrophe; since I say the possessive of box with no extra s, I don't write it with an extra s (box's).] visage had only a few "icons" on it, accompanied by text:
+  • A black rectangle with indecipherable green text on it, apparently some kind of burlesque of an older style of computer; labelled TERM
+  • A picture of a manilla file folder with a few papers peaking out of it; labelled THE FILES ARE IN THE COMPUTER
+  • A picture of the globe; labelled NOTSCAPE NOPEAGATOR
+  • A picture of a ring-bound flip-notebook, open to a crisp white page with indecipherable scribbling on it; labelled MY MASTER PLAN.TXT
+  • 〃 ; labelled MART.INI
+  With a jounce of the Track finally flowing through him, Thomas "click"ed on the INI.
