@@ -15,7 +15,7 @@ However, files lettered with a capital A and then a digit are appendices and are
 
 This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel. It's not an elegant or entirely correct system, but she gets the job done and that's all that matters.
 
-No AI nor LLM has been used on this project except in a technical capacity, e.g. the creation of the .gitignore and the static site.
+No AI nor LLM has been used on this project except in a technical capacity, e.g. the creation of the .gitignore and the static site. Additionally, from time to time the authors asked an LLM to comb over the text-as-written and explain it to us, to try to figure out what was going on with the plot, in case we had forgotten something.
 
 ## Rules
 
