@@ -81,8 +81,12 @@
       "title": "the snook-cocker"
     },
     {
-      "filename": "./A9 extracts.jd",
+      "filename": "./A8 extracts.jd",
       "title": "extracts"
+    },
+    {
+      "filename": "./A9 wordcounts.jd",
+      "title": "wordcounts"
     }
   ]
 }
