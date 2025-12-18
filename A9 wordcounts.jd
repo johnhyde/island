@@ -1,3 +1,4 @@
+<pre>
 Chapters:
 2246	01 prologue.jd
 2256	02 one fine day.jd
@@ -19,5 +20,6 @@ Chapters:
 360	18 digsxby exscapes.jd
 24652	total
 Appendices:
-2285
+2286
 Note that these counts do not include annotations, but do include [X; foo words] type things (due to inconvenience of removing them).
+</pre>

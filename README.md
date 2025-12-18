@@ -49,7 +49,7 @@ Since the johndown parser is apparently custom, we should list its features to s
 
 "ins̈om̈uch" displays as though the diaereses are standalone characters even though they are U+0308 COMBINING DIAERESIS and thus should properly float above the previous letters. Probably a font problem? Presumably because font designers don't understand that the diaeresis is productive with non-vowels as well, possibly.
 
-Perhaps the generated html should display the word counts somewhere.
+Perhaps the generated html should display the word counts since the last section break somewhere, for easy in-situ counting.
 
 Perhaps the index, or somewhere on the website, should display this readme? (This readme is written in markdown, not johndown, but that doesn't matter much. Just render it "wrong", who cares?)
 
@@ -96,6 +96,8 @@ And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline
 --- makes a specially-rendered triple-fleuron dinkus (❦ ❦ ❦) (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for).
 
 A non-special bracketed phrase on its own line makes an hr above it, in addition to rendering in a sort of grey, italicized way.
+
+There's some kind of html-passthrough, which was added ultimately because M thought we were already using a standard markdown renderer which would already do that... but this is underspecified and can be ignored.
 
 ## Site generation malarkey
 
