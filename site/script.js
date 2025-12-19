@@ -270,7 +270,7 @@ class NovelSite {
         const note = document.createElement('div');
         note.className = 'words-since-marker';
         const label = markerText || '[marker]';
-        note.textContent = `${wordCount} words since last ${label}`;
+        note.textContent = `🤖︎ < ${wordCount} words since last ${label}`;
         chapterTextEl.appendChild(note);
       }
     }
