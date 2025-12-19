@@ -398,6 +398,18 @@ a {
     transition: border-color 0.3s ease, color 0.3s ease;
 }
 
+/* Subtle note showing words since last marker */
+.words-since-marker {
+    color: #bfbfbf;
+    font-size: 0.95rem;
+    margin-top: 1.25rem;
+    text-align: right;
+}
+
+body.dark-mode .words-since-marker {
+    color: #777;
+}
+
 #chapter-text em {
     font-style: italic;
 }

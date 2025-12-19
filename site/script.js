@@ -162,10 +162,15 @@ class NovelSite {
       let title, parser, html;
 
       if (cached) {
-        // Use cached parser instance and HTML
+        // Use cached parser instance, HTML, and raw content
         parser = cached.parser;
         html = cached.html;
         title = cached.title;
+        // raw content stored in cache for word counting
+        const raw = cached.content || "";
+        // Pass annotation labels from the parser if available so we can exclude them
+        const annotations = parser && parser.annotations ? parser.annotations : null;
+        var markerInfo = this.computeWordsSinceLastMarker(raw, annotations);
       } else {
         // Fetch and parse new content
         const response = await fetch(filename);
@@ -184,15 +189,21 @@ class NovelSite {
           parser: parser,
           html: html,
           title: title,
+          content: johndown,
         });
+
+        // Pass parser.annotations so annotation content is excluded from the count
+        var markerInfo = this.computeWordsSinceLastMarker(johndown, parser.annotations);
       }
 
       // Set current parser and chapter
       this.currentParser = parser;
       this.currentChapter = filename;
 
-      // Update page content and UI
-      this.updatePageContent(title, html, updateUrl, filename);
+      // Update page content and UI (pass marker info for rendering)
+      const words = markerInfo ? markerInfo.count : null;
+      const markerText = markerInfo ? markerInfo.marker : null;
+      this.updatePageContent(title, html, updateUrl, filename, words, markerText);
     } catch (error) {
       console.error("Error loading chapter:", error);
       this.showError(
@@ -209,13 +220,14 @@ class NovelSite {
       `<p>Choose a chapter from the table of contents to read.</p>`,
       updateUrl,
       null,
+      null,
     );
     this.updateFootnotesContent(
       "Footnotes will appear here when you select a chapter.",
     );
   }
 
-  updatePageContent(title, html, updateUrl, filename) {
+  updatePageContent(title, html, updateUrl, filename, wordCount = null, markerText = null) {
     // Update the main content
     document.getElementById("chapter-title").textContent = title;
     document.getElementById("chapter-text").innerHTML = html;
@@ -247,6 +259,20 @@ class NovelSite {
       this.loadUtterances(title);
     } else {
       this.cleanupUtterances();
+    }
+
+    // Render the 'words since last marker' note at the end of the page
+    const chapterTextEl = document.getElementById("chapter-text");
+    if (chapterTextEl) {
+      const existing = chapterTextEl.querySelector('.words-since-marker');
+      if (existing) existing.remove();
+      if (wordCount !== null && wordCount !== undefined) {
+        const note = document.createElement('div');
+        note.className = 'words-since-marker';
+        const label = markerText || '[marker]';
+        note.textContent = `${wordCount} words since last ${label}`;
+        chapterTextEl.appendChild(note);
+      }
     }
   }
 
@@ -283,8 +309,101 @@ class NovelSite {
       parser: data.parser,
       html: data.html,
       title: data.title,
+      content: data.content || null,
       timestamp: Date.now(),
     });
+  }
+
+  computeWordsSinceLastMarker(johndown, annotationsSet = null) {
+    if (!johndown || typeof johndown !== "string") return null;
+
+    // Work on a copy and remove annotation inline constructs [@ ...] using bracket matching
+    let text = johndown;
+
+    // Remove inline annotation blocks starting with '[@'
+    const removeInlineAnnotations = (src) => {
+      let out = "";
+      let i = 0;
+      while (i < src.length) {
+        if (src[i] === "[" && src[i + 1] === "@") {
+          // consume until matching closing bracket, respecting nested brackets
+          let depth = 0;
+          let j = i;
+          while (j < src.length) {
+            if (src[j] === "[") depth++;
+            else if (src[j] === "]") {
+              depth--;
+              if (depth === 0) {
+                j++; // move past closing bracket
+                break;
+              }
+            }
+            j++;
+          }
+          i = j; // skip the annotation content entirely
+        } else {
+          out += src[i];
+          i++;
+        }
+      }
+      return out;
+    };
+
+    text = removeInlineAnnotations(text);
+
+    // If parser provided annotation labels, strip their inline references and definitions
+    if (annotationsSet) {
+      // Normalize to a Set of strings (labels likely include leading '^')
+      const labels = new Set();
+      for (const l of annotationsSet) {
+        labels.add(l);
+      }
+
+      // Remove inline references like [^LABEL]
+      for (const label of labels) {
+        // Escape label for regex
+        const esc = label.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+        const refRe = new RegExp(`\\[${esc}\\]`, "g");
+        text = text.replace(refRe, "");
+      }
+
+      // Remove footnote definition blocks whose labels are in annotationsSet
+      const lines = text.split(/\r?\n/);
+      const filtered = [];
+      for (let i = 0; i < lines.length; i++) {
+        const m = lines[i].match(/^\[(\^[^\]]+)\]:\s*(.*)$/);
+        if (m && labels.has(m[1])) {
+          // skip this line and any following indented continuation lines
+          i++;
+          while (i < lines.length && lines[i].match(/^\s+/)) i++;
+          i--; // adjust for the outer loop increment
+          continue;
+        }
+        filtered.push(lines[i]);
+      }
+      text = filtered.join("\n");
+    }
+
+    // Find markers like [X; whatever] where X is one or more letters
+    const markerRegex = /\[[A-Za-z]+;[^\]]*\]/g;
+    let match;
+    let lastMatch = null;
+    while ((match = markerRegex.exec(text)) !== null) {
+      lastMatch = { text: match[0], index: match.index };
+    }
+
+    if (!lastMatch) return null;
+
+    const after = text.slice(lastMatch.index + lastMatch.text.length);
+
+    // Count words in the remaining text. Consider sequences of letters/numbers/apostrophes as words.
+    const tokens = after.match(/[A-Za-z0-9'’]+/g);
+    const count = tokens ? tokens.length : 0;
+
+    return {
+      count: count,
+      marker: lastMatch.text,
+    };
   }
 
   updateActiveChapter(filename) {
