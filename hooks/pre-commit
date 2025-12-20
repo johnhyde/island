@@ -37,6 +37,28 @@ if ! ./build.sh; then
     exit 1
 fi
 
+if [ -f "A9 wordcounts.jd" ]; then
+    new_hash=$(shasum -a 256 "A9 wordcounts.jd" | cut -d' ' -f1)
+
+    # If the file changed, add it to the commit
+    if [ "$old_hash" != "$new_hash" ]; then
+        echo "chapters.json updated, adding to commit..."
+        git add "A9 wordcounts.jd"
+
+        if [ $? -eq 0 ]; then
+            echo "Successfully added updated chapters.json to commit"
+        else
+            echo "Warning: Failed to add chapters.json to commit"
+            echo "You may need to add it manually: git add A9 wordcounts.jd"
+        fi
+    else
+        echo "A9 wordcounts.jd unchanged, nothing to add"
+    fi
+else
+    echo "Error: build.sh completed but no A9 wordcounts.jd  was created"
+    exit 1
+fi
+
 # Check if chapters.json was actually changed
 if [ -f "site/chapters.json" ]; then
     new_hash=$(shasum -a 256 "site/chapters.json" | cut -d' ' -f1)
