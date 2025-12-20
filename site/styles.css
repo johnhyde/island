@@ -398,6 +398,15 @@ a {
     transition: border-color 0.3s ease, color 0.3s ease;
 }
 
+#chapter-text pre {
+    font-size: 90%;
+    font-family: 'Courier', monospace;
+    text-wrap-mode: wrap;
+    background-color: var(--bg-sidebar-left);
+    padding: 1em;
+    margin: 1.5rem 0;
+}
+
 /* Subtle note showing words since last marker */
 .words-since-marker {
     color: #bfbfbf;

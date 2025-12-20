@@ -1,0 +1,46 @@
+[J; 355 words]
+
+<pre>
+; a glass of scotch and cigarette may be the best way to end a day,[@ a reference to a reddit post with similar text and a photo of a teenage boy larping as a Mad Man, or something]
+; but the best way to get there
+; is with a martini
+
+[martini]
+gin = 2            ; fl oz
+dry_vermouth = 1   ; fl oz
+orange_bitters = 1 ; dash
+shaken = true
+stirred = true
+garnish = 1 green olive
+</pre>
+
+Thomas and Büs looked at the INI file, or rather at the text of the INI file as displayed by the system text editor, JOTPAD. They admired its simplicity, its focus. They wondered why the Martini Killer had bothered writing it. They both knew, in their own little ways, that an INI file was traditionally used to specify configuration values for a computer program, but this appeared to be a recipe, coerced unconvincingly into a computer-y format.
+Thomas tippy-tapped on the keyboard for a moment, making a change.
+<pre>
+orange_bitters = 2 ; dashes
+</pre>
+Thomas held the CTRL key and pressed the S key, not knowing exactly why, except that it felt right[$ write].
+
+---
+
+Martinius felt a sudden twinge of pain. He held his smile, and tried to listen to what the woman in front of him was saying.
+
+---
+
+Gurston Butter, on a whim, reached over and hit the left arrow key a few times and then the 0 key a few times. Thomas saved the file again.
+<pre>
+orange_bitters = 2000 ; dashes
+</pre>
+
+---
+
+Martinius froze. His eyes rolled back in his head. Gradually, he keeled[$ kijled?] over. His date gasped in shock, as did a few nearby sympathetic gaspers. The man lay on the floor of the 24-hour karaoke bar in unimaginable pain[$ comparable, incidentally, to that which Thomas had experienced due to the poisoning[$ revenge is bitter]] while a well-intentioned man in the background sang along to the recent hit _You Knock Me Out_ by Truman Sloane.[@ this is just a random name. if anyone thinks of something funny to put here, feel free ~J] A medical student, hoping to play the hero, rushed to his side.[$ Sure are a lot of people in this bar at 4am or whatever it is]
+
+---
+
+Thomas hit CTRL+Z a few times and saw the file revert to its initial state. Then he added a new section:
+<pre>
+[martinius]
+alignment = good
+</pre>
+He saved the file again.

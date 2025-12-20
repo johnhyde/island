@@ -148,13 +148,31 @@ class JohndownParser {
   }
 
   convertToHtml(johndown) {
+    // Extract and preserve <pre> blocks before splitting into paragraphs
+    const preBlocks = [];
+    let processedJohndown = johndown.replace(/<pre>([\s\S]*?)<\/pre>/g, (match, content) => {
+      const placeholder = `___PRE_BLOCK_${preBlocks.length}___`;
+      preBlocks.push(content);
+      return placeholder;
+    });
+
     // Split into paragraphs
-    const paragraphs = johndown.split(/\s*\n\s*/);
+    const paragraphs = processedJohndown.split(/\s*\n\s*/);
     let html = "";
 
     for (let paragraph of paragraphs) {
       paragraph = paragraph.trim();
       if (!paragraph) continue;
+
+      // Handle <pre> block placeholders
+      const preMatch = paragraph.match(/^___PRE_BLOCK_(\d+)___$/);
+      if (preMatch) {
+        const preContent = preBlocks[parseInt(preMatch[1])];
+        // Process inline elements (footnotes/annotations) but preserve whitespace
+        const processedPreContent = this.processInlineElements(preContent);
+        html += `<pre>${processedPreContent}</pre>\n`;
+        continue;
+      }
 
       // Skip author attribution lines like [M; 397 words] or [J; 678 words]
       if (paragraph.match(/^\[([MJ]);\s*\d*\s*words?\]$/)) {
