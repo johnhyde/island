@@ -65,6 +65,8 @@ Possibly render author signature tildes as long tildes instead, like ～,〜, �
 
 Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text. This has no special rendering associated with it, and they all should be gone by the completion of the novel.
 
+We should probably have triple backticks to make "pre" (wrap) blocks, as they call them in html, since right now we're using them in two places, one in the actual novel itself, semantically important, which is maybe not ideal (and puts the lie to "html-passthrough [...] can be ignored", written later in this document).
+
 ### These johndown features don't work 100% correctly
 
 We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
