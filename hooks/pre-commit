@@ -42,14 +42,14 @@ if [ -f "A9 wordcounts.jd" ]; then
 
     # If the file changed, add it to the commit
     if [ "$old_hash" != "$new_hash" ]; then
-        echo "chapters.json updated, adding to commit..."
+        echo "wordcounts.jd updated, adding to commit..."
         git add "A9 wordcounts.jd"
 
         if [ $? -eq 0 ]; then
             echo "Successfully added updated chapters.json to commit"
         else
-            echo "Warning: Failed to add chapters.json to commit"
-            echo "You may need to add it manually: git add A9 wordcounts.jd"
+            echo "Warning: Failed to add wordcounts.jd to commit"
+            echo "You may need to add it manually: git add \"A9 wordcounts.jd\""
         fi
     else
         echo "A9 wordcounts.jd unchanged, nothing to add"
