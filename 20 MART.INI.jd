@@ -10,7 +10,7 @@ gin = 2            ; fl oz
 dry_vermouth = 1   ; fl oz
 orange_bitters = 1 ; dash
 shaken = true
-stirred = true[@ It's both shaken *and* stirred? ~M]
+stirred = true[@ It's both shaken *and* stirred? ~M][@ This surpised me too. ~C]
 garnish = 1 green olive
 </pre>
 
@@ -29,12 +29,12 @@ Martinius felt a sudden twinge of pain. He held his smile, and tried to listen t
 
 Gurston Butter, on a whim, reached over and hit the left arrow key a few times and then the 0 key a few times. Thomas saved the file again.[$ Only Jesus saves files, of course. But this command commits them to long-term memory. ~M[$ It was like they always said on the flying island: Jesus saves... Rodriguez on the rebound...! ~M]]
 <pre>
-orange_bitters = 2000 ; dashes[@ missed opportunity by our characters to make him _less_ bitter, not more 😉.[$Then again, the problem with Martinius is not really that he's too bitter. ~M] ~M]
+orange_bitters = 2000 ; dashes[@ missed opportunity by our characters to make him _less_ bitter, not more 😉.[$Then again, the problem with Martinius is not really that he's too bitter.[@ He just really likes being evil. ~C] ~M] ~M]
 </pre>
 
 ---
 
-Martinius froze. His eyes rolled back in his head. Gradually, he keeled[$ kijled?] over. His date gasped in shock, as did a few nearby sympathetic gaspers. The man lay on the floor of the 24-hour karaoke bar in unimaginable pain[$ comparable, incidentally, to that which Thomas had experienced due to the poisoning[$ revenge is bitter]][$ I can imagine this pain easily. ~M[$ This stuff ain't nothing to me ~M[@"This shit ain't nothin' to me, man" is a thing they say in "Dracula Flow 3" ~M]]] while a well-intentioned man in the background sang along to the recent hit _You Knock Me Out_ by Truman Sloane.[@ this is just a random name. if anyone thinks of something funny to put here, feel free ~J] A medical student, hoping to play the hero, rushed to his side.[$ Sure are a lot of people in this bar at 4am or whatever it is]
+Martinius froze. His eyes rolled back in his head. Gradually, he keeled[$ kijled?] over. His date gasped in shock, as did a few nearby sympathetic gaspers. The man lay on the floor of the 24-hour karaoke bar in unimaginable pain[$ comparable, incidentally, to that which Thomas had experienced due to the poisoning[$ revenge is bitter]][$ I can imagine this pain easily. ~M[$ This stuff ain't nothing to me ~M[@"This shit ain't nothin' to me, man" is a thing they say in "Dracula Flow 3"[@ Which is pure art. ~C] ~M]]] while a well-intentioned man in the background sang along to the recent hit _You Knock Me Out_ by Truman Sloane.[@ this is just a random name. if anyone thinks of something funny to put here, feel free ~J] A medical student, hoping to play the hero, rushed to his side.[$ Sure are a lot of people in this bar at 4am or whatever it is]
 
 ---
 
