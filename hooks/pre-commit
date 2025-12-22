@@ -22,7 +22,7 @@ needs_rebuild() {
 #     exit 0
 # fi
 
-echo "Chapter files detected in commit, rebuilding chapters.json..."
+echo "Regenerating word counts and chapters.json"
 
 # Store the current chapters.json content hash (if it exists)
 if [ -f "site/chapters.json" ]; then
@@ -47,9 +47,9 @@ if [ -f "A9 wordcounts.jd" ]; then
         git add "A9 wordcounts.jd"
 
         if [ $? -eq 0 ]; then
-            echo "Successfully added updated chapters.json to commit"
+            echo "Successfully added updated A9 wordcounts.jd to commit"
         else
-            echo "Warning: Failed to add wordcounts.jd to commit"
+            echo "Warning: Failed to add A9 wordcounts.jd to commit"
             echo "You may need to add it manually: git add \"A9 wordcounts.jd\""
         fi
     else
