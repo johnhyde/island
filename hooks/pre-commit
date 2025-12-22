@@ -17,9 +17,10 @@ needs_rebuild() {
 }
 
 # Exit early if no chapter-related changes
-if ! needs_rebuild; then
-    exit 0
-fi
+# Or don't because we basically always want to run build for the word counting
+# if ! needs_rebuild; then
+#     exit 0
+# fi
 
 echo "Chapter files detected in commit, rebuilding chapters.json..."
 
