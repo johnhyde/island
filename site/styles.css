@@ -297,6 +297,7 @@ input:checked + .slider:before {
     line-height: 1.6;
     color: var(--text-primary);
     transition: color 0.3s ease;
+    text-align: justify;
 }
 
 .footnote-popup-body .footnote-label {
