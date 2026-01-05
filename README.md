@@ -29,6 +29,8 @@ Sometimes we have a little get-together and write alternating words, as a treat.
 
 You might notice that occasionally there's something wacky like a marker of 0 words or an author going twice in a row. These occur for specific reasons that seemed cool at the time, but don't worry about it.
 
+In 2026, about halfway(?) through the novel, M selected a New Year's Resolution of "No more research projects. I will not even be googling the words of parts of objects I don't know anymore." figuring that it would lead to faster novel creation. This dramatically decreased the quality of M's sections, leading to such locutions as "a very fluffy white dress shirt like a guy in a movie about the Renaissance". But, on the other hand, those sections were written much quicker, and M got to spend more time going to parties. The other authors were free to do whatever.
+
 ## Story Notes
 
 The current year is 0x8fd (or 2301 (since what?? (The only undisputed date in history, the birth of the Christchild [disputed]))).
@@ -141,4 +143,4 @@ If you want to count how many words are in the novel, you can use ./wordcount.sh
 
 Currently, this repo is the completely proprietary intellectual property of its authors.
 
-The favicon is a crop of https://commons.wikimedia.org/wiki/File:The_Works_of_the_Rev._Jonathan_Swift,_Volume_6-217.png, an edit by Jasonanaggie of an image that appears in a book written by Johnathan Swift (did Swift himself draw it? unclear). Therefore the favicon is also licensed under CC BY-SA 4.0.
+The favicon is a crop of https://commons.wikimedia.org/wiki/File:The_Works_of_the_Rev._Jonathan_Swift,_Volume_6-217.png, an edit by Jasonanaggie of an image that appears in a book written by Johnathan Swift (did Swift himself draw it? unclear to me). Therefore the favicon is also licensed under CC BY-SA 4.0.
