@@ -486,6 +486,7 @@ body.dark-mode .words-since-marker {
 
 .annotation-ref {
     color: #dc3545;
+    display: none; /* Hidden by default */
 }
 
 .annotation-ref.visible {

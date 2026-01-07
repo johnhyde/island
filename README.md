@@ -69,10 +69,6 @@ Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed
 
 We should probably have triple backticks to make "pre" (wrap) blocks, as they call them in html, since right now we're using them in two places, one in the actual novel itself, semantically important, which is maybe not ideal (and puts the lie to "html-passthrough [...] can be ignored", written later in this document).
 
-We should probably have line-based annotations like [^@whatever].
-
-[^@whatever]: here is a special note from me to you!
-
 ### These johndown features don't work 100% correctly
 
 We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
@@ -105,7 +101,7 @@ Drop caps and small caps can be added to the beginning of a paragraph using curl
 
 When starting a paragraph with a quotation mark or a single-letter word (like "A"), you should use the double-brace syntax `{{` to prevent the small caps from appearing too close to the drop cap. For example, `{{"Dialogue here"}` or `{{A special case}` will render with proper spacing between the drop cap and the small caps text that follows.
 
-And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. Annotations are conventionally signed with the initial of their author after a tilde, although this does not trigger any special rendering. If an annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenance of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it — however, it's also less important, in a sense, since the footnotes are part of the story, which is a unified whole we are communally writing (the annotations are often banal commentary we're making on it). Signing with two tildes before the initial is a convention meaning the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting).
+And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for inline annotations. Annotations can also be written in footnote style: [^@label] with a corresponding definition [^@label]: annotation text. Annotations are conventionally signed with the initial of their author after a tilde, although this does not trigger any special rendering. If an annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenance of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it — however, it's also less important, in a sense, since the footnotes are part of the story, which is a unified whole we are communally writing (the annotations are often banal commentary we're making on it). Signing with two tildes before the initial is a convention meaning the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting).
 
 --- makes a specially-rendered triple-fleuron dinkus (❦ ❦ ❦) (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for).
 

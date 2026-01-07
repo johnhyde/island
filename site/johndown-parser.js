@@ -11,6 +11,10 @@ class JohndownParser {
     this.annotations = new Set();
   }
 
+  isAnnotationLabel(label) {
+    return this.annotations.has(label);
+  }
+
   parse(johndown) {
     // Reset footnotes for each parse
     this.footnotes.clear();
@@ -122,6 +126,9 @@ class JohndownParser {
       const footnoteMatch = line.match(/^\[(\^[^\]]+)\]:\s*(.*)$/);
       if (footnoteMatch) {
         const [, label, content] = footnoteMatch;
+        if (label.slice(0, 2) == "^@") {
+          this.annotations.add(label);
+        }
 
         // Collect multi-line footnote content
         let footnoteContent = content;
@@ -180,8 +187,9 @@ class JohndownParser {
       // Skip author attribution lines like [M; 397 words] or [J; 678 words]
       if (paragraph.match(/^\[[^^]*\]/)) {
         html += `<div class="author-note">${
-          // this.escapeHtml(paragraph)
-          this.processInlineElements(paragraph)}</div>\n`;
+          this.escapeHtml(paragraph)
+        }</div>\n`;
+        // this.processInlineElements(paragraph)}</div>\n`;
         continue;
       }
 
@@ -201,34 +209,34 @@ class JohndownParser {
       }
 
       // Handle drop cap syntax
-      if (paragraph.startsWith("{")) {
-        paragraph = paragraph.slice(1);
-        let separate = false;
-        if (paragraph.startsWith("{")) {
-          paragraph = paragraph.slice(1);
-          separate = true;
-        }
-        let endCaps = paragraph.indexOf("}");
-        let startRest = endCaps + 1;
-        if (endCaps === -1) {
-          endCaps = paragraph.match(/\W/);
-          endCaps = endCaps ? endCaps.index : 1;
-          startRest = endCaps;
-        }
-        const dropCapText = paragraph.slice(0, endCaps);
-        const restText = paragraph.slice(startRest);
+      // if (paragraph.startsWith("{")) {
+      //   paragraph = paragraph.slice(1);
+      //   let separate = false;
+      //   if (paragraph.startsWith("{")) {
+      //     paragraph = paragraph.slice(1);
+      //     separate = true;
+      //   }
+      //   let endCaps = paragraph.indexOf("}");
+      //   let startRest = endCaps + 1;
+      //   if (endCaps === -1) {
+      //     endCaps = paragraph.match(/\W/);
+      //     endCaps = endCaps ? endCaps.index : 1;
+      //     startRest = endCaps;
+      //   }
+      //   const dropCapText = paragraph.slice(0, endCaps);
+      //   const restText = paragraph.slice(startRest);
 
-        // Split drop cap into first letter and rest
-        const firstLetter = dropCapText.charAt(0);
-        const restOfDropCap = dropCapText.slice(1);
-        const shortDropCap = firstLetter.match(/["“”'‘’]/);
+      //   // Split drop cap into first letter and rest
+      //   const firstLetter = dropCapText.charAt(0);
+      //   const restOfDropCap = dropCapText.slice(1);
+      //   const shortDropCap = firstLetter.match(/["“”'‘’]/);
 
-        paragraph = `<span class="drop-cap-letter ${
-          shortDropCap ? "short" : ""
-        }">${firstLetter}</span><span class="drop-cap-rest ${
-          separate ? "separate" : ""
-        }">${restOfDropCap}</span>${restText}`;
-      }
+      //   paragraph = `<span class="drop-cap-letter ${
+      //     shortDropCap ? "short" : ""
+      //   }">${firstLetter}</span><span class="drop-cap-rest ${
+      //     separate ? "separate" : ""
+      //   }">${restOfDropCap}</span>${restText}`;
+      // }
 
       // Process the paragraph content
       const processedParagraph = this.processInlineElements(paragraph);
@@ -253,7 +261,7 @@ class JohndownParser {
             !processedLabels.has(label) && this.footnotes.has(label)
           ) {
             processedLabels.add(label);
-            if (!this.annotations.has(label)) {
+            if (!this.isAnnotationLabel(label)) {
               this.footnoteCounter++;
               this.footnoteLabels.set(label, this.footnoteCounter);
             }
@@ -288,7 +296,7 @@ class JohndownParser {
     text = this.processQuotes(text);
     // Process footnote references: [^label] -> numbered superscripts
     text = text.replace(/\[(\^[^\]]+)\]/g, (match, label) => {
-      if (this.annotations.has(label)) {
+      if (this.isAnnotationLabel(label)) {
         return `<span class="annotation-ref" data-id="${label}">@</span>`;
       }
       const number = this.footnoteLabels.get(label) || "?";
@@ -348,7 +356,7 @@ class JohndownParser {
 
     // Use the ordered footnotes with sequential numbers
     for (const footnote of this.footnoteOrder) {
-      if (this.annotations.has(footnote.label)) continue;
+      if (this.isAnnotationLabel(footnote.label)) continue;
       const processedContent = this.processInlineElements(footnote.content);
       footnotesHtml += `
                 <div class="footnote" data-id="${footnote.label}">
