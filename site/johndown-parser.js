@@ -211,8 +211,8 @@ class JohndownParser {
         let endCaps = paragraph.indexOf("}");
         let startRest = endCaps + 1;
         if (endCaps === -1) {
-          endCaps = paragraph.indexOf(/\w/);
-          if (endCaps === -1) endCaps = 1;
+          endCaps = paragraph.match(/\W/);
+          endCaps = endCaps ? endCaps.index : 1;
           startRest = endCaps;
         }
         const dropCapText = paragraph.slice(0, endCaps);

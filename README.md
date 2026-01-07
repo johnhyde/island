@@ -73,18 +73,6 @@ We should probably have line-based annotations like [^@whatever].
 
 [^@whatever]: here is a special note from me to you!
 
-We could have distinguished [initials](https://en.wikipedia.org/wiki/Initial). This would slightly improve the look of the site, and is one of the few compromises between don't-indent-first-line and do-indent-first-line styles. This was my first attempt, but it has some problems, namely not always applying to the right element (annotation markers shouldn't be distinguished. nor should the epigraphs we occasionally use), and also not taking up the indent space that it's ultimately supposed to.
-
-```
-#chapter-text p:first-of-type::first-letter {
-  font-size: 2rem;
-}
-```
-
-I tried adding `float: left;` to this, which created some funny results.
-
-There is also this, which should help with styling the caps, although firefox doesn't support it yet: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/initial-letter
-
 ### These johndown features don't work 100% correctly
 
 We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
@@ -112,6 +100,10 @@ Unlike regular markdown, we respect single linebreaks. (Multiple line breaks are
 Um, we use this mostly for italics and stuff I guess. *italic*. **bold**. ***bold italic***. _Also italic_. **_presumably also bold italic although I haven't checked_**. ~~strikethrough~~. There's also ^superscript^ which is not a fully standard markdown feature.
 
 There are also [links](example.com).
+
+Drop caps and small caps can be added to the beginning of a paragraph using curly braces. If a paragraph starts with `{`, the text up to a closing `}` (or just the first word if there is no `}`) will be rendered with the first letter as a large drop capital and the remaining letters in small caps. The small caps are positioned close to the drop cap, indicating that a word is being continued from the large capital. For example, `{Islands} today...` renders with a large "I" and "SLANDS" in small caps tight against it, followed by normal text.
+
+When starting a paragraph with a quotation mark or a single-letter word (like "A"), you should use the double-brace syntax `{{` to prevent the small caps from appearing too close to the drop cap. For example, `{{"Dialogue here"}` or `{{A special case}` will render with proper spacing between the drop cap and the small caps text that follows.
 
 And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline footnotes, and [@ whatever] for annotations. Annotations are conventionally signed with the initial of their author after a tilde, although this does not trigger any special rendering. If an annotation occurs in the text of some author and is unsigned, you can assume it's by that author. Footnotes can also be signed. We're having a good time. The provenance of footnotes is less certain by default, since we feel free to slip cool footnotes into each other's prose when we feel like it — however, it's also less important, in a sense, since the footnotes are part of the story, which is a unified whole we are communally writing (the annotations are often banal commentary we're making on it). Signing with two tildes before the initial is a convention meaning the footnote/annotation should probably be deleted after it is consumed (ie, for typos the other author wasn't sure about correcting).
 
