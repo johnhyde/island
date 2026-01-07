@@ -69,6 +69,22 @@ Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed
 
 We should probably have triple backticks to make "pre" (wrap) blocks, as they call them in html, since right now we're using them in two places, one in the actual novel itself, semantically important, which is maybe not ideal (and puts the lie to "html-passthrough [...] can be ignored", written later in this document).
 
+We should probably have line-based annotations like [^@whatever].
+
+[^@whatever]: here is a special note from me to you!
+
+We could have distinguished [initials](https://en.wikipedia.org/wiki/Initial). This would slightly improve the look of the site, and is one of the few compromises between don't-indent-first-line and do-indent-first-line styles. This was my first attempt, but it has some problems, namely not always applying to the right element (annotation markers shouldn't be distinguished. nor should the epigraphs we occasionally use), and also not taking up the indent space that it's ultimately supposed to.
+
+```
+#chapter-text p:first-of-type::first-letter {
+  font-size: 2rem;
+}
+```
+
+I tried adding `float: left;` to this, which created some funny results.
+
+There is also this, which should help with styling the caps, although firefox doesn't support it yet: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/initial-letter
+
 ### These johndown features don't work 100% correctly
 
 We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
