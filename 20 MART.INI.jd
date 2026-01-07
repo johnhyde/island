@@ -14,7 +14,7 @@ stirred = true[@ It's both shaken *and* stirred? ~M][@ This surpised me too. ~C]
 garnish = 1 green olive
 </pre>
 
-Thomas and Büs looked at the INI file, or rather at the text of the INI file as displayed by the system text editor, JOTPAD. They admired its simplicity, its focus. They wondered why the Martini Killer had bothered writing it. They both knew, in their own little ways, that an INI file was traditionally used to specify configuration values for a computer program, but this appeared to be a recipe, coerced unconvincingly into a computer-y format.
+{Thomas and Büs} looked at the INI file, or rather at the text of the INI file as displayed by the system text editor, JOTPAD. They admired its simplicity, its focus. They wondered why the Martini Killer had bothered writing it. They both knew, in their own little ways, that an INI file was traditionally used to specify configuration values for a computer program, but this appeared to be a recipe, coerced unconvincingly into a computer-y format.
 Thomas tippy-tapped on the keyboard for a moment, making a change.
 <pre>
 orange_bitters = 2 ; dashes

@@ -307,21 +307,6 @@ input:checked + .slider:before {
     transition: color 0.3s ease;
 }
 
-/* Nested footnote references in popup */
-.footnote-popup-body .footnote-ref {
-    font-size: 0.8em;
-    vertical-align: super;
-    color: var(--accent-blue);
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0 2px;
-    transition: color 0.3s ease;
-}
-
-.footnote-popup-body .footnote-ref:hover {
-    background-color: var(--accent-hover-footnote);
-    border-radius: 2px;
-}
 
 .table-of-contents ul {
     list-style: none;
@@ -383,6 +368,34 @@ a {
 #chapter-text p {
     text-indent: 1.5em;
     line-height: 1.4;
+    clear: left;
+}
+
+.drop-cap-letter {
+    float: left;
+    font-size: 4.8em;
+    line-height: 1em;
+    margin-right: 0.1em;
+    margin-top: -0.05em;
+    margin-bottom: -0.1em;
+}
+
+.drop-cap-letter.short {
+    margin-bottom: -0.4em;
+}
+
+.drop-cap-rest {
+    font-variant: small-caps;
+    margin-left: -0.35em;
+}
+
+.drop-cap-rest.separate {
+    margin-left: 0;
+}
+
+/* Remove text-indent from paragraphs with drop caps */
+#chapter-text p:has(.drop-cap-letter) {
+    text-indent: 0;
 }
 
 #chapter-text h2, #chapter-text h3 {
@@ -433,7 +446,7 @@ body.dark-mode .words-since-marker {
 /* Section separator styling */
 .section-separator {
     text-align: center;
-    margin: 1rem 0;
+    margin: 1rem 25% 1rem 25%;
     font-size: 1.2rem;
     color: var(--text-muted);
     letter-spacing: 0.4rem;
@@ -451,15 +464,19 @@ body.dark-mode .words-since-marker {
     transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Footnote reference styles */
-.footnote-ref {
+.footnote-ref, .annotation-ref {
     font-size: 0.8em;
-    vertical-align: super;
-    color: var(--accent-blue);
+    vertical-align: top;
+    top: -0.2em;
+    position: relative;
     text-decoration: none;
     cursor: pointer;
     padding: 0 2px;
     transition: color 0.3s ease;
+}
+
+.footnote-ref {
+    color: var(--accent-blue);
 }
 
 .footnote-ref:hover {
@@ -467,16 +484,8 @@ body.dark-mode .words-since-marker {
     border-radius: 2px;
 }
 
-/* Annotation marker styles */
 .annotation-ref {
-    font-size: 0.8em;
-    vertical-align: super;
     color: #dc3545;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0 2px;
-    display: none; /* Hidden by default */
-    transition: all 0.2s ease;
 }
 
 .annotation-ref.visible {

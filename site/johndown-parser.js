@@ -150,11 +150,14 @@ class JohndownParser {
   convertToHtml(johndown) {
     // Extract and preserve <pre> blocks before splitting into paragraphs
     const preBlocks = [];
-    let processedJohndown = johndown.replace(/<pre>([\s\S]*?)<\/pre>/g, (match, content) => {
-      const placeholder = `___PRE_BLOCK_${preBlocks.length}___`;
-      preBlocks.push(content);
-      return placeholder;
-    });
+    let processedJohndown = johndown.replace(
+      /<pre>([\s\S]*?)<\/pre>/g,
+      (match, content) => {
+        const placeholder = `___PRE_BLOCK_${preBlocks.length}___`;
+        preBlocks.push(content);
+        return placeholder;
+      },
+    );
 
     // Split into paragraphs
     const paragraphs = processedJohndown.split(/\s*\n\s*/);
@@ -175,18 +178,10 @@ class JohndownParser {
       }
 
       // Skip author attribution lines like [M; 397 words] or [J; 678 words]
-      if (paragraph.match(/^\[([MJ]);\s*\d*\s*words?\]$/)) {
+      if (paragraph.match(/^\[[^^]*\]/)) {
         html += `<div class="author-note">${
-          this.escapeHtml(paragraph)
-        }</div>\n`;
-        continue;
-      }
-
-      // Skip other bracketed metadata
-      if (paragraph.match(/^\[[^^]*\]$/)) {
-        html += `<div class="author-note">${
-          this.escapeHtml(paragraph)
-        }</div>\n`;
+          // this.escapeHtml(paragraph)
+          this.processInlineElements(paragraph)}</div>\n`;
         continue;
       }
 
@@ -205,8 +200,38 @@ class JohndownParser {
         continue;
       }
 
+      // Handle drop cap syntax
+      if (paragraph.startsWith("{")) {
+        paragraph = paragraph.slice(1);
+        let separate = false;
+        if (paragraph.startsWith("{")) {
+          paragraph = paragraph.slice(1);
+          separate = true;
+        }
+        let endCaps = paragraph.indexOf("}");
+        let startRest = endCaps + 1;
+        if (endCaps === -1) {
+          endCaps = paragraph.indexOf(/\w/);
+          if (endCaps === -1) endCaps = 1;
+          startRest = endCaps;
+        }
+        const dropCapText = paragraph.slice(0, endCaps);
+        const restText = paragraph.slice(startRest);
+
+        // Split drop cap into first letter and rest
+        const firstLetter = dropCapText.charAt(0);
+        const restOfDropCap = dropCapText.slice(1);
+        const shortDropCap = firstLetter.match(/["“”'‘’]/);
+
+        paragraph = `<span class="drop-cap-letter ${
+          shortDropCap ? "short" : ""
+        }">${firstLetter}</span><span class="drop-cap-rest ${
+          separate ? "separate" : ""
+        }">${restOfDropCap}</span>${restText}`;
+      }
+
       // Process the paragraph content
-      let processedParagraph = this.processInlineElements(paragraph);
+      const processedParagraph = this.processInlineElements(paragraph);
       html += `<p>${processedParagraph}</p>\n`;
     }
 
@@ -253,7 +278,7 @@ class JohndownParser {
   processInlineElements(text) {
     let parts = text.split(/(?:(?<=<.*?>)|(?=<.*?>))/);
     if (parts.length > 1) {
-      return parts.map(this.processInlineElements.bind(this)).join('');
+      return parts.map(this.processInlineElements.bind(this)).join("");
     } else {
       text = parts[0];
     }
