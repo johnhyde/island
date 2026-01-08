@@ -69,6 +69,8 @@ Two percent signs (%) is a to-do mark that indicates the temporarily-embarrassed
 
 We should probably have triple backticks to make "pre" (wrap) blocks, as they call them in html, since right now we're using them in two places, one in the actual novel itself, semantically important, which is maybe not ideal (and puts the lie to "html-passthrough [...] can be ignored", written later in this document).
 
+What happens if there are two footnotes with the same name? Does this affect the ability to cat a document together out of parts?
+
 ### These johndown features don't work 100% correctly
 
 We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
