@@ -187,9 +187,8 @@ class JohndownParser {
       // Skip author attribution lines like [M; 397 words] or [J; 678 words]
       if (paragraph.match(/^\[[^^]*\]/)) {
         html += `<div class="author-note">${
-          this.escapeHtml(paragraph)
+          this.processInlineElements(paragraph)
         }</div>\n`;
-        // this.processInlineElements(paragraph)}</div>\n`;
         continue;
       }
 
@@ -209,34 +208,34 @@ class JohndownParser {
       }
 
       // Handle drop cap syntax
-      // if (paragraph.startsWith("{")) {
-      //   paragraph = paragraph.slice(1);
-      //   let separate = false;
-      //   if (paragraph.startsWith("{")) {
-      //     paragraph = paragraph.slice(1);
-      //     separate = true;
-      //   }
-      //   let endCaps = paragraph.indexOf("}");
-      //   let startRest = endCaps + 1;
-      //   if (endCaps === -1) {
-      //     endCaps = paragraph.match(/\W/);
-      //     endCaps = endCaps ? endCaps.index : 1;
-      //     startRest = endCaps;
-      //   }
-      //   const dropCapText = paragraph.slice(0, endCaps);
-      //   const restText = paragraph.slice(startRest);
+      if (paragraph.startsWith("{")) {
+        paragraph = paragraph.slice(1);
+        let separate = false;
+        if (paragraph.startsWith("{")) {
+          paragraph = paragraph.slice(1);
+          separate = true;
+        }
+        let endCaps = paragraph.indexOf("}");
+        let startRest = endCaps + 1;
+        if (endCaps === -1) {
+          endCaps = paragraph.match(/\W/);
+          endCaps = endCaps ? endCaps.index : 1;
+          startRest = endCaps;
+        }
+        const dropCapText = paragraph.slice(0, endCaps);
+        const restText = paragraph.slice(startRest);
 
-      //   // Split drop cap into first letter and rest
-      //   const firstLetter = dropCapText.charAt(0);
-      //   const restOfDropCap = dropCapText.slice(1);
-      //   const shortDropCap = firstLetter.match(/["“”'‘’]/);
+        // Split drop cap into first letter and rest
+        const firstLetter = dropCapText.charAt(0);
+        const restOfDropCap = dropCapText.slice(1);
+        const shortDropCap = firstLetter.match(/["“”'‘’]/);
 
-      //   paragraph = `<span class="drop-cap-letter ${
-      //     shortDropCap ? "short" : ""
-      //   }">${firstLetter}</span><span class="drop-cap-rest ${
-      //     separate ? "separate" : ""
-      //   }">${restOfDropCap}</span>${restText}`;
-      // }
+        paragraph = `<span class="drop-cap-letter ${
+          shortDropCap ? "short" : ""
+        }">${firstLetter}</span><span class="drop-cap-rest ${
+          separate ? "separate" : ""
+        }">${restOfDropCap}</span>${restText}`;
+      }
 
       // Process the paragraph content
       const processedParagraph = this.processInlineElements(paragraph);
