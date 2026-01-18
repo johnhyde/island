@@ -53,8 +53,6 @@ Since the johndown parser is apparently custom, we should list its features to s
 
 "ins̈om̈uch" displays as though the diaereses are standalone characters even though they are U+0308 COMBINING DIAERESIS and thus should properly float above the previous letters. Probably a font problem? Presumably because font designers don't understand that the diaeresis is productive with non-vowels as well, possibly.
 
-Perhaps the generated html should display the word counts since the last section break somewhere, for easy in-situ counting.
-
 Perhaps the index, or somewhere on the website, should display this readme? (This readme is written in markdown, not johndown, but that doesn't matter much. Just render it "wrong", who cares?)
 
 A footnote in an annotation currently displays in the sidebar even if the annotations are hidden. Probably they should actually be in their own special annotations-footnotes section (which will prevent them from messing up the numbering of the normal footnotes), which probably should have a red background.
