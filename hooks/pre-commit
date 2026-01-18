@@ -4,6 +4,12 @@
 # Automatically rebuilds chapters.json and adds it to commit when chapter files change
 #
 
+detect_nci() {
+  git grep --cached --line-number -i no""checkin && echo "The forbidden string was encountered; stopping." && exit 42
+}
+# Immediately run this because it is fast.
+detect_nci
+
 # Function to check if there are chapter files being committed
 has_chapter_changes() {
     # Check if any numbered johndown files are being added, modified, or renamed
@@ -82,6 +88,9 @@ else
     echo "Error: build.sh completed but no chapters.json was created"
     exit 1
 fi
+
+# Could our build process ever generate this string? IDK maybe.
+detect_nci
 
 # Continue with the commit
 exit 0
