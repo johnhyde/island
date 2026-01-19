@@ -1,7 +1,7 @@
 annocount() {
   name="${2:-$1}" #use 1 as name unless 2 is provided
   printf "\t" # It seems like some versions of wc prefix with a tab and some don't. Let's prefix with a tab in a cross-platform-alicious way.
-  cat "$1" | ./strip-annotations.py | wc -w | tr -d '\n\t'
+  cat "$1" | ./strip-annotations.py --count | tr -d '\r\n\t'
   printf "\t$name\n"
 }
 
