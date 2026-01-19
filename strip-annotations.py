@@ -45,6 +45,7 @@ for file in files:
                 sys.stdout.write(c)
         if c == ']' and annotation > 0:
             annotation -= 1
+            # Note that this doesn't trigger a whitespace, as foo[@ adsfjlkj kalsjdf lkjasdf]bar is seen as "foobar".
         i += 1
 
     if count_mode:
