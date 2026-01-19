@@ -4,7 +4,7 @@ Chapters:
 	2256	02 one fine day.jd
 	2694	03 one fine gay.jd
 	2028	04 unwind, pray.jd
-	2608	05 hmm.jd
+	2615	05 hmm.jd
 	633	06 back alley shenanigans.jd
 	775	07 beach detective.jd
 	1839	08 it was bound to happen.jd
@@ -24,8 +24,12 @@ Chapters:
 	1025	22 mr squiggle plays strip poker.jd
 	1724	23 “Don’t Kill Your Wife”guy.jd
 	117	24 gun in play.jd
-32439	total
+32442	total
 Appendices:
-2994
+	209	A1 the contributions in the word-by-words.jd
+	403	A2 the snook-cocker.jd
+	2272	A8 extracts.jd
+	112	A9 wordcounts.jd
+2996	total
 Note that these counts do not include annotations, but do include [X; foo words] type things (due to inconvenience of removing them).
 </pre>
