@@ -1,96 +1,23 @@
 #!/bin/bash
-#
-# Pre-commit hook for Flying Island novel
-# Automatically rebuilds chapters.json and adds it to commit when chapter files change
-#
+
+set -e # If any of the steps fail, exit.
+
+echo Running hooks/pre-commit...
 
 detect_nci() {
-  git grep --cached --line-number -i no""checkin && echo "The forbidden string was encountered; stopping." && exit 42
-}
-# Immediately run this because it is fast.
-detect_nci
-
-# Function to check if there are chapter files being committed
-has_chapter_changes() {
-    # Check if any numbered johndown files are being added, modified, or renamed
-    git diff --cached --name-only --diff-filter=AMR | grep -q '^[0-A][0-9].*\.jd$'
+  if git grep --cached --line-number -i no""checkin; then
+    echo "The forbidden string was encountered; stopping."
+    exit 42
+  fi
 }
 
-# Function to check if chapters.json needs to be rebuilt
-needs_rebuild() {
-    # Always rebuild if chapter files changed, or if chapters.json doesn't exist
-    has_chapter_changes || [ ! -f "site/chapters.json" ]
-}
+detect_nci # Immediately run this before all other steps, because it is fast.
 
-# Exit early if no chapter-related changes
-# Or don't because we basically always want to run build for the word counting
-# if ! needs_rebuild; then
-#     exit 0
-# fi
-
-echo "Regenerating word counts and chapters.json"
-
-# Store the current chapters.json content hash (if it exists)
-if [ -f "site/chapters.json" ]; then
-    old_hash=$(shasum -a 256 "site/chapters.json" 2>/dev/null | cut -d' ' -f1)
-else
-    old_hash=""
-fi
-
-# Run the build script
-if ! ./build.sh; then
-    echo "Error: Failed to run build.sh"
-    echo "Please fix the build script and try committing again."
-    exit 1
-fi
-
-if [ -f "A9 wordcounts.jd" ]; then
-    new_hash=$(shasum -a 256 "A9 wordcounts.jd" | cut -d' ' -f1)
-
-    # If the file changed, add it to the commit
-    if [ "$old_hash" != "$new_hash" ]; then
-        echo "wordcounts.jd updated, adding to commit..."
-        git add "A9 wordcounts.jd"
-
-        if [ $? -eq 0 ]; then
-            echo "Successfully added updated A9 wordcounts.jd to commit"
-        else
-            echo "Warning: Failed to add A9 wordcounts.jd to commit"
-            echo "You may need to add it manually: git add \"A9 wordcounts.jd\""
-        fi
-    else
-        echo "A9 wordcounts.jd unchanged, nothing to add"
-    fi
-else
-    echo "Error: build.sh completed but no A9 wordcounts.jd  was created"
-    exit 1
-fi
-
-# Check if chapters.json was actually changed
-if [ -f "site/chapters.json" ]; then
-    new_hash=$(shasum -a 256 "site/chapters.json" | cut -d' ' -f1)
-
-    # If the file changed, add it to the commit
-    if [ "$old_hash" != "$new_hash" ]; then
-        echo "chapters.json updated, adding to commit..."
-        git add "site/chapters.json"
-
-        if [ $? -eq 0 ]; then
-            echo "Successfully added updated chapters.json to commit"
-        else
-            echo "Warning: Failed to add chapters.json to commit"
-            echo "You may need to add it manually: git add site/chapters.json"
-        fi
-    else
-        echo "chapters.json unchanged, nothing to add"
-    fi
-else
-    echo "Error: build.sh completed but no chapters.json was created"
-    exit 1
-fi
+./build.sh
+git add "A9 wordcounts.jd"
+git add "site/chapters.json"
 
 # Could our build process ever generate this string? IDK maybe.
 detect_nci
 
-# Continue with the commit
-exit 0
+echo "Pre-commit cleared successfully. ✓✓✓"

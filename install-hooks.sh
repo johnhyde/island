@@ -1,49 +1,26 @@
 #!/bin/bash
 #
-# Install git hooks for Flying Island project
+# Install git hook
 # Run this script after cloning the repository to set up automatic chapter.json updates
-#
 
-echo "Installing git hooks for Flying Island project..."
+set -e # If any of the steps fail, exit.
 
-# Check if we're in a git repository
-if [ ! -d ".git" ]; then
-    echo "Error: This script must be run from the root of the git repository"
-    exit 1
+echo "Installing git hook for Flying Island project..."
+
+chmod +x "build.sh"
+
+chmod +x "./hooks/pre-commit"
+
+if [ -f ".git/hooks/pre-commit" ]; then
+    echo "There is already a .git/hooks/pre-commit, which looks like this (may be empty):"
+    cat ".git/hooks/pre-commit"
+    read -p "THIS SCRIPT WILL OVERWRITE THAT FILE. IF YOU DON'T LIKE THIS, PRESS CTRL-C NOW. Otherwise, press anything else to continue." -n 1 -r
+    echo "Overwriting pre-commit hook..."
 fi
-
-# Check if hooks directory exists
-if [ ! -d "hooks" ]; then
-    echo "Error: hooks directory not found in repository"
-    exit 1
-fi
-
-# Install pre-commit hook
-if [ -f "hooks/pre-commit" ]; then
-    echo "Installing pre-commit hook..."
-    cp "hooks/pre-commit" ".git/hooks/pre-commit"
-    chmod +x ".git/hooks/pre-commit"
-    echo "✓ Pre-commit hook installed successfully"
-else
-    echo "Warning: hooks/pre-commit not found"
-fi
-
-# Check if build.sh exists and is executable
-if [ -f "build.sh" ]; then
-    if [ ! -x "build.sh" ]; then
-        echo "Making build.sh executable..."
-        chmod +x "build.sh"
-    fi
-else
-    echo "Warning: build.sh not found - the pre-commit hook requires this script"
-fi
-
-echo ""
-echo "Git hooks installation complete!"
-echo ""
-echo "The pre-commit hook will now automatically:"
-echo "- Detect when chapter files (## *.jd) are being committed"
-echo "- Run build.sh to regenerate site/chapters.json"
-echo "- Add the updated chapters.json to your commit"
-echo ""
-echo "No manual intervention required when adding new chapters!"
+# You need the shebang for arcane git reasons.
+echo "#!/bin/bash" >".git/hooks/pre-commit"
+echo "echo Running .git/hooks/pre-commit...; ./hooks/pre-commit" >>".git/hooks/pre-commit"
+chmod +x ".git/hooks/pre-commit"
+echo "✓ Pre-commit hook installed successfully"
+echo "Git hook installation complete!"
+echo "The pre-commit hook will automatically regenerate the chapter json and word count appendix for you."
