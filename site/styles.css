@@ -560,11 +560,11 @@ body.dark-mode .words-since-marker {
     body {
         grid-template-columns: 1fr 250px minmax(0, 900px) 280px 1fr;
     }
-    
+
     .main-content {
         padding: 2rem;
     }
-    
+
     #chapter-text {
         font-size: 1.1rem;
     }
@@ -576,7 +576,7 @@ body.dark-mode .words-since-marker {
         height: auto;
         min-height: 100vh;
     }
-    
+
     .container {
         display: grid;
         grid-template-columns: 1fr;
@@ -584,14 +584,14 @@ body.dark-mode .words-since-marker {
         height: auto;
         min-height: 100vh;
     }
-    
+
     .sidebar {
         grid-column: 1;
         border-right: none;
         border-bottom: 1px solid var(--border-primary);
         padding: 1rem;
     }
-    
+
     .sidebar h1 {
         font-size: 1.5rem;
     }
@@ -605,39 +605,39 @@ body.dark-mode .words-since-marker {
         flex-wrap: wrap;
         gap: 0.25rem;
     }
-    
+
     .table-of-contents {
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
     }
-    
+
     .table-of-contents li {
         margin-bottom: 0;
     }
-    
+
     .table-of-contents a {
         padding: 0.4rem 0.6rem;
         font-size: 0.85rem;
     }
-    
+
     .main-content {
         grid-column: 1;
         padding: 1.5rem;
         border-right: none;
         border-bottom: 1px solid var(--border-primary);
     }
-    
+
     .footnotes-panel {
         grid-column: 1;
         padding: 1.5rem;
         max-height: 300px;
     }
-    
+
     #chapter-title {
         font-size: 1.8rem;
     }
-    
+
     #chapter-text {
         font-size: 1rem;
     }
@@ -647,11 +647,11 @@ body.dark-mode .words-since-marker {
     .main-content {
         padding: 1rem;
     }
-    
+
     .footnotes-panel {
         padding: 1rem;
     }
-    
+
     #chapter-title {
         font-size: 1.5rem;
     }
