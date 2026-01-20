@@ -124,7 +124,6 @@ class NovelSite {
     const appendixList = document.getElementById("appendix-list");
     appendixList.innerHTML = "";
 
-
     for (const chapter of this.chapters) {
       const li = document.createElement("li");
       const a = document.createElement("a");
@@ -139,6 +138,7 @@ class NovelSite {
         ? `${chapterNumber}. ${chapter.title}`
         : chapter.title;
       a.dataset.filename = chapter.filename;
+      a.dataset.slug = slug;
 
       a.addEventListener("click", async (e) => {
         e.preventDefault();
@@ -146,12 +146,11 @@ class NovelSite {
       });
 
       li.appendChild(a);
-      if (chapterNumber.startsWith("A")){
+      if (chapterNumber.startsWith("A")) {
         appendixList.appendChild(li);
       } else {
         chapterList.appendChild(li);
       }
-
     }
   }
 
@@ -169,7 +168,9 @@ class NovelSite {
         // raw content stored in cache for word counting
         const raw = cached.content || "";
         // Pass annotation labels from the parser if available so we can exclude them
-        const annotations = parser && parser.annotations ? parser.annotations : null;
+        const annotations = parser && parser.annotations
+          ? parser.annotations
+          : null;
         var markerInfo = this.computeWordsSinceLastMarker(raw, annotations);
       } else {
         // Fetch and parse new content
@@ -193,7 +194,10 @@ class NovelSite {
         });
 
         // Pass parser.annotations so annotation content is excluded from the count
-        var markerInfo = this.computeWordsSinceLastMarker(johndown, parser.annotations);
+        var markerInfo = this.computeWordsSinceLastMarker(
+          johndown,
+          parser.annotations,
+        );
       }
 
       // Set current parser and chapter
@@ -203,7 +207,14 @@ class NovelSite {
       // Update page content and UI (pass marker info for rendering)
       const words = markerInfo ? markerInfo.count : null;
       const markerText = markerInfo ? markerInfo.marker : null;
-      this.updatePageContent(title, html, updateUrl, filename, words, markerText);
+      this.updatePageContent(
+        title,
+        html,
+        updateUrl,
+        filename,
+        words,
+        markerText,
+      );
     } catch (error) {
       console.error("Error loading chapter:", error);
       this.showError(
@@ -227,7 +238,14 @@ class NovelSite {
     );
   }
 
-  updatePageContent(title, html, updateUrl, filename, wordCount = null, markerText = null) {
+  updatePageContent(
+    title,
+    html,
+    updateUrl,
+    filename,
+    wordCount = null,
+    markerText = null,
+  ) {
     // Update the main content
     document.getElementById("chapter-title").textContent = title;
     document.getElementById("chapter-text").innerHTML = html;
@@ -252,7 +270,7 @@ class NovelSite {
     }
 
     // Update active state in table of contents
-    this.updateActiveChapter(filename);
+    this.updateActiveChapter(this.generateChapterSlug(filename));
 
     // Load Utterances comments for the chapter
     if (filename) {
@@ -264,12 +282,12 @@ class NovelSite {
     // Render the 'words since last marker' note at the end of the page
     const chapterTextEl = document.getElementById("chapter-text");
     if (chapterTextEl) {
-      const existing = chapterTextEl.querySelector('.words-since-marker');
+      const existing = chapterTextEl.querySelector(".words-since-marker");
       if (existing) existing.remove();
       if (wordCount !== null && wordCount !== undefined) {
-        const note = document.createElement('div');
-        note.className = 'words-since-marker';
-        const label = markerText || '[marker]';
+        const note = document.createElement("div");
+        note.className = "words-since-marker";
+        const label = markerText || "[marker]";
         note.textContent = `🤖︎ < ${wordCount} words since last ${label}`;
         chapterTextEl.appendChild(note);
       }
@@ -406,7 +424,7 @@ class NovelSite {
     };
   }
 
-  updateActiveChapter(filename) {
+  updateActiveChapter(slug) {
     // Remove active class from all links
     document.querySelectorAll(".table-of-contents a").forEach((link) => {
       link.classList.remove("active");
@@ -414,7 +432,7 @@ class NovelSite {
 
     // Add active class to the current chapter link
     const activeLink = document.querySelector(
-      `.table-of-contents a[data-filename="${filename}"]`,
+      `.table-of-contents a[data-slug="${slug}"]`,
     );
     if (activeLink) {
       activeLink.classList.add("active");
