@@ -22,6 +22,7 @@ for file in files:
     i = 0
     running_count = 0
     was_just_whitespace = True # the beginning of the file is effectively whitespace
+    was_just_newline = True
 
     """The wc utility shall consider a word to be a non-zero-length string of characters delimited by white space.
     —https://pubs.opengroup.org/onlinepubs/9799919799/utilities/wc.html
@@ -29,9 +30,16 @@ for file in files:
 
     while i < n:
         c = data[i]
-        if c == '[' and i + 1 < n and data[i+1] == '@':
+        if c == '[' and i + 1 < n and (annotation > 0 or data[i+1] == '@'):
             annotation += 1
             i += 2
+            continue
+        if was_just_newline and i + 2 < n and data[i:i+3] == '[^@':
+            newline_index = data.find('\n', i)
+            if newline_index == -1:
+                i = n
+            else:
+                i = newline_index
             continue
         if annotation == 0:
             if count_mode:
@@ -43,9 +51,14 @@ for file in files:
                     was_just_whitespace = False
             else:
                 sys.stdout.write(c)
-        if c == ']' and annotation > 0:
+        if (c == ']' or c == '\n') and annotation > 0:
             annotation -= 1
             # Note that this doesn't trigger a whitespace, as foo[@ adsfjlkj kalsjdf lkjasdf]bar is seen as "foobar".
+        if c == '\n':
+            was_just_newline = True
+            if annotation > 0: annotation = 0
+        else:
+            was_just_newline = False
         i += 1
 
     if count_mode:

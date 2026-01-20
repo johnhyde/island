@@ -161,7 +161,7 @@ class NovelSite {
     try {
       // Check cache first
       const cached = this.getCachedChapter(filename);
-      let title, parser, html;
+      let title, parser, html, markerInfo;
 
       if (cached) {
         // Use cached parser instance, HTML, and raw content
@@ -174,7 +174,7 @@ class NovelSite {
         const annotations = parser && parser.annotations
           ? parser.annotations
           : null;
-        var markerInfo = this.computeWordsSinceLastMarker(raw, annotations);
+        markerInfo = this.computeWordsSinceLastMarker(raw, annotations);
       } else {
         // Fetch and parse new content
         const response = await fetch(filename);
@@ -197,7 +197,7 @@ class NovelSite {
         });
 
         // Pass parser.annotations so annotation content is excluded from the count
-        var markerInfo = this.computeWordsSinceLastMarker(
+        markerInfo = this.computeWordsSinceLastMarker(
           johndown,
           parser.annotations,
         );
@@ -380,19 +380,11 @@ class NovelSite {
         labels.add(l);
       }
 
-      // Remove inline references like [^LABEL]
-      for (const label of labels) {
-        // Escape label for regex
-        const esc = label.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
-        const refRe = new RegExp(`\\[${esc}\\]`, "g");
-        text = text.replace(refRe, "");
-      }
-
       // Remove footnote definition blocks whose labels are in annotationsSet
       const lines = text.split(/\r?\n/);
       const filtered = [];
       for (let i = 0; i < lines.length; i++) {
-        const m = lines[i].match(/^\[(\^[^\]]+)\]:\s*(.*)$/);
+        const m = lines[i].match(/^\s*\[(\^[^\]]+)\]:\s*(.*)$/);
         if (m && labels.has(m[1])) {
           // skip this line and any following indented continuation lines
           i++;
@@ -403,6 +395,15 @@ class NovelSite {
         filtered.push(lines[i]);
       }
       text = filtered.join("\n");
+
+      // Remove inline references like [^LABEL]
+      // Doing this after the thing above to avoid unlabeling annotation content definitions before we can remove them
+      for (const label of labels) {
+        // Escape label for regex
+        const esc = label.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+        const refRe = new RegExp(`\\[${esc}\\]`, "g");
+        text = text.replace(refRe, "");
+      }
     }
 
     // Find markers like [X; whatever] where X is one or more letters
@@ -416,6 +417,7 @@ class NovelSite {
     if (!lastMatch) return null;
 
     const after = text.slice(lastMatch.index + lastMatch.text.length);
+    console.log(after);
 
     // Count words in the remaining text. Consider sequences of letters/numbers/apostrophes as words.
     const tokens = after.match(/[A-Za-z0-9'’]+/g);

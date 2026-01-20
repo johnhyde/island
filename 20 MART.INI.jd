@@ -10,7 +10,7 @@ gin = 2            ; fl oz
 dry_vermouth = 1   ; fl oz
 orange_bitters = 1 ; dash
 shaken = true
-stirred = true[@ It's both shaken *and* stirred? ~M][@ This surpised me too. ~C]
+stirred = true[@ It's both shaken *and* stirred? ~M][@ This surpised me too. ~C][@ This was established in One Fine Gay to be their culture. ~J]
 garnish = 1 green olive
 </pre>
 
