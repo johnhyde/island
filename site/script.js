@@ -417,7 +417,6 @@ class NovelSite {
     if (!lastMatch) return null;
 
     const after = text.slice(lastMatch.index + lastMatch.text.length);
-    console.log(after);
 
     // Count words in the remaining text. Consider sequences of letters/numbers/apostrophes as words.
     const tokens = after.match(/[A-Za-z0-9'’]+/g);
