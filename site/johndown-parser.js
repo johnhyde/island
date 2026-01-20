@@ -123,7 +123,7 @@ class JohndownParser {
       const line = lines[i];
 
       // Check for footnote definition: [^label]: content
-      const footnoteMatch = line.match(/^\[(\^[^\]]+)\]:\s*(.*)$/);
+      const footnoteMatch = line.match(/^\s*\[(\^[^\]]+)\]:\s*(.*)$/);
       if (footnoteMatch) {
         const [, label, content] = footnoteMatch;
         if (label.slice(0, 2) == "^@") {
@@ -131,18 +131,16 @@ class JohndownParser {
         }
 
         // Collect multi-line footnote content
-        let footnoteContent = content;
-        let j = i + 1;
-        while (
-          j < lines.length && lines[j].match(/^\s+/) &&
-          !lines[j].match(/^\[(\^[^\]]+)\]:/)
-        ) {
-          footnoteContent += " " + lines[j].trim();
-          j++;
-        }
-        i = j - 1; // Skip the lines we've processed
+        const footnoteContent = content;
 
-        footnoteMap.set(label, footnoteContent);
+        if (footnoteMap.has(label)) {
+          footnoteMap.set(
+            label,
+            footnoteMap.get(label) + "<p>" + footnoteContent + "</p>",
+          );
+        } else {
+          footnoteMap.set(label, footnoteContent);
+        }
       } else {
         contentLines.push(line);
       }

@@ -16,5 +16,7 @@
 Testing[^@whatev] a thing.
 
 [^@whatev]: I guess this works?[$hmmm?] Hm?
+[^@whatev]: This is the next line
+[^@whatev]: you'll see
 
 Ok, moving[$testing tho] on...
