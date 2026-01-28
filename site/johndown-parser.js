@@ -118,9 +118,15 @@ class JohndownParser {
     const footnoteMap = new Map();
     const lines = johndown.split("\n");
     const contentLines = [];
+    let justExtracted = false;
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
+      if (!line.trim() && justExtracted) {
+        justExtracted = false;
+        continue;
+      }
+      justExtracted = false;
 
       // Check for footnote definition: [^label]: content
       const footnoteMatch = line.match(/^\s*\[(\^[^\]]+)\]:\s*(.*)$/);
@@ -132,6 +138,7 @@ class JohndownParser {
 
         // Collect multi-line footnote content
         const footnoteContent = content;
+        justExtracted = true;
 
         if (footnoteMap.has(label)) {
           footnoteMap.set(
@@ -165,12 +172,19 @@ class JohndownParser {
     );
 
     // Split into paragraphs
-    const paragraphs = processedJohndown.split(/\s*\n\s*/);
+    const paragraphs = processedJohndown.split(/\n/);
     let html = "";
+    let linebreakCount = 0;
 
     for (let paragraph of paragraphs) {
       paragraph = paragraph.trim();
-      if (!paragraph) continue;
+      if (!paragraph) {
+        linebreakCount++;
+        console.log(`line break count ${linebreakCount}`);
+        if (linebreakCount >= 2) html += "<br/>";
+        continue;
+      }
+      linebreakCount = 0;
 
       // Handle <pre> block placeholders
       const preMatch = paragraph.match(/^___PRE_BLOCK_(\d+)___$/);
