@@ -182,8 +182,8 @@ class JohndownParser {
         continue;
       }
 
-      // Skip author attribution lines like [M; 397 words] or [J; 678 words]
-      if (paragraph.match(/^\[[^^]*\]/)) {
+      // Skip author attribution lines like [M; 397 words] or [J; 678 words][@ inane note]
+      if (paragraph.match(/^\[[^^\[\]]*\](\[.*\])*$/)) {
         html += `<div class="author-note">${
           this.processInlineElements(paragraph)
         }</div>\n`;
