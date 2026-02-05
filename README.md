@@ -91,7 +91,7 @@ The textual encoding is unspecified by johndown itself, but the only implementat
 
 Johndown's basic features are quite similar to markdown. Thence its name.
 
-Unlike regular markdown, we respect single linebreaks. (Multiple line breaks are also interpreted the same as single line breaks.) We also render paragraphs as beginning with indents, as God intended. On that note, we also render to a pleasant serif font, of course.
+Unlike regular markdown, we respect single linebreaks. We view linebreaks and paragraph breaks as the same thing. A newline character (U+000A LINE FEED; often called "LF" or "\n") signals the end of a paragraph and is what we call a linebreak or paragraph break. (Technically, all text files should end with a single newline, according to POSIX standards https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline/729795#729795, although johndown does not enforce this in any way.) As a concession to markdown, double linebreaks are rendered the same as single linebreaks. Due to that quirk, multiple line breaks are interpreted as n-1 line breaks. One is one, two is one, three is two, four is three, and so on. In terms of blank lines between the text, that means one blank line in the source text makes zero blank lines in the rendered text, two blank lines makes one, three makes two, etc. We also render paragraphs as beginning with indents, as God intended. On that note, we also render to a pleasant serif font, of course.
 
 Um, we use this mostly for italics and stuff I guess. *italic*. **bold**. ***bold italic***. _Also italic_. **_presumably also bold italic although I haven't checked_**. ~~strikethrough~~. There's also ^superscript^ which is not a fully standard markdown feature.
 
