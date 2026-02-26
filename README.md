@@ -7,11 +7,7 @@
 
 A collaborative novel between John and a mysterious stranger.
 
-Each chapter is a separate ~~markdown~~ johndown file (see below for a description of this format). These are numbered with two digits, followed by a space.
-
-Some of them are lettered with two capital letters, which means they exist ambiguously in the future of the novel and haven't been entered into a concrete order yet. You don't have to read those; they essentially function as rough drafts for whoever wrote them, and in some cases might get removed entirely and lifted to another project. Let M know if this is annoying and should be stopped.
-
-However, files lettered with a capital A and then a digit are appendices and are now canon, in some way or another, although they are in a special order reserved for appendices.
+Each chapter is a separate ~~markdown~~ johndown file (see below for a description of this format). These are numbered with two digits, followed by a space. Appendices are labelled A[whatever]. Bot-generated text files B[whatever]. Drafts of future prose X[whatever].
 
 This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel. It's not an elegant or entirely correct system, but she gets the job done and that's all that matters. Large parts of it were also AI-generated, so if you're maintaining it and thinking "why does it...?" then there may be no reason.
 
