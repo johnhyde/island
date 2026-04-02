@@ -177,7 +177,8 @@ class NovelSite {
         markerInfo = this.computeWordsSinceLastMarker(raw, annotations);
       } else {
         // Fetch and parse new content
-        const response = await fetch(filename);
+        const encodedFilename = filename.split("/").map(encodeURIComponent).join("/");
+        const response = await fetch(encodedFilename);
         if (!response.ok) {
           throw new Error(`Failed to load ${filename}`);
         }
