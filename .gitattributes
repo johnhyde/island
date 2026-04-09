@@ -1,0 +1,5 @@
+# To avoid these auto-generated yet committed files from creating conflicts, apply a filter to them on checkin and checkout that just regenerates them.
+# This might not actually work — or, if it does work, it might not be the minimal thing that would work.
+# TODO: fix this and then uncomment it
+#A9\ wordcounts.jd filter=build
+#site/chapters.json filter=build

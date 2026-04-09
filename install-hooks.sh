@@ -11,6 +11,10 @@ chmod +x "build.sh"
 
 chmod +x "./hooks/pre-commit"
 
+echo "# Added by install-hooks.sh catting .gitconfig:" >>.git/config
+cat .gitconfig >>.git/config
+echo "# End of install-hooks.sh  catting .gitconfig" >>.git/config
+
 if [ -f ".git/hooks/pre-commit" ]; then
     echo "There is already a .git/hooks/pre-commit, which looks like this (may be empty):"
     cat ".git/hooks/pre-commit"
