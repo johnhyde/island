@@ -1,0 +1,4 @@
+[filter "build"]
+    clean = ./build.sh %f
+    smudge = ./build.sh %f
+    required
