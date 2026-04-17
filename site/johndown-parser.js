@@ -294,6 +294,23 @@ class JohndownParser {
     processFootnotesInText(content);
   }
 
+  regularTextNumbersStringToUnicodeSuperscriptNumbersString(stringContainingAsciiDigits) {
+    const superscriptMap = {
+        '0': '⁰',
+        '1': '¹',
+        '2': '²',
+        '3': '³',
+        '4': '⁴',
+        '5': '⁵',
+        '6': '⁶',
+        '7': '⁷',
+        '8': '⁸',
+        '9': '⁹'
+    };
+
+    return String(stringContainingAsciiDigits).replace(/[0-9]/g, d => superscriptMap[d]);
+  }    
+    
   processInlineElements(text) {
     let parts = text.split(/(?:(?<=<.*?>)|(?=<.*?>))/);
     if (parts.length > 1) {
@@ -311,7 +328,7 @@ class JohndownParser {
         return `<span class="annotation-ref" data-id="${label}">@</span>`;
       }
       const number = this.footnoteLabels.get(label) || "?";
-      return `<sup class="footnote-ref" data-id="${label}">${number}</sup>`;
+      return `<span class="footnote-ref" data-id="${label}">${this.regularTextNumbersStringToUnicodeSuperscriptNumbersString(number)}</span>`;
     });
 
     text = text.replace(
