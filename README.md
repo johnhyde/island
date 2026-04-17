@@ -103,7 +103,7 @@ And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline
 
 A non-special bracketed phrase on its own line makes an hr above it, in addition to rendering in a sort of grey, italicized way.
 
-There's some kind of html-passthrough, which was added ultimately because M thought we were already using a standard markdown renderer which would already do that... but this is underspecified and can be ignored.
+There's some kind of html-passthrough, which was added ultimately because M thought we were already using a standard markdown renderer which would already do that... but this is underspecified and can be ignored. (Update: sadly this sometimes cannot be ignored and may cause problems for you if you try to use less-than and greater-than characters, which might get ignored or something.)
 
 ## Site generation malarkey
 
