@@ -419,8 +419,15 @@ class NovelSite {
 
     const after = text.slice(lastMatch.index + lastMatch.text.length);
 
-    // Count words in the remaining text. Consider sequences of letters/numbers/apostrophes as words.
-    const tokens = after.match(/[A-Za-z0-9'’]+/g);
+    // Count words in the remaining text.
+    // Try to follow the unicode guideline for "word" characters from https://unicode.org/reports/tr18/tr18-23.html#word
+    // (JS's \w is not comprehensive of other scripts)
+    // See also:
+    //   • https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class_escape
+    //   • https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape
+    // We also add apostrophes at the end of the regex to include words like "it's".
+    // "Alphabetic" is used here instead of the unicode guidence document's "alpha" because the "alpha" shorthand from the document is not defined in js.
+    const tokens = after.match(/[\p{Alphabetic}\p{gc=Mark}\p{digit}\p{gc=Connector_Punctuation}\p{Join_Control}'’]+/gu);
     const count = tokens ? tokens.length : 0;
 
     return {
