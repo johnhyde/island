@@ -67,13 +67,7 @@ We should probably have triple backticks to make "pre" (wrap) blocks, as they ca
 
 ### These johndown features don't work 100% correctly
 
-We "smarten" quotes (") and apostrophes('), but the algorithm for this is not completely correct. However, you can always use explicit “” ‘’ marks instead, and they will not get overwritten.
-
-The chapter titles also are not smartened.
-
-[@ I have a sort of irrational dislike of using anything but ' for an apostrophe, because that's the character which is U+0027 APOSTROPHE, dammit! However, I have done it before, and will do it again; and, in conventional typesetting, there is no typographical difference between an apostrophe and and curly close single (much to my chagrin). Anyway, even though we could fix the autocurling algorithm a little, it seems unlikely to me that we will make it smart enough to do some types of apostrophes (such as a leading apostrophe before a word) correctly (it's legitimately ambiguous whether it's an apostrophe or a quote and you have to figure out if there's a quotation there by understanding the rules of English and/or parsing along the line for a hypothesized closing quote (which may also be ambiguous). Or, I suppose, we could ban autocurling of single quotes, and then it wouldn't be ambiguous. But what about the chapter where our heros enter a parody of a british novel, what then?! ~M] [@ Also, we still want to display the apostrophe as non-straight, which without character replacement is a font problem that fonts typically aren't up to the task of. ~M] [@ These are written like annotations to indicate they're an aside; however, this document explains johndown syntax so it won't make sense if you render this document as johndown. ~M]
-
-There's also ^superscript^ which is not a fully standard markdown feature. Beware of mixing this with square brackets, because it _will_ get squirrelly.
+Beware of mixing ^superscript^ (which is not a fully standard markdown feature, btw) with square brackets, because it _will_ get squirrelly.
 
 Johndown is currently implemented as a line-based parser, which is at odds with its syntax. If you leave an annotation with square brackets but put a linebreak in it, the second line seems to relocate down to the bottom of the chapter and display as normal text?
 
@@ -84,6 +78,8 @@ The file extension for johndown files is jd, because they are unaccredited Jurum
 Johndown mostly just a regular text file, but some particular text is special and makes the other text render specially instead.
 
 The textual encoding is unspecified by johndown itself, but the only implementation is utf8 (no BOM required) — which is a good one.
+
+In body text (but not chapter titles), we "smarten" ascii straight/typewriter quotes (") to left (“) or right (”) based on their position relative to surrounding text. We always "smarten" ascii straight/typewriter apostrophes (') to a typographic-apostrophe/closing-single-quote (’). This algorithm means that if you want to use single quotes in the story you must explicitly use ‘ ’ marks instead of ' (or else you will end up with unsightly ’ ’ quotations, as though you were one of those types of europeans who do that). You can always use explicit “” ‘’ marks, and they will never get overwritten. This can be useful if the smartening algorithm would produce an undesired result. (nota bene: there is only one joke in the novel which relies on using a "backwards apostrophe", and it is called out as such. Any other apostrophe errors are presumptively inadvertent. Actually, I guess there are a couple jokes about misusing apostrophes, and they are all called out. What a fantastic book!) In case you are looking for a regex to find places where the conventional apostrophe→single-open-quote smartening occurs in other programs, `(\W|^)'|’|‘` can be useful.
 
 Johndown's basic features are quite similar to markdown. Thence its name.
 
