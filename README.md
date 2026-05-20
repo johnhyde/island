@@ -29,6 +29,8 @@ You might notice that occasionally there's something wacky like a marker of 0 wo
 
 In 2026, about halfway(?) through the novel, M selected a New Year's Resolution of "No more research projects. I will not even be googling the words of parts of objects I don't know anymore." figuring that it would lead to faster novel creation. This dramatically decreased the quality of M's sections, leading to such locutions as "a very fluffy white dress shirt like a guy in a movie about the Renaissance". But, on the other hand, those sections were written much quicker, and M got to spend more time going to parties. The other authors were free to do whatever.
 
+As part of even faker and more made-up rules than the other ones, as something of a joke, sometimes (typically during long periods where the novel is otherwise dormant) the authors can acquire "Victory Points", "which will be used subsequently in the scoring portion". (This is a joke about boardgames.) So far, the victory point totals are: M: 1 point.
+
 ## Story Notes
 
 The current year, where most of the story takes place, is 0x8fd (or 2301 (since what?? (The only undisputed date in history, the birth of the Christchild [disputed]))).
