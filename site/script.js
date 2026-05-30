@@ -70,6 +70,7 @@ class NovelSite {
   }
 
   capitalizeTitle(title) {
+    title = title.replace(/❓\uFE0E?/g, "?");
     title = title.replace(/(^|[-\s])\W*\w/g, (char) => char.toUpperCase());
     return title.replace(
       /(?<!^)(To|By|In|The|A)\b/g,
