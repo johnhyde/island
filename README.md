@@ -31,7 +31,9 @@ In 2026, about halfway(?) through the novel, M selected a New Year's Resolution 
 
 ## Story Notes
 
-The current year is 0x8fd (or 2301 (since what?? (The only undisputed date in history, the birth of the Christchild [disputed]))).
+The current year, where most of the story takes place, is 0x8fd (or 2301 (since what?? (The only undisputed date in history, the birth of the Christchild [disputed]))).
+
+Jan 1 2301 is a Tuesday, Jan 2 2301 is a Wednesday, and Jan 3 2301 is a Thursday.
 
 Other timeline events (I just grepped for 0x lol):
 * Squiggle had mysteriously disappeared in the year 0x8eb, two years after the Eenies got rich, moved to The Islands, and got Martin a proper private tutor.
