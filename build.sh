@@ -34,7 +34,7 @@ all() {
 
   echo "wordcounting to $WORDCOUNT_FILE..."
   wordcount_page >"$WORDCOUNT_FILE"
-  
+
   if ! command -v jq > /dev/null; then
     err "jq is not installed; skipping json refresh and just using the current file, whatever it is. If a new chapter is missing from the site, this is probably why."
   else

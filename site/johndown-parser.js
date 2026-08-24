@@ -309,8 +309,8 @@ class JohndownParser {
     };
 
     return String(stringContainingAsciiDigits).replace(/[0-9]/g, d => superscriptMap[d]);
-  }    
-    
+  }
+
   processInlineElements(text) {
     let parts = text.split(/(?:(?<=<.*?>)|(?=<.*?>))/);
     if (parts.length > 1) {
