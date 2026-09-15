@@ -61,13 +61,15 @@ A footnote in an annotation currently displays in the sidebar even if the annota
 
 Possibly render author signature tildes as long tildes instead, like ～,〜, ⁓, or 〰 (instead of a plain ~)?
 
-<span lang="es-MX">sin</span> should probably be turned into [lang:es-MX sin] or something like that.
+<span lang="es-MX">sin</span> should probably be turned into [:lang:es-MX sin] or something like that.
 
-νους (nous) should probably be lang:grc on both of those individually
+νους (nous) should probably be :lang:grc on both of those individually
 
 Two percent signs (%%) is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text. This has no special rendering associated with it, and they all should be gone by the completion of the novel. %%@X, where X is the initial of an author, flags that to-do for that author, as a sort of "I wasn't sure how you wanted to deal with this, so you should take the initiative" mark. These, too, should all be done by the end. They often occur in annotations.
 
 We should probably have triple backticks to make "pre" (wrap) blocks, as they call them in html, since right now we're using them in two places, one in the actual novel itself, semantically important, which is maybe not ideal (and puts the lie to "html-passthrough [...] can be ignored", written later in this document).
+
+`_*text*_` renders as asterisk text asterisk, in italics, due to a decision in the parser to "`Process emphasis: *text* (but not if it's already in emphasis)`" *after*  the "`Process emphasis: _text_`" step. Also, these are defined as `<em>`, not `<i>`, which is slightly incongruous with our documentation (and it's technically wrong to use `<em>` rather than `<cite>` for eg a title or foreign-lang text.)
 
 ### These johndown features don't work 100% correctly
 

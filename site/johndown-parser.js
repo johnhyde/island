@@ -356,7 +356,7 @@ class JohndownParser {
     // Process strong: **text**
     text = text.replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>");
 
-    // Process italic: *text* (but not if it's already in emphasis)
+    // Process emphasis: *text* (but not if it's already in emphasis)
     text = text.replace(/(?<!<em>)\*([^*]+?)\*(?![^<]*<\/em>)/g, "<em>$1</em>");
 
     // Process highlighted text: ==text==
@@ -367,6 +367,9 @@ class JohndownParser {
 
     // Process superscript: ^text^
     text = text.replace(/(?<!data-id=")\^([^^]+?)\^/g, "<sup>$1</sup>");
+
+    //Process language tagging directives (useful for screenreaders, etc)
+    text = text.replace(/\[\:lang\:(\S*)([^\]]*?)]/g, "<span lang=\"$1\">$2</span>");
 
     return text;
   }
