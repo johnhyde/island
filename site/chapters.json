@@ -115,6 +115,10 @@
     {
       "filename": "./A9 wordcounts.jd",
       "title": "wordcounts"
+    },
+    {
+      "filename": "./R0 technical readme for project (will fail to render properly).jd",
+      "title": "technical readme for project (will fail to render properly)"
     }
   ]
 }
