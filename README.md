@@ -7,7 +7,7 @@
 
 A collaborative novel between John and a mysterious stranger.
 
-Each chapter is a separate ~~markdown~~ johndown file (see below for a description of this format). These are numbered with two digits, followed by a space. Appendices are labelled A[whatever]. Bot-generated text files B[whatever]. Drafts of future prose X[whatever].
+Each chapter is a separate johndown file — a markdown-like format described below. (This readme is markdown, though.) These are numbered with two digits, followed by a space. Appendices are labelled A[whatever]. Bot-generated text files B[whatever]. Drafts of future prose X[whatever].
 
 This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel. It's not an elegant or entirely correct system, but she gets the job done and that's all that matters. Large parts of it were also AI-generated, so if you're maintaining it and thinking "why does it...?" then there may be no reason.
 
@@ -55,7 +55,7 @@ Since the johndown parser is apparently custom, we should list its features to s
 
 "ins̈om̈uch" displays as though the diaereses are standalone characters even though they are U+0308 COMBINING DIAERESIS and thus should properly float above the previous letters. Probably a font problem? Presumably because font designers don't understand that the diaeresis is productive with non-vowels as well, possibly.
 
-Perhaps the index, or somewhere on the website, should display this readme? (This readme is written in markdown, not johndown, but that doesn't matter much. Just render it "wrong", who cares?)
+Perhaps the index, or somewhere on the website, should display this readme? (Would have to render in markdown, not johndown.)
 
 A footnote in an annotation currently displays in the sidebar even if the annotations are hidden. Probably they should actually be in their own special annotations-footnotes section (which will prevent them from messing up the numbering of the normal footnotes), which probably should have a red background.
 
