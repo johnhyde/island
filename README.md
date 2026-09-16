@@ -7,7 +7,7 @@
 
 A collaborative novel between John and a mysterious stranger.
 
-Each chapter is a separate johndown file — a markdown-like format described below. (This readme is markdown, though.) These are numbered with two digits, followed by a space. Appendices are labelled A[whatever]. Bot-generated text files B[whatever]. Drafts of future prose X[whatever].
+Each chapter is a separate johndown file — a markdown-like format described below. (This readme is markdown, though. And certain johndown syntax examples it gives only really make sense when viewing the source as plain text...) These are numbered with two digits, followed by a space. Appendices are labelled A[whatever]. Bot-generated text files B[whatever]. Drafts of future prose X[whatever]. C is for Conor.
 
 This repository is also a bespoke software system (the "static site" aka "website" aka "wobsoot") that renders the source files into html for easy viewing in a web browser, which is largely unrelated to the content of the novel. It's not an elegant or entirely correct system, but she gets the job done and that's all that matters. Large parts of it were also AI-generated, so if you're maintaining it and thinking "why does it...?" then there may be no reason.
 
@@ -65,7 +65,9 @@ Two percent signs (%%) is a to-do mark that indicates the temporarily-embarrasse
 
 We should probably have triple backticks to make "pre" (wrap) blocks, as they call them in html, since right now we're using them in two places, one in the actual novel itself, semantically important, which is maybe not ideal (and puts the lie to "html-passthrough [...] can be ignored", written later in this document).
 
-`_*text*_` renders as asterisk text asterisk, in italics, due to a decision in the parser to "`Process emphasis: *text* (but not if it's already in emphasis)`" *after*  the "`Process emphasis: _text_`" step. Also, these are defined as `<em>`, not `<i>`, which is slightly incongruous with our documentation (and it's technically wrong to use `<em>` rather than `<cite>` for eg a title or foreign-lang text.)
+`_*foo*_` renders as asterisk foo asterisk, in italics, due to a decision in the parser to "`Process italics: *text* (but not if it's already in italics)`" *after*  the "`Process italics: _text_`" step.
+
+Should we allow the other, semantic, types of italics/bold like em? cite/title? strong? dfn? idfn? Perhaps as, eg, [:em foo]
 
 should we bite the bullet and give this author byline/wordcount/handoff marker actual syntax, instead of just having it be any nonspecial bracketed phrase on its own line? Well, maybe if we come into a syntax conflict later...
 
@@ -79,7 +81,7 @@ Do we really want to cache chapters, but only the chapters you visit individuall
 
 ### These johndown features don't work 100% correctly
 
-Beware of mixing ^superscript^ (which is not a fully standard markdown feature, btw) with square brackets, because it _will_ get squirrelly.
+Beware of mixing ^superscript^ (which is not a fully standard markdown feature, btw) with square brackets, because it _will_ get squirrelly. TODO: check if this is still problematic
 
 ## Johndown features
 

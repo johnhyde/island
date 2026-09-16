@@ -1,6 +1,6 @@
 /**
  * Simple johndown parser focused on the novel's needs
- * Handles: paragraphs, emphasis, strong text, footnote references, and footnote definitions
+ * Handles: paragraphs, italics, bold text, footnote references, and footnote definitions
  */
 class JohndownParser {
   constructor() {
@@ -351,14 +351,14 @@ class JohndownParser {
   }
 
   processInlineStyling(text) {
-    // Process emphasis: _text_
-    text = text.replace(/\b_([^_]+?)_\b/g, "<em>$1</em>");
+    // Process italics: _text_
+    text = text.replace(/\b_([^_]+?)_\b/g, "<i>$1</i>");
 
-    // Process strong: **text**
-    text = text.replace(/\*\*([^*]+?)\*\*/g, "<strong>$1</strong>");
+    // Process bold: **text**
+    text = text.replace(/\*\*([^*]+?)\*\*/g, "<b>$1</b>");
 
-    // Process emphasis: *text* (but not if it's already in emphasis)
-    text = text.replace(/(?<!<em>)\*([^*]+?)\*(?![^<]*<\/em>)/g, "<em>$1</em>");
+    // Process italics: *text* (but not if it's already in italics)
+    text = text.replace(/(?<!<i>)\*([^*]+?)\*(?![^<]*<\/i>)/g, "<i>$1</i>");
 
     // Process highlighted text: ==text==
     text = text.replace(/==([^=]+?)==/g, "<mark>$1</mark>");
