@@ -83,9 +83,11 @@ class JohndownParser {
                 if (isAnnotation) {
                   this.annotations.add(autoId);
                 }
-                generatedFootnotes.push(
-                  `${replacement}: ${processedContent}`,
-                );
+                for (const line of processedContent.split(/\r?\n/)) {
+                  generatedFootnotes.push(
+                    `${replacement}: ${line}`,
+                  );
+                }
 
                 // Replace and continue processing
                 text = text.substring(0, start) + replacement +
@@ -180,7 +182,6 @@ class JohndownParser {
       paragraph = paragraph.trim();
       if (!paragraph) {
         linebreakCount++;
-        console.log(`line break count ${linebreakCount}`);
         if (linebreakCount >= 2) html += "<br/>";
         continue;
       }

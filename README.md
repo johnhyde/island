@@ -75,11 +75,11 @@ We could use unicode tag characters to mark authorship in the word-by-words... h
 And then render them in color on the website, toggleably...
 The main annoying thing here is that these invisible characters would not show up in git diffs...
 
+Do we really want to cache chapters, but only the chapters you visit individually? Isn't that the worst of both worlds?
+
 ### These johndown features don't work 100% correctly
 
 Beware of mixing ^superscript^ (which is not a fully standard markdown feature, btw) with square brackets, because it _will_ get squirrelly.
-
-Johndown is currently implemented as a line-based parser, which is at odds with its syntax. If you leave an annotation with square brackets but put a linebreak in it, the second line seems to relocate down to the bottom of the chapter and display as normal text?
 
 ## Johndown features
 
@@ -111,9 +111,11 @@ A non-special bracketed phrase on its own line makes an hr above it, in addition
 
 Elements can be marked for language (which results in an html span with lang property) using the following syntax [:lang:grc example]. The thing after the second : is the language tag, then whitespace, then the text to be so marked. Useful for screenreaders, etc. I don't know the relevant standard for language tags but it's the one everyone uses (except where we make up our own tags, like `pseudo-it`. (Nb: marking something pseudo-it is probably not good for screenreaders.) By the way, we probably don't bother to mark things for language consistently.
 
-The `[: `beginning in `[:lang:` is supposed to extend the bracket syntax to allow arbitrary commands we might implement later, without ruining the ability to also have bare bracketed phrases. (This is the only one implemented so far as of 2026-09-15 tho.) In case you're thinking about making another extension to the syntax and don't need a particularly terse.
+The `[: `beginning in `[:lang` is supposed to extend the bracket syntax to allow arbitrary commands we might implement later, without ruining the ability to also have bare bracketed phrases. (This is the only one implemented so far as of 2026-09-15 tho.) In case you're thinking about making another extension to the syntax and don't need a particularly terse.
 
-There's some kind of html-passthrough, which was added ultimately because M thought we were already using a standard markdown renderer which would already do that... but this is underspecified and can be ignored. (Update: sadly this sometimes cannot be ignored and may cause problems for you if you try to use less-than and greater-than characters, which might get ignored or something.)
+The parse step for `[:lang` is implemented on a very simple level, so you can't nest bracketed phrases in their, either. Might fix this if if ever becomes a problem in practice. Similarly, we might someday implement something like `[(]` and `[)]` or endorse `&lbracket;` if we ever urgently need a bracket that doesn't participate in syntax.
+
+There's some kind of html-passthrough, which was added ultimately because M thought we were already using a standard markdown renderer which would already do that... but this is underspecified and can be ignored. (Update: sadly this sometimes cannot be ignored and may cause problems for you if you try to use less-than and greater-than characters, which might get ignored or something.) Also `<pre>` is special-cased to handle that, which is interesting.
 
 ## Site generation malarkey
 
