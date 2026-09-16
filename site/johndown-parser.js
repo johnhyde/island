@@ -22,7 +22,7 @@ class JohndownParser {
     this.footnoteOrder = [];
     this.footnoteCounter = 0;
 
-    // First pass: preprocess inline footnotes [$content] -> [^CAPITALLETTERS#]
+    // First pass: preprocess inline footnotes [$content] -> [^INLINEANNOTATION#]
     const preprocessedJohndown = this.preprocessInlineFootnotes(johndown);
 
     // Second pass: extract footnote definitions
@@ -74,7 +74,7 @@ class JohndownParser {
 
                 // Strip optional space after $ or @
                 content = content.trim();
-                const autoId = `^CAPITALLETTERS${++inlineCounter}`;
+                const autoId = `^INLINEANNOTATION${++inlineCounter}`;
                 let replacement = `[${autoId}]`;
                 const processedContent = processInlineFootnotesRecursively(
                   content,
