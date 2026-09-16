@@ -370,9 +370,9 @@ class JohndownParser {
     text = text.replace(/(?<!data-id=")\^([^^]+?)\^/g, "<sup>$1</sup>");
 
     //Process language tagging directives (useful for screenreaders, etc)
-    text = text.replace(/\[\:lang\:(\S*)([^\]]*?)]/g, "<span lang=\"$1\">$2</span>");
+    text = text.replace(/\[\:lang\:(\S*)\s*([^\]]*?)]/g, "<span lang=\"$1\">$2</span>");
     //Slight DRY violation in the below:
-    text = text.replace(/\[\:ilang\:(\S*)([^\]]*?)]/g, "<span style=\"font-style:italic\" lang=\"$1\">$2</span>");
+    text = text.replace(/\[\:ilang\:(\S*)\s*([^\]]*?)]/g, "<span style=\"font-style:italic\" lang=\"$1\">$2</span>");
 
 
     return text;
