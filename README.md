@@ -61,15 +61,19 @@ A footnote in an annotation currently displays in the sidebar even if the annota
 
 Possibly render author signature tildes as long tildes instead, like ～,〜, ⁓, or 〰 (instead of a plain ~)?
 
-<span lang="es-MX">sin</span> should probably be turned into [:lang:es-MX sin] or something like that.
-
-νους (nous) should probably be :lang:grc on both of those individually
-
 Two percent signs (%%) is a to-do mark that indicates the temporarily-embarrassed author M must return and complete something in the text. This has no special rendering associated with it, and they all should be gone by the completion of the novel. %%@X, where X is the initial of an author, flags that to-do for that author, as a sort of "I wasn't sure how you wanted to deal with this, so you should take the initiative" mark. These, too, should all be done by the end. They often occur in annotations.
 
 We should probably have triple backticks to make "pre" (wrap) blocks, as they call them in html, since right now we're using them in two places, one in the actual novel itself, semantically important, which is maybe not ideal (and puts the lie to "html-passthrough [...] can be ignored", written later in this document).
 
 `_*text*_` renders as asterisk text asterisk, in italics, due to a decision in the parser to "`Process emphasis: *text* (but not if it's already in emphasis)`" *after*  the "`Process emphasis: _text_`" step. Also, these are defined as `<em>`, not `<i>`, which is slightly incongruous with our documentation (and it's technically wrong to use `<em>` rather than `<cite>` for eg a title or foreign-lang text.)
+
+should we bite the bullet and give this author byline/wordcount/handoff marker actual syntax, instead of just having it be any nonspecial bracketed phrase on its own line? Well, maybe if we come into a syntax conflict later...
+
+Should we define [@^label] as an alias for [^@label] ?
+
+We could use unicode tag characters to mark authorship in the word-by-words... hmm...
+And then render them in color on the website, toggleably...
+The main annoying thing here is that these invisible characters would not show up in git diffs...
 
 ### These johndown features don't work 100% correctly
 
@@ -85,7 +89,7 @@ Johndown mostly just a regular text file, but some particular text is special an
 
 The textual encoding is unspecified by johndown itself, but the only implementation is utf8 (no BOM required) — which is a good one.
 
-In body text (but not chapter titles), we "smarten" ascii straight/typewriter quotes (") to left (“) or right (”) based on their position relative to surrounding text. We always "smarten" ascii straight/typewriter apostrophes (') to a typographic-apostrophe/closing-single-quote (’). This algorithm means that if you want to use single quotes in the story you must explicitly use ‘ ’ marks instead of ' (or else you will end up with unsightly ’ ’ quotations, as though you were one of those types of europeans who do that). You can always use explicit “” ‘’ marks, and they will never get overwritten. This can be useful if the smartening algorithm would produce an undesired result. (nota bene: there is only one joke in the novel which relies on using a "backwards apostrophe", and it is called out as such. Any other apostrophe errors are presumptively inadvertent. Actually, I guess there are a couple jokes about misusing apostrophes, and they are all called out. What a fantastic book!) In case you are looking for a regex to find places where the conventional apostrophe→single-open-quote smartening occurs in other programs, `(\W|_|^)('|’|‘)` can be useful. (Although I guess that ex
+In body text (but not chapter titles), we "smarten" ascii straight/typewriter quotes (") to left (“) or right (”) based on their position relative to surrounding text. We always "smarten" ascii straight/typewriter apostrophes (') to a typographic-apostrophe/closing-single-quote (’). This algorithm means that if you want to use single quotes in the story you must explicitly use ‘ ’ marks instead of ' (or else you will end up with unsightly ’ ’ quotations, as though you were one of those types of europeans who do that). You can always use explicit “” ‘’ marks, and they will never get overwritten. This can be useful if the smartening algorithm would produce an undesired result. (nota bene: there is only one joke in the novel which relies on using a "backwards apostrophe", and it is called out as such. Any other apostrophe errors are presumptively inadvertent. Actually, I guess there are a couple jokes about misusing apostrophes, and they are all called out. What a fantastic book!) In case you are looking for a regex to find places where the conventional apostrophe→single-open-quote smartening occurs in other programs, `(\W|_|^)('|’|‘)` can be useful. (Although I guess that ex — I've forgotten what I was going to say... I guess this example is not useful, for some reason.)
 
 Johndown's basic features are quite similar to markdown. Thence its name.
 
@@ -104,6 +108,10 @@ And [^whatever] [^whatever]: footnotes. But there's also [$ whatever] for inline
 --- makes a specially-rendered triple-fleuron dinkus (❦ ❦ ❦) (in normal markdown it usually renders as an html hr (horizontal rule) element, I guess, but it's also described as a "thematic break", which we do use it for).
 
 A non-special bracketed phrase on its own line makes an hr above it, in addition to rendering in a sort of grey, italicized way.
+
+Elements can be marked for language (which results in an html span with lang property) using the following syntax [:lang:grc example]. The thing after the second : is the language tag, then whitespace, then the text to be so marked. Useful for screenreaders, etc. I don't know the relevant standard for language tags but it's the one everyone uses (except where we make up our own tags, like `pseudo-it`. (Nb: marking something pseudo-it is probably not good for screenreaders.) By the way, we probably don't bother to mark things for language consistently.
+
+The `[: `beginning in `[:lang:` is supposed to extend the bracket syntax to allow arbitrary commands we might implement later, without ruining the ability to also have bare bracketed phrases. (This is the only one implemented so far as of 2026-09-15 tho.) In case you're thinking about making another extension to the syntax and don't need a particularly terse.
 
 There's some kind of html-passthrough, which was added ultimately because M thought we were already using a standard markdown renderer which would already do that... but this is underspecified and can be ignored. (Update: sadly this sometimes cannot be ignored and may cause problems for you if you try to use less-than and greater-than characters, which might get ignored or something.)
 
