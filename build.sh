@@ -22,8 +22,8 @@ jq_json() {
     cat # The point of this is that all the incoming data is being piped to stdin, so cat with no args will cat stdin.
   else
     # Find all johndown files, format them as JSON, and build the final JSON file
-    find . -maxdepth 1 -name '[0-AR][0-9]*.jd' | sort -V | \
-      jq --raw-input --binary '{"filename": ., "title": sub("^./[0-AR][0-9]* "; "") | sub("\\.jd$"; "")}' | \
+    find . -maxdepth 1 -name '[0-A][0-9]*.jd' | sort -V | \
+      jq --raw-input --binary '{"filename": ., "title": sub("^./[0-A][0-9]* "; "") | sub("\\.jd$"; "")}' | \
       jq --slurp --binary '{"chapters": .}'
     err "Generated site/chapters.json with $(jq '.chapters | length' site/chapters.json) chapters"
   fi
