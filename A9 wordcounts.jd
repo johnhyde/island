@@ -28,9 +28,9 @@ Chapters:
 40455	total
 Appendices:
 	209	A1 the contributions in the word-by-words.jd
-	425	A2 the snook-cocker.jd
-	5020	A8 extracts.jd
+	436	A2 the snook-cocker.jd
+	5133	A8 extracts.jd
 	118	A9 wordcounts.jd
-5772	total
+5896	total
 Note that these counts do not include annotations, but do include [X; foo words] type things (due to inconvenience of removing them).
 </pre>
