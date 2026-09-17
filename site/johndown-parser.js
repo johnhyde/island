@@ -1,6 +1,6 @@
 /**
- * Simple johndown parser focused on the novel's needs
- * Handles: paragraphs, italics, bold text, footnote references, and footnote definitions
+ * Johndown parser - hacked-together & focused on the novel's needs
+ * Handles: paragraphs, italics, bold text, footnote references, footnote definitions, etc.
  */
 class JohndownParser {
   constructor() {
@@ -344,7 +344,7 @@ class JohndownParser {
   }
 
   processQuotes(text) {
-    text = text.replace(/(?!^)(?<![\s\n])"/g, "”");
+    text = text.replace(/(?!^)(?<![\s\n\(])"/g, "”");
     text = text.replace(/"/g, "“");
     text = text.replace(/'/g, "’");
     return text;
