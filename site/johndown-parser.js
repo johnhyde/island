@@ -344,7 +344,7 @@ class JohndownParser {
   }
 
   processQuotes(text) {
-    text = text.replace(/(?<!(?:^|[\s\n\(\^])—?)"/g, "”");
+    text = text.replace(/(?<!(?:^|[\s\n\(\^])◆?—?)"/g, "”");
     text = text.replace(/"/g, "“");
     text = text.replace(/'/g, "’");
     return text;
