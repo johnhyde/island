@@ -199,16 +199,14 @@ class NovelSite {
       this.currentParser = parser;
       this.currentChapter = filename;
 
-      // Update page content and UI (pass marker info for rendering)
-      const words = markerInfo ? markerInfo.count : null;
-      const markerText = markerInfo ? markerInfo.marker : null;
+      // Update page content and UI (passing in the marker info for rendering)
       this.updatePageContent(
         title,
         html,
         updateUrl,
         filename,
-        words,
-        markerText,
+        markerInfo?.count,
+        markerInfo?.marker,
       );
     } catch (error) {
       console.error("Error loading chapter:", error);
@@ -239,7 +237,7 @@ class NovelSite {
     updateUrl,
     filename,
     wordCount,
-    markerText = null,
+    markerText,
   ) {
     // Update the main content
     document.getElementById("chapter-title").textContent = title;
@@ -278,14 +276,14 @@ class NovelSite {
     const chapterTextEl = document.getElementById("chapter-text");
     if (chapterTextEl) {
       const existing = chapterTextEl.querySelector(".words-since-marker");
-      if (existing) existing.remove();
-      if (wordCount !== null && wordCount !== undefined) {
-        const note = document.createElement("div");
-        note.className = "words-since-marker";
-        const label = markerText || "[marker]";
-        note.textContent = `🤖︎ < ${wordCount} words since last ${label}`;
-        chapterTextEl.appendChild(note);
+      if (existing) {
+        existing.remove();
       }
+      const note = document.createElement("div");
+      note.className = "words-since-marker";
+      const label = markerText || "[beginning of chapter]";
+      note.textContent = `🤖︎ < ${wordCount} words since last ${label}`;
+      chapterTextEl.appendChild(note);
     }
   }
 
@@ -392,12 +390,10 @@ class NovelSite {
     // Find markers like [X; whatever] where X is one or more letters
     const markerRegex = /\[[A-Za-z]+;[^\]]*\]/g;
     let match;
-    let lastMatch = null;
+    let lastMatch = {index: 0, text: ""};
     while ((match = markerRegex.exec(text)) !== null) {
       lastMatch = { text: match[0], index: match.index };
     }
-
-    if (!lastMatch) return null;
 
     const after = text.slice(lastMatch.index + lastMatch.text.length);
 
