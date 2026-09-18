@@ -30,8 +30,8 @@ Chapters:
 Appendices:
 	231	A1 the contributions in the word-by-words.jd
 	436	A2 the snook-cocker.jd
-	5439	A8 extracts.jd
+	6040	A8 extracts.jd
 	125	A9 wordcounts.jd
-6231	total
+6832	total
 Note that these counts do not include annotations, but do include [X; foo words] type things (due to inconvenience of removing them).
 </pre>
