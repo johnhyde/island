@@ -83,8 +83,6 @@ Do we really want to cache chapters, but only the chapters you visit individuall
 
 Beware of mixing ^superscript^ (which is not a fully standard markdown feature, btw) with square brackets, because it _will_ get squirrelly. That is, you can't use an inline footnote or annotation in superscript. (Maybe other edge cases about ^superscript^ fail, too.) Something about the implementation is broken.
 
-Annotation striping for wordcount doesn't exclude footnote-style (anchor-and-payload) annotations?
-
 ## Johndown features
 
 The file extension for johndown files is jd, because they are unaccredited Jurum Doctores.

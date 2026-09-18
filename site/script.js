@@ -388,10 +388,6 @@ class NovelSite {
       for (let i = 0; i < lines.length; i++) {
         const m = lines[i].match(/^\s*\[(\^[^\]]+)\]:\s*(.*)$/);
         if (m && labels.has(m[1])) {
-          // skip this line and any following indented continuation lines
-          i++;
-          while (i < lines.length && lines[i].match(/^\s+/)) i++;
-          i--; // adjust for the outer loop increment
           continue;
         }
         filtered.push(lines[i]);
