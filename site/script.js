@@ -224,7 +224,8 @@ class NovelSite {
       `<p>Choose a chapter from the table of contents to read.</p>`,
       updateUrl,
       null,
-      null,
+      10, //lol
+      null
     );
     this.updateFootnotesContent(
       "Footnotes will appear here when you select a chapter.",
@@ -281,8 +282,8 @@ class NovelSite {
       }
       const note = document.createElement("div");
       note.className = "words-since-marker";
-      const label = markerText || "[beginning of chapter]";
-      note.textContent = `🤖︎ < ${wordCount} words since last ${label}`;
+      const label = markerText || "beginning of page";
+      note.textContent = `🙘 ${wordCount} words since ${label}`;
       chapterTextEl.appendChild(note);
     }
   }
