@@ -162,7 +162,7 @@ class NovelSite {
     try {
       // Check cache first
       const cached = this.getCachedChapter(filename);
-      let title, parser, html, markerInfo;
+      let title, parser, html, markerInfo, raw_johndown;
 
       if (cached) {
         // Use cached parser instance, HTML, and raw content
@@ -170,12 +170,7 @@ class NovelSite {
         html = cached.html;
         title = cached.title;
         // raw content stored in cache for word counting
-        const raw = cached.content || "";
-        // Pass annotation labels from the parser if available so we can exclude them
-        const annotations = parser && parser.annotations
-          ? parser.annotations
-          : null;
-        markerInfo = this.computeWordsSinceLastMarker(raw, annotations);
+        raw_johndown = cached.content
       } else {
         // Fetch and parse new content
         const encodedFilename = filename.split("/").map(encodeURIComponent).join("/");
@@ -184,9 +179,9 @@ class NovelSite {
           throw new Error(`Failed to load ${filename}`);
         }
 
-        const johndown = await response.text();
+        raw_johndown = await response.text();
         parser = new JohndownParser();
-        const result = parser.parse(johndown);
+        const result = parser.parse(raw_johndown);
         html = result.html;
         title = this.getChapterTitle(filename);
 
@@ -195,15 +190,10 @@ class NovelSite {
           parser: parser,
           html: html,
           title: title,
-          content: johndown,
+          content: raw_johndown,
         });
-
-        // Pass parser.annotations so annotation content is excluded from the count
-        markerInfo = this.computeWordsSinceLastMarker(
-          johndown,
-          parser.annotations,
-        );
       }
+      markerInfo = this.computeWordsSinceLastMarker(raw_johndown, parser.annotations);
 
       // Set current parser and chapter
       this.currentParser = parser;
@@ -248,7 +238,7 @@ class NovelSite {
     html,
     updateUrl,
     filename,
-    wordCount = null,
+    wordCount,
     markerText = null,
   ) {
     // Update the main content
@@ -337,7 +327,7 @@ class NovelSite {
     });
   }
 
-  computeWordsSinceLastMarker(johndown, annotationsSet = null) {
+  computeWordsSinceLastMarker(johndown, annotationsSet) {
     if (!johndown || typeof johndown !== "string") return null;
 
     // Work on a copy and remove annotation inline constructs [@ ...] using bracket matching
@@ -376,27 +366,22 @@ class NovelSite {
 
     // If parser provided annotation labels, strip their inline references and definitions
     if (annotationsSet) {
-      // Normalize to a Set of strings (labels likely include leading '^')
-      const labels = new Set();
-      for (const l of annotationsSet) {
-        labels.add(l);
-      }
-
       // Remove footnote definition blocks whose labels are in annotationsSet
       const lines = text.split(/\r?\n/);
       const filtered = [];
       for (let i = 0; i < lines.length; i++) {
         const m = lines[i].match(/^\s*\[(\^[^\]]+)\]:\s*(.*)$/);
-        if (m && labels.has(m[1])) {
+        if (m && annotationsSet.has(m[1])) {
           continue;
+        } else {
+          filtered.push(lines[i]);
         }
-        filtered.push(lines[i]);
       }
       text = filtered.join("\n");
 
       // Remove inline references like [^LABEL]
       // Doing this after the thing above to avoid unlabeling annotation content definitions before we can remove them
-      for (const label of labels) {
+      for (const label of annotationsSet) {
         // Escape label for regex
         const esc = label.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
         const refRe = new RegExp(`\\[${esc}\\]`, "g");
