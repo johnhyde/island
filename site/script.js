@@ -162,7 +162,7 @@ class NovelSite {
     try {
       // Check cache first
       const cached = this.getCachedChapter(filename);
-      let title, parser, html, markerInfo, raw_johndown;
+      let title, parser, html, raw_johndown;
 
       if (cached) {
         // Use cached parser instance, HTML, and raw content
@@ -221,22 +221,21 @@ class NovelSite {
     this.currentChapter = null;
     const toc = document.getElementsByClassName("table-of-contents")[0].getHTML();
     const content = `<p>Choose a chapter from the table of contents to read.</p><br/><center>` + toc + `</center>`;
-    const j = new JohndownParser();
-    j.parse(content);
-    const {count, marker} = this.computeWordsSinceLastMarker(content, j.annotations);
     this.updatePageContent(
       "Select a chapter to begin reading",
       content,
       updateUrl,
       null,
       null,
-      marker,
+      null,
     );
     this.updateFootnotesContent(
       "Footnotes will appear here when you select a chapter.",
     );
   }
-  /** If wordCount is null, the script will avoid printing the wordcount notice at the bottom of the page. */
+  /** If wordCount is null, the script will avoid printing the wordcount notice at the bottom of the page.
+   *  If markerText is falsy, the phrase "beginning of page" will be used.
+   */
   updatePageContent(
     title,
     html,
