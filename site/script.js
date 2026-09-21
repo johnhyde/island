@@ -219,13 +219,18 @@ class NovelSite {
   unloadChapter(updateUrl = true) {
     this.currentParser = null;
     this.currentChapter = null;
+    const toc = document.getElementsByClassName("table-of-contents")[0].getHTML();
+    const content = `<p>Choose a chapter from the table of contents to read.</p><br/><center>` + toc + `</center>`;
+    const j = new JohndownParser();
+    j.parse(content);
+    const markerInfo = this.computeWordsSinceLastMarker(content, j.annotations);
     this.updatePageContent(
       "Select a chapter to begin reading",
-      `<p>Choose a chapter from the table of contents to read.</p>`,
+      content,
       updateUrl,
       null,
-      10, //lol
-      null
+      markerInfo?.count,
+      markerInfo?.marker,
     );
     this.updateFootnotesContent(
       "Footnotes will appear here when you select a chapter.",
