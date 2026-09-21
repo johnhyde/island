@@ -193,7 +193,7 @@ class NovelSite {
           content: raw_johndown,
         });
       }
-      markerInfo = this.computeWordsSinceLastMarker(raw_johndown, parser.annotations);
+      const {count, marker} = this.computeWordsSinceLastMarker(raw_johndown, parser.annotations);
 
       // Set current parser and chapter
       this.currentParser = parser;
@@ -205,8 +205,8 @@ class NovelSite {
         html,
         updateUrl,
         filename,
-        markerInfo?.count,
-        markerInfo?.marker,
+        count,
+        marker,
       );
     } catch (error) {
       console.error("Error loading chapter:", error);
@@ -223,14 +223,14 @@ class NovelSite {
     const content = `<p>Choose a chapter from the table of contents to read.</p><br/><center>` + toc + `</center>`;
     const j = new JohndownParser();
     j.parse(content);
-    const markerInfo = this.computeWordsSinceLastMarker(content, j.annotations);
+    const {count, marker} = this.computeWordsSinceLastMarker(content, j.annotations);
     this.updatePageContent(
       "Select a chapter to begin reading",
       content,
       updateUrl,
       null,
-      markerInfo?.count,
-      markerInfo?.marker,
+      count,
+      marker,
     );
     this.updateFootnotesContent(
       "Footnotes will appear here when you select a chapter.",
@@ -332,11 +332,7 @@ class NovelSite {
   }
 
   computeWordsSinceLastMarker(johndown, annotationsSet) {
-    if (!johndown || typeof johndown !== "string") return null;
-
-    // Work on a copy and remove annotation inline constructs [@ ...] using bracket matching
-    let text = johndown;
-
+  
     // Remove inline annotation blocks starting with '[@'
     const removeInlineAnnotations = (src) => {
       let out = "";
@@ -366,7 +362,7 @@ class NovelSite {
       return out;
     };
 
-    text = removeInlineAnnotations(text);
+    let text = removeInlineAnnotations(johndown);
 
     // If parser provided annotation labels, strip their inline references and definitions
     if (annotationsSet) {
