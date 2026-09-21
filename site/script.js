@@ -229,14 +229,14 @@ class NovelSite {
       content,
       updateUrl,
       null,
-      count,
+      null,
       marker,
     );
     this.updateFootnotesContent(
       "Footnotes will appear here when you select a chapter.",
     );
   }
-
+  /** If wordCount is null, the script will avoid printing the wordcount notice at the bottom of the page. */
   updatePageContent(
     title,
     html,
@@ -289,7 +289,9 @@ class NovelSite {
       note.className = "words-since-marker";
       const label = markerText || "beginning of page";
       note.textContent = `🙘 ${wordCount} words since ${label}`;
-      chapterTextEl.appendChild(note);
+      if (wordCount !== null) {
+        chapterTextEl.appendChild(note);
+      }
     }
   }
 

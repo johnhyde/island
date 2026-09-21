@@ -1,6 +1,6 @@
 /**
- * Johndown parser - hacked-together & focused on the novel's needs
- * Handles: paragraphs, italics, bold text, footnote references, footnote definitions, etc.
+ * Johndown parser - hacked-together & focused on the novel's needs.
+ * Handles paragraphs, italics, bold text, footnote references, footnote definitions, etc.
  */
 class JohndownParser {
   constructor() {
