@@ -211,7 +211,7 @@ class NovelSite {
     } catch (error) {
       console.error("Error loading chapter:", error);
       this.showError(
-        `Sorry, there was an error loading the chapter "${filename}". Please try again. (Are you connected to the internet? Is the server serving?)`,
+        `Sorry, there was an error loading the chapter "${filename}". Please try again. (Are you connected to the internet? Is the server serving?)</p><br/><p><code>${error}</code>`,
       );
     }
   }
