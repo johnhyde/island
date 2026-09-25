@@ -42,17 +42,9 @@ Other timeline events (I just grepped for 0x lol):
 
 ## Technical debt, todo items
 
-![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, except for its obvious flaws, and johndown does tend to stay compatible with markdown where it can. We do *use* this syntax already. We just don't implement it. Luckily at the moment it creates a normal link, which is useable if not ideal.
+![alt text](file to embed.whatever "Title text") is the way to embed other data in markdown, most commonly, but we haven't implemented it yet. It's as good as any other scheme, I suppose, except for its obvious flaws, and johndown does tend to stay compatible with markdown where it can. We do *use* this syntax already. We just don't implement it. Luckily at the moment it creates a normal link, which is useable if not ideal. This would presumably use the `<embed>` html tag, and the title and alt atributes of it.
 
-The rule where a normal bracketed phrase on its own line is always treated like a section changeover marker occasionally creates false-positives and maybe this should be given some kind of sigil instead.
-
-Now that we have annotations maybe I will resurrect some deleted footnotes as annotations if they feel appropriate for that.
-
-I'm thinking that instead of just [@ blah] with ~ signatures we should all have our own special sigils. So I could leave annotations like, um, [~M blah]. And then I guess that would render like as though [@ blah ~M] I guess.
-
-Since the johndown parser is apparently custom, we should list its features to specify it completely. I'm not sure if this is already accomplished.
-
-"ins̈om̈uch" displays as though the diaereses are standalone characters even though they are U+0308 COMBINING DIAERESIS and thus should properly float above the previous letters. Probably a font problem? Presumably because font designers don't understand that the diaeresis is productive with non-vowels as well, possibly.
+I'm thinking that instead of just [@ blah] with ~ signatures we could all have our own special sigils. So I could leave annotations like, um, [~M blah]. And then I guess that would render like as though [@ blah ~M] I guess. (Even though this was a clever idea, it's probably not worth the trouble at this point.)
 
 Perhaps the index, or somewhere on the website, should display this readme? (Would have to render in markdown, not johndown.)
 
@@ -68,7 +60,7 @@ We should probably have triple backticks to make "pre" (wrap) blocks, as they ca
 
 Should we allow the other, semantic, types of italics/bold like em? cite/title? strong? dfn? idfn? Perhaps as, eg, [:em foo]
 
-should we bite the bullet and give this author byline/wordcount/handoff marker actual syntax, instead of just having it be any nonspecial bracketed phrase on its own line? Well, maybe if we come into a syntax conflict later...
+Should we bite the bullet and give this author byline/wordcount/handoff marker actual syntax, instead of just having it be any nonspecial bracketed phrase on its own line? Well, maybe if we come into a syntax conflict later...
 
 Should we define [@^label] as an alias for [^@label] ?
 
@@ -83,6 +75,18 @@ Do we really want to cache chapters, but only the chapters you visit individuall
 Beware of mixing ^superscript^ (which is not a fully standard markdown feature, btw) with square brackets, because it _will_ get squirrelly. That is, you can't use an inline footnote or annotation in superscript. (Maybe other edge cases about ^superscript^ fail, too.) Something about the implementation is broken.
 
 You cannot consistently use pre blocks in footnotes because the special handling for them wasn't built to accommodate that, and we've never needed to use it so we never fixed it.
+
+#### Not our problem
+
+In many browsers and text editors, things like "ins̈om̈uch" display as though the diaereses are standalone characters even though they are U+0308 COMBINING DIAERESIS and thus should properly float above the previous letters. Probably a font problem? Presumably because font designers don't understand that the diaeresis is productive with non-vowels as well, possibly.
+
+Arguably, the fact that we have to smarten ' to ’ is just a font problem...
+
+Sometimes, some unicode characters are not supported.
+
+We would probably make ⹝ ((single) oblique hyphen) the line-hyphenation character, except it is exceptionally poorly supported by web browser for some reason, and almost none display them. So, we use ⸗, the double oblique hyphen.
+
+Speaking of hyphenation, most web browsers implement a slightly undesirable hyphenation style where, eg, foo-bar will get split up across a linebreak as foo-¦bar. Many style authorities have noticed this is ambiguous, and some recommend  foo-¦-bar; we would go with foo⸗¦-bar, or perhaps even foo-⸗¦bar. But, it's pointless to speculate about this, since you can't adjust this in web browsers. They just do whatever they want.
 
 ## Johndown features
 
@@ -152,7 +156,7 @@ To read the novel in a clean, web-based format:
 
 ## Word counting
 
-If you want to count how many words are in the novel, you can use ./wordcount.sh
+If you want to count how many words are in the novel, you can use ./wordcount.sh, or view the relevant appendix page in the novel.
 
 ## License
 
