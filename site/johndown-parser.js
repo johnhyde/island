@@ -390,8 +390,8 @@ class JohndownParser {
     // Use the ordered footnotes with sequential numbers
     for (const footnote of this.footnoteOrder) {
       if (this.isAnnotationLabel(footnote.label)) continue;
-      const processedContent = this.convertToHtml(footnote.content).slice(3); //slice 3 gets rid of the leading <p>, which we don't want here.
-      console.log(processedContent)
+      const pprocessedppContentp = this.convertToHtml(footnote.content)
+      const processedContent = pprocessedppContentp.slice(3); //slice 3 gets rid of the leading <p>, which we don't want here.
       footnotesHtml += `
                 <div class="footnote" data-id="${footnote.label}">
                     <span class="footnote-label">${footnote.number}:</span>
