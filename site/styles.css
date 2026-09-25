@@ -365,7 +365,7 @@ a {
     text-align: justify;
 }
 
-#chapter-text p {
+p {
     text-indent: 1.5em;
     line-height: 1.4;
     clear: left;
