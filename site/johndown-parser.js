@@ -145,7 +145,7 @@ class JohndownParser {
         if (footnoteMap.has(label)) {
           footnoteMap.set(
             label,
-            footnoteMap.get(label) + "<p>" + footnoteContent + "</p>",
+            footnoteMap.get(label) + "\n" + footnoteContent,
           );
         } else {
           footnoteMap.set(label, footnoteContent);
@@ -390,7 +390,7 @@ class JohndownParser {
     // Use the ordered footnotes with sequential numbers
     for (const footnote of this.footnoteOrder) {
       if (this.isAnnotationLabel(footnote.label)) continue;
-      const processedContent = this.processInlineElements(footnote.content);
+      const processedContent = this.convertToHtml(footnote.content);
       footnotesHtml += `
                 <div class="footnote" data-id="${footnote.label}">
                     <span class="footnote-label">${footnote.number}:</span>

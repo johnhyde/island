@@ -586,7 +586,7 @@ class NovelSite {
     titleEl.innerHTML = title;
 
     // Create footnote content with proper formatting
-    const processedContent = this.currentParser.processInlineElements(
+    const processedContent = this.currentParser.convertToHtml(
       footnote.content,
     );
     const styledContent = this.applyEmDashStyle(processedContent);

@@ -405,7 +405,7 @@ a {
     transition: color 0.3s ease;
 }
 
-#chapter-text blockquote {
+blockquote {
     margin: 1.5rem 0;
     padding-left: calc(1.5em - 3px);
     border-left: 3px solid var(--border-primary);

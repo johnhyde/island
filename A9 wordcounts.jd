@@ -30,8 +30,9 @@ Chapters:
 Appendices:
 	231	A1 the contributions in the word-by-words.jd
 	436	A2 the snook-cocker.jd
+	148	A7 horrible confusing nonsense syntax text file.jd
 	6131	A8 extracts.jd
 	125	A9 wordcounts.jd
-6923	total
+7071	total
 Note that these counts do not include annotations, but do include [X; foo words] type things (due to inconvenience of removing them).
 </pre>
